@@ -1,0 +1,39 @@
+[
+  {
+    "id": "evidence-governance-beneficial-ownership-section-covers-owners-of-more-than-5-of-voting-stock",
+    "topic": "governance",
+    "title": "Beneficial ownership section covers owners of more than 5% of voting stock.",
+    "sourceChunkIds": [
+      "chunk-section52securityownershipofcertainbeneficialownersandmanagement-1"
+    ],
+    "reasons": [
+      "Source quote does not contain required term \"beneficial ownership\"."
+    ]
+  },
+  {
+    "id": "evidence-debt-debt-keyword-candidate-from-glossary",
+    "topic": "debt",
+    "title": "Debt keyword candidate from glossary",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "reasons": [
+      "Weak citation section: GLOSSARY OF TERMS.",
+      "Source section \"GLOSSARY OF TERMS\" is not allowed for debt.",
+      "Parser diagnostic or candidate language is not allowed in evidence cards."
+    ]
+  },
+  {
+    "id": "evidence-financial-financial-table-candidate-from-table-of-contents",
+    "topic": "financial",
+    "title": "Financial table candidate from table of contents",
+    "sourceChunkIds": [
+      "chunk-section74indextofinancialstatements-1"
+    ],
+    "reasons": [
+      "Weak citation section: INDEX TO FINANCIAL STATEMENTS.",
+      "Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.",
+      "Parser diagnostic or candidate language is not allowed in evidence cards."
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+/* Preview harness only. Neutralizes the legacy global element rules in
+   styles.css (table/th/td) that would otherwise leak into the shadcn
+   components. The real fix is scoping those legacy selectors under .app-shell
+   — deferred to coordinate, since the brief agent also edits styles.css.
+   Imported solely by preview.tsx. */
+.preview-root table {
+  min-width: 0;
+}
+.preview-root :is(th, td) {
+  border-top: 0;
+}

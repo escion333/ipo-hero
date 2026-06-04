@@ -181,8 +181,29 @@ export const retailInvestorBriefSchema = z.object({
     reviewedRiskCount: z.number(),
     fullTextRiskCount: z.number(),
     excludedSuspiciousRiskCount: z.number(),
+    evidenceCardCount: z.number().optional(),
+    highConfidenceEvidenceCardCount: z.number().optional(),
+    rejectedWeakCandidateCount: z.number().optional(),
+    actualFinancialValueCount: z.number().optional(),
+    riskThemesSelected: z.number().optional(),
     warnings: z.array(z.string()),
   }),
+});
+
+export const evidenceCardSchema = z.object({
+  id: z.string(),
+  topic: z.enum(["business", "offering", "financial", "proceeds", "dilution", "governance", "related_party", "debt", "lockup", "risk"]),
+  title: z.string(),
+  sourceSectionId: z.string(),
+  sourceChunkIds: z.array(z.string()).min(1),
+  sourceQuote: z.string(),
+  extractedText: z.string(),
+  plainEnglish: z.string(),
+  whyItMatters: z.string(),
+  confidence: confidenceSchema,
+  needsReview: z.boolean(),
+  extractionMethod: z.string(),
+  qualityWarnings: z.array(z.string()),
 });
 
 export type FilingDocument = z.infer<typeof filingDocumentSchema>;
@@ -195,3 +216,4 @@ export type BriefCitation = z.infer<typeof briefCitationSchema>;
 export type BriefItem = z.infer<typeof briefItemSchema>;
 export type BriefSection = z.infer<typeof briefSectionSchema>;
 export type RetailInvestorBrief = z.infer<typeof retailInvestorBriefSchema>;
+export type EvidenceCard = z.infer<typeof evidenceCardSchema>;

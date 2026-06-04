@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T19:55:32.173Z",
+  "generatedAt": "2026-06-04T20:17:17.125Z",
   "majorSectionCoverage": {
     "hasProspectusSummary": true,
     "hasRiskFactors": true,
@@ -5242,17 +5242,17 @@
       },
       {
         "path": "src/data/generated/risk-audit.json",
-        "sha256": "ff6e098c973522840615d9e0e9e28348e23a958e99c6982b96900fdd330f9210",
+        "sha256": "94a68b7bfc64a8ec5cbdb27c2b69ab9e619a3a340858c20a293a30eca366a14f",
         "sizeBytes": 142021
       },
       {
         "path": "src/data/generated/extraction-report.json",
-        "sha256": "aa5289da8201dfbc7f1f4738b8f7c60392230db8613a645e59b3201f75ac0eaa",
+        "sha256": "55cabb8880f3e78aa1842e742d83f7c5acf6bdb611addac06f87df20b512924d",
         "sizeBytes": 6516
       },
       {
         "path": "src/data/generated/extraction-snapshot.json",
-        "sha256": "8b91fa1d1f12b77a5ee2dd762dab6de8143fa34d1546396a6e0d6e8870116629",
+        "sha256": "dfcf951f5556c39d38bf11d9d6c58e27f499986de72165bfd74575c5ea23fdbb",
         "sizeBytes": 561
       }
     ]

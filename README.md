@@ -24,7 +24,7 @@ npm run build
 
 `npm run ingest` reuses cached raw SEC files and skips regeneration when raw source hashes and extractor versions match the current manifest. Use `npm run ingest:force` to refetch and regenerate everything.
 
-`npm run brief` builds the static Retail Investor Brief v0 from reviewed records when present and generated records as fallback. It writes `src/data/generated/brief.generated.json` and `docs/spaceX-ipo-brief.generated.md`, then validates source citations. `npm run validate:brief` reruns brief validation without regenerating.
+`npm run brief` builds the stricter Retail Investor Brief v1 from source-backed evidence cards. It writes `src/data/generated/evidence-cards.generated.json`, `src/data/generated/brief.v1.generated.json`, and `docs/spaceX-ipo-brief.v1.generated.md`, then validates source citations and usefulness gates. The earlier v0 files remain available for comparison.
 
 ## Data Artifacts
 
@@ -44,7 +44,10 @@ Generated app-ready data lives in `src/data/generated/`:
 - `diagnostics.json`: golden-check results, suspicious risk diagnostics, table association summary, warnings, and fatal errors.
 - `extraction-snapshot.json`: last extraction summary used for drift comparison.
 - `risk-audit.json`: risk extraction audit with counts by category, source section, extraction type, length thresholds, suspicious samples, and normal-length samples.
-- `brief.generated.json`: static source-cited Retail Investor Brief v0.
+- `evidence-cards.generated.json`: accepted source-backed disclosure cards used by Brief v1.
+- `evidence-cards.rejected.json`: weak drafts rejected before Brief v1 assembly, with reasons.
+- `brief.generated.json`: earlier static source-cited Retail Investor Brief v0, retained for comparison.
+- `brief.v1.generated.json`: stricter evidence-card-based Retail Investor Brief v1.
 
 Raw SEC downloads live in `raw/` and are gitignored except for `.gitkeep`.
 
@@ -56,7 +59,7 @@ Reviewed overrides live in `src/data/reviewed/`:
 
 Ingestion creates these files as empty arrays if they are missing, but never overwrites them. `npm run review:merge` merges reviewed records over generated records by `id` and writes the app-facing `facts.json` and `risks.json`.
 
-The generated Markdown brief lives at `docs/spaceX-ipo-brief.generated.md`. It is deterministic and source-cited; suspicious risk records are excluded from the main risk-theme section and counted in diagnostics.
+The earlier generated Markdown brief lives at `docs/spaceX-ipo-brief.generated.md`. The current Brief v1 Markdown lives at `docs/spaceX-ipo-brief.v1.generated.md`. Brief v1 is deterministic and evidence-card based; suspicious risk records are excluded from the main risk-theme section and counted in diagnostics.
 
 ## Quality Harness
 
@@ -68,7 +71,7 @@ Golden checks are hand-authored in `scripts/ingest/golden-checks.ts` and look fo
 
 The manual reviewer workflow lives in `docs/manual-audit-checklist.md`. Use it to confirm the source package, major sections, ownership/control match, suspicious risks, full-text risks, table candidates, and facts before promoting records into `src/data/reviewed/`.
 
-Brief validation fails if required brief sections are missing, cited chunks do not exist, citation quotes are not found in source chunks, material items lack citations, or generated text contains advice-like language.
+Brief validation fails if required v1 sections are missing, cited chunks do not exist, citation quotes are not found in source chunks, rejected evidence cards enter the brief, fewer than 8 high-quality evidence cards exist, fewer than 5 notice items can be produced, or generated text contains advice-like language.
 
 ## Product Rules
 

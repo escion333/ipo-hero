@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-06-04T19:55:32.031Z",
+  "counts": {
+    "documents": 102,
+    "sections": 72,
+    "chunks": 320,
+    "risks": 326,
+    "facts": 94,
+    "tables": 151
+  },
+  "coverage": {
+    "hasProspectusSummary": true,
+    "hasRiskFactors": true,
+    "hasUseOfProceeds": true,
+    "hasDilution": true,
+    "hasCapitalization": true,
+    "hasManagementDiscussion": true,
+    "hasBusiness": true,
+    "hasPrincipalStockholders": true,
+    "hasRelatedPartyTransactions": true,
+    "hasDescriptionOfCapitalStock": true,
+    "hasUnderwriting": true
+  }
+}

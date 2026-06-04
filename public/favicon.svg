@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="IPO Hero">
+  <rect width="32" height="32" rx="7" fill="#1f4fa3" />
+  <path d="M7 21.5 L13.5 14.5 L17.5 18 L24.5 9.5" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="24.5" cy="9.5" r="2.1" fill="#ffffff" />
+</svg>

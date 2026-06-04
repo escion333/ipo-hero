@@ -1,0 +1,1410 @@
+{
+  "generatedAt": "2026-06-04T19:55:32.151Z",
+  "totalRiskCount": 326,
+  "countByCategory": {
+    "dilution/share structure": 12,
+    "AI/xAI": 69,
+    "Starlink/connectivity": 33,
+    "other": 61,
+    "financial/cash flow": 24,
+    "launch/space operations": 70,
+    "governance/control": 20,
+    "government/regulatory": 23,
+    "macro/geopolitical": 3,
+    "supply chain/manufacturing": 2,
+    "legal/litigation": 6,
+    "competition": 3
+  },
+  "countBySourceSection": {
+    "section-39-riskfactors": 27,
+    "section-40-riskfactors": 299
+  },
+  "countByExtractionType": {
+    "toc_entry": 30,
+    "fragment": 129,
+    "heading_only": 49,
+    "full_text": 118
+  },
+  "countBelowLengthThresholds": {
+    "under150": 28,
+    "under300": 122,
+    "under500": 197
+  },
+  "shortestFiftyRisks": [
+    {
+      "id": "risk-275-mr-musk-and-entities-owned-by-or-affiliated-with-him-may-differ-or-conflict-with",
+      "title": "Mr. Musk and entities owned by or affiliated with him may differ or conflict with the interests of our other shareholders",
+      "length": 122,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-154-the-global-nature-of-our-business-poses-risks-with-respect-to-unstable-malicious",
+      "title": "The global nature of our business poses risks with respect to unstable, malicious or arbitrary legal regimes and authorities",
+      "length": 125,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-284-mr-musk-has-been-and-continues-to-be-a-driving-force-behind-our-growth-innovatio",
+      "title": "Mr. Musk has been, and continues to be, a driving force behind our growth, innovation, and operational success",
+      "length": 127,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-55-the-spectrum-transaction-was-approved-by-the-fcc-on-may-12-2026-and-is-subject-t",
+      "title": "The Spectrum Transaction was approved by the FCC on May 12, 2026 and is subject to other closing conditions prior to completion",
+      "length": 128,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-120-ai-solutions-we-may-face-an-increased-risk-of-such-actions",
+      "title": "AI solutions, we may face an increased risk of such actions",
+      "length": 128,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-41-ai-compute-program-delayed-revenue-growth-and-increased-overall-capital-requirem",
+      "title": "AI compute program), delayed revenue growth, and increased overall capital requirements, and our brand and reputation may suffer",
+      "length": 129,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-259-these-factors-may-cause-our-quarterly-or-annual-results-of-operations-to-fluctua",
+      "title": "These factors may cause our quarterly or annual results of operations to fluctuate and may make our results difficult to predict",
+      "length": 129,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-52-we-have-in-the-past-been-and-may-in-the-future-become-subject-to-such-actions-im",
+      "title": "We have in the past been, and may in the future become, subject to such actions, impacting our ability to increase launch cadence",
+      "length": 130,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-46-we-must-secure-and-maintain-numerous-governmental-approvals-to-launch-our-rocket",
+      "title": "We must secure and maintain numerous governmental approvals to launch our rockets and conduct related launch and reentry activities",
+      "length": 132,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-156-certain-foreign-governments-have-publicly-discussed-the-potential-use-of-anti-sa",
+      "title": "Certain foreign governments have publicly discussed the potential use of anti- satellite weapons against the Starlink constellation",
+      "length": 132,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-58-additionally-third-parties-have-in-the-past-and-may-in-the-future-obtain-spectru",
+      "title": "Additionally, third parties have in the past, and may in the future, obtain spectrum rights for the purpose of blocking market entry",
+      "length": 133,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-184-the-provision-of-our-satellitetomobile-services-also-requires-regulatory-approva",
+      "title": "The provision of our satellite-to-mobile services also requires regulatory approvals from the FCC and foreign regulatory authorities",
+      "length": 133,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-26-analysis-of-financial-condition-and-results-of-operationkey-business-metrics-for",
+      "title": "Analysis of Financial Condition and Results of Operation—Key Business Metrics” for additional information on our key business metrics",
+      "length": 134,
+      "type": "toc_entry",
+      "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-124-ai-agents-as-well-as-the-risk-of-compromise-of-valuable-intellectual-property-in",
+      "title": "AI agents, as well as the risk of compromise of valuable intellectual property including source code, model weights, and other assets",
+      "length": 134,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-242-there-can-be-no-assurance-that-these-initiatives-will-achieve-their-intended-ope",
+      "title": "There can be no assurance that these initiatives will achieve their intended operational or financial objectives",
+      "length": 134,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-162-as-a-contractor-to-various-u",
+      "title": "As a contractor to various U",
+      "length": 136,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-178-as-a-result-our-cash-flows-may-be-subject-to-fluctuation-across-periods-in-a-man",
+      "title": "As a result, our cash flows may be subject to fluctuation across periods in a manner that may be unrelated to our underlying performance",
+      "length": 137,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-29-the-disclosures-in-this-section-reflect-our-beliefs-and-opinions-as-to-factors-t",
+      "title": "The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future",
+      "length": 139,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-72-ai-products-were-used-to-create-nonconsensual-explicit-images-or-content-represe",
+      "title": "AI products were used to create nonconsensual explicit images or content representing children in sexualized contexts, and similar matters",
+      "length": 139,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-241-we-may-elect-to-allocate-capital-and-resources-to-longterm-initiatives-even-if-a",
+      "title": "We may elect to allocate capital and resources to long-term initiatives even if alternative uses with more short-term upside are available",
+      "length": 139,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-218-any-of-these-factors-may-delay-development-or-production-schedules-increase-cost",
+      "title": "Any of these factors may delay development or production schedules, increase costs, or result in hardware that must be reworked or replaced",
+      "length": 140,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-51-aa-or-other-authorities-may-require-investigations-impose-corrective-actions-or-",
+      "title": "AA or other authorities may require investigations, impose corrective actions, or restrict or delay our ability to conduct launch operations",
+      "length": 141,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-152-a-portion-of-our-anticipated-market-opportunities-is-associated-with-industries-",
+      "title": "A portion of our anticipated market opportunities is associated with industries described in the section entitled “Business—Future Markets",
+      "length": 141,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
+      "title": "The following table sets forth the summary historical consolidated financial and operating data for the periods and as of the dates presented",
+      "length": 142,
+      "type": "toc_entry",
+      "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-294-a-significant-reduction-by-mr",
+      "title": "A significant reduction by Mr",
+      "length": 143,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-78-we-are-also-subject-to-developer-agreements-and-guidelines-imposed-by-thirdparty",
+      "title": "We are also subject to developer agreements and guidelines imposed by third-party app stores, such as the Apple App Store and Google Play Store",
+      "length": 144,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-165-the-termination-or-reduction-of-funding-for-a-government-program-could-result-in",
+      "title": "The termination or reduction of funding for a government program could result in a loss of anticipated future revenue attributable to that program",
+      "length": 147,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-279-ai-companies-technology-ventures-satellite-communications-businesses-and-governm",
+      "title": "AI companies, technology ventures, satellite communications businesses, and government or commercial space contracts",
+      "length": 147,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-249-there-can-be-no-assurance-that-demand-for-ai-solutions-will-develop-or-be-sustai",
+      "title": "There can be no assurance that demand for AI solutions will develop or be sustained at the levels we anticipate, or at all",
+      "length": 150,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-68-ai-public-confidence-in-ai-could-be-undermined-adoption-of-our-ai-products-and-s",
+      "title": "AI, public confidence in AI could be undermined, adoption of our AI products and services could slow, and we may suffer reputational or financial harm",
+      "length": 151,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-121-any-adverse-judgments-settlements-or-regulatory-penalties-could-result-in-substa",
+      "title": "Any adverse judgments, settlements, or regulatory penalties could result in substantial financial costs, reputational harm, and operational disruptions",
+      "length": 152,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-45-aa-launch-and-reentry-licenses-would-materially-delay-or-disrupt-our-operations-",
+      "title": "AA launch and reentry licenses, would materially delay or disrupt our operations, harm our business, or limit our ability to execute our business strategy",
+      "length": 155,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-67-ai-segments-business-and-financial-results",
+      "title": "AI segment’s business and financial results",
+      "length": 157,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-168-adverse-audit-findings-or-contractual-disputes-could-lead-to-repayments-financia",
+      "title": "Adverse audit findings or contractual disputes could lead to repayments, financial penalties, or restrictions on our ability to compete for future contracts",
+      "length": 157,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-305-our-ability-to-provide-returns-to-shareholders-will-depend-on-appreciation-in-ou",
+      "title": "Our ability to provide returns to shareholders will depend on appreciation in our share price, as we do not plan to pay dividends for the foreseeable future",
+      "length": 157,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-222-arms-regulations-itar-the-export-administration-regulations-and-sanctions-admini",
+      "title": "Arms Regulations (“ITAR”), the Export Administration Regulations, and sanctions administered and enforced by the U",
+      "length": 158,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-221-the-launch-and-satellite-operations-are-subject-to-stringent-export-control-and-",
+      "title": "The launch and satellite operations are subject to stringent export control and economic and trade sanctions laws, including the U",
+      "length": 159,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-303-additionally-we-may-elect-to-take-advantage-of-certain-other-exemptions-in-the-f",
+      "title": "Additionally, we may elect to take advantage of certain other exemptions in the future for as long as we remain a “controlled company",
+      "length": 159,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-101-any-such-events-could-result-in-substantial-losses-including-reputational-harm-a",
+      "title": "Any such events could result in substantial losses, including reputational harm and legal liability, which could have a material adverse effect on our business",
+      "length": 160,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-268-a-loss-that-is-uninsured-or-which-exceeds-policy-limits-may-require-us-to-pay-su",
+      "title": "A loss that is uninsured or which exceeds policy limits may require us to pay substantial amounts, which may harm our financial condition and operating results",
+      "length": 160,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-109-we-do-not-have-any-longterm-or-other-material-contractual-arrangements-with-our-",
+      "title": "We do not have any long-term or other material contractual arrangements with our direct chip suppliers, instead procuring all of our GPUs on a purchase-order basis",
+      "length": 164,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
+      "title": "A common stock in this offering by our directors, officers or existing shareholders",
+      "length": 166,
+      "type": "toc_entry",
+      "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+      "title": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) ",
+      "length": 167,
+      "type": "toc_entry",
+      "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-246-if-we-are-unable-to-successfully-execute-our-ai-strategy-our-business-financial-",
+      "title": "If we are unable to successfully execute our AI strategy, our business, financial condition, results of operations and prospects could be materially adversely affected",
+      "length": 168,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-75-ai-functionality-associated-with-the-grok-model-within-the-x-platform",
+      "title": "AI functionality associated with the Grok model within the X platform",
+      "length": 172,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-149-ai-compute-infrastructure-may-be-materially-diminished",
+      "title": "AI compute infrastructure may be materially diminished",
+      "length": 172,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-277-certain-of-our-directors-and-key-employees-may-have-conflicts-of-interest-becaus",
+      "title": "Certain of our directors and key employees may have conflicts of interest because they are also employees or directors of affiliates of Mr",
+      "length": 173,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-276-any-actual-or-perceived-conflicts-of-interest-with-respect-to-the-foregoing-coul",
+      "title": "Any actual or perceived conflicts of interest with respect to the foregoing could have an adverse impact on the trading price of our Class A common stock",
+      "length": 175,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-287-mr-musk-currently-serves-as-technoking-and-chief-executive-officer-of-tesla-and-",
+      "title": "Mr. Musk currently serves as Technoking and Chief Executive Officer of Tesla and is involved in other emerging technology ventures, including Neuralink and The Boring Company",
+      "length": 175,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-292-our-compensation-arrangements-such-as-our-equity-award-programs-may-not-always-b",
+      "title": "Our compensation arrangements, such as our equity award programs, may not always be successful in attracting new employees and retaining and motivating existing key personnel",
+      "length": 175,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
+    }
+  ],
+  "duplicateOrNearDuplicateTitles": [
+    {
+      "title": "weighted average shares used in computing net loss per share of common stock basic and dil",
+      "ids": [
+        "risk-13-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+        "risk-15-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas"
+      ]
+    },
+    {
+      "title": "weighted average shares used in computing pro forma net loss per share of common stock bas",
+      "ids": [
+        "risk-14-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+        "risk-16-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common"
+      ]
+    },
+    {
+      "title": "adjusted ebitda in millions 2",
+      "ids": [
+        "risk-18-adjusted-ebitda-in-millions-2",
+        "risk-19-adjusted-ebitda-in-millions-2",
+        "risk-21-adjusted-ebitda-in-millions-2",
+        "risk-23-adjusted-ebitda-in-millions-2",
+        "risk-24-adjusted-ebitda-in-millions-2",
+        "risk-25-adjusted-ebitda-in-millions-2"
+      ]
+    },
+    {
+      "title": "risk factor",
+      "ids": [
+        "risk-27-risk-factor",
+        "risk-86-risk-factor",
+        "risk-320-risk-factor",
+        "risk-326-risk-factor"
+      ]
+    },
+    {
+      "title": "we derive significant revenue from u",
+      "ids": [
+        "risk-171-we-derive-significant-revenue-from-u",
+        "risk-172-we-derive-significant-revenue-from-u"
+      ]
+    },
+    {
+      "title": "certain of our directors and key employees may have conflicts of interest because they are",
+      "ids": [
+        "risk-277-certain-of-our-directors-and-key-employees-may-have-conflicts-of-interest-becaus",
+        "risk-278-certain-of-our-directors-and-key-employees-may-have-conflicts-of-interest-becaus"
+      ]
+    }
+  ],
+  "risksWithNoTitle": [
+    "risk-27-risk-factor",
+    "risk-86-risk-factor",
+    "risk-320-risk-factor",
+    "risk-326-risk-factor"
+  ],
+  "risksWithTitleButVeryLittleBodyText": [
+    "risk-3-a-common-stock-reserved-for-future-issuance-upon-the-conversion-of-shares-of-cla",
+    "risk-4-ais-2023-equity-incentive-plan-2023-incentive-plan-and-2025-equity-incentive-pla",
+    "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
+    "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
+    "risk-8-ai-which-was-acquired-by-spacex-effective-february-2-2026-and-x-holdings-which-w",
+    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
+    "risk-25-adjusted-ebitda-in-millions-2",
+    "risk-26-analysis-of-financial-condition-and-results-of-operationkey-business-metrics-for",
+    "risk-29-the-disclosures-in-this-section-reflect-our-beliefs-and-opinions-as-to-factors-t",
+    "risk-41-ai-compute-program-delayed-revenue-growth-and-increased-overall-capital-requirem",
+    "risk-43-any-inability-to-deliver-starship-to-market-as-planned-could-constrain-our-parti",
+    "risk-45-aa-launch-and-reentry-licenses-would-materially-delay-or-disrupt-our-operations-",
+    "risk-46-we-must-secure-and-maintain-numerous-governmental-approvals-to-launch-our-rocket",
+    "risk-47-any-failure-or-significant-delay-in-obtaining-required-licenses-and-permits-or-f",
+    "risk-50-aa-regulations-do-not-permit-returnto-launchsite-reentries-for-starship-requirin",
+    "risk-51-aa-or-other-authorities-may-require-investigations-impose-corrective-actions-or-",
+    "risk-52-we-have-in-the-past-been-and-may-in-the-future-become-subject-to-such-actions-im",
+    "risk-55-the-spectrum-transaction-was-approved-by-the-fcc-on-may-12-2026-and-is-subject-t",
+    "risk-58-additionally-third-parties-have-in-the-past-and-may-in-the-future-obtain-spectru",
+    "risk-60-our-ai-products-and-x-platform-are-subject-to-complex-and-evolving-u",
+    "risk-65-ai-such-as-the-eus-ai-act-californias-frontier-artificial-intelligence-act-and-n",
+    "risk-67-ai-segments-business-and-financial-results",
+    "risk-68-ai-public-confidence-in-ai-could-be-undermined-adoption-of-our-ai-products-and-s",
+    "risk-69-certain-of-our-ai-products-including-grok-offer-features-or-modes-designed-to-ge",
+    "risk-72-ai-products-were-used-to-create-nonconsensual-explicit-images-or-content-represe",
+    "risk-74-ai-segments-privacy-regulator-in-europe-launched-a-largescale-inquiry-to-determi",
+    "risk-75-ai-functionality-associated-with-the-grok-model-within-the-x-platform",
+    "risk-76-ai-segment-and-other-major-technology-companies-to-understand-how-these-companie",
+    "risk-77-ai-systems-could-require-us-to-implement-costly-compliance-measures-restrict-cer",
+    "risk-78-we-are-also-subject-to-developer-agreements-and-guidelines-imposed-by-thirdparty",
+    "risk-79-failure-to-comply-with-these-agreements-and-guidelines-including-those-relating-",
+    "risk-80-any-such-suspension-or-removal-could-materially-limit-our-ability-to-distribute-",
+    "risk-83-the-validity-of-various-data-transfer-mechanisms-we-currently-rely-upon-remains-",
+    "risk-84-ai-segment-may-restrict-or-adversely-affect-the-x-platforms-advertising-services",
+    "risk-87-ai-and-the-creation-of-the-lunar-economy-they-may-not-perform-as-expected-at-sca",
+    "risk-99-economic-downturns-inflation-higher-interest-rates-tighter-credit-conditions-red",
+    "risk-101-any-such-events-could-result-in-substantial-losses-including-reputational-harm-a",
+    "risk-105-the-process-of-qualifying-new-suppliers-or-transitioning-to-alternative-vendors-",
+    "risk-109-we-do-not-have-any-longterm-or-other-material-contractual-arrangements-with-our-",
+    "risk-120-ai-solutions-we-may-face-an-increased-risk-of-such-actions",
+    "risk-121-any-adverse-judgments-settlements-or-regulatory-penalties-could-result-in-substa",
+    "risk-124-ai-agents-as-well-as-the-risk-of-compromise-of-valuable-intellectual-property-in",
+    "risk-128-ai-other-spacerelated-services-and-lunar-and-interplanetary-missions-will-requir",
+    "risk-136-advertisers-generally-do-not-have-longterm-commitments-to-the-x-platform-and-may",
+    "risk-139-the-estimates-of-future-market-opportunity-and-forecasts-of-market-growth-and-ou",
+    "risk-140-ai-businesses-as-well-as-estimates-regarding-the-growth-of-ai-and-its-impacts-co",
+    "risk-147-we-may-not-be-able-to-develop-commercialize-scale-or-successfully-implement-thes",
+    "risk-149-ai-compute-infrastructure-may-be-materially-diminished",
+    "risk-151-ai-orbital-lunar-and-interplanetary-transportation-and-industrial-activities-are",
+    "risk-152-a-portion-of-our-anticipated-market-opportunities-is-associated-with-industries-",
+    "risk-154-the-global-nature-of-our-business-poses-risks-with-respect-to-unstable-malicious",
+    "risk-156-certain-foreign-governments-have-publicly-discussed-the-potential-use-of-anti-sa",
+    "risk-158-august-2024-starlink-received-an-order-from-brazils-supreme-court-that-froze-sta",
+    "risk-159-the-action-taken-by-the-brazilian-supreme-court-arose-out-of-purported-violation",
+    "risk-162-as-a-contractor-to-various-u",
+    "risk-165-the-termination-or-reduction-of-funding-for-a-government-program-could-result-in",
+    "risk-167-government-customers-may-also-subject-our-contracts-to-rigorous-audits-and-inves",
+    "risk-168-adverse-audit-findings-or-contractual-disputes-could-lead-to-repayments-financia",
+    "risk-170-any-failure-by-us-to-comply-with-any-of-the-foregoing-could-result-in-our-debarm",
+    "risk-177-additionally-absorbing-excess-costs-may-limit-our-ability-to-allocate-resources-",
+    "risk-178-as-a-result-our-cash-flows-may-be-subject-to-fluctuation-across-periods-in-a-man",
+    "risk-179-our-ability-to-expand-our-starlink-consumer-and-enterprise-connectivity-services",
+    "risk-180-there-can-be-no-assurance-that-our-efforts-to-increase-awareness-will-be-success",
+    "risk-184-the-provision-of-our-satellitetomobile-services-also-requires-regulatory-approva",
+    "risk-185-our-gen1-service-utilizing-our-existing-constellation-of-v1-mobile-satellites-is",
+    "risk-188-although-we-devote-significant-resources-to-develop-test-and-maintain-our-ai-tec",
+    "risk-189-ai-technologies-have-been-known-to-produce-mischaracterized-or-hallucinatory-inf",
+    "risk-192-we-have-in-the-past-been-and-may-in-the-future-be-subject-to-regulatory-investig",
+    "risk-193-also-please-refer-to-our-ai-products-x-platform-and-starlink-services-are-subjec",
+    "risk-196-ai-technologies-assist-in-producing-we-could-also-incur-liability-through-the-vi",
+    "risk-204-act-in-the-united-states-and-the-digital-services-act-in-the-eu-to-protect-again",
+    "risk-211-accordingly-we-cannot-guarantee-that-the-steps-we-have-taken-to-protect-our-inte",
+    "risk-212-additionally-to-protect-our-intellectual-property-rights-we-may-be-required-to-s",
+    "risk-217-these-issues-may-arise-from-engineering-challenges-supplier-performance-problems",
+    "risk-218-any-of-these-factors-may-delay-development-or-production-schedules-increase-cost",
+    "risk-221-the-launch-and-satellite-operations-are-subject-to-stringent-export-control-and-",
+    "risk-222-arms-regulations-itar-the-export-administration-regulations-and-sanctions-admini",
+    "risk-225-the-authorization-requirements-include-the-need-to-get-permission-to-release-con",
+    "risk-227-our-use-of-open-source-technology-could-impose-limitations-on-our-ability-to-com",
+    "risk-229-ai-products-are-trained-on-data-sets-that-may-52-table-of-contents-include-open-",
+    "risk-236-our-ai-segment-is-recently-formed-is-still-being-fully-integrated-and-optimized-",
+    "risk-237-ai-segment-and-as-part-of-our-ambitious-vertical-integration-strategy-intended-t",
+    "risk-241-we-may-elect-to-allocate-capital-and-resources-to-longterm-initiatives-even-if-a",
+    "risk-242-there-can-be-no-assurance-that-these-initiatives-will-achieve-their-intended-ope",
+    "risk-246-if-we-are-unable-to-successfully-execute-our-ai-strategy-our-business-financial-",
+    "risk-247-our-ai-segment-is-capital-intensive-has-incurred-significant-operating-losses-an",
+    "risk-248-ai-holds-significant-promise-for-consumers-and-enterprises-its-longterm-impact-w",
+    "risk-249-there-can-be-no-assurance-that-demand-for-ai-solutions-will-develop-or-be-sustai",
+    "risk-253-we-incurred-net-losses-of-4937-million-and-4628-million-for-the-years-ended-dece",
+    "risk-256-the-timing-of-our-revenue-and-cost-recognition-may-fluctuate-due-to-factors-outs",
+    "risk-257-as-a-result-the-timing-of-revenue-recognition-may-shift-between-reporting-period",
+    "risk-259-these-factors-may-cause-our-quarterly-or-annual-results-of-operations-to-fluctua",
+    "risk-262-the-rules-governing-the-standards-that-must-be-met-for-our-management-to-assess-",
+    "risk-265-our-testing-or-the-subsequent-testing-if-required-by-our-independent-registered-",
+    "risk-266-any-material-weaknesses-could-result-in-a-material-misstatement-of-our-annual-or",
+    "risk-268-a-loss-that-is-uninsured-or-which-exceeds-policy-limits-may-require-us-to-pay-su",
+    "risk-270-mr-musk-and-entities-owned-by-or-affiliated-with-him-on-the-other-hand-concernin",
+    "risk-274-we-may-enter-into-such-transactions-in-lieu-of-pursuing-other-opportunities-that",
+    "risk-275-mr-musk-and-entities-owned-by-or-affiliated-with-him-may-differ-or-conflict-with",
+    "risk-276-any-actual-or-perceived-conflicts-of-interest-with-respect-to-the-foregoing-coul",
+    "risk-277-certain-of-our-directors-and-key-employees-may-have-conflicts-of-interest-becaus",
+    "risk-279-ai-companies-technology-ventures-satellite-communications-businesses-and-governm",
+    "risk-283-we-are-highly-dependent-on-the-continued-service-and-performance-of-mr",
+    "risk-284-mr-musk-has-been-and-continues-to-be-a-driving-force-behind-our-growth-innovatio",
+    "risk-285-our-intense-missiondriven-engineeringfirst-culture-has-been-a-key-driver-of-our-",
+    "risk-287-mr-musk-currently-serves-as-technoking-and-chief-executive-officer-of-tesla-and-",
+    "risk-288-any-such-loss-or-reduced-involvement-in-our-business-could-result-in-a-material-",
+    "risk-292-our-compensation-arrangements-such-as-our-equity-award-programs-may-not-always-b",
+    "risk-293-our-success-depends-upon-our-ability-to-attract-and-retain-key-personnel-and-any",
+    "risk-294-a-significant-reduction-by-mr",
+    "risk-295-mr-musks-substantial-ownership-interest-in-us-provides-him-with-an-economic-ince",
+    "risk-296-mr-musk-will-not-be-subject-to-any-obligation-to-maintain-his-ownership-interest",
+    "risk-297-mr-musk-sells-all-or-a-substantial-portion-of-his-ownership-interest-in-us-he-ma",
+    "risk-298-additionally-future-resales-of-our-class-a-common-stock-by-mr",
+    "risk-301-a-common-stock-will-generally-be-available-for-resale-under-rule-144-starting-90",
+    "risk-303-additionally-we-may-elect-to-take-advantage-of-certain-other-exemptions-in-the-f",
+    "risk-305-our-ability-to-provide-returns-to-shareholders-will-depend-on-appreciation-in-ou",
+    "risk-308-additionally-high-retail-investor-interest-in-our-class-a-common-stock-may-occur",
+    "risk-309-accordingly-investors-may-not-be-able-to-realize-a-gain-on-their-investment-and-",
+    "risk-315-the-conversion-of-class-b-common-stock-to-class-a-common-stock-will-have-the-eff",
+    "risk-321-any-person-or-entity-purchasing-or-otherwise-acquiring-any-interest-in-our-share"
+  ],
+  "tableOfContentsLikeRisks": [
+    "risk-1-we-have-applied-to-list-our-class-a-common-stock-on-nasdaq-and-nasdaq-texas-unde",
+    "risk-2-a-common-stock-in-this-offering-ii-the-class-c-reclassification-as-defined-below",
+    "risk-3-a-common-stock-reserved-for-future-issuance-upon-the-conversion-of-shares-of-cla",
+    "risk-4-ais-2023-equity-incentive-plan-2023-incentive-plan-and-2025-equity-incentive-pla",
+    "risk-5-the-information-in-this-prospectus-also-does-not-reflect",
+    "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
+    "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
+    "risk-8-ai-which-was-acquired-by-spacex-effective-february-2-2026-and-x-holdings-which-w",
+    "risk-9-analysis-of-financial-condition-and-results-of-operations-and-our-consolidated-f",
+    "risk-10-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+    "risk-11-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+    "risk-12-the-following-table-sets-forth-the-computation-of-unaudited-pro-forma-basic-and-",
+    "risk-13-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+    "risk-14-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+    "risk-15-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+    "risk-16-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+    "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
+    "risk-18-adjusted-ebitda-in-millions-2",
+    "risk-19-adjusted-ebitda-in-millions-2",
+    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-21-adjusted-ebitda-in-millions-2",
+    "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
+    "risk-23-adjusted-ebitda-in-millions-2",
+    "risk-24-adjusted-ebitda-in-millions-2",
+    "risk-25-adjusted-ebitda-in-millions-2",
+    "risk-26-analysis-of-financial-condition-and-results-of-operationkey-business-metrics-for",
+    "risk-27-risk-factor",
+    "risk-86-risk-factor",
+    "risk-320-risk-factor",
+    "risk-326-risk-factor"
+  ],
+  "risksExtractedOutsideMainRiskFactorsSection": [
+    "risk-1-we-have-applied-to-list-our-class-a-common-stock-on-nasdaq-and-nasdaq-texas-unde",
+    "risk-2-a-common-stock-in-this-offering-ii-the-class-c-reclassification-as-defined-below",
+    "risk-3-a-common-stock-reserved-for-future-issuance-upon-the-conversion-of-shares-of-cla",
+    "risk-4-ais-2023-equity-incentive-plan-2023-incentive-plan-and-2025-equity-incentive-pla",
+    "risk-5-the-information-in-this-prospectus-also-does-not-reflect",
+    "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
+    "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
+    "risk-8-ai-which-was-acquired-by-spacex-effective-february-2-2026-and-x-holdings-which-w",
+    "risk-9-analysis-of-financial-condition-and-results-of-operations-and-our-consolidated-f",
+    "risk-10-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+    "risk-11-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+    "risk-12-the-following-table-sets-forth-the-computation-of-unaudited-pro-forma-basic-and-",
+    "risk-13-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+    "risk-14-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+    "risk-15-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+    "risk-16-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+    "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
+    "risk-18-adjusted-ebitda-in-millions-2",
+    "risk-19-adjusted-ebitda-in-millions-2",
+    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-21-adjusted-ebitda-in-millions-2",
+    "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
+    "risk-23-adjusted-ebitda-in-millions-2",
+    "risk-24-adjusted-ebitda-in-millions-2",
+    "risk-25-adjusted-ebitda-in-millions-2",
+    "risk-26-analysis-of-financial-condition-and-results-of-operationkey-business-metrics-for",
+    "risk-27-risk-factor"
+  ],
+  "normalLengthRiskSample": [
+    {
+      "id": "risk-31-additional-risks-and-uncertainties-that-we-are-unaware-of-or-that-we-currently-b",
+      "title": "Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect us",
+      "category": "governance/control",
+      "originalText": "Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect us. Many of the risks and uncertainties that could materially adversely affect us or our prospects are beyond our control or relate to portions of our business strategy that have a lengthy time horizon or involve unprecedented ventures. This can make assessment of certain risks more difficult and you should factor these uncertainties into your assessment of an investment in our Class A common stock.",
+      "plainEnglish": "The filing flags this as a governance/control risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 564,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-32-if-any-of-the-following-risks-and-uncertainties-occur-the-price-of-our-class-a-c",
+      "title": "If any of the following risks and uncertainties occur, the price of our Class A common stock could decline, and you could lose part or all of your investment",
+      "category": "launch/space operations",
+      "originalText": "If any of the following risks and uncertainties occur, the price of our Class A common stock could decline, and you could lose part or all of your investment. Risks Related to Our Business Any failure or delay in the development of Starship at scale or in achieving the required launch cadence, reusability and capabilities thereafter would delay or limit our ability to execute our growth strategy, including the deployment of next-generation satellites, global satellite-to-mobile connectivity, and orbital",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "mixed",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 508,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-33-ai-compute-which-could-materially-adversely-affect-our-business-financial-condit",
+      "title": "AI compute, which could materially adversely affect our business, financial condition, results of operations, and future prospects",
+      "category": "launch/space operations",
+      "originalText": "AI compute, which could materially adversely affect our business, financial condition, results of operations, and future prospects. If we are unable to successfully complete the development, testing, and deployment of Starship at scale in accordance with our anticipated schedule, or at all, or if we are unable to achieve sufficient launch cadence, reusability, and capability, our ability to execute our growth strategy (such as the deployment of our next-generation V3 satellites, V2 satellite-to-mobile connectivity, and providing orbital",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "mixed",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 542,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-34-the-commercial-deployment-of-starship-particularly-at-scale-is-subject-to-substa",
+      "title": "The commercial deployment of Starship, particularly at scale, is subject to substantial risks and uncertainties inherent in the development of new and complex technologies and systems",
+      "category": "launch/space operations",
+      "originalText": "The commercial deployment of Starship, particularly at scale, is subject to substantial risks and uncertainties inherent in the development of new and complex technologies and systems. Delays or challenges in the Starship program have in the past occurred, and may occur in the future due to a variety of factors, including unforeseen technical challenges, supply chain disruptions, manufacturing difficulties, delays in the development, construction or commissioning of launch and fueling infrastructure (such as launch pads, air separation units and other propellant production systems), unavailability of such launch and fueling infrastructure (including launch pads) in sufficient number and in operable condition (including as a result of mishaps), loss or damage to the vehicle or other components, regulatory hurdles, or the need for additional design modifications. If we are required to undertake unanticipated redesigns, conduct additional testing, replace lost vehicles or components, or address operational setbacks, we may experience delays and incur significant additional costs, or be forced to reallocate critical resources from other projects.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 1160,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-35-if-our-launch-pads-are-not-available-for-an-extended-period-of-time-for-any-reas",
+      "title": "If our launch pads are not available for an extended period of time for any reason, we may not be able to achieve our development, testing and deployment goals",
+      "category": "launch/space operations",
+      "originalText": "If our launch pads are not available for an extended period of time for any reason, we may not be able to achieve our development, testing and deployment goals. Such delays could have cascading effects on our ability to achieve the scale we need to timely achieve future objectives. In addition, a critical part of our growth strategy involves increasing our launch cadence, reusability and capability, including increasing our payload per launch. This will require, among other things, the successful development and operation of reusable launch vehicles, substantially increased access to raw materials and components like steel, fuel and propellant, the construction of additional facilities and securing of additional launch sites or rights to additional launches from existing sites, and navigating complex and evolving regulatory requirements and environmental and technological issues as we seek to increase our launch cadence. Our rocket programs have historically required substantial time and resources to reach the cadence and cost thresholds necessary for commercial viability, and the development of Starship may face similar or greater challenges. Any significant delay in achieving key development milestones, obtaining the necessary regulatory approvals or increasing and maintaining our launch cadence, reusability, and capability would impede the expansion of our service offerings, defer anticipated revenue streams, and negatively impact our growth trajectory and competitive positioning in rapidly evolving markets. 27 Table of Contents",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 1557,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-36-our-ability-to-execute-our-growth-strategy-is-highly-dependent-on-starship",
+      "title": "Our ability to execute our growth strategy is highly dependent on Starship",
+      "category": "launch/space operations",
+      "originalText": "Our ability to execute our growth strategy is highly dependent on Starship. If we are unable to achieve the commercial development, anticipated performance, launch cadence, or cost efficiencies associated with Starship within expected timeframes, our ability to deploy next-generation V3 satellites, V2 Mobile satellites, and orbital AI compute infrastructure at scale, reduce capital and operating costs (including cost per token), realize projected revenue growth, and retain existing customers from these initiatives could be materially and adversely affected. This includes our expectations with respect to completion of flight testing of Starship and commencement of payload delivery to orbit.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-1"
+      ],
+      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
+      "characterLength": 698,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-38-achieving-our-targeted-launch-cadence-will-require-significant-progress-on-sever",
+      "title": "Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources",
+      "category": "launch/space operations",
+      "originalText": "Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land and developing high-rate launch sites and supporting infrastructure across multiple locations; scaling production of Starship vehicles and Raptor engines; constructing propellant production facilities, including air separation units and methane liquefaction plants co-located with launch sites; securing sufficient power supply; and obtaining the necessary regulatory approvals, particularly from the F",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-2"
+      ],
+      "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
+      "characterLength": 603,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-39-aa-to-support-a-high-launch-cadence-while-addressing-public-safety-and-environme",
+      "title": "AA, to support a high launch cadence while addressing public safety and environmental considerations",
+      "category": "launch/space operations",
+      "originalText": "AA, to support a high launch cadence while addressing public safety and environmental considerations. We face a number of material challenges and uncertainties in achieving these milestones, such as achieving reliable high-cadence return-to-launch-site operations for the full vehicle stack, developing durable reusable heat shields capable of withstanding repeated high-velocity reentries, ensuring rapid refurbishment and high-rate reusability of engines and other vehicle components, managing public and regulatory tolerance for anomalies during the transition to frequent operational flights, securing sufficient power for both manufacturing and launch operations, and obtaining timely regulatory approvals from the F",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-2"
+      ],
+      "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
+      "characterLength": 721,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-48-our-plans-to-deploy-largescale-orbital-infrastructure-including-orbital-ai-compu",
+      "title": "Our plans to deploy large-scale orbital infrastructure, including orbital AI compute systems, will require the operation of very large satellite constellations, potentially numbering up to one million satellites",
+      "category": "Starlink/connectivity",
+      "originalText": "Our plans to deploy large-scale orbital infrastructure, including orbital AI compute systems, will require the operation of very large satellite constellations, potentially numbering up to one million satellites. These plans will depend on obtaining a wide range of domestic and international approvals, including spectrum authorizations, orbital debris mitigation approvals, and coordination and authorization requirements relating to space situational awareness and international regulatory regimes, and there can be no assurance that such approvals will be obtained on acceptable timelines, terms, or at all.",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-2"
+      ],
+      "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
+      "characterLength": 611,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-49-we-depend-on-timely-approvals-from-the-faa-to-conduct-our-launch-operations",
+      "title": "We depend on timely approvals from the FAA to conduct our launch operations",
+      "category": "launch/space operations",
+      "originalText": "We depend on timely approvals from the FAA to conduct our launch operations. If we do not receive FAA launch licenses or related approvals on the schedules we anticipate or if we are subject to regulatory delays, we could be 28 Table of Contents forced to delay or cancel planned launches, which could cause missed customer commitments, increased costs, and underutilization of our launch resources. Obtaining a launch license involves rigorous safety and environmental reviews, and unforeseen issues in meeting these requirements or additional conditions imposed during the review process could also impact our launch timelines. For example, current F",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-2"
+      ],
+      "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
+      "characterLength": 652,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-53-aas-resources-may-become-strained-which-could-lead-to-longer-application-process",
+      "title": "AA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses",
+      "category": "launch/space operations",
+      "originalText": "AA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure to obtain an approval for a key launch, could materially adversely affect our business, financial condition, results of operations, and future prospects. Any delays or difficulties in obtaining, maintaining or renewing required communications licenses and spectrum authorizations for our satellite connectivity services, including international and FCC satellite spectrum licenses, could materially delay or disrupt our operations, harm our business, or limit our ability to execute our business strategy.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "mixed",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-3"
+      ],
+      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
+      "characterLength": 765,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-54-our-satellite-connectivity-services-are-subject-to-extensive-regulation-in-the-u",
+      "title": "Our satellite connectivity services are subject to extensive regulation in the United States and internationally",
+      "category": "Starlink/connectivity",
+      "originalText": "Our satellite connectivity services are subject to extensive regulation in the United States and internationally. Obtaining and maintaining communications licenses and approvals from U.S. and foreign regulatory authorities is critical to our connectivity services. Our satellite connectivity, including our global satellite-to-mobile connectivity services under Starlink Mobile, depend on access to radio frequency spectrum and authorizations from the FCC in the United States and telecommunications regulators in other countries. Without these licenses and approvals, we generally cannot offer connectivity services in a given market. Acquiring the necessary authorizations can be a complex and time-consuming process, often involving technical coordination, public-interest or national security reviews, and cross-border considerations, including in certain jurisdictions where regulatory processes may be influenced by protectionist policies or preferences. Spectrum access itself is limited and highly regulated. In September 2025, we announced a definitive agreement with EchoStar to purchase its",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-3"
+      ],
+      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
+      "characterLength": 1101,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-56-there-can-be-no-assurance-that-these-conditions-will-be-satisfied-or-waived-in-a",
+      "title": "There can be no assurance that these conditions will be satisfied or waived in a timely manner, or at all",
+      "category": "Starlink/connectivity",
+      "originalText": "There can be no assurance that these conditions will be satisfied or waived in a timely manner, or at all. Even if the transaction is completed, there can be no assurance that our purchase of licenses from EchoStar will be sufficient to meet our growing need for spectrum licenses and we may be unable to find other parties to provide us with additional spectrum licenses on terms acceptable to us, or at all. We may in the future pursue additional acquisitions, leases, or other arrangements relating to spectrum rights in order to support the expansion of our connectivity services, and there can be no assurance that we will be able to enter into or complete any such transactions or arrangements on acceptable terms, or at all.",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-3"
+      ],
+      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
+      "characterLength": 731,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-57-any-such-future-transactions-or-arrangements-could-require-significant-capital-c",
+      "title": "Any such future transactions or arrangements could require significant capital commitments, ongoing payment obligations, and regulatory approvals",
+      "category": "Starlink/connectivity",
+      "originalText": "Any such future transactions or arrangements could require significant capital commitments, ongoing payment obligations, and regulatory approvals. In addition, we must secure the global right to use the spectrum acquired from EchoStar from a number of international telecommunications regulators in order to make our V2 satellite-to-mobile services usable worldwide, and there can be no assurance that such authorizations will be granted on acceptable terms, or at all. Moreover, our rights to use certain frequencies are coordinated through the International Telecommunication Union (“ITU”) and are subject to international agreements to prevent harmful interference. We must comply with ITU rules and coordination procedures, and changes in international spectrum allocations or adverse decisions in global regulatory forums could also reduce the frequencies available to us or attach conditions that degrade our network’s performance.",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-3"
+      ],
+      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
+      "characterLength": 937,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-59-regulatory-regimes-for-communications-services-vary-widely-across-different-coun",
+      "title": "Regulatory regimes for communications services vary widely across different countries and are continuously evolving",
+      "category": "launch/space operations",
+      "originalText": "Regulatory regimes for communications services vary widely across different countries and are continuously evolving. Each country may impose its own licensing conditions and operating requirements on satellite internet 29 Table of Contents providers – for example, mandates to partner with a local entity, to host certain infrastructure within its borders, or to adhere to specific standards relating to data privacy and cybersecurity (including data localization) and, in some cases, regulators may deny, delay or decline to grant authorization for us to operate or use our spectrum in their jurisdiction at all. Regimes in certain of our target markets may also favor incumbent or legacy telecommunications companies, which may impede, delay, or prevent our ability to enter such markets. Compliance with the different requirements of applicable regulatory regimes can be challenging and costly, and any failure to comply with local laws and regulations could lead to penalties or the loss of our authorization to operate in that region. Furthermore, communications regulatory authorizations often require periodic renewal and ongoing compliance with conditions such as deployment milestones, fee payments, and interference mitigation obligations.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-3"
+      ],
+      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
+      "characterLength": 1249,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-62-ai-products-and-x-platform",
+      "title": "AI products and X platform",
+      "category": "launch/space operations",
+      "originalText": "AI products and X platform. Our AI products and X platform are subject to a variety of laws and regulations in the United States and abroad, including privacy, cybersecurity, data use, data combination, data protection and personal information, the provision of our services to younger users, biometrics, encryption, rights of publicity and related concepts, content, integrity, intellectual property, advertising, marketing, distribution, data security, data retention and deletion, data localization and storage, data disclosure, AI and machine learning, electronic contracts and other communications, competition, protection of minors, consumer protection, sanctions, export controls, and notification, civil rights, accessibility, product liability, e-commerce, taxation and online payment services, as well as contractual requirements imposed by app stores, payment processors, and other partners. The introduction of new products or services, expansion of our activities in certain jurisdictions, or other actions that we may take may subject us to additional laws, regulations, or other government scrutiny and, in some cases, such laws, regulations, or government scrutiny may limit or delay our ability to introduce new products or services or expand our activities in certain jurisdictions. Particularly, our leadership position in various markets, especially in orbital launch services, could subject us to heightened regulatory scrutiny under competition laws. In addition, these U.S. and foreign laws and regulations may impose different obligations from each other.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-4"
+      ],
+      "sourceQuote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer ",
+      "characterLength": 1579,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-64-ai-deception-consumer-protection-and-notification-products-liability-intellectua",
+      "title": "AI deception, consumer protection and notification, products liability, intellectual property infringement or misappropriation, defamation, data privacy, cybersecurity, and sanctions and export controls",
+      "category": "AI/xAI",
+      "originalText": "AI deception, consumer protection and notification, products liability, intellectual property infringement or misappropriation, defamation, data privacy, cybersecurity, and sanctions and export controls. Social media and AI are the subject of increasing legislative and regulatory activity by various governmental and regulatory agencies in jurisdictions around the world, which are applying, or are considering applying, platform moderation, intellectual property, product liability, data privacy, age restrictions, data disclosure, cybersecurity, export controls, consumer protection, or other existing laws and regulations or new general legal frameworks to",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-4"
+      ],
+      "sourceQuote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer ",
+      "characterLength": 660,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-66-ai-is-taking-place-at-the-state-level",
+      "title": "AI is taking place at the state level",
+      "category": "AI/xAI",
+      "originalText": "AI is taking place at the state level. Various other jurisdictions have enacted or are considering enacting regulations focused on AI. Restrictions under such laws or regulations, if implemented, could increase the costs and burdens to our AI segment and its customers, delay or halt deployment of new systems using our AI segment’s products, require us to modify, restrict, or discontinue certain features (including less constrained modes), and reduce the number of new entrants and customers, negatively impacting our",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-4"
+      ],
+      "sourceQuote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer ",
+      "characterLength": 520,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-70-these-features-are-intended-to-provide-users-with-greater-flexibility-and-contro",
+      "title": "These features are intended to provide users with greater flexibility and control in how they use our tools",
+      "category": "governance/control",
+      "originalText": "These features are intended to provide users with greater flexibility and control in how they use our tools. Because these modes may be more irreverent and harsher than our standard offerings, they present heightened risks, including reputational harm, the generation of potentially explicit content and misinformation or deceptive outputs, potential nonconsensual or exploitative imagery, intellectual property infringement, or content that could be viewed as exploitative, harmful, harassing, abusive, or discriminatory. The availability of such features may also increase the risk of regulatory scrutiny, enforcement actions, litigation, or claims of harm, as well as reputational damage, user or advertiser backlash, or limitations on our ability to distribute or monetize our products in certain jurisdictions or through certain partners.",
+      "plainEnglish": "The filing flags this as a governance/control risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-4"
+      ],
+      "sourceQuote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer ",
+      "characterLength": 843,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-73-we-are-subject-to-ongoing-litigation-including-putative-class-action-lawsuits-re",
+      "title": "We are subject to ongoing litigation, including putative class action lawsuits, relating to such allegations, and we may be subject to additional litigation in the future concerning these types of allegations",
+      "category": "AI/xAI",
+      "originalText": "We are subject to ongoing litigation, including putative class action lawsuits, relating to such allegations, and we may be subject to additional litigation in the future concerning these types of allegations. These regulatory inquiries, including those related to misuse of our AI products, such as Grok, and those related to the X platform, could expose us to additional investigations, proceedings, and litigation, regulatory sanctions (including loss of access to certain markets, which has occurred in the past), liability and adverse publicity, any of which would adversely affect our business. For example, in February 2026, the Irish Data Protection Commission, our",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "mixed",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-5"
+      ],
+      "sourceQuote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement",
+      "characterLength": 673,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    }
+  ],
+  "suspiciousRiskSample": [
+    {
+      "id": "risk-1-we-have-applied-to-list-our-class-a-common-stock-on-nasdaq-and-nasdaq-texas-unde",
+      "title": "We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX",
+      "category": "dilution/share structure",
+      "originalText": "We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX. ” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class",
+      "plainEnglish": "The filing flags this as a dilution/share structure risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 374,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-2-a-common-stock-in-this-offering-ii-the-class-c-reclassification-as-defined-below",
+      "title": "A common stock in this offering, (ii) the Class C Reclassification (as defined below), and (iii) the Preferred Conversion (as defined below)",
+      "category": "dilution/share structure",
+      "originalText": "A common stock in this offering, (ii) the Class C Reclassification (as defined below), and (iii) the Preferred Conversion (as defined below). Unless otherwise noted, common stock outstanding after the offering and other information based thereon in this prospectus does not reflect any of the following: • shares of Class A common stock issuable upon exercise of the underwriters’ option to purchase additional shares from us; • shares of Class A common stock issuable upon the exercise of outstanding stock options granted under the Equity Plans (as defined below) that were outstanding as of March 31, 2026 with a weighted-average exercise price of $ per share; 19 Table of Contents • shares of Class A common stock issuable upon the exercise of outstanding stock options granted under the Equity Plans (as defined below) granted after March 31, 2026 with a weighted-average exercise price of $ per share; • shares of Class A common stock issuable upon the vesting and settlement of restricted stock units that were outstanding as of March 31, 2026 under the Equity Plans (none of which will vest in connection with this offering); • shares of Class A common stock issuable upon the vesting and settlement of restricted stock units granted after March 31, 2026 under the Equity Plans (none of which will vest in connection with this offering); • shares of Class A common stock reserved for issuance under our Amended and Restated 2024 Equity Incentive Plan (the “A&R 2024 Plan”), excluding shares subject to outstanding awards thereunder as described above, which we plan to adopt in connection with this offering; • shares of Class A common stock reserved for issuance under our Amended and Restated 2017 Equity Stock Purchase Plan (the “A&R 2017 ESPP”), which we plan to adopt in connection with this offering; and • shares of Class",
+      "plainEnglish": "The filing flags this as a dilution/share structure risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 1836,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-3-a-common-stock-reserved-for-future-issuance-upon-the-conversion-of-shares-of-cla",
+      "title": "A common stock reserved for future issuance upon the conversion of shares of Class B common stock on a one-for-one basis",
+      "category": "dilution/share structure",
+      "originalText": "A common stock reserved for future issuance upon the conversion of shares of Class B common stock on a one-for-one basis. The term “Equity Plans” refers to our 2015 Plan, our A&R 2017 ESPP and our A&R 2024 Plan as well as (i) x",
+      "plainEnglish": "The filing flags this as a dilution/share structure risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 227,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-4-ais-2023-equity-incentive-plan-2023-incentive-plan-and-2025-equity-incentive-pla",
+      "title": "AI’s 2023 Equity Incentive Plan, 2023 Incentive Plan and 2025 Equity Incentive Plan, each of which we assumed in the xAI Merger and (ii) the 2017 Stock Plan, as amended, of Swarm Technologies, Inc",
+      "category": "AI/xAI",
+      "originalText": "AI’s 2023 Equity Incentive Plan, 2023 Incentive Plan and 2025 Equity Incentive Plan, each of which we assumed in the xAI Merger and (ii) the 2017 Stock Plan, as amended, of Swarm Technologies, Inc. (“Swarm”), which we assumed in our acquisition of Swarm in 2021.",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 262,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-5-the-information-in-this-prospectus-also-does-not-reflect",
+      "title": "The information in this prospectus also does not reflect",
+      "category": "Starlink/connectivity",
+      "originalText": "The information in this prospectus also does not reflect: •the payment of shares of Class A common stock and cash consideration which would occur upon closing of our agreement with EchoStar Corporation (“EchoStar”) to purchase certain AWS-3, AWS-4, and H- Block spectrum licenses pursuant to the License Purchase Agreement, dated as of September 7, 2025 (as amended and restated on November 5, 2025), by and among SpaceX, Spectrum Business Trust 2025-1 and EchoStar (the “Spectrum Transaction”), which transaction was approved by the FCC on May 12, 2026 and is subject to other closing conditions prior to completion; and •the issuance of shares of our Class A common stock if in the future our board determines to exercise our option to acquire Cursor as such option is described under “Business—Collaboration with Cursor,” which, as an example, assuming the volume-weighted average closing price of our common stock over the seven consecutive trading days immediately preceding the closing of such acquisition were equal to the initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover of this prospectus), would equal approximately shares. The actual number of shares that may be issued will be determined based on a future trading price and is subject to customary adjustments for reclassifications, recapitalization, stock splits or any other similar event affecting the outstanding capital stock of Cursor or the Company. Unless otherwise indicated, all information contained in this prospectus assumes or gives effect to: •the 2026 Stock Split; •prior to the completion of this offering, pursuant to the terms of our certificate of formation in effect as a private company prior to this offering, the reclassification of all of the outstanding shares of our Class C common stock into an aggregate of shares of Class A common stock (the “Class C Reclassification”) and the conversion of the outstanding shares of all our preferred stock into an aggregate of shares of our Class A common stock and shares of our Class B common stock (the “Preferred Conversion”); •the effectiveness of our charter and bylaws, which will become effective upon the completion of this offering; 20 Table of Contents •an initial public offering price of $ per share of Class A common stock (the midpoint of the price range set forth on the cover of this prospectus); •that the underwriters do not exercise their option to purchase additional shares of Class A common stock from us; and •no purchase of shares of Class",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 2553,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
+      "title": "A common stock in this offering by our directors, officers or existing shareholders",
+      "category": "dilution/share structure",
+      "originalText": "A common stock in this offering by our directors, officers or existing shareholders. 21 Table of Contents Summary Historical Consolidated Financial and Operating Data",
+      "plainEnglish": "The filing flags this as a dilution/share structure risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 166,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
+      "title": "The following table sets forth the summary historical consolidated financial and operating data for the periods and as of the dates presented",
+      "category": "other",
+      "originalText": "The following table sets forth the summary historical consolidated financial and operating data for the periods and as of the dates presented.",
+      "plainEnglish": "The filing flags this as a other risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-1"
+      ],
+      "sourceQuote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A",
+      "characterLength": 142,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-8-ai-which-was-acquired-by-spacex-effective-february-2-2026-and-x-holdings-which-w",
+      "title": "AI, which was acquired by SpaceX, effective February 2, 2026, and X Holdings, which was acquired by xAI, effective March 28, 2025, because these transactions were between entities under common control",
+      "category": "AI/xAI",
+      "originalText": "AI, which was acquired by SpaceX, effective February 2, 2026, and X Holdings, which was acquired by xAI, effective March 28, 2025, because these transactions were between entities under common control. The following information should be read together with “Management’s Discussion and",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-2"
+      ],
+      "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
+      "characterLength": 285,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-9-analysis-of-financial-condition-and-results-of-operations-and-our-consolidated-f",
+      "title": "Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and related notes thereto included elsewhere in this prospectus",
+      "category": "financial/cash flow",
+      "originalText": "Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and related notes thereto included elsewhere in this prospectus. The summary historical consolidated financial data included in this section is not intended to replace the consolidated financial statements and is qualified in its entirety by our consolidated financial statements and related notes included elsewhere in this prospectus. Statements of Operations Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions, except per share data)(unaudited)Revenue .............................................$4,694$4,067$18,674$14,015$10,387Total costs and expenses ...........6,6374,04021,26313,54913,892Income (loss) from operations ...........(1,943)27(2,589)466(3,505)Net income (loss) ..............................$(4,276)$(528)$(4,937)$791$(4,628)Net income (loss) per share of common stock attributable to common shareholders (1)Basic ..............................................$(1.27)$(0.18)$(1.69)$0.01$(1.68)Diluted ...........................................$(1.27)$(0.18)$(1.69)$0.00$(1.68)",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-2"
+      ],
+      "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
+      "characterLength": 1138,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-10-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+      "title": "Weighted average shares used in computing net income (loss) per share of common stock (1)Basic ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing net income (loss) per share of common stock (1)Basic . .............................................3,8842,8752,9262,8482,759Diluted ...........................................3,8842,8752,9269,9562,759 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions, except per share data) (unaudited) Revenue ............................................. $4,694 $4,067 $18,674 $14,015 $10,387 Total costs and expenses ........... 6,637 4,040 21,263 13,549 13,892 Income (loss) from operations ...........",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-2"
+      ],
+      "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
+      "characterLength": 574,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-11-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+      "title": "Weighted average shares used in computing net income (loss) per share of common stock (1) Basic ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing net income (loss) per share of common stock (1) Basic . ............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per Share to our audited consolidated financial statements appearing elsewhere in this prospectus for an explanation of our calculation of basic and diluted net income (loss) per share of common stock attributable to common shareholders. 22 Table of Contents",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 570,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-12-the-following-table-sets-forth-the-computation-of-unaudited-pro-forma-basic-and-",
+      "title": "The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of common stock attributable to common shareholders for the period presented",
+      "category": "financial/cash flow",
+      "originalText": "The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of common stock attributable to common shareholders for the period presented: (in millions, except per share data)Three Months EndedMarch 31, 2026Year Ended December 31, 2025Numerator:Net loss attributable to common shareholders, basic and diluted .........................$(4,947)$(4,937)Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................565—Pro Forma net loss attributable to common shareholders, basic and diluted ........$(4,382)$(4,937)Denominator:",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 678,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-13-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+      "title": "Weighted average shares used in computing net loss per share of common stock, basic and diluted ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing net loss per share of common stock, basic and diluted . ....................................................................................3,8842,926Pro forma adjustment to reflect the Preferred Conversion as if the conversion occurred on January 1, 2025, basic and diluted ................................................6,7236,723",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 375,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-14-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+      "title": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted . .....................................................................10,6079,649Pro forma net loss per share of common stock attributable to common shareholders, basic and diluted (2) ..........................................................................$(0.41)$(0.51) (in millions, except per share data) Three Months Ended March 31, 2026 Year Ended December 31, 2025 Numerator: Net loss attributable to common shareholders, basic and diluted ......................... $(4,947) $(4,937) Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................ 565 — Pro Forma net loss attributable to common shareholders, basic and diluted ........ $(4,382) $(4,937) Denominator:",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 888,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-15-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
+      "title": "Weighted average shares used in computing net loss per share of common stock, basic and diluted ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing net loss per share of common stock, basic and diluted . .................................................................................... 3,884 2,926 Pro forma adjustment to reflect the Preferred Conversion as if the conversion occurred on January 1, 2025, basic and diluted ................................................ 6,723 6,723",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 380,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-16-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
+      "title": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted ",
+      "category": "financial/cash flow",
+      "originalText": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted . ..................................................................... 10,607 9,649 Pro forma net loss per share of common stock attributable to common shareholders, basic and diluted (2) .......................................................................... $(0.41) $(0.51) __________________ (2)Pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted-average number of shares used in the computation of the per share amount gives effect to (i) the Preferred Conversion as if such conversion had occurred as of January 1, 2025, (ii) the Class C Reclassification as if such reclassification had occurred as of January 1, 2025, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering.",
+      "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-3"
+      ],
+      "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+      "characterLength": 903,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
+      "title": "The following table presents our capital expenditures by segment",
+      "category": "launch/space operations",
+      "originalText": "The following table presents our capital expenditures by segment: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Space ..................................................$1,052$759$3,832$2,032$1,497Connectivity .......................................1,3328144,1783,4982,455AI ........................................................7,7232,56712,7275,633463Total Capital Expenditures .................$10,107$4,140$20,737$11,163$4,415 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Space .................................................. $1,052 $759 $3,832 $2,032 $1,497 Connectivity ....................................... 1,332 814 4,178 3,498 2,455 AI ........................................................ 7,723 2,567 12,727 5,633 463 Total Capital Expenditures ................. $10,107 $4,140 $20,737 $11,163 $4,415 23 Table of Contents Balance Sheet Data: March 31,December 31, 202620252024(in millions)(unaudited)Cash and cash equivalents ..............................................................$15,852$24,747$11,385Total current assets .........................................................................29,73230,95216,108Property, plant, and equipment, net ................................................53,87942,60221,147Total assets ....................................................................................102,09492,07957,062Debt and finance leases, current ....................................................1,538928372Total current liabilities ...................................................................24,43621,40011,791Total liabilities ................................................................................60,51250,75431,258Redeemable convertible preferred stock ........................................7,04938,75220,941Total shareholders’ equity .............................................................34,5332,5734,863 March 31, December 31, 2026 2025 2024 (in millions) (unaudited) Cash and cash equivalents .............................................................. $15,852 $24,747 $11,385 Total current assets ......................................................................... 29,732 30,952 16,108 Property, plant, and equipment, net ................................................ 53,879 42,602 21,147 Total assets .................................................................................... 102,094 92,079 57,062 Debt and finance leases, current .................................................... 1,538 928 372 Total current liabilities ................................................................... 24,436 21,400 11,791 Total liabilities ................................................................................ 60,512 50,754 31,258 Redeemable convertible preferred stock ........................................ 7,049 38,752 20,941 Total shareholders’ equity ............................................................. 34,533 2,573 4,863 Segment Operating and Financial Data (unaudited) Space: Three Months Ended March 31,Year Ended December 31,20262025202520242023Mass to Orbit (in metric tons) (1) ........5564502,2131,6991,210Launches (number) (1) .........................403817013898Segment income (loss) from operations (in millions) ...................$(662)$(70)$(657)$21$(1)Segment",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-4"
+      ],
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+      "characterLength": 3404,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-18-adjusted-ebitda-in-millions-2",
+      "title": "Adjusted EBITDA (in millions) (2) ",
+      "category": "launch/space operations",
+      "originalText": "Adjusted EBITDA (in millions) (2) . .....................................$(351)$224$653$1,154$997 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 Mass to Orbit (in metric tons) (1) ........ 556 450 2,213 1,699 1,210 Launches (number) (1) ......................... 40 38 170 138 98 Segment income (loss) from operations (in millions) ................... $(662) $(70) $(657) $21 $(1) Segment",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-4"
+      ],
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+      "characterLength": 419,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-19-adjusted-ebitda-in-millions-2",
+      "title": "Adjusted EBITDA (in millions) (2) ",
+      "category": "Starlink/connectivity",
+      "originalText": "Adjusted EBITDA (in millions) (2) . ..................................... $(351) $224 $653 $1,154 $997 Connectivity: Three Months Ended March 31,Year Ended December 31,20262025202520242023Starlink Subscribers (in millions) (1) ...10.35.08.94.42.3Starlink",
+      "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-4"
+      ],
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+      "characterLength": 254,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    },
+    {
+      "id": "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+      "title": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) ",
+      "category": "other",
+      "originalText": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) . .........................................$1,188$1,033$4,423$2,006$469Segment",
+      "plainEnglish": "The filing flags this as a other risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "low",
+      "sourceSectionId": "section-39-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section39riskfactors-4"
+      ],
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+      "characterLength": 167,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "toc_entry",
+      "needsReview": true,
+      "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
+    }
+  ]
+}

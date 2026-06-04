@@ -1,0 +1,155 @@
+{
+  "filingUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+  "generatedAt": "2026-06-04T19:55:32.033Z",
+  "documentCount": 102,
+  "sectionCount": 72,
+  "chunkCount": 320,
+  "factCount": 94,
+  "riskFactorCount": 326,
+  "warnings": [
+    "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
+    "6 duplicate or near-duplicate risk titles detected."
+  ],
+  "errors": [],
+  "goldenChecks": [
+    {
+      "id": "prospectus-summary",
+      "label": "Prospectus Summary",
+      "found": true,
+      "matchedId": "section-11-prospectussummary",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"PROSPECTUS SUMMARY ............................................................................................................................\"."
+    },
+    {
+      "id": "risk-factors",
+      "label": "Risk Factors",
+      "found": true,
+      "matchedId": "section-12-riskfactors",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"RISK FACTORS ..............................................................................................................................................\"."
+    },
+    {
+      "id": "use-of-proceeds",
+      "label": "Use of Proceeds",
+      "found": true,
+      "matchedId": "section-14-useofproceeds",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"USE OF PROCEEDS .......................................................................................................................................\"."
+    },
+    {
+      "id": "dividend-policy",
+      "label": "Dividend Policy",
+      "found": true,
+      "matchedId": "section-15-dividendpolicy",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"DIVIDEND POLICY ........................................................................................................................................\"."
+    },
+    {
+      "id": "capitalization",
+      "label": "Capitalization",
+      "found": true,
+      "matchedId": "section-16-capitalization",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"CAPITALIZATION .........................................................................................................................................\"."
+    },
+    {
+      "id": "dilution",
+      "label": "Dilution",
+      "found": true,
+      "matchedId": "section-17-dilution",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"DILUTION .......................................................................................................................................................\"."
+    },
+    {
+      "id": "mda",
+      "label": "Management's Discussion and Analysis",
+      "found": true,
+      "matchedId": "section-18-managementsdiscussionandanalysisoffinancialconditionandresults",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS\"."
+    },
+    {
+      "id": "business",
+      "label": "Business",
+      "found": true,
+      "matchedId": "section-20-business",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"BUSINESS ........................................................................................................................................................\"."
+    },
+    {
+      "id": "management",
+      "label": "Management",
+      "found": true,
+      "matchedId": "section-18-managementsdiscussionandanalysisoffinancialconditionandresults",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS\"."
+    },
+    {
+      "id": "principal-stockholders",
+      "label": "Principal Stockholders",
+      "found": true,
+      "matchedId": "section-52-securityownershipofcertainbeneficialownersandmanagement",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT\"."
+    },
+    {
+      "id": "related-party",
+      "label": "Related Party Transactions",
+      "found": true,
+      "matchedId": "section-23-certainrelationshipsandrelatedpersontransactions",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"CERTAIN RELATIONSHIPS AND RELATED PERSON TRANSACTIONS .............................................\"."
+    },
+    {
+      "id": "capital-stock",
+      "label": "Description of Capital Stock",
+      "found": true,
+      "matchedId": "section-25-descriptionofcapitalstock",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"DESCRIPTION OF CAPITAL STOCK ..........................................................................................................\"."
+    },
+    {
+      "id": "future-sale",
+      "label": "Shares Eligible for Future Sale",
+      "found": true,
+      "matchedId": "section-26-shareseligibleforfuturesale",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"SHARES ELIGIBLE FOR FUTURE SALE ....................................................................................................\"."
+    },
+    {
+      "id": "underwriting",
+      "label": "Underwriting",
+      "found": true,
+      "matchedId": "section-29-underwriting",
+      "matchedType": "section",
+      "confidence": "high",
+      "diagnostic": "Matched section heading \"UNDERWRITING ...........................................................................................................................................\"."
+    }
+  ],
+  "coverage": {
+    "hasProspectusSummary": true,
+    "hasRiskFactors": true,
+    "hasUseOfProceeds": true,
+    "hasDilution": true,
+    "hasCapitalization": true,
+    "hasManagementDiscussion": true,
+    "hasBusiness": true,
+    "hasPrincipalStockholders": true,
+    "hasRelatedPartyTransactions": true,
+    "hasDescriptionOfCapitalStock": true,
+    "hasUnderwriting": true
+  }
+}

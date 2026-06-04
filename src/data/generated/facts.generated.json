@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "fact-company-name",
+    "category": "business",
+    "label": "Company name",
+    "valueText": "Space Exploration Technologies Corp.",
+    "plainEnglish": "The filing identifies Space Exploration Technologies Corp. as the issuer.",
+    "investorRelevance": "This anchors the analysis to the company named in the filing.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": false
+  },
+  {
+    "id": "fact-form-type",
+    "category": "offering",
+    "label": "Form type",
+    "valueText": "S-1",
+    "plainEnglish": "The filing metadata records form type as S-1.",
+    "investorRelevance": "This metadata helps keep the source package auditable.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": false
+  },
+  {
+    "id": "fact-filing-date",
+    "category": "offering",
+    "label": "Filing date",
+    "valueText": "2026-05-20",
+    "plainEnglish": "The filing metadata records filing date as 2026-05-20.",
+    "investorRelevance": "This metadata helps keep the source package auditable.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": false
+  },
+  {
+    "id": "fact-accession-number",
+    "category": "offering",
+    "label": "Accession number",
+    "valueText": "0001628280-26-036936",
+    "plainEnglish": "The filing metadata records accession number as 0001628280-26-036936.",
+    "investorRelevance": "This metadata helps keep the source package auditable.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": false
+  },
+  {
+    "id": "fact-document-count",
+    "category": "offering",
+    "label": "Document count",
+    "valueText": "102",
+    "plainEnglish": "The filing metadata records document count as 102.",
+    "investorRelevance": "This metadata helps keep the source package auditable.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": false
+  },
+  {
+    "id": "fact-extracted-risk-factor-count",
+    "category": "risk",
+    "label": "Extracted risk factor count",
+    "valueText": "326",
+    "plainEnglish": "The ingestion run counted extracted risk factor records.",
+    "investorRelevance": "This count is a parser diagnostic and should be reviewed for possible over-splitting or under-splitting.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": true
+  },
+  {
+    "id": "fact-extracted-table-count",
+    "category": "financial",
+    "label": "Extracted table count",
+    "valueText": "151",
+    "plainEnglish": "The ingestion run counted table candidates extracted from the S-1 HTML.",
+    "investorRelevance": "Tables are likely sources for financial and capitalization data, but they are not normalized yet.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-sectiondocumentpreamble-1"
+    ],
+    "sourceQuote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT",
+    "needsReview": true
+  },
+  {
+    "id": "fact-prospectus-summary-section-presence",
+    "category": "business",
+    "label": "Prospectus Summary section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Prospectus Summary section in the filing.",
+    "investorRelevance": "The summary is usually the fastest source for the company's own high-level framing.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section11prospectussummary-1"
+    ],
+    "sourceQuote": "1",
+    "needsReview": false
+  },
+  {
+    "id": "fact-risk-factors-section-presence",
+    "category": "risk",
+    "label": "Risk Factors section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Risk Factors section in the filing.",
+    "investorRelevance": "Risk Factors is the source section for company-disclosed risks.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section12riskfactors-1"
+    ],
+    "sourceQuote": "26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64",
+    "needsReview": false
+  },
+  {
+    "id": "fact-use-of-proceeds-section-presence",
+    "category": "proceeds",
+    "label": "Use of Proceeds section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Use of Proceeds section in the filing.",
+    "investorRelevance": "Use of Proceeds is the source for how offering proceeds may be used.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section14useofproceeds-1"
+    ],
+    "sourceQuote": "66",
+    "needsReview": false
+  },
+  {
+    "id": "fact-dilution-section-presence",
+    "category": "dilution",
+    "label": "Dilution section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Dilution section in the filing.",
+    "investorRelevance": "Dilution is the source for new investor ownership economics.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section17dilution-1"
+    ],
+    "sourceQuote": "70",
+    "needsReview": false
+  },
+  {
+    "id": "fact-capitalization-section-presence",
+    "category": "financial",
+    "label": "Capitalization section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Capitalization section in the filing.",
+    "investorRelevance": "Capitalization can show debt, cash, and equity structure around the offering.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section16capitalization-1"
+    ],
+    "sourceQuote": "68",
+    "needsReview": false
+  },
+  {
+    "id": "fact-mda-section-presence",
+    "category": "financial",
+    "label": "MD&A section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a MD&A section in the filing.",
+    "investorRelevance": "MD&A is the source for management's discussion of operating results and liquidity.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section18managementsdiscussionandanalysisoffinancialconditionandresults-1"
+    ],
+    "sourceQuote": "OF OPERATIONS ........................................................................................................................................ 74",
+    "needsReview": false
+  },
+  {
+    "id": "fact-business-section-presence",
+    "category": "business",
+    "label": "Business section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Business section in the filing.",
+    "investorRelevance": "Business is the source for product, market, and operating descriptions.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section20business-1"
+    ],
+    "sourceQuote": "130",
+    "needsReview": false
+  },
+  {
+    "id": "fact-beneficial-ownership-principal-stockholders-section-presence",
+    "category": "governance",
+    "label": "Beneficial Ownership / Principal Stockholders section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Beneficial Ownership / Principal Stockholders section in the filing.",
+    "investorRelevance": "This ownership section is the source for beneficial ownership and control concentration.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section52securityownershipofcertainbeneficialownersandmanagement-1"
+    ],
+    "sourceQuote": "The following table sets forth certain information with respect to the beneficial ownership of our common stock as of May 1, 2026 and as adjusted to give effect to the completion of this offering and transactions related thereto, for: •each person (or group of affiliated persons) known to us to beneficially own more than 5% of any class of our voting securities; •each of our named executive officers and directors; and •all of our executive officers and directors as a group. Unless otherwise indicated, the address of each beneficial owner listed below is c/o Space Exploration Technologies Corp., 1 Rocket Road, Starbase, Texas 78521. The percentage ownership information before this offering sh",
+    "needsReview": false
+  },
+  {
+    "id": "fact-related-party-transactions-section-presence",
+    "category": "related_party",
+    "label": "Related Party Transactions section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Related Party Transactions section in the filing.",
+    "investorRelevance": "Related-party disclosures can matter for governance and conflicts analysis.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section23certainrelationshipsandrelatedpersontransactions-1"
+    ],
+    "sourceQuote": "243 SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT .................... 247",
+    "needsReview": false
+  },
+  {
+    "id": "fact-description-of-capital-stock-section-presence",
+    "category": "governance",
+    "label": "Description of Capital Stock section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Description of Capital Stock section in the filing.",
+    "investorRelevance": "This section is the source for share rights and capital structure terms.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section25descriptionofcapitalstock-1"
+    ],
+    "sourceQuote": "250",
+    "needsReview": false
+  },
+  {
+    "id": "fact-underwriting-section-presence",
+    "category": "offering",
+    "label": "Underwriting section presence",
+    "valueText": "Present",
+    "plainEnglish": "The parser found a Underwriting section in the filing.",
+    "investorRelevance": "Underwriting is the source for distribution mechanics and offering arrangements.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section29underwriting-1"
+    ],
+    "sourceQuote": "264 LEGAL MATTERS .......................................................................................................................................... 277 EXPERTS ......................................................................................................................................................... 277 WHERE YOU CAN FIND ADDITIONAL INFORMATION ........................................................................ 277",
+    "needsReview": false
+  },
+  {
+    "id": "fact-business-summary-candidate",
+    "category": "business",
+    "label": "Business summary candidate",
+    "valueText": "1",
+    "plainEnglish": "The prospectus summary appears to contain the company's own summary of its business.",
+    "investorRelevance": "This should be reviewed before turning it into consumer-facing analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section11prospectussummary-1"
+    ],
+    "sourceQuote": "1",
+    "needsReview": true
+  },
+  {
+    "id": "fact-use-of-proceeds",
+    "category": "proceeds",
+    "label": "Use of proceeds",
+    "valueText": "66",
+    "plainEnglish": "The Use of Proceeds section is present and should be the source for how IPO proceeds may be used.",
+    "investorRelevance": "This is a key offering detail, especially when terms are preliminary or unspecified.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section14useofproceeds-1"
+    ],
+    "sourceQuote": "66",
+    "needsReview": true
+  },
+  {
+    "id": "fact-tickerexchange-candidate",
+    "category": "offering",
+    "label": "Ticker/exchange candidate",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public...",
+    "plainEnglish": "The parser found language that may refer to a ticker or exchange.",
+    "investorRelevance": "Offering terms can change across amendments, so this candidate needs review.",
+    "confidence": "low",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-share-classes-voting-structure-candidate",
+    "category": "governance",
+    "label": "Share classes / voting structure candidate",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The filing appears to describe share classes or voting rights.",
+    "investorRelevance": "Voting structure affects governance and control but requires exact source wording.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-share-voting-or-control-keyword-candidate",
+    "category": "governance",
+    "label": "share, voting, or control keyword candidate",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found source text related to share, voting, or control.",
+    "investorRelevance": "Voting and control language can affect governance analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-debt-or-liquidity-keyword-candidate",
+    "category": "debt",
+    "label": "debt or liquidity keyword candidate",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found source text related to debt or liquidity.",
+    "investorRelevance": "Debt and liquidity language can affect financial-condition analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-relatedparty-keyword-candidate",
+    "category": "related_party",
+    "label": "related-party keyword candidate",
+    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "plainEnglish": "The parser found source text related to related-party.",
+    "investorRelevance": "Related-party language can identify potential governance or conflict disclosures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section36useofproceeds-1"
+    ],
+    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "needsReview": true
+  },
+  {
+    "id": "fact-proceeds-keyword-candidate",
+    "category": "proceeds",
+    "label": "proceeds keyword candidate",
+    "valueText": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition,...",
+    "plainEnglish": "The parser found source text related to proceeds.",
+    "investorRelevance": "Proceeds language is the source for how offering funds may be used.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-13"
+    ],
+    "sourceQuote": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition, each share of Class B common stock will convert automatically into one share of Class A common stock upon a Transfer (as defined in the charter) of that share of Class B common stock, whether or not for value, except for Permitted Transfers (as define",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-keyword-candidate",
+    "category": "dilution",
+    "label": "dilution keyword candidate",
+    "valueText": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve...",
+    "plainEnglish": "The parser found source text related to dilution.",
+    "investorRelevance": "Dilution language helps explain ownership economics for new shares.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-14"
+    ],
+    "sourceQuote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur",
+    "needsReview": true
+  },
+  {
+    "id": "fact-lockup-or-shares-eligible-for-future-sale-keyword-candidate",
+    "category": "lockup",
+    "label": "lockup or shares eligible for future sale keyword candidate",
+    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "plainEnglish": "The parser found source text related to lockup or shares eligible for future sale.",
+    "investorRelevance": "Lockup and future-sale language can affect post-offering share supply.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section36useofproceeds-1"
+    ],
+    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "needsReview": true
+  },
+  {
+    "id": "fact-class-structure-candidate-1",
+    "category": "governance",
+    "label": "class structure candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for class structure.",
+    "investorRelevance": "Class structure affects voting rights and ownership economics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-class-structure-candidate-2",
+    "category": "governance",
+    "label": "class structure candidate 2",
+    "valueText": "PageGLOSSARY OF TERMS .................................................................................................................................ivPROSPECTUS SUMMARY ............................................................................................................................1RISK FACTORS ..............................................................................................................................................",
+    "plainEnglish": "The parser found candidate source text for class structure.",
+    "investorRelevance": "Class structure affects voting rights and ownership economics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section9tableofcontents-1"
+    ],
+    "sourceQuote": "PageGLOSSARY OF TERMS .................................................................................................................................ivPROSPECTUS SUMMARY ............................................................................................................................1RISK FACTORS ..............................................................................................................................................26CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ...........................64USE OF PROCEEDS .......................................................................................................................................66DIVIDE",
+    "needsReview": true
+  },
+  {
+    "id": "fact-class-structure-candidate-3",
+    "category": "governance",
+    "label": "class structure candidate 3",
+    "valueText": "CLASS A COMMON STOCK ..................................................................................................................... 260",
+    "plainEnglish": "The parser found candidate source text for class structure.",
+    "investorRelevance": "Class structure affects voting rights and ownership economics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section27materialusfederalincometaxconsiderationsfornonusholdersof-1"
+    ],
+    "sourceQuote": "CLASS A COMMON STOCK ..................................................................................................................... 260",
+    "needsReview": true
+  },
+  {
+    "id": "fact-voting-power-candidate-1",
+    "category": "governance",
+    "label": "voting power candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for voting power.",
+    "investorRelevance": "Voting-power language is relevant to governance and control analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-voting-power-candidate-2",
+    "category": "governance",
+    "label": "voting power candidate 2",
+    "valueText": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collab...",
+    "plainEnglish": "The parser found candidate source text for voting power.",
+    "investorRelevance": "Voting-power language is relevant to governance and control analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-10"
+    ],
+    "sourceQuote": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collaborate to improve existing models, including Grok, and potentially to jointly develop AI models and related model-specific deliverables or products. With the option agreement, we have the right, but not obligation, to acquire Cursor at a predetermined ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-voting-power-candidate-3",
+    "category": "governance",
+    "label": "voting power candidate 3",
+    "valueText": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is n...",
+    "plainEnglish": "The parser found candidate source text for voting power.",
+    "investorRelevance": "Voting-power language is relevant to governance and control analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-11"
+    ],
+    "sourceQuote": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is not required to have a majority of its board composed of independent directors or to establish independent compensation and nominating committees. As a controlled company, we will remain subject to rules that require us to have an audit committee compo",
+    "needsReview": true
+  },
+  {
+    "id": "fact-controlled-company-candidate-1",
+    "category": "governance",
+    "label": "controlled company candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for controlled company.",
+    "investorRelevance": "Controlled-company language affects governance requirements and board independence context.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-controlled-company-candidate-2",
+    "category": "governance",
+    "label": "controlled company candidate 2",
+    "valueText": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is n...",
+    "plainEnglish": "The parser found candidate source text for controlled company.",
+    "investorRelevance": "Controlled-company language affects governance requirements and board independence context.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-11"
+    ],
+    "sourceQuote": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is not required to have a majority of its board composed of independent directors or to establish independent compensation and nominating committees. As a controlled company, we will remain subject to rules that require us to have an audit committee compo",
+    "needsReview": true
+  },
+  {
+    "id": "fact-founder-or-insider-control-candidate-1",
+    "category": "governance",
+    "label": "founder or insider control candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for founder or insider control.",
+    "investorRelevance": "Founder or insider control language can identify who may influence shareholder votes.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-founder-or-insider-control-candidate-2",
+    "category": "governance",
+    "label": "founder or insider control candidate 2",
+    "valueText": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collab...",
+    "plainEnglish": "The parser found candidate source text for founder or insider control.",
+    "investorRelevance": "Founder or insider control language can identify who may influence shareholder votes.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-10"
+    ],
+    "sourceQuote": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collaborate to improve existing models, including Grok, and potentially to jointly develop AI models and related model-specific deliverables or products. With the option agreement, we have the right, but not obligation, to acquire Cursor at a predetermined ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-founder-or-insider-control-candidate-3",
+    "category": "governance",
+    "label": "founder or insider control candidate 3",
+    "valueText": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is n...",
+    "plainEnglish": "The parser found candidate source text for founder or insider control.",
+    "investorRelevance": "Founder or insider control language can identify who may influence shareholder votes.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-11"
+    ],
+    "sourceQuote": "Musk will control the voting power over the selection of our board. As a result, Mr. Musk will have the power to control 14 Table of Contents the outcome of matters requiring shareholder approval, including election of all our directors, and to control our business and affairs. Our Controlled Company Status We will be a controlled company as of the completion of this offering under Nasdaq and Nasdaq Texas listing rules. A controlled company is not required to have a majority of its board composed of independent directors or to establish independent compensation and nominating committees. As a controlled company, we will remain subject to rules that require us to have an audit committee compo",
+    "needsReview": true
+  },
+  {
+    "id": "fact-beneficial-ownership-candidate-1",
+    "category": "governance",
+    "label": "beneficial ownership candidate 1",
+    "valueText": "243 SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT .................... 247",
+    "plainEnglish": "The parser found candidate source text for beneficial ownership.",
+    "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section23certainrelationshipsandrelatedpersontransactions-1"
+    ],
+    "sourceQuote": "243 SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT .................... 247",
+    "needsReview": true
+  },
+  {
+    "id": "fact-beneficial-ownership-candidate-2",
+    "category": "governance",
+    "label": "beneficial ownership candidate 2",
+    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "plainEnglish": "The parser found candidate source text for beneficial ownership.",
+    "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section36useofproceeds-1"
+    ],
+    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "needsReview": true
+  },
+  {
+    "id": "fact-beneficial-ownership-candidate-3",
+    "category": "governance",
+    "label": "beneficial ownership candidate 3",
+    "valueText": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restricti...",
+    "plainEnglish": "The parser found candidate source text for beneficial ownership.",
+    "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section37dividendpolicy-1"
+    ],
+    "sourceQuote": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter into cre",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-table-candidate-1",
+    "category": "dilution",
+    "label": "dilution table candidate 1",
+    "valueText": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve...",
+    "plainEnglish": "The parser found candidate source text for dilution table.",
+    "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-14"
+    ],
+    "sourceQuote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-table-candidate-2",
+    "category": "dilution",
+    "label": "dilution table candidate 2",
+    "valueText": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering;...",
+    "plainEnglish": "The parser found candidate source text for dilution table.",
+    "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section44capitalization-1"
+    ],
+    "sourceQuote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-table-candidate-3",
+    "category": "dilution",
+    "label": "dilution table candidate 3",
+    "valueText": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,96...",
+    "plainEnglish": "The parser found candidate source text for dilution table.",
+    "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section44capitalization-2"
+    ],
+    "sourceQuote": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,964,501,353 shares issued and 2,882,444,444 shares outstanding, actual; 36,132,150,000 shares authorized, 6,824,581,339 shares issued and outstanding, pro forma; 36,132,150,000 shares authorized, shares issued and outstanding, pro forma as adjusted ....",
+    "needsReview": true
+  },
+  {
+    "id": "fact-public-offering-price-candidate-1",
+    "category": "dilution",
+    "label": "public offering price candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for public offering price.",
+    "investorRelevance": "Offering price language is often preliminary and should be reviewed carefully.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-public-offering-price-candidate-2",
+    "category": "dilution",
+    "label": "public offering price candidate 2",
+    "valueText": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collab...",
+    "plainEnglish": "The parser found candidate source text for public offering price.",
+    "investorRelevance": "Offering price language is often preliminary and should be reviewed carefully.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-10"
+    ],
+    "sourceQuote": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collaborate to improve existing models, including Grok, and potentially to jointly develop AI models and related model-specific deliverables or products. With the option agreement, we have the right, but not obligation, to acquire Cursor at a predetermined ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-general-corporate-purposes-candidate-1",
+    "category": "proceeds",
+    "label": "general corporate purposes candidate 1",
+    "valueText": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition,...",
+    "plainEnglish": "The parser found candidate source text for general corporate purposes.",
+    "investorRelevance": "General corporate purposes language describes broad intended use of proceeds.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-13"
+    ],
+    "sourceQuote": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition, each share of Class B common stock will convert automatically into one share of Class A common stock upon a Transfer (as defined in the charter) of that share of Class B common stock, whether or not for value, except for Permitted Transfers (as define",
+    "needsReview": true
+  },
+  {
+    "id": "fact-general-corporate-purposes-candidate-2",
+    "category": "proceeds",
+    "label": "general corporate purposes candidate 2",
+    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "plainEnglish": "The parser found candidate source text for general corporate purposes.",
+    "investorRelevance": "General corporate purposes language describes broad intended use of proceeds.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section36useofproceeds-1"
+    ],
+    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "needsReview": true
+  },
+  {
+    "id": "fact-debt-repayment-from-proceeds-candidate-1",
+    "category": "proceeds",
+    "label": "debt repayment from proceeds candidate 1",
+    "valueText": "As of March 31, 2026, we have $1,500 million available to borrow under the SpaceX Credit Facility. The cash we generate from our core operations also enables us to fund our research and development projects including our Starship rocket and next-generation satellites, the construction of future data centers, and the continued expansion of our AI-enabled products. In addition, because we expect a significant portion of our future expenditures to...",
+    "plainEnglish": "The parser found candidate source text for debt repayment from proceeds.",
+    "investorRelevance": "Debt repayment language can affect how proceeds are expected to be used.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section47operations-32"
+    ],
+    "sourceQuote": "As of March 31, 2026, we have $1,500 million available to borrow under the SpaceX Credit Facility. The cash we generate from our core operations also enables us to fund our research and development projects including our Starship rocket and next-generation satellites, the construction of future data centers, and the continued expansion of our AI-enabled products. In addition, because we expect a significant portion of our future expenditures to fund growth initiatives, we retain flexibility to adjust spending across segments. For example, if our near-term data center needs decrease in scale or ramp more slowly than expected, including due to global economic, tax, trade or business conditions",
+    "needsReview": true
+  },
+  {
+    "id": "fact-debt-repayment-from-proceeds-candidate-2",
+    "category": "proceeds",
+    "label": "debt repayment from proceeds candidate 2",
+    "valueText": "The SpaceX Bridge Loan bears interest, at the Company’s election, at a rate per annum equal to (i) Term SOFR plus an applicable margin ranging from 0.75%-1.75% (depending on the Company’s debt rating), or (ii) a base rate equal to the highest of (a) the Federal Funds Rate plus 0.5%, (b) the Prime Rate, (c) Term SOFR plus 1.0% and (d) 1.00%, plus an applicable margin ranging from 0.00% to 0.75% (depending on the Company’s debt rating). In additio...",
+    "plainEnglish": "The parser found candidate source text for debt repayment from proceeds.",
+    "investorRelevance": "Debt repayment language can affect how proceeds are expected to be used.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section47operations-33"
+    ],
+    "sourceQuote": "The SpaceX Bridge Loan bears interest, at the Company’s election, at a rate per annum equal to (i) Term SOFR plus an applicable margin ranging from 0.75%-1.75% (depending on the Company’s debt rating), or (ii) a base rate equal to the highest of (a) the Federal Funds Rate plus 0.5%, (b) the Prime Rate, (c) Term SOFR plus 1.0% and (d) 1.00%, plus an applicable margin ranging from 0.00% to 0.75% (depending on the Company’s debt rating). In addition, the Company is obligated to pay duration fees equal to 0.125% of outstanding principal on the first anniversary of closing and 0.25% of outstanding principal on the fifteen-month anniversary of closing. As of March 31, 2026, the Company was in comp",
+    "needsReview": true
+  },
+  {
+    "id": "fact-capex-or-investment-from-proceeds-candidate-1",
+    "category": "proceeds",
+    "label": "capex or investment from proceeds candidate 1",
+    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our C...",
+    "plainEnglish": "The parser found candidate source text for capex or investment from proceeds.",
+    "investorRelevance": "Investment or capex language can describe growth spending needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section8preliminaryprospectus-1"
+    ],
+    "sourceQuote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s",
+    "needsReview": true
+  },
+  {
+    "id": "fact-capex-or-investment-from-proceeds-candidate-2",
+    "category": "proceeds",
+    "label": "capex or investment from proceeds candidate 2",
+    "valueText": "Power; (xiii) Satellite Statistics: Satellite and Debris Population, dated April 2026, by Jonathan McDowell; (xiv) 2026 Global Data Center Outlook: Navigating AI Demand, Power Constraints and Global Opportunities, dated January 5, 2026, by JLL; (xv) Global Ship Tracking Intelligence, at marinetraffic.com, as updated from time to time and last accessed April 13, 2026, by Marine Traffic Dashboard; (xvi) The Cost of Compute: A $7 Trillion Race to S...",
+    "plainEnglish": "The parser found candidate source text for capex or investment from proceeds.",
+    "investorRelevance": "Investment or capex language can describe growth spending needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section33indextofinancialstatements-2"
+    ],
+    "sourceQuote": "Power; (xiii) Satellite Statistics: Satellite and Debris Population, dated April 2026, by Jonathan McDowell; (xiv) 2026 Global Data Center Outlook: Navigating AI Demand, Power Constraints and Global Opportunities, dated January 5, 2026, by JLL; (xv) Global Ship Tracking Intelligence, at marinetraffic.com, as updated from time to time and last accessed April 13, 2026, by Marine Traffic Dashboard; (xvi) The Cost of Compute: A $7 Trillion Race to Scale Data Centers, dated April 28, 2025, by McKinsey & Company; (xvii) What is Multimodal AI?, dated June 10, 2025, by McKinsey & Company; (xviii) NASA: Enabling America on the Space Frontier, dated December 2024, by the National Aeronautics and Space",
+    "needsReview": true
+  },
+  {
+    "id": "fact-capex-or-investment-from-proceeds-candidate-3",
+    "category": "proceeds",
+    "label": "capex or investment from proceeds candidate 3",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found candidate source text for capex or investment from proceeds.",
+    "investorRelevance": "Investment or capex language can describe growth spending needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-lockup-candidate-1",
+    "category": "lockup",
+    "label": "lock-up candidate 1",
+    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "plainEnglish": "The parser found candidate source text for lock-up.",
+    "investorRelevance": "Lock-up language can affect future share supply.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section36useofproceeds-1"
+    ],
+    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "needsReview": true
+  },
+  {
+    "id": "fact-lockup-candidate-2",
+    "category": "lockup",
+    "label": "lock-up candidate 2",
+    "valueText": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restricti...",
+    "plainEnglish": "The parser found candidate source text for lock-up.",
+    "investorRelevance": "Lock-up language can affect future share supply.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section37dividendpolicy-1"
+    ],
+    "sourceQuote": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter into cre",
+    "needsReview": true
+  },
+  {
+    "id": "fact-shares-eligible-for-future-sale-candidate-1",
+    "category": "lockup",
+    "label": "shares eligible for future sale candidate 1",
+    "valueText": "Musk, whether due to death, disability, or otherwise, or his inability or unwillingness to continue in his current roles, could significantly disrupt our management structure, adversely affect our ability to execute our strategic plans, and negatively impact our reputation and relationships with customers, partners, and other stakeholders. Our intense, mission-driven, engineering-first culture has been a key driver of our growth and execution, a...",
+    "plainEnglish": "The parser found candidate source text for shares eligible for future sale.",
+    "investorRelevance": "Future-sale language is relevant to market overhang review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-30"
+    ],
+    "sourceQuote": "Musk, whether due to death, disability, or otherwise, or his inability or unwillingness to continue in his current roles, could significantly disrupt our management structure, adversely affect our ability to execute our strategic plans, and negatively impact our reputation and relationships with customers, partners, and other stakeholders. Our intense, mission-driven, engineering-first culture has been a key driver of our growth and execution, and any erosion of this culture, including as a result of the loss or reduced involvement of Mr. Musk, could have a material adverse effect on our business, financial condition, results of operations, and future prospects. We do not maintain key- perso",
+    "needsReview": true
+  },
+  {
+    "id": "fact-resale-or-selling-stockholder-candidate-1",
+    "category": "lockup",
+    "label": "resale or selling stockholder candidate 1",
+    "valueText": "Musk, whether due to death, disability, or otherwise, or his inability or unwillingness to continue in his current roles, could significantly disrupt our management structure, adversely affect our ability to execute our strategic plans, and negatively impact our reputation and relationships with customers, partners, and other stakeholders. Our intense, mission-driven, engineering-first culture has been a key driver of our growth and execution, a...",
+    "plainEnglish": "The parser found candidate source text for resale or selling stockholder.",
+    "investorRelevance": "Resale or selling-stockholder language can identify possible future supply.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-30"
+    ],
+    "sourceQuote": "Musk, whether due to death, disability, or otherwise, or his inability or unwillingness to continue in his current roles, could significantly disrupt our management structure, adversely affect our ability to execute our strategic plans, and negatively impact our reputation and relationships with customers, partners, and other stakeholders. Our intense, mission-driven, engineering-first culture has been a key driver of our growth and execution, and any erosion of this culture, including as a result of the loss or reduced involvement of Mr. Musk, could have a material adverse effect on our business, financial condition, results of operations, and future prospects. We do not maintain key- perso",
+    "needsReview": true
+  },
+  {
+    "id": "fact-resale-or-selling-stockholder-candidate-2",
+    "category": "lockup",
+    "label": "resale or selling stockholder candidate 2",
+    "valueText": "We believe that the key constraints in the continued growth of AI are physical—chip manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the control of the physical stack. We believe that we are better positioned than other AI companies given our unique control over the full physical stack. We plan to explore other areas of strategic collaboration with Tesla in the future. Collaboration with Cur...",
+    "plainEnglish": "The parser found candidate source text for resale or selling stockholder.",
+    "investorRelevance": "Resale or selling-stockholder language can identify possible future supply.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section48business-12"
+    ],
+    "sourceQuote": "We believe that the key constraints in the continued growth of AI are physical—chip manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the control of the physical stack. We believe that we are better positioned than other AI companies given our unique control over the full physical stack. We plan to explore other areas of strategic collaboration with Tesla in the future. Collaboration with Cursor On April 19, 2026, we entered into a compute agreement with Cursor. Cursor develops and operates an AI-native integrated development environment that enables professional software developers and engineering teams to write, edit, review, and refact",
+    "needsReview": true
+  },
+  {
+    "id": "fact-credit-agreement-candidate-1",
+    "category": "debt",
+    "label": "credit agreement candidate 1",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found candidate source text for credit agreement.",
+    "investorRelevance": "Credit agreement language is relevant to debt and liquidity analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-credit-agreement-candidate-2",
+    "category": "debt",
+    "label": "credit agreement candidate 2",
+    "valueText": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total f...",
+    "plainEnglish": "The parser found candidate source text for credit agreement.",
+    "investorRelevance": "Credit agreement language is relevant to debt and liquidity analysis.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-4"
+    ],
+    "sourceQuote": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total facility power to IT equipment power. viii Table of Contents •“propellant” refers to the chemical substance or combination of substances consumed by a rocket engine to produce thrust by generating high-velocity exhaust gases. •“propulsive landing” refe",
+    "needsReview": true
+  },
+  {
+    "id": "fact-bridge-loan-candidate-1",
+    "category": "debt",
+    "label": "bridge loan candidate 1",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found candidate source text for bridge loan.",
+    "investorRelevance": "Bridge loan language is relevant to near-term debt structure.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-bridge-loan-candidate-2",
+    "category": "debt",
+    "label": "bridge loan candidate 2",
+    "valueText": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total f...",
+    "plainEnglish": "The parser found candidate source text for bridge loan.",
+    "investorRelevance": "Bridge loan language is relevant to near-term debt structure.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-4"
+    ],
+    "sourceQuote": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total facility power to IT equipment power. viii Table of Contents •“propellant” refers to the chemical substance or combination of substances consumed by a rocket engine to produce thrust by generating high-velocity exhaust gases. •“propulsive landing” refe",
+    "needsReview": true
+  },
+  {
+    "id": "fact-indebtedness-candidate-1",
+    "category": "debt",
+    "label": "indebtedness candidate 1",
+    "valueText": "Any such events could result in substantial losses, including reputational harm and legal liability, which could have a material adverse effect on our business. •Although we are focused on the vertical integration of our businesses, we depend on third parties to manufacture and supply certain key components necessary for the provision of our launch, connectivity, and AI 16 Table of Contents services, and any supply shortages or disruptions or fa...",
+    "plainEnglish": "The parser found candidate source text for indebtedness.",
+    "investorRelevance": "Indebtedness language supports debt-risk review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-12"
+    ],
+    "sourceQuote": "Any such events could result in substantial losses, including reputational harm and legal liability, which could have a material adverse effect on our business. •Although we are focused on the vertical integration of our businesses, we depend on third parties to manufacture and supply certain key components necessary for the provision of our launch, connectivity, and AI 16 Table of Contents services, and any supply shortages or disruptions or failures in their performance could have a material adverse effect on our business, financial condition, results of operations, and future prospects. •Our ability to scale our AI products relies on our terrestrial and orbital AI compute infrastructure, ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-indebtedness-candidate-2",
+    "category": "debt",
+    "label": "indebtedness candidate 2",
+    "valueText": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve...",
+    "plainEnglish": "The parser found candidate source text for indebtedness.",
+    "investorRelevance": "Indebtedness language supports debt-risk review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-14"
+    ],
+    "sourceQuote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur",
+    "needsReview": true
+  },
+  {
+    "id": "fact-liquidity-and-capital-resources-candidate-1",
+    "category": "debt",
+    "label": "liquidity and capital resources candidate 1",
+    "valueText": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of St...",
+    "plainEnglish": "The parser found candidate source text for liquidity and capital resources.",
+    "investorRelevance": "Liquidity and capital resources language is relevant to funding needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-2"
+    ],
+    "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-liquidity-and-capital-resources-candidate-2",
+    "category": "debt",
+    "label": "liquidity and capital resources candidate 2",
+    "valueText": "Certain internal and external threat actors, such as nation-states, state-sponsored organizations, organized threat networks and corporate espionage actors, among others have and will continue to sustain malicious activities for extended periods and deploy significant resources to attempt, and in some cases succeed, at causing significant disruptions in, or unauthorized access to, our computer systems or those of third parties that we utilize in...",
+    "plainEnglish": "The parser found candidate source text for liquidity and capital resources.",
+    "investorRelevance": "Liquidity and capital resources language is relevant to funding needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-13"
+    ],
+    "sourceQuote": "Certain internal and external threat actors, such as nation-states, state-sponsored organizations, organized threat networks and corporate espionage actors, among others have and will continue to sustain malicious activities for extended periods and deploy significant resources to attempt, and in some cases succeed, at causing significant disruptions in, or unauthorized access to, our computer systems or those of third parties that we utilize in our operations. Such incidents have in the past and may in the future also disrupt or degrade our ability to design, produce, launch, or manage our products and services, resulting in operational delays, violations of applicable data privacy and 39 T",
+    "needsReview": true
+  },
+  {
+    "id": "fact-liquidity-and-capital-resources-candidate-3",
+    "category": "debt",
+    "label": "liquidity and capital resources candidate 3",
+    "valueText": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restricti...",
+    "plainEnglish": "The parser found candidate source text for liquidity and capital resources.",
+    "investorRelevance": "Liquidity and capital resources language is relevant to funding needs.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section43dividendpolicy-1"
+    ],
+    "sourceQuote": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter into cre",
+    "needsReview": true
+  },
+  {
+    "id": "fact-xai-or-affiliated-entity-candidate-1",
+    "category": "related_party",
+    "label": "xAI or affiliated entity candidate 1",
+    "valueText": "F-1 Neither we nor the underwriters have authorized anyone to provide you with information other than that contained in this prospectus or in any free writing prospectus authorized by us. We and the underwriters take no responsibility for, and can provide no assurance as to the reliability of, any other information that others may give you. We and the underwriters are not making an offer to sell, or seeking offers to buy, our Class A common stoc...",
+    "plainEnglish": "The parser found candidate source text for xai or affiliated entity.",
+    "investorRelevance": "Affiliate references may be relevant to related-party and common-control review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section33indextofinancialstatements-1"
+    ],
+    "sourceQuote": "F-1 Neither we nor the underwriters have authorized anyone to provide you with information other than that contained in this prospectus or in any free writing prospectus authorized by us. We and the underwriters take no responsibility for, and can provide no assurance as to the reliability of, any other information that others may give you. We and the underwriters are not making an offer to sell, or seeking offers to buy, our Class A common stock in any jurisdiction where an offer or sale is not permitted. The information contained in this prospectus or any free writing prospectus is accurate only as of its date, regardless of its time of delivery or of any sale of shares of our Class A comm",
+    "needsReview": true
+  },
+  {
+    "id": "fact-xai-or-affiliated-entity-candidate-2",
+    "category": "related_party",
+    "label": "xAI or affiliated entity candidate 2",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found candidate source text for xai or affiliated entity.",
+    "investorRelevance": "Affiliate references may be relevant to related-party and common-control review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-xai-or-affiliated-entity-candidate-3",
+    "category": "related_party",
+    "label": "xAI or affiliated entity candidate 3",
+    "valueText": "We expect Starship to commence payload delivery to orbit in the second half of 2026. •“Sun-synchronous orbit” refers to a type of polar orbit around a planet in which a satellite passes over any given point of the planet’s surface at the same local mean solar time, allowing for consistent solar energy capture. •“Super Heavy” refers to the reusable first-stage booster for the Starship launch vehicle, powered by 33 Raptor engines. •“SuperGrok” ref...",
+    "plainEnglish": "The parser found candidate source text for xai or affiliated entity.",
+    "investorRelevance": "Affiliate references may be relevant to related-party and common-control review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-5"
+    ],
+    "sourceQuote": "We expect Starship to commence payload delivery to orbit in the second half of 2026. •“Sun-synchronous orbit” refers to a type of polar orbit around a planet in which a satellite passes over any given point of the planet’s surface at the same local mean solar time, allowing for consistent solar energy capture. •“Super Heavy” refers to the reusable first-stage booster for the Starship launch vehicle, powered by 33 Raptor engines. •“SuperGrok” refers to our subscription-based Grok service that provides users with expanded access to Grok models and related tools. •“SuperGrok Heavy” refers to our subscription-based Grok service tier that provides users with expanded access to Grok models and rel",
+    "needsReview": true
+  },
+  {
+    "id": "fact-insider-or-founder-transactions-candidate-1",
+    "category": "related_party",
+    "label": "insider or founder transactions candidate 1",
+    "valueText": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collab...",
+    "plainEnglish": "The parser found candidate source text for insider or founder transactions.",
+    "investorRelevance": "Insider or founder transaction language needs source-level review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section35prospectussummary-10"
+    ],
+    "sourceQuote": "Recent Developments Collaboration with Cursor In April 2026, we entered into a compute and option agreement with Anysphere, Inc., doing business as Cursor, a San Francisco-based private software company (“Cursor”), which we view as a compelling extension of our strategy to vertically integrate compute infrastructure, models, and applications. Under the compute agreement, we will provide Cursor with certain GPU cluster compute capacity and collaborate to improve existing models, including Grok, and potentially to jointly develop AI models and related model-specific deliverables or products. With the option agreement, we have the right, but not obligation, to acquire Cursor at a predetermined ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-insider-or-founder-transactions-candidate-2",
+    "category": "related_party",
+    "label": "insider or founder transactions candidate 2",
+    "valueText": "This concentration of voting power will limit or preclude the ability of holders of our Class A common stock, including purchasers of Class A common stock in this offering, to influence corporate matters and the election of our directors. Upon completion of this offering, Mr. Musk will beneficially own a majority of the outstanding shares of our Class B common stock and a majority of the voting power of the common stock (the Class A common stock...",
+    "plainEnglish": "The parser found candidate source text for insider or founder transactions.",
+    "investorRelevance": "Insider or founder transaction language needs source-level review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-32"
+    ],
+    "sourceQuote": "This concentration of voting power will limit or preclude the ability of holders of our Class A common stock, including purchasers of Class A common stock in this offering, to influence corporate matters and the election of our directors. Upon completion of this offering, Mr. Musk will beneficially own a majority of the outstanding shares of our Class B common stock and a majority of the voting power of the common stock (the Class A common stock and the Class B common stock voting together) and therefore will be able to elect all the members of our board. Mr. Musk, who will serve as our Chief Executive Officer and Chairman of our board under our charter and can only be removed from our board",
+    "needsReview": true
+  },
+  {
+    "id": "fact-insider-or-founder-transactions-candidate-3",
+    "category": "related_party",
+    "label": "insider or founder transactions candidate 3",
+    "valueText": "We believe that the key constraints in the continued growth of AI are physical—chip manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the control of the physical stack. We believe that we are better positioned than other AI companies given our unique control over the full physical stack. We plan to explore other areas of strategic collaboration with Tesla in the future. Collaboration with Cur...",
+    "plainEnglish": "The parser found candidate source text for insider or founder transactions.",
+    "investorRelevance": "Insider or founder transaction language needs source-level review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section48business-12"
+    ],
+    "sourceQuote": "We believe that the key constraints in the continued growth of AI are physical—chip manufacturing, data center infrastructure, and power generation; the future of AI will be determined by the control of the physical stack. We believe that we are better positioned than other AI companies given our unique control over the full physical stack. We plan to explore other areas of strategic collaboration with Tesla in the future. Collaboration with Cursor On April 19, 2026, we entered into a compute agreement with Cursor. Cursor develops and operates an AI-native integrated development environment that enables professional software developers and engineering teams to write, edit, review, and refact",
+    "needsReview": true
+  },
+  {
+    "id": "fact-income-statement-table-candidate-1",
+    "category": "financial",
+    "label": "income statement table candidate 1",
+    "valueText": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statem...",
+    "plainEnglish": "The parser found candidate source text for income statement table.",
+    "investorRelevance": "Income statement table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-2"
+    ],
+    "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
+    "needsReview": true
+  },
+  {
+    "id": "fact-income-statement-table-candidate-2",
+    "category": "financial",
+    "label": "income statement table candidate 2",
+    "valueText": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per s...",
+    "plainEnglish": "The parser found candidate source text for income statement table.",
+    "investorRelevance": "Income statement table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-3"
+    ],
+    "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+    "needsReview": true
+  },
+  {
+    "id": "fact-income-statement-table-candidate-3",
+    "category": "financial",
+    "label": "income statement table candidate 3",
+    "valueText": "In addition, the consumer AI market is characterized by rapid model iteration, frequent new entrants and intense competition for user attention; as a result, download and other usage metrics for any individual AI application, including Grok, can fluctuate significantly (including periods of decreased Grok app downloads and user activity) in response to competitor model releases, product update cycles, and broader shifts in user behavior. As a re...",
+    "plainEnglish": "The parser found candidate source text for income statement table.",
+    "investorRelevance": "Income statement table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-27"
+    ],
+    "sourceQuote": "In addition, the consumer AI market is characterized by rapid model iteration, frequent new entrants and intense competition for user attention; as a result, download and other usage metrics for any individual AI application, including Grok, can fluctuate significantly (including periods of decreased Grok app downloads and user activity) in response to competitor model releases, product update cycles, and broader shifts in user behavior. As a result of these market dynamics, we may need to modify our AI strategy, organizational structure, infrastructure deployment and capital allocation decisions in response to technological change, competitive pressures, regulatory developments or commercia",
+    "needsReview": true
+  },
+  {
+    "id": "fact-balance-sheet-table-candidate-1",
+    "category": "financial",
+    "label": "balance sheet table candidate 1",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "plainEnglish": "The parser found candidate source text for balance sheet table.",
+    "investorRelevance": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-4"
+    ],
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "needsReview": true
+  },
+  {
+    "id": "fact-balance-sheet-table-candidate-2",
+    "category": "financial",
+    "label": "balance sheet table candidate 2",
+    "valueText": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering;...",
+    "plainEnglish": "The parser found candidate source text for balance sheet table.",
+    "investorRelevance": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section44capitalization-1"
+    ],
+    "sourceQuote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-balance-sheet-table-candidate-3",
+    "category": "financial",
+    "label": "balance sheet table candidate 3",
+    "valueText": "Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value as of March 31, 2026 was approximately $ , or $ per share of Class A common stock. Net tangible book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the total...",
+    "plainEnglish": "The parser found candidate source text for balance sheet table.",
+    "investorRelevance": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section45dilution-1"
+    ],
+    "sourceQuote": "Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value as of March 31, 2026 was approximately $ , or $ per share of Class A common stock. Net tangible book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the total number of outstanding shares of all classes of common stock outstanding immediately prior to the completion of this offering. After giving effect to the sale of shares of Class A common stock in this offering, the payment of underwriting discounts and",
+    "needsReview": true
+  },
+  {
+    "id": "fact-cash-flow-table-candidate-1",
+    "category": "financial",
+    "label": "cash flow table candidate 1",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "plainEnglish": "The parser found candidate source text for cash flow table.",
+    "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-4"
+    ],
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "needsReview": true
+  },
+  {
+    "id": "fact-cash-flow-table-candidate-2",
+    "category": "financial",
+    "label": "cash flow table candidate 2",
+    "valueText": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31,Year Ended December 31,(in millions)20262025202520242023Net cash provided by (used in)Operating activities ........................$1,047$727$6,785$5,776$4,520Investing activities .........................$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Financing activities ........................$7,125$354$26,350$11,830$422 Thre...",
+    "plainEnglish": "The parser found candidate source text for cash flow table.",
+    "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section47operations-34"
+    ],
+    "sourceQuote": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31,Year Ended December 31,(in millions)20262025202520242023Net cash provided by (used in)Operating activities ........................$1,047$727$6,785$5,776$4,520Investing activities .........................$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Financing activities ........................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, (in millions) 2026 2025 2025 2024 2023 Net cash provided by (used in) Operating activities ........................ $1,047 $727 $6,785 $5,776 $4,520 Investing activities ......................... $(16,7",
+    "needsReview": true
+  },
+  {
+    "id": "fact-cash-flow-table-candidate-3",
+    "category": "financial",
+    "label": "cash flow table candidate 3",
+    "valueText": "PageSpace Exploration Technologies Corp. Audited Consolidated Financial StatementsReport of Independent Registered Public Accounting Firm ...................................................................F-2Consolidated Balance Sheets as of December 31, 2025 and 2024 ..........................................................F-4Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ......F-5Consolidated State...",
+    "plainEnglish": "The parser found candidate source text for cash flow table.",
+    "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section74indextofinancialstatements-1"
+    ],
+    "sourceQuote": "PageSpace Exploration Technologies Corp. Audited Consolidated Financial StatementsReport of Independent Registered Public Accounting Firm ...................................................................F-2Consolidated Balance Sheets as of December 31, 2025 and 2024 ..........................................................F-4Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ......F-5Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 31, 2025, 2024, and 2023 .....................................................................................................................................F-6Consolidated Statements ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-revenue-candidate-1",
+    "category": "financial",
+    "label": "revenue candidate 1",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found candidate source text for revenue.",
+    "investorRelevance": "Revenue mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-revenue-candidate-2",
+    "category": "financial",
+    "label": "revenue candidate 2",
+    "valueText": "Actual payload that can be delivered for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“launch system” refers to a comprehensive system comprising rockets and associated ground infrastructure used to l...",
+    "plainEnglish": "The parser found candidate source text for revenue.",
+    "investorRelevance": "Revenue mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-3"
+    ],
+    "sourceQuote": "Actual payload that can be delivered for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“launch system” refers to a comprehensive system comprising rockets and associated ground infrastructure used to launch spacecraft and payloads into space. •“launch vehicle” refers to a rocket designed to transport payloads from terrestrial bodies (e.g., Earth, Moon, or Mars) to space or to a designated orbital trajectory. •“LEO satellite constellation” refers to",
+    "needsReview": true
+  },
+  {
+    "id": "fact-net-income-or-loss-candidate-1",
+    "category": "financial",
+    "label": "net income or loss candidate 1",
+    "valueText": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statem...",
+    "plainEnglish": "The parser found candidate source text for net income or loss.",
+    "investorRelevance": "Net income/loss mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-2"
+    ],
+    "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
+    "needsReview": true
+  },
+  {
+    "id": "fact-net-income-or-loss-candidate-2",
+    "category": "financial",
+    "label": "net income or loss candidate 2",
+    "valueText": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per s...",
+    "plainEnglish": "The parser found candidate source text for net income or loss.",
+    "investorRelevance": "Net income/loss mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-3"
+    ],
+    "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
+    "needsReview": true
+  },
+  {
+    "id": "fact-cash-and-cash-equivalents-candidate-1",
+    "category": "financial",
+    "label": "cash and cash equivalents candidate 1",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "plainEnglish": "The parser found candidate source text for cash and cash equivalents.",
+    "investorRelevance": "Cash and cash equivalents mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section39riskfactors-4"
+    ],
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "needsReview": true
+  },
+  {
+    "id": "fact-cash-and-cash-equivalents-candidate-2",
+    "category": "financial",
+    "label": "cash and cash equivalents candidate 2",
+    "valueText": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering;...",
+    "plainEnglish": "The parser found candidate source text for cash and cash equivalents.",
+    "investorRelevance": "Cash and cash equivalents mentions are financial candidates, not final extracted metrics.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section44capitalization-1"
+    ],
+    "sourceQuote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of ",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-section-presence-89",
+    "category": "dilution",
+    "label": "Dilution section presence",
+    "valueText": "Present",
+    "plainEnglish": "The filing includes a Dilution section.",
+    "investorRelevance": "Dilution explains how new investors' ownership economics compare with existing stockholders.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section17dilution-1"
+    ],
+    "sourceQuote": "70",
+    "needsReview": false
+  },
+  {
+    "id": "fact-beneficial-ownership-section-presence",
+    "category": "governance",
+    "label": "Beneficial ownership section presence",
+    "valueText": "Present",
+    "plainEnglish": "The filing includes a beneficial ownership or principal stockholders equivalent section.",
+    "investorRelevance": "This section is the source for ownership concentration analysis.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section52securityownershipofcertainbeneficialownersandmanagement-1"
+    ],
+    "sourceQuote": "The following table sets forth certain information with respect to the beneficial ownership of our common stock as of May 1, 2026 and as adjusted to give effect to the completion of this offering and transactions related thereto, for: •each person (or group of affiliated persons) known to us to beneficially own more than 5% of any class of our voting securities; •each of our named executive officers and directors; and •all of our executive officers and directors as a group. Unless otherwise indicated, the address of each beneficial owner listed below is c/o Space Exploration Technologies Corp., 1 Rocket Road, Starbase, Texas 78521. The percentage ownership information before this offering sh",
+    "needsReview": false
+  },
+  {
+    "id": "fact-relatedparty-transactions-section-presence",
+    "category": "related_party",
+    "label": "Related-party transactions section presence",
+    "valueText": "Present",
+    "plainEnglish": "The filing includes a related-party transactions section.",
+    "investorRelevance": "Related-party disclosures can matter for governance and conflicts analysis.",
+    "confidence": "high",
+    "sourceChunkIds": [
+      "chunk-section23certainrelationshipsandrelatedpersontransactions-1"
+    ],
+    "sourceQuote": "243 SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT .................... 247",
+    "needsReview": false
+  },
+  {
+    "id": "fact-debtliquidity-mention",
+    "category": "debt",
+    "label": "Debt/liquidity mention",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found debt, liquidity, borrowing, or cash-flow language.",
+    "investorRelevance": "This is a candidate source for future liquidity analysis and needs section-level review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  },
+  {
+    "id": "fact-financial-table-candidate",
+    "category": "financial",
+    "label": "Financial table candidate",
+    "valueText": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelli...",
+    "plainEnglish": "The parser found financial-statement-like terms.",
+    "investorRelevance": "This should be cross-checked against extracted table artifacts before presenting exact figures.",
+    "confidence": "low",
+    "sourceChunkIds": [
+      "chunk-section34glossaryofterms-1"
+    ],
+    "sourceQuote": "The terms and abbreviations defined in this section are used throughout this prospectus: •“AI” or “artificial intelligence” refers to advanced computational technologies and systems enabling machines to learn, comprehend reality, solve complex problems, exhibit creativity, make critical decisions, and function with growing autonomy. •“AI compute” or “compute” refers to the computing infrastructure required to train and operate artificial intelligence models, including, without limitation, specialized processors, networking, storage, and power systems deployed in data centers or other computing environments. •“AI compute satellite” refers to a satellite equipped with onboard artificial intell",
+    "needsReview": true
+  }
+]

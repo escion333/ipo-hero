@@ -1,0 +1,115 @@
+{
+  "filingUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+  "accessionNumber": "0001628280-26-036936",
+  "generatedAt": "2026-06-04T19:55:32.174Z",
+  "sourceFileHashes": {
+    "index": "2ec3c2de9423368736e68adfca890487381ed2122b31e772c87b870b1d59ecf2",
+    "mainS1": "15d825479ca2749bdb9874b81fa8cac4af5292595c5d8162c912c344e9e5c533"
+  },
+  "sourceFiles": {
+    "index": {
+      "path": "raw/0001628280-26-036936-index.htm",
+      "sha256": "2ec3c2de9423368736e68adfca890487381ed2122b31e772c87b870b1d59ecf2",
+      "sizeBytes": 40618
+    },
+    "mainS1": {
+      "path": "raw/spaceexplorationtechnologi.htm",
+      "sha256": "15d825479ca2749bdb9874b81fa8cac4af5292595c5d8162c912c344e9e5c533",
+      "sizeBytes": 11847984
+    }
+  },
+  "versions": {
+    "parser": "2026-06-04.3",
+    "sectionExtractor": "section-heuristic-v2",
+    "chunker": "section-aware-v2",
+    "riskExtractor": "risk-splitter-v3",
+    "factExtractor": "deterministic-facts-v3"
+  },
+  "parserVersion": "2026-06-04.3",
+  "sectionExtractorVersion": "section-heuristic-v2",
+  "chunkerVersion": "section-aware-v2",
+  "riskExtractorVersion": "risk-splitter-v3",
+  "factExtractorVersion": "deterministic-facts-v3",
+  "counts": {
+    "documents": 102,
+    "sections": 72,
+    "chunks": 320,
+    "risks": 326,
+    "facts": 94,
+    "tables": 151
+  },
+  "warningsSummary": {
+    "count": 2,
+    "items": [
+      "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
+      "6 duplicate or near-duplicate risk titles detected."
+    ]
+  },
+  "errorsSummary": {
+    "count": 0,
+    "items": []
+  },
+  "generatedArtifactHashes": [
+    {
+      "path": "src/data/generated/documents.json",
+      "sha256": "4f3bd084bb34913ea0679ddfe737b633a4ee71d96cf5f804ca624ccb6202baea",
+      "sizeBytes": 29495
+    },
+    {
+      "path": "src/data/generated/sections.json",
+      "sha256": "d7a63ca101efddfe58c99b4d50e9153591225a44bfb803fb86f6f08524911f08",
+      "sizeBytes": 17186750
+    },
+    {
+      "path": "src/data/generated/chunks.json",
+      "sha256": "512f19b500e9e1a54a4653ce2f5bb1602f001112540d559149dead1730317e65",
+      "sizeBytes": 1797100
+    },
+    {
+      "path": "src/data/generated/facts.generated.json",
+      "sha256": "e95ffc38df020412ed02e540e006f74871e22d5b99d21e017163324d8c185bd3",
+      "sizeBytes": 130994
+    },
+    {
+      "path": "src/data/generated/risks.generated.json",
+      "sha256": "02e1d4e2dfc4ba03c620dba7693ead38759b23b847b378ea93c0e5502614fb2d",
+      "sizeBytes": 759415
+    },
+    {
+      "path": "src/data/generated/facts.json",
+      "sha256": "e95ffc38df020412ed02e540e006f74871e22d5b99d21e017163324d8c185bd3",
+      "sizeBytes": 130994
+    },
+    {
+      "path": "src/data/generated/risks.json",
+      "sha256": "02e1d4e2dfc4ba03c620dba7693ead38759b23b847b378ea93c0e5502614fb2d",
+      "sizeBytes": 759415
+    },
+    {
+      "path": "src/data/generated/tables.json",
+      "sha256": "ed4facdbf7ad4b4dbce59df5de27260c7273f9ebd6ee39fc4bf1a5cc23a11247",
+      "sizeBytes": 5900760
+    },
+    {
+      "path": "src/data/generated/risk-audit.json",
+      "sha256": "ff6e098c973522840615d9e0e9e28348e23a958e99c6982b96900fdd330f9210",
+      "sizeBytes": 142021
+    },
+    {
+      "path": "src/data/generated/extraction-report.json",
+      "sha256": "aa5289da8201dfbc7f1f4738b8f7c60392230db8613a645e59b3201f75ac0eaa",
+      "sizeBytes": 6516
+    },
+    {
+      "path": "src/data/generated/extraction-snapshot.json",
+      "sha256": "8b91fa1d1f12b77a5ee2dd762dab6de8143fa34d1546396a6e0d6e8870116629",
+      "sizeBytes": 561
+    },
+    {
+      "path": "src/data/generated/diagnostics.json",
+      "sha256": "2d67e52c9947ec4188b015ffce58bcda826daa0e8321acf4eb52cb90dd023b3b",
+      "sizeBytes": 360797
+    }
+  ],
+  "generatedDataHash": "74e513f823564041c61c40e4af0d58d605bb5f00882f2f672b7f51d1732f049c"
+}

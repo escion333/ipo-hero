@@ -1,0 +1,921 @@
+[
+  {
+    "id": "1-s1",
+    "sequence": 1,
+    "type": "S-1",
+    "description": "S-1",
+    "filename": "spaceexplorationtechnologi.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+    "localPath": "raw/spaceexplorationtechnologi.htm",
+    "sizeBytes": 11847984
+  },
+  {
+    "id": "2-exfiling-fees",
+    "sequence": 2,
+    "type": "EX-FILING FEES",
+    "description": "",
+    "filename": "exfilingfees.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exfilingfees.htm",
+    "localPath": "raw/exfilingfees.htm"
+  },
+  {
+    "id": "3-ex21",
+    "sequence": 3,
+    "type": "EX-2.1",
+    "description": "EX-2.1",
+    "filename": "exhibit21-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit21-sx1.htm",
+    "localPath": "raw/exhibit21-sx1.htm"
+  },
+  {
+    "id": "4-ex31",
+    "sequence": 4,
+    "type": "EX-3.1",
+    "description": "EX-3.1",
+    "filename": "exhibit31-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit31-sx1.htm",
+    "localPath": "raw/exhibit31-sx1.htm"
+  },
+  {
+    "id": "5-ex32",
+    "sequence": 5,
+    "type": "EX-3.2",
+    "description": "EX-3.2",
+    "filename": "exhibit32-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit32-sx1.htm",
+    "localPath": "raw/exhibit32-sx1.htm"
+  },
+  {
+    "id": "6-ex41",
+    "sequence": 6,
+    "type": "EX-4.1",
+    "description": "EX-4.1",
+    "filename": "exhibit41-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit41-sx1.htm",
+    "localPath": "raw/exhibit41-sx1.htm"
+  },
+  {
+    "id": "7-ex42",
+    "sequence": 7,
+    "type": "EX-4.2",
+    "description": "EX-4.2",
+    "filename": "exhibit42-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit42-sx1.htm",
+    "localPath": "raw/exhibit42-sx1.htm"
+  },
+  {
+    "id": "8-ex51",
+    "sequence": 8,
+    "type": "EX-5.1",
+    "description": "EX-5.1",
+    "filename": "exhibit51-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit51-sx1.htm",
+    "localPath": "raw/exhibit51-sx1.htm"
+  },
+  {
+    "id": "9-ex101",
+    "sequence": 9,
+    "type": "EX-10.1",
+    "description": "EX-10.1",
+    "filename": "exhibit101-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit101-sx1.htm",
+    "localPath": "raw/exhibit101-sx1.htm"
+  },
+  {
+    "id": "10-ex102",
+    "sequence": 10,
+    "type": "EX-10.2",
+    "description": "EX-10.2",
+    "filename": "exhibit102-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit102-sx1.htm",
+    "localPath": "raw/exhibit102-sx1.htm"
+  },
+  {
+    "id": "11-ex103",
+    "sequence": 11,
+    "type": "EX-10.3",
+    "description": "EX-10.3",
+    "filename": "exhibit103-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit103-sx1.htm",
+    "localPath": "raw/exhibit103-sx1.htm"
+  },
+  {
+    "id": "12-ex104",
+    "sequence": 12,
+    "type": "EX-10.4",
+    "description": "EX-10.4",
+    "filename": "exhibit104-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit104-sx1.htm",
+    "localPath": "raw/exhibit104-sx1.htm"
+  },
+  {
+    "id": "13-ex105",
+    "sequence": 13,
+    "type": "EX-10.5",
+    "description": "EX-10.5",
+    "filename": "exhibit105-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit105-sx1.htm",
+    "localPath": "raw/exhibit105-sx1.htm"
+  },
+  {
+    "id": "14-ex106",
+    "sequence": 14,
+    "type": "EX-10.6",
+    "description": "EX-10.6",
+    "filename": "exhibit106-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit106-sx1.htm",
+    "localPath": "raw/exhibit106-sx1.htm"
+  },
+  {
+    "id": "15-ex107",
+    "sequence": 15,
+    "type": "EX-10.7",
+    "description": "EX-10.7",
+    "filename": "exhibit107-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit107-sx1.htm",
+    "localPath": "raw/exhibit107-sx1.htm"
+  },
+  {
+    "id": "16-ex108",
+    "sequence": 16,
+    "type": "EX-10.8",
+    "description": "EX-10.8",
+    "filename": "exhibit108-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit108-sx1.htm",
+    "localPath": "raw/exhibit108-sx1.htm"
+  },
+  {
+    "id": "17-ex109",
+    "sequence": 17,
+    "type": "EX-10.9",
+    "description": "EX-10.9",
+    "filename": "exhibit109-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit109-sx1.htm",
+    "localPath": "raw/exhibit109-sx1.htm"
+  },
+  {
+    "id": "18-ex211",
+    "sequence": 18,
+    "type": "EX-21.1",
+    "description": "EX-21.1",
+    "filename": "exhibit211-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit211-sx1.htm",
+    "localPath": "raw/exhibit211-sx1.htm"
+  },
+  {
+    "id": "19-ex231",
+    "sequence": 19,
+    "type": "EX-23.1",
+    "description": "EX-23.1",
+    "filename": "exhibit231-sx1.htm",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exhibit231-sx1.htm",
+    "localPath": "raw/exhibit231-sx1.htm"
+  },
+  {
+    "id": "20-graphic",
+    "sequence": 20,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a01_business.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a01_business.jpg",
+    "localPath": "raw/a01_business.jpg"
+  },
+  {
+    "id": "21-graphic",
+    "sequence": 21,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a01_frontcover.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a01_frontcover.jpg",
+    "localPath": "raw/a01_frontcover.jpg"
+  },
+  {
+    "id": "22-graphic",
+    "sequence": 22,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a01_mda.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a01_mda.jpg",
+    "localPath": "raw/a01_mda.jpg"
+  },
+  {
+    "id": "23-graphic",
+    "sequence": 23,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a01_starbasetx.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a01_starbasetx.jpg",
+    "localPath": "raw/a01_starbasetx.jpg"
+  },
+  {
+    "id": "24-graphic",
+    "sequence": 24,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a01_united.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a01_united.jpg",
+    "localPath": "raw/a01_united.jpg"
+  },
+  {
+    "id": "25-graphic",
+    "sequence": 25,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_businesstamchart.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_businesstamchart.jpg",
+    "localPath": "raw/a02_businesstamchart.jpg"
+  },
+  {
+    "id": "26-graphic",
+    "sequence": 26,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_elonquoteconnectivity.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_elonquoteconnectivity.jpg",
+    "localPath": "raw/a02_elonquoteconnectivity.jpg"
+  },
+  {
+    "id": "27-graphic",
+    "sequence": 27,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_elonquotexxaia.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_elonquotexxaia.jpg",
+    "localPath": "raw/a02_elonquotexxaia.jpg"
+  },
+  {
+    "id": "28-graphic",
+    "sequence": 28,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_hawthorne.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_hawthorne.jpg",
+    "localPath": "raw/a02_hawthorne.jpg"
+  },
+  {
+    "id": "29-graphic",
+    "sequence": 29,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_imagea.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_imagea.jpg",
+    "localPath": "raw/a02_imagea.jpg"
+  },
+  {
+    "id": "30-graphic",
+    "sequence": 30,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a02_ses.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a02_ses.jpg",
+    "localPath": "raw/a02_ses.jpg"
+  },
+  {
+    "id": "31-graphic",
+    "sequence": 31,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a03_mcgregortexas.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a03_mcgregortexas.jpg",
+    "localPath": "raw/a03_mcgregortexas.jpg"
+  },
+  {
+    "id": "32-graphic",
+    "sequence": 32,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a03_multiplanetarylifeimage.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a03_multiplanetarylifeimage.jpg",
+    "localPath": "raw/a03_multiplanetarylifeimage.jpg"
+  },
+  {
+    "id": "33-graphic",
+    "sequence": 33,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a03_royalcaribbeangroup.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a03_royalcaribbeangroup.jpg",
+    "localPath": "raw/a03_royalcaribbeangroup.jpg"
+  },
+  {
+    "id": "34-graphic",
+    "sequence": 34,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a03_spacestatsa.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a03_spacestatsa.jpg",
+    "localPath": "raw/a03_spacestatsa.jpg"
+  },
+  {
+    "id": "35-graphic",
+    "sequence": 35,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a04_connectivitystatsa.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a04_connectivitystatsa.jpg",
+    "localPath": "raw/a04_connectivitystatsa.jpg"
+  },
+  {
+    "id": "36-graphic",
+    "sequence": 36,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a04_johndeere.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a04_johndeere.jpg",
+    "localPath": "raw/a04_johndeere.jpg"
+  },
+  {
+    "id": "37-graphic",
+    "sequence": 37,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a04_redmondwashington.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a04_redmondwashington.jpg",
+    "localPath": "raw/a04_redmondwashington.jpg"
+  },
+  {
+    "id": "38-graphic",
+    "sequence": 38,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a04_thealgorithm.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a04_thealgorithm.jpg",
+    "localPath": "raw/a04_thealgorithm.jpg"
+  },
+  {
+    "id": "39-graphic",
+    "sequence": 39,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a05_aistats.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a05_aistats.jpg",
+    "localPath": "raw/a05_aistats.jpg"
+  },
+  {
+    "id": "40-graphic",
+    "sequence": 40,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a05_bastroptexas.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a05_bastroptexas.jpg",
+    "localPath": "raw/a05_bastroptexas.jpg"
+  },
+  {
+    "id": "41-graphic",
+    "sequence": 41,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a05_boosterreusabilitychart.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a05_boosterreusabilitychart.jpg",
+    "localPath": "raw/a05_boosterreusabilitychart.jpg"
+  },
+  {
+    "id": "42-graphic",
+    "sequence": 42,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a05_flexport.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a05_flexport.jpg",
+    "localPath": "raw/a05_flexport.jpg"
+  },
+  {
+    "id": "43-graphic",
+    "sequence": 43,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a06_emergencyandhumanitari.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a06_emergencyandhumanitari.jpg",
+    "localPath": "raw/a06_emergencyandhumanitari.jpg"
+  },
+  {
+    "id": "44-graphic",
+    "sequence": 44,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a06_missionstatementa.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a06_missionstatementa.jpg",
+    "localPath": "raw/a06_missionstatementa.jpg"
+  },
+  {
+    "id": "45-graphic",
+    "sequence": 45,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a06_nasakennedyspacecenter.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a06_nasakennedyspacecenter.jpg",
+    "localPath": "raw/a06_nasakennedyspacecenter.jpg"
+  },
+  {
+    "id": "46-graphic",
+    "sequence": 46,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a06_substantialglobalcover.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a06_substantialglobalcover.jpg",
+    "localPath": "raw/a06_substantialglobalcover.jpg"
+  },
+  {
+    "id": "47-graphic",
+    "sequence": 47,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a07_capecanaveralspaceforc.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a07_capecanaveralspaceforc.jpg",
+    "localPath": "raw/a07_capecanaveralspaceforc.jpg"
+  },
+  {
+    "id": "48-graphic",
+    "sequence": 48,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a07_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a07_image.jpg",
+    "localPath": "raw/a07_image.jpg"
+  },
+  {
+    "id": "49-graphic",
+    "sequence": 49,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a08_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a08_image.jpg",
+    "localPath": "raw/a08_image.jpg"
+  },
+  {
+    "id": "50-graphic",
+    "sequence": 50,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a08_vandy.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a08_vandy.jpg",
+    "localPath": "raw/a08_vandy.jpg"
+  },
+  {
+    "id": "51-graphic",
+    "sequence": 51,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a09_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a09_image.jpg",
+    "localPath": "raw/a09_image.jpg"
+  },
+  {
+    "id": "52-graphic",
+    "sequence": 52,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a09_memphisa.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a09_memphisa.jpg",
+    "localPath": "raw/a09_memphisa.jpg"
+  },
+  {
+    "id": "53-graphic",
+    "sequence": 53,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a09_scatterchart.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a09_scatterchart.jpg",
+    "localPath": "raw/a09_scatterchart.jpg"
+  },
+  {
+    "id": "54-graphic",
+    "sequence": 54,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a10_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a10_image.jpg",
+    "localPath": "raw/a10_image.jpg"
+  },
+  {
+    "id": "55-graphic",
+    "sequence": 55,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a10_new16x9embeddedimagefo.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a10_new16x9embeddedimagefo.jpg",
+    "localPath": "raw/a10_new16x9embeddedimagefo.jpg"
+  },
+  {
+    "id": "56-graphic",
+    "sequence": 56,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a10_paloaltoxxxai.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a10_paloaltoxxxai.jpg",
+    "localPath": "raw/a10_paloaltoxxxai.jpg"
+  },
+  {
+    "id": "57-graphic",
+    "sequence": 57,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a11_autonomousspaceportdro.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a11_autonomousspaceportdro.jpg",
+    "localPath": "raw/a11_autonomousspaceportdro.jpg"
+  },
+  {
+    "id": "58-graphic",
+    "sequence": 58,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a11_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a11_image.jpg",
+    "localPath": "raw/a11_image.jpg"
+  },
+  {
+    "id": "59-graphic",
+    "sequence": 59,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a11_ourfleetoflaunchvehicl.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a11_ourfleetoflaunchvehicl.jpg",
+    "localPath": "raw/a11_ourfleetoflaunchvehicl.jpg"
+  },
+  {
+    "id": "60-graphic",
+    "sequence": 60,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a12_falcon9overview.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a12_falcon9overview.jpg",
+    "localPath": "raw/a12_falcon9overview.jpg"
+  },
+  {
+    "id": "61-graphic",
+    "sequence": 61,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a12_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a12_image.jpg",
+    "localPath": "raw/a12_image.jpg"
+  },
+  {
+    "id": "62-graphic",
+    "sequence": 62,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a13_falcon9image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a13_falcon9image.jpg",
+    "localPath": "raw/a13_falcon9image.jpg"
+  },
+  {
+    "id": "63-graphic",
+    "sequence": 63,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a13_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a13_image.jpg",
+    "localPath": "raw/a13_image.jpg"
+  },
+  {
+    "id": "64-graphic",
+    "sequence": 64,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a14_falconheavyoverview.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a14_falconheavyoverview.jpg",
+    "localPath": "raw/a14_falconheavyoverview.jpg"
+  },
+  {
+    "id": "65-graphic",
+    "sequence": 65,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a14_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a14_image.jpg",
+    "localPath": "raw/a14_image.jpg"
+  },
+  {
+    "id": "66-graphic",
+    "sequence": 66,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a15_falconheavyimage.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a15_falconheavyimage.jpg",
+    "localPath": "raw/a15_falconheavyimage.jpg"
+  },
+  {
+    "id": "67-graphic",
+    "sequence": 67,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a15_image.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a15_image.jpg",
+    "localPath": "raw/a15_image.jpg"
+  },
+  {
+    "id": "68-graphic",
+    "sequence": 68,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a16_starman.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a16_starman.jpg",
+    "localPath": "raw/a16_starman.jpg"
+  },
+  {
+    "id": "69-graphic",
+    "sequence": 69,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a17_starshipoverview.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a17_starshipoverview.jpg",
+    "localPath": "raw/a17_starshipoverview.jpg"
+  },
+  {
+    "id": "70-graphic",
+    "sequence": 70,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a18_starshiplandingimage.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a18_starshiplandingimage.jpg",
+    "localPath": "raw/a18_starshiplandingimage.jpg"
+  },
+  {
+    "id": "71-graphic",
+    "sequence": 71,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a19_boostercatch.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a19_boostercatch.jpg",
+    "localPath": "raw/a19_boostercatch.jpg"
+  },
+  {
+    "id": "72-graphic",
+    "sequence": 72,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a20_dragonoverview.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a20_dragonoverview.jpg",
+    "localPath": "raw/a20_dragonoverview.jpg"
+  },
+  {
+    "id": "73-graphic",
+    "sequence": 73,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a21_dragonimage.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a21_dragonimage.jpg",
+    "localPath": "raw/a21_dragonimage.jpg"
+  },
+  {
+    "id": "74-graphic",
+    "sequence": 74,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a22_starlinkv3overview.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a22_starlinkv3overview.jpg",
+    "localPath": "raw/a22_starlinkv3overview.jpg"
+  },
+  {
+    "id": "75-graphic",
+    "sequence": 75,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a23_starlinkuserterminal.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a23_starlinkuserterminal.jpg",
+    "localPath": "raw/a23_starlinkuserterminal.jpg"
+  },
+  {
+    "id": "76-graphic",
+    "sequence": 76,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a26_starlinkenterprise.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a26_starlinkenterprise.jpg",
+    "localPath": "raw/a26_starlinkenterprise.jpg"
+  },
+  {
+    "id": "77-graphic",
+    "sequence": 77,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a27_starlinkmobilesatevolu.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a27_starlinkmobilesatevolu.jpg",
+    "localPath": "raw/a27_starlinkmobilesatevolu.jpg"
+  },
+  {
+    "id": "78-graphic",
+    "sequence": 78,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a28_starlinkmobilecoverage.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a28_starlinkmobilecoverage.jpg",
+    "localPath": "raw/a28_starlinkmobilecoverage.jpg"
+  },
+  {
+    "id": "79-graphic",
+    "sequence": 79,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a30_x.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a30_x.jpg",
+    "localPath": "raw/a30_x.jpg"
+  },
+  {
+    "id": "80-graphic",
+    "sequence": 80,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a31_xgrok.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a31_xgrok.jpg",
+    "localPath": "raw/a31_xgrok.jpg"
+  },
+  {
+    "id": "81-graphic",
+    "sequence": 81,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a33_grok.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a33_grok.jpg",
+    "localPath": "raw/a33_grok.jpg"
+  },
+  {
+    "id": "82-graphic",
+    "sequence": 82,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a34_grokimages.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a34_grokimages.jpg",
+    "localPath": "raw/a34_grokimages.jpg"
+  },
+  {
+    "id": "83-graphic",
+    "sequence": 83,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "a35_keyinfrastructureandfa.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/a35_keyinfrastructureandfa.jpg",
+    "localPath": "raw/a35_keyinfrastructureandfa.jpg"
+  },
+  {
+    "id": "84-graphic",
+    "sequence": 84,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "certificate.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/certificate.jpg",
+    "localPath": "raw/certificate.jpg"
+  },
+  {
+    "id": "85-graphic",
+    "sequence": 85,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "elonquote_xspacea.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/elonquote_xspacea.jpg",
+    "localPath": "raw/elonquote_xspacea.jpg"
+  },
+  {
+    "id": "86-graphic",
+    "sequence": 86,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "logo.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/logo.jpg",
+    "localPath": "raw/logo.jpg"
+  },
+  {
+    "id": "87-graphic",
+    "sequence": 87,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda5a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda5a.jpg",
+    "localPath": "raw/mda5a.jpg"
+  },
+  {
+    "id": "88-graphic",
+    "sequence": 88,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_10b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_10b.jpg",
+    "localPath": "raw/mda_10b.jpg"
+  },
+  {
+    "id": "89-graphic",
+    "sequence": 89,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_1a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_1a.jpg",
+    "localPath": "raw/mda_1a.jpg"
+  },
+  {
+    "id": "90-graphic",
+    "sequence": 90,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_2a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_2a.jpg",
+    "localPath": "raw/mda_2a.jpg"
+  },
+  {
+    "id": "91-graphic",
+    "sequence": 91,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_3a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_3a.jpg",
+    "localPath": "raw/mda_3a.jpg"
+  },
+  {
+    "id": "92-graphic",
+    "sequence": 92,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_4a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_4a.jpg",
+    "localPath": "raw/mda_4a.jpg"
+  },
+  {
+    "id": "93-graphic",
+    "sequence": 93,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_6b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_6b.jpg",
+    "localPath": "raw/mda_6b.jpg"
+  },
+  {
+    "id": "94-graphic",
+    "sequence": 94,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_7b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_7b.jpg",
+    "localPath": "raw/mda_7b.jpg"
+  },
+  {
+    "id": "95-graphic",
+    "sequence": 95,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_8b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_8b.jpg",
+    "localPath": "raw/mda_8b.jpg"
+  },
+  {
+    "id": "96-graphic",
+    "sequence": 96,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "mda_9b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/mda_9b.jpg",
+    "localPath": "raw/mda_9b.jpg"
+  },
+  {
+    "id": "97-graphic",
+    "sequence": 97,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "prospectussummary.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/prospectussummary.jpg",
+    "localPath": "raw/prospectussummary.jpg"
+  },
+  {
+    "id": "98-graphic",
+    "sequence": 98,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "riskfactorscover1b.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/riskfactorscover1b.jpg",
+    "localPath": "raw/riskfactorscover1b.jpg"
+  },
+  {
+    "id": "99-graphic",
+    "sequence": 99,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "spacex_logoxwhite.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spacex_logoxwhite.jpg",
+    "localPath": "raw/spacex_logoxwhite.jpg"
+  },
+  {
+    "id": "100-graphic",
+    "sequence": 100,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "spacexlogo.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spacexlogo.jpg",
+    "localPath": "raw/spacexlogo.jpg"
+  },
+  {
+    "id": "101-graphic",
+    "sequence": 101,
+    "type": "GRAPHIC",
+    "description": "",
+    "filename": "xai_sitexscoutxx19a.jpg",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/xai_sitexscoutxx19a.jpg",
+    "localPath": "raw/xai_sitexscoutxx19a.jpg"
+  },
+  {
+    "id": "113-xml",
+    "sequence": 113,
+    "type": "XML",
+    "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+    "filename": "exfilingfees_htm.xml",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/exfilingfees_htm.xml",
+    "localPath": "raw/exfilingfees_htm.xml"
+  }
+]

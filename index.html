@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- SEO slots — fill per app -->
+    <title>IPO Hero — SpaceX S-1 Analysis Workbench</title>
+    <meta
+      name="description"
+      content="A source-cited workbench for inspecting the SpaceX Form S-1 filing in plain English. No recommendations, scores, or investment advice."
+    />
+
+    <!-- Browser chrome color, per theme -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf8f3" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#11151c" />
+
+    <!-- Open Graph / Twitter slots. Drop an og-image.png (1200×630) in public/. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="IPO Hero — SpaceX S-1 Analysis Workbench" />
+    <meta
+      property="og:description"
+      content="Source-cited, plain-English inspection of the SpaceX Form S-1. No advice or scores."
+    />
+    <meta property="og:image" content="/og-image.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IPO Hero — SpaceX S-1 Analysis Workbench" />
+    <meta
+      name="twitter:description"
+      content="Source-cited, plain-English inspection of the SpaceX Form S-1. No advice or scores."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- No-flash theme: apply the persisted override before first paint.
+         Unset → no class → prefers-color-scheme governs (see styles.css). -->
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "dark" || t === "light")
+          document.documentElement.classList.add(t);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

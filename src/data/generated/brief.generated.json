@@ -1,0 +1,1863 @@
+{
+  "id": "spacex-ipo-filing-brief-v0",
+  "title": "SpaceX IPO Filing Brief",
+  "generatedAt": "2026-06-04T19:56:25.146Z",
+  "filing": {
+    "companyName": "Space Exploration Technologies Corp.",
+    "formType": "S-1",
+    "accessionNumber": "0001628280-26-036936",
+    "filingDate": "2026-05-20",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm"
+  },
+  "disclaimer": "This brief is an educational summary of selected disclosures from the S-1. It is not investment advice, not a recommendation, and not a substitute for reading the prospectus.",
+  "snapshot": {
+    "companyName": "Space Exploration Technologies Corp.",
+    "formType": "S-1",
+    "accessionNumber": "0001628280-26-036936",
+    "filingDate": "2026-05-20",
+    "documentCount": "102",
+    "sectionCount": 72,
+    "chunkCount": 320,
+    "tableCount": 151,
+    "factCount": 94,
+    "fullTextRiskCount": 118,
+    "sourceFilingUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm"
+  },
+  "sections": [
+    {
+      "id": "what-company-does",
+      "title": "What The Company Does",
+      "summary": "Business facts and source chunks provide a plain-English view of the filing's business description.",
+      "items": [
+        {
+          "id": "fact-company-name",
+          "title": "Company name",
+          "body": "The filing identifies Space Exploration Technologies Corp. as the issuer.",
+          "whyItMatters": "This anchors the analysis to the company named in the filing.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-prospectus-summary-section-presence",
+          "title": "Prospectus Summary section presence",
+          "body": "The parser found a Prospectus Summary section in the filing.",
+          "whyItMatters": "The summary is usually the fastest source for the company's own high-level framing.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        },
+        {
+          "id": "fact-business-section-presence",
+          "title": "Business section presence",
+          "body": "The parser found a Business section in the filing.",
+          "whyItMatters": "Business is the source for product, market, and operating descriptions.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section48business-1",
+              "sectionId": "section-48-business",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "“You want to wake up in the morning and think the future is going to be great—and that’s what being a space-faring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.” —Elon Musk Our Mission Our mission is to build the systems and technologies necessary to make life multiplanetary, to understand the true nature of the universe, and to extend the light of consciousness to the stars. To do this, we have formed the most ambitious, vertically integrated innovation engine on (and off) Earth with unmatched capabilities to rapidly manufactu"
+            }
+          ]
+        },
+        {
+          "id": "fact-business-summary-candidate",
+          "title": "Business summary candidate",
+          "body": "The prospectus summary appears to contain the company's own summary of its business.",
+          "whyItMatters": "This should be reviewed before turning it into consumer-facing analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "offering-description",
+      "title": "How The Offering Is Described",
+      "summary": "Offering facts summarize filing metadata and source-backed offering candidates without filling in missing terms.",
+      "items": [
+        {
+          "id": "fact-form-type",
+          "title": "Form type",
+          "body": "The filing metadata records form type as S-1.",
+          "whyItMatters": "This metadata helps keep the source package auditable.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-filing-date",
+          "title": "Filing date",
+          "body": "The filing metadata records filing date as 2026-05-20.",
+          "whyItMatters": "This metadata helps keep the source package auditable.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-accession-number",
+          "title": "Accession number",
+          "body": "The filing metadata records accession number as 0001628280-26-036936.",
+          "whyItMatters": "This metadata helps keep the source package auditable.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-document-count",
+          "title": "Document count",
+          "body": "The filing metadata records document count as 102.",
+          "whyItMatters": "This metadata helps keep the source package auditable.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-underwriting-section-presence",
+          "title": "Underwriting section presence",
+          "body": "The parser found a Underwriting section in the filing.",
+          "whyItMatters": "Underwriting is the source for distribution mechanics and offering arrangements.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section70underwriting-1",
+              "sectionId": "section-70-underwriting",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Under the terms and subject to the conditions in an underwriting agreement dated the date of this prospectus, the underwriters named below, for whom Goldman Sachs & Co. LLC, Morgan Stanley & Co. LLC, BofA Securities, Inc., Citigroup Global Markets Inc. and J.P. Morgan Securities LLC are acting as representatives, have severally agreed to purchase, and we have agreed to sell to them, severally, the number of shares of Class A common stock indicated below: NameNumber of SharesGoldman Sachs & Co. LLC .................................................................................................................Morgan Stanley & Co. LLC ..........................................................."
+            }
+          ]
+        },
+        {
+          "id": "fact-tickerexchange-candidate",
+          "title": "Ticker/exchange candidate",
+          "body": "The parser found language that may refer to a ticker or exchange.",
+          "whyItMatters": "Offering terms can change across amendments, so this candidate needs review.",
+          "confidence": "low",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "use-of-proceeds",
+      "title": "Use Of Proceeds",
+      "summary": "This section uses proceeds facts and source-backed keyword candidates. Candidate uses need review before exact claims are made.",
+      "items": [
+        {
+          "id": "fact-use-of-proceeds-section-presence",
+          "title": "Use of Proceeds section presence",
+          "body": "The parser found a Use of Proceeds section in the filing.",
+          "whyItMatters": "Use of Proceeds is the source for how offering proceeds may be used.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-use-of-proceeds",
+          "title": "Use of proceeds",
+          "body": "The Use of Proceeds section is present and should be the source for how IPO proceeds may be used.",
+          "whyItMatters": "This is a key offering detail, especially when terms are preliminary or unspecified.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-proceeds-keyword-candidate",
+          "title": "proceeds keyword candidate",
+          "body": "The parser found source text related to proceeds.",
+          "whyItMatters": "Proceeds language is the source for how offering funds may be used.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        },
+        {
+          "id": "fact-general-corporate-purposes-candidate-1",
+          "title": "general corporate purposes candidate 1",
+          "body": "The parser found candidate source text for general corporate purposes.",
+          "whyItMatters": "General corporate purposes language describes broad intended use of proceeds.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        },
+        {
+          "id": "fact-general-corporate-purposes-candidate-2",
+          "title": "general corporate purposes candidate 2",
+          "body": "The parser found candidate source text for general corporate purposes.",
+          "whyItMatters": "General corporate purposes language describes broad intended use of proceeds.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-debt-repayment-from-proceeds-candidate-1",
+          "title": "debt repayment from proceeds candidate 1",
+          "body": "The parser found candidate source text for debt repayment from proceeds.",
+          "whyItMatters": "Debt repayment language can affect how proceeds are expected to be used.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section47operations-1",
+              "sectionId": "section-47-operations",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our audited consolidated financial statements and the related notes and other financial information included elsewhere in this prospectus. In addition to historical consolidated financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. You should review the sections titled “Cautionary Note Regarding Forward-Looking Statements” for a discussion of forward-looking statements and “Risk Factors” for a"
+            }
+          ]
+        },
+        {
+          "id": "fact-debt-repayment-from-proceeds-candidate-2",
+          "title": "debt repayment from proceeds candidate 2",
+          "body": "The parser found candidate source text for debt repayment from proceeds.",
+          "whyItMatters": "Debt repayment language can affect how proceeds are expected to be used.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section47operations-1",
+              "sectionId": "section-47-operations",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our audited consolidated financial statements and the related notes and other financial information included elsewhere in this prospectus. In addition to historical consolidated financial information, the following discussion contains forward-looking statements that reflect our plans, estimates, and beliefs. Our actual results could differ materially from those discussed in the forward-looking statements. You should review the sections titled “Cautionary Note Regarding Forward-Looking Statements” for a discussion of forward-looking statements and “Risk Factors” for a"
+            }
+          ]
+        },
+        {
+          "id": "fact-capex-or-investment-from-proceeds-candidate-1",
+          "title": "capex or investment from proceeds candidate 1",
+          "body": "The parser found candidate source text for capex or investment from proceeds.",
+          "whyItMatters": "Investment or capex language can describe growth spending needs.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "financial-snapshot",
+      "title": "Financial Snapshot",
+      "summary": "Financial entries are candidate extractions from sections and tables. Do not treat unreviewed values as finalized metrics.",
+      "items": [
+        {
+          "id": "fact-extracted-table-count",
+          "title": "Extracted table count",
+          "body": "The ingestion run counted table candidates extracted from the S-1 HTML.",
+          "whyItMatters": "Tables are likely sources for financial and capitalization data, but they are not normalized yet.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-capitalization-section-presence",
+          "title": "Capitalization section presence",
+          "body": "The parser found a Capitalization section in the filing.",
+          "whyItMatters": "Capitalization can show debt, cash, and equity structure around the offering.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section44capitalization-1",
+              "sectionId": "section-44-capitalization",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of"
+            }
+          ]
+        },
+        {
+          "id": "fact-mda-section-presence",
+          "title": "MD&A section presence",
+          "body": "The parser found a MD&A section in the filing.",
+          "whyItMatters": "MD&A is the source for management's discussion of operating results and liquidity.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section18managementsdiscussionandanalysisoffinancialconditionandresults-1",
+              "sectionId": "section-18-managementsdiscussionandanalysisoffinancialconditionandresults",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "OF OPERATIONS ........................................................................................................................................ 74"
+            }
+          ]
+        },
+        {
+          "id": "fact-income-statement-table-candidate-1",
+          "title": "income statement table candidate 1",
+          "body": "The parser found candidate source text for income statement table.",
+          "whyItMatters": "Income statement table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-income-statement-table-candidate-2",
+          "title": "income statement table candidate 2",
+          "body": "The parser found candidate source text for income statement table.",
+          "whyItMatters": "Income statement table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-income-statement-table-candidate-3",
+          "title": "income statement table candidate 3",
+          "body": "The parser found candidate source text for income statement table.",
+          "whyItMatters": "Income statement table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-4",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16"
+            }
+          ]
+        },
+        {
+          "id": "fact-balance-sheet-table-candidate-1",
+          "title": "balance sheet table candidate 1",
+          "body": "The parser found candidate source text for balance sheet table.",
+          "whyItMatters": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-4",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16"
+            }
+          ]
+        },
+        {
+          "id": "fact-balance-sheet-table-candidate-2",
+          "title": "balance sheet table candidate 2",
+          "body": "The parser found candidate source text for balance sheet table.",
+          "whyItMatters": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section44capitalization-2",
+              "sectionId": "section-44-capitalization",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,964,501,353 shares issued and 2,882,444,444 shares outstanding, actual; 36,132,150,000 shares authorized, 6,824,581,339 shares issued and outstanding, pro forma; 36,132,150,000 shares authorized, shares issued and outstanding, pro forma as adjusted ...."
+            }
+          ]
+        },
+        {
+          "id": "fact-balance-sheet-table-candidate-3",
+          "title": "balance sheet table candidate 3",
+          "body": "The parser found candidate source text for balance sheet table.",
+          "whyItMatters": "Balance sheet table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section45dilution-1",
+              "sectionId": "section-45-dilution",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value as of March 31, 2026 was approximately $ , or $ per share of Class A common stock. Net tangible book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the total number of outstanding shares of all classes of common stock outstanding immediately prior to the completion of this offering. After giving effect to the sale of shares of Class A common stock in this offering, the payment of underwriting discounts and"
+            }
+          ]
+        },
+        {
+          "id": "fact-cash-flow-table-candidate-1",
+          "title": "cash flow table candidate 1",
+          "body": "The parser found candidate source text for cash flow table.",
+          "whyItMatters": "Cash-flow table candidates should be reviewed before extracting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-4",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "dilution-capitalization",
+      "title": "Dilution And Capitalization",
+      "summary": "Dilution and capitalization disclosures may matter because they frame share economics and capital structure.",
+      "items": [
+        {
+          "id": "fact-dilution-section-presence",
+          "title": "Dilution section presence",
+          "body": "The parser found a Dilution section in the filing.",
+          "whyItMatters": "Dilution is the source for new investor ownership economics.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section45dilution-1",
+              "sectionId": "section-45-dilution",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value as of March 31, 2026 was approximately $ , or $ per share of Class A common stock. Net tangible book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the total number of outstanding shares of all classes of common stock outstanding immediately prior to the completion of this offering. After giving effect to the sale of shares of Class A common stock in this offering, the payment of underwriting discounts and"
+            }
+          ]
+        },
+        {
+          "id": "fact-dilution-keyword-candidate",
+          "title": "dilution keyword candidate",
+          "body": "The parser found source text related to dilution.",
+          "whyItMatters": "Dilution language helps explain ownership economics for new shares.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-dilution-table-candidate-1",
+          "title": "dilution table candidate 1",
+          "body": "The parser found candidate source text for dilution table.",
+          "whyItMatters": "Dilution table candidates need review before presenting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-dilution-table-candidate-2",
+          "title": "dilution table candidate 2",
+          "body": "The parser found candidate source text for dilution table.",
+          "whyItMatters": "Dilution table candidates need review before presenting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section44capitalization-2",
+              "sectionId": "section-44-capitalization",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,964,501,353 shares issued and 2,882,444,444 shares outstanding, actual; 36,132,150,000 shares authorized, 6,824,581,339 shares issued and outstanding, pro forma; 36,132,150,000 shares authorized, shares issued and outstanding, pro forma as adjusted ...."
+            }
+          ]
+        },
+        {
+          "id": "fact-dilution-table-candidate-3",
+          "title": "dilution table candidate 3",
+          "body": "The parser found candidate source text for dilution table.",
+          "whyItMatters": "Dilution table candidates need review before presenting exact figures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section44capitalization-2",
+              "sectionId": "section-44-capitalization",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,964,501,353 shares issued and 2,882,444,444 shares outstanding, actual; 36,132,150,000 shares authorized, 6,824,581,339 shares issued and outstanding, pro forma; 36,132,150,000 shares authorized, shares issued and outstanding, pro forma as adjusted ...."
+            }
+          ]
+        },
+        {
+          "id": "fact-public-offering-price-candidate-1",
+          "title": "public offering price candidate 1",
+          "body": "The parser found candidate source text for public offering price.",
+          "whyItMatters": "Offering price language is often preliminary and should be reviewed carefully.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-public-offering-price-candidate-2",
+          "title": "public offering price candidate 2",
+          "body": "The parser found candidate source text for public offering price.",
+          "whyItMatters": "Offering price language is often preliminary and should be reviewed carefully.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-6",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Since launching Grok-1 in November 2023, we have released four major versions and notable variations thereof, achieving one of the fastest iteration cycles in the industry. Within two years of its initial model release, Grok achieved frontier-level performance in scientific reasoning, as measured by its GPQA Diamond score, an industry benchmark that evaluates AI models on a standardized set of questions written and validated by experts, on a faster timeline than reported by other leading model providers. Building on this trajectory, we expect to continue scaling Grok through subsequent generations. Ongoing training of next‑generation models is expected to scale toward multiple trillions of p"
+            }
+          ]
+        },
+        {
+          "id": "fact-dilution-section-presence-89",
+          "title": "Dilution section presence",
+          "body": "The filing includes a Dilution section.",
+          "whyItMatters": "Dilution explains how new investors' ownership economics compare with existing stockholders.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section45dilution-1",
+              "sectionId": "section-45-dilution",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Purchasers of the Class A common stock in this offering will experience immediate and substantial dilution in the net tangible book value per share of the Class A common stock for accounting purposes. Our net tangible book value as of March 31, 2026 was approximately $ , or $ per share of Class A common stock. Net tangible book value per share is determined by dividing our tangible net worth (tangible assets less total liabilities) by the total number of outstanding shares of all classes of common stock outstanding immediately prior to the completion of this offering. After giving effect to the sale of shares of Class A common stock in this offering, the payment of underwriting discounts and"
+            }
+          ]
+        },
+        {
+          "id": "fact-extracted-table-count",
+          "title": "Extracted table count",
+          "body": "The ingestion run counted table candidates extracted from the S-1 HTML.",
+          "whyItMatters": "Tables are likely sources for financial and capitalization data, but they are not normalized yet.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-capitalization-section-presence",
+          "title": "Capitalization section presence",
+          "body": "The parser found a Capitalization section in the filing.",
+          "whyItMatters": "Capitalization can show debt, cash, and equity structure around the offering.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section44capitalization-1",
+              "sectionId": "section-44-capitalization",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of"
+            }
+          ]
+        },
+        {
+          "id": "fact-mda-section-presence",
+          "title": "MD&A section presence",
+          "body": "The parser found a MD&A section in the filing.",
+          "whyItMatters": "MD&A is the source for management's discussion of operating results and liquidity.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section18managementsdiscussionandanalysisoffinancialconditionandresults-1",
+              "sectionId": "section-18-managementsdiscussionandanalysisoffinancialconditionandresults",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "OF OPERATIONS ........................................................................................................................................ 74"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "control-governance",
+      "title": "Control And Governance",
+      "summary": "Governance facts include ownership, voting, class structure, and control-related source candidates.",
+      "items": [
+        {
+          "id": "fact-beneficial-ownership-principal-stockholders-section-presence",
+          "title": "Beneficial Ownership / Principal Stockholders section presence",
+          "body": "The parser found a Beneficial Ownership / Principal Stockholders section in the filing.",
+          "whyItMatters": "This ownership section is the source for beneficial ownership and control concentration.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section52securityownershipofcertainbeneficialownersandmanagement-2",
+              "sectionId": "section-52-securityownershipofcertainbeneficialownersandmanagement",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The reported amounts include 237,530 shares of Class A common stock pledged as security for personal indebtedness. (2)Includes (i) 2,258,135 shares of Class A common stock and 7,113,550 shares of Class B common stock held of record by Ms. Shotwell, (ii) 1,556,055 shares of Class A common stock held of record by QM GS 2021 Exempt Trust, of which Ms. Shotwell and her spouse serve as trustees, (iii) 1,556,005 shares of Class A common stock held of record by QM RS 2021 Exempt Trust, of which Ms. Shotwell and her spouse serve as trustees, and (iv) 90,205 shares of Class A common stock issuable to Ms. Shotwell upon exercise of options exercisable within 60 days of May 1, 2026. (3)Includes (i) 2,51"
+            }
+          ]
+        },
+        {
+          "id": "fact-description-of-capital-stock-section-presence",
+          "title": "Description of Capital Stock section presence",
+          "body": "The parser found a Description of Capital Stock section in the filing.",
+          "whyItMatters": "This section is the source for share rights and capital structure terms.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section53descriptionofcapitalstock-1",
+              "sectionId": "section-53-descriptionofcapitalstock",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following summary of the Company’s capital stock and charter and bylaws (each as in effect upon completion of this offering) does not purport to be complete and is qualified in its entirety by reference to the provisions of applicable law and to our charter and bylaws, which are filed as exhibits to the registration statement of which this prospectus is a part. To understand the material terms of our common stock and preferred stock, you should read our charter and our bylaws in their entirety. For purposes of this section, the term “common stock” refers to our Class A, Class B, and Class C common stock. General Upon completion of this offering, the authorized capital stock of the Compan"
+            }
+          ]
+        },
+        {
+          "id": "fact-share-classes-voting-structure-candidate",
+          "title": "Share classes / voting structure candidate",
+          "body": "The filing appears to describe share classes or voting rights.",
+          "whyItMatters": "Voting structure affects governance and control but requires exact source wording.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-share-voting-or-control-keyword-candidate",
+          "title": "share, voting, or control keyword candidate",
+          "body": "The parser found source text related to share, voting, or control.",
+          "whyItMatters": "Voting and control language can affect governance analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-class-structure-candidate-1",
+          "title": "class structure candidate 1",
+          "body": "The parser found candidate source text for class structure.",
+          "whyItMatters": "Class structure affects voting rights and ownership economics.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-class-structure-candidate-2",
+          "title": "class structure candidate 2",
+          "body": "The parser found candidate source text for class structure.",
+          "whyItMatters": "Class structure affects voting rights and ownership economics.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section9tableofcontents-1",
+              "sectionId": "section-9-tableofcontents",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "PageGLOSSARY OF TERMS .................................................................................................................................ivPROSPECTUS SUMMARY ............................................................................................................................1RISK FACTORS ..............................................................................................................................................26CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ...........................64USE OF PROCEEDS .......................................................................................................................................66DIVIDE"
+            }
+          ]
+        },
+        {
+          "id": "fact-class-structure-candidate-3",
+          "title": "class structure candidate 3",
+          "body": "The parser found candidate source text for class structure.",
+          "whyItMatters": "Class structure affects voting rights and ownership economics.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section27materialusfederalincometaxconsiderationsfornonusholdersof-1",
+              "sectionId": "section-27-materialusfederalincometaxconsiderationsfornonusholdersof",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "CLASS A COMMON STOCK ..................................................................................................................... 260"
+            }
+          ]
+        },
+        {
+          "id": "fact-voting-power-candidate-1",
+          "title": "voting power candidate 1",
+          "body": "The parser found candidate source text for voting power.",
+          "whyItMatters": "Voting-power language is relevant to governance and control analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-voting-power-candidate-2",
+          "title": "voting power candidate 2",
+          "body": "The parser found candidate source text for voting power.",
+          "whyItMatters": "Voting-power language is relevant to governance and control analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-6",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Since launching Grok-1 in November 2023, we have released four major versions and notable variations thereof, achieving one of the fastest iteration cycles in the industry. Within two years of its initial model release, Grok achieved frontier-level performance in scientific reasoning, as measured by its GPQA Diamond score, an industry benchmark that evaluates AI models on a standardized set of questions written and validated by experts, on a faster timeline than reported by other leading model providers. Building on this trajectory, we expect to continue scaling Grok through subsequent generations. Ongoing training of next‑generation models is expected to scale toward multiple trillions of p"
+            }
+          ]
+        },
+        {
+          "id": "fact-voting-power-candidate-3",
+          "title": "voting power candidate 3",
+          "body": "The parser found candidate source text for voting power.",
+          "whyItMatters": "Voting-power language is relevant to governance and control analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "related-party",
+      "title": "Related-Party And Affiliated Transactions",
+      "summary": "Related-party facts identify source-backed sections and affiliate-related candidates that need careful review.",
+      "items": [
+        {
+          "id": "fact-related-party-transactions-section-presence",
+          "title": "Related Party Transactions section presence",
+          "body": "The parser found a Related Party Transactions section in the filing.",
+          "whyItMatters": "Related-party disclosures can matter for governance and conflicts analysis.",
+          "confidence": "high",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section51certainrelationshipsandrelatedpersontransactions-1",
+              "sectionId": "section-51-certainrelationshipsandrelatedpersontransactions",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The following is a description of certain relationships and transactions that exist, are proposed to exist or have existed or that we have entered into or propose to enter into with our directors, executive officers, holders of more than 5% of our capital stock or their affiliates and immediate family members since January 1, 2023 and where: •we have been or are to be a participant; •the amount involved exceeded or will exceed $120,000; and •any of our directors, executive officers, or holders of more than 5% of our capital stock, or any immediate family member of, or persons sharing their household with, any of these individuals, had or will have a direct or indirect material interest. Note"
+            }
+          ]
+        },
+        {
+          "id": "fact-relatedparty-keyword-candidate",
+          "title": "related-party keyword candidate",
+          "body": "The parser found source text related to related-party.",
+          "whyItMatters": "Related-party language can identify potential governance or conflict disclosures.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-xai-or-affiliated-entity-candidate-1",
+          "title": "xAI or affiliated entity candidate 1",
+          "body": "The parser found candidate source text for xai or affiliated entity.",
+          "whyItMatters": "Affiliate references may be relevant to related-party and common-control review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section33indextofinancialstatements-2",
+              "sectionId": "section-33-indextofinancialstatements",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Power; (xiii) Satellite Statistics: Satellite and Debris Population, dated April 2026, by Jonathan McDowell; (xiv) 2026 Global Data Center Outlook: Navigating AI Demand, Power Constraints and Global Opportunities, dated January 5, 2026, by JLL; (xv) Global Ship Tracking Intelligence, at marinetraffic.com, as updated from time to time and last accessed April 13, 2026, by Marine Traffic Dashboard; (xvi) The Cost of Compute: A $7 Trillion Race to Scale Data Centers, dated April 28, 2025, by McKinsey & Company; (xvii) What is Multimodal AI?, dated June 10, 2025, by McKinsey & Company; (xviii) NASA: Enabling America on the Space Frontier, dated December 2024, by the National Aeronautics and Space"
+            }
+          ]
+        },
+        {
+          "id": "fact-xai-or-affiliated-entity-candidate-2",
+          "title": "xAI or affiliated entity candidate 2",
+          "body": "The parser found candidate source text for xai or affiliated entity.",
+          "whyItMatters": "Affiliate references may be relevant to related-party and common-control review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "fact-xai-or-affiliated-entity-candidate-3",
+          "title": "xAI or affiliated entity candidate 3",
+          "body": "The parser found candidate source text for xai or affiliated entity.",
+          "whyItMatters": "Affiliate references may be relevant to related-party and common-control review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "fact-insider-or-founder-transactions-candidate-1",
+          "title": "insider or founder transactions candidate 1",
+          "body": "The parser found candidate source text for insider or founder transactions.",
+          "whyItMatters": "Insider or founder transaction language needs source-level review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-6",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Since launching Grok-1 in November 2023, we have released four major versions and notable variations thereof, achieving one of the fastest iteration cycles in the industry. Within two years of its initial model release, Grok achieved frontier-level performance in scientific reasoning, as measured by its GPQA Diamond score, an industry benchmark that evaluates AI models on a standardized set of questions written and validated by experts, on a faster timeline than reported by other leading model providers. Building on this trajectory, we expect to continue scaling Grok through subsequent generations. Ongoing training of next‑generation models is expected to scale toward multiple trillions of p"
+            }
+          ]
+        },
+        {
+          "id": "fact-insider-or-founder-transactions-candidate-2",
+          "title": "insider or founder transactions candidate 2",
+          "body": "The parser found candidate source text for insider or founder transactions.",
+          "whyItMatters": "Insider or founder transaction language needs source-level review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-insider-or-founder-transactions-candidate-3",
+          "title": "insider or founder transactions candidate 3",
+          "body": "The parser found candidate source text for insider or founder transactions.",
+          "whyItMatters": "Insider or founder transaction language needs source-level review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section48business-38",
+              "sectionId": "section-48-business",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Establishing a sustained human and industrial presence on the Moon and Mars would require reliable, large-scale energy generation to support habitats, manufacturing, and scientific operations. Potential solutions could include solar power systems, taking advantage of the thin atmosphere, constant solar exposure, and other advanced energy technologies designed to operate in the unique environmental conditions of the Moon and Mars. Over time, we believe that advances in planetary infrastructure may enable manufacturing on the Moon and Mars using locally available resources. In-Orbit Manufacturing. Terrestrial manufacturing is inherently constrained by gravity, which imposes fundamental limitat"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "debt-liquidity",
+      "title": "Debt And Liquidity",
+      "summary": "Debt and liquidity facts flag source-backed mentions of credit, bridge loans, indebtedness, and liquidity language.",
+      "items": [
+        {
+          "id": "fact-debt-or-liquidity-keyword-candidate",
+          "title": "debt or liquidity keyword candidate",
+          "body": "The parser found source text related to debt or liquidity.",
+          "whyItMatters": "Debt and liquidity language can affect financial-condition analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "fact-credit-agreement-candidate-1",
+          "title": "credit agreement candidate 1",
+          "body": "The parser found candidate source text for credit agreement.",
+          "whyItMatters": "Credit agreement language is relevant to debt and liquidity analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "fact-credit-agreement-candidate-2",
+          "title": "credit agreement candidate 2",
+          "body": "The parser found candidate source text for credit agreement.",
+          "whyItMatters": "Credit agreement language is relevant to debt and liquidity analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-4",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total facility power to IT equipment power. viii Table of Contents •“propellant” refers to the chemical substance or combination of substances consumed by a rocket engine to produce thrust by generating high-velocity exhaust gases. •“propulsive landing” refe"
+            }
+          ]
+        },
+        {
+          "id": "fact-bridge-loan-candidate-1",
+          "title": "bridge loan candidate 1",
+          "body": "The parser found candidate source text for bridge loan.",
+          "whyItMatters": "Bridge loan language is relevant to near-term debt structure.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "fact-bridge-loan-candidate-2",
+          "title": "bridge loan candidate 2",
+          "body": "The parser found candidate source text for bridge loan.",
+          "whyItMatters": "Bridge loan language is relevant to near-term debt structure.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-4",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Actual payload capacity for a given mission may be different and will vary depending on numerous mission parameters and operational factors, including mission-specific trajectory requirements, atmospheric conditions, vehicle and payload configuration, risk profile, and applicable regulatory or range-safety limitations. •“Power Usage Effectiveness” refers to the global standard metric for data center efficiency, calculated as the ratio of total facility power to IT equipment power. viii Table of Contents •“propellant” refers to the chemical substance or combination of substances consumed by a rocket engine to produce thrust by generating high-velocity exhaust gases. •“propulsive landing” refe"
+            }
+          ]
+        },
+        {
+          "id": "fact-indebtedness-candidate-1",
+          "title": "indebtedness candidate 1",
+          "body": "The parser found candidate source text for indebtedness.",
+          "whyItMatters": "Indebtedness language supports debt-risk review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        },
+        {
+          "id": "fact-indebtedness-candidate-2",
+          "title": "indebtedness candidate 2",
+          "body": "The parser found candidate source text for indebtedness.",
+          "whyItMatters": "Indebtedness language supports debt-risk review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-liquidity-and-capital-resources-candidate-1",
+          "title": "liquidity and capital resources candidate 1",
+          "body": "The parser found candidate source text for liquidity and capital resources.",
+          "whyItMatters": "Liquidity and capital resources language is relevant to funding needs.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "lockup-overhang",
+      "title": "Lockup And Future Share Overhang",
+      "summary": "Lock-up and future-sale facts identify source-backed mentions that may relate to future share supply.",
+      "items": [
+        {
+          "id": "fact-lockup-or-shares-eligible-for-future-sale-keyword-candidate",
+          "title": "lockup or shares eligible for future sale keyword candidate",
+          "body": "The parser found source text related to lockup or shares eligible for future sale.",
+          "whyItMatters": "Lockup and future-sale language can affect post-offering share supply.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-lockup-candidate-1",
+          "title": "lock-up candidate 1",
+          "body": "The parser found candidate source text for lock-up.",
+          "whyItMatters": "Lock-up language can affect future share supply.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-lockup-candidate-2",
+          "title": "lock-up candidate 2",
+          "body": "The parser found candidate source text for lock-up.",
+          "whyItMatters": "Lock-up language can affect future share supply.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section37dividendpolicy-1",
+              "sectionId": "section-37-dividendpolicy",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter into cre"
+            }
+          ]
+        },
+        {
+          "id": "fact-shares-eligible-for-future-sale-candidate-1",
+          "title": "shares eligible for future sale candidate 1",
+          "body": "The parser found candidate source text for shares eligible for future sale.",
+          "whyItMatters": "Future-sale language is relevant to market overhang review.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-resale-or-selling-stockholder-candidate-1",
+          "title": "resale or selling stockholder candidate 1",
+          "body": "The parser found candidate source text for resale or selling stockholder.",
+          "whyItMatters": "Resale or selling-stockholder language can identify possible future supply.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section39riskfactors-1",
+              "sectionId": "section-39-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "You should carefully read and consider the information set forth in the section titled “Risk Factors” beginning on page 26, together with all of the other information set forth in this prospectus, before deciding whether to invest in our Class A common stock. Listing and trading symbol ..................................... We have applied to list our Class A common stock on Nasdaq and Nasdaq Texas under the symbol “SPCX.” The number of shares of our Class A and Class B common stock that will be outstanding after this offering is based on shares of Class A common stock and shares of Class B common stock outstanding as of March 31, 2026, after giving effect to (i) the sale of shares of Class A"
+            }
+          ]
+        },
+        {
+          "id": "fact-resale-or-selling-stockholder-candidate-2",
+          "title": "resale or selling stockholder candidate 2",
+          "body": "The parser found candidate source text for resale or selling stockholder.",
+          "whyItMatters": "Resale or selling-stockholder language can identify possible future supply.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section48business-38",
+              "sectionId": "section-48-business",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Establishing a sustained human and industrial presence on the Moon and Mars would require reliable, large-scale energy generation to support habitats, manufacturing, and scientific operations. Potential solutions could include solar power systems, taking advantage of the thin atmosphere, constant solar exposure, and other advanced energy technologies designed to operate in the unique environmental conditions of the Moon and Mars. Over time, we believe that advances in planetary infrastructure may enable manufacturing on the Moon and Mars using locally available resources. In-Orbit Manufacturing. Terrestrial manufacturing is inherently constrained by gravity, which imposes fundamental limitat"
+            }
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "key-risk-themes",
+      "title": "Key Risk Themes",
+      "summary": "Representative full-text risk factors are grouped by deterministic category. Suspicious fragments, heading-only records, and table-of-contents entries are excluded from this section.",
+      "items": [
+        {
+          "id": "briefrisk-launchspace-operations-risk32ifanyofthefollowingrisksanduncertaintiesoccurthepriceofourclassac",
+          "title": "launch/space operations: If any of the following risks and uncertainties occur, the price of our Class A common stock could decline, and you could lose part or all of your investment",
+          "body": "The company discloses a risk related to launch/space operations. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-1",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-launchspace-operations-risk33aicomputewhichcouldmateriallyadverselyaffectourbusinessfinancialcondit",
+          "title": "launch/space operations: AI compute, which could materially adversely affect our business, financial condition, results of operations, and future prospects",
+          "body": "The company discloses a risk related to launch/space operations. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-1",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-launchspace-operations-risk34thecommercialdeploymentofstarshipparticularlyatscaleissubjecttosubsta",
+          "title": "launch/space operations: The commercial deployment of Starship, particularly at scale, is subject to substantial risks and uncertainties inherent in the development of new and complex technologies and systems",
+          "body": "The company discloses a risk related to launch/space operations. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-1",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-starlinkconnectivity-risk48ourplanstodeploylargescaleorbitalinfrastructureincludingorbitalaicompu",
+          "title": "Starlink/connectivity: Our plans to deploy large-scale orbital infrastructure, including orbital AI compute systems, will require the operation of very large satellite constellations, potentially numbering up to one million satellites",
+          "body": "The company discloses a risk related to Starlink/connectivity. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-2",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-starlinkconnectivity-risk54oursatelliteconnectivityservicesaresubjecttoextensiveregulationintheu",
+          "title": "Starlink/connectivity: Our satellite connectivity services are subject to extensive regulation in the United States and internationally",
+          "body": "The company discloses a risk related to Starlink/connectivity. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-3",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-starlinkconnectivity-risk56therecanbenoassurancethattheseconditionswillbesatisfiedorwaivedina",
+          "title": "Starlink/connectivity: There can be no assurance that these conditions will be satisfied or waived in a timely manner, or at all",
+          "body": "The company discloses a risk related to Starlink/connectivity. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-3",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-aixai-risk64aideceptionconsumerprotectionandnotificationproductsliabilityintellectua",
+          "title": "AI/xAI: AI deception, consumer protection and notification, products liability, intellectual property infringement or misappropriation, defamation, data privacy, cybersecurity, and sanctions and export controls",
+          "body": "The company discloses a risk related to AI/xAI. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-4",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-aixai-risk66aiistakingplaceatthestatelevel",
+          "title": "AI/xAI: AI is taking place at the state level",
+          "body": "The company discloses a risk related to AI/xAI. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-4",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-aixai-risk73wearesubjecttoongoinglitigationincludingputativeclassactionlawsuitsre",
+          "title": "AI/xAI: We are subject to ongoing litigation, including putative class action lawsuits, relating to such allegations, and we may be subject to additional litigation in the future concerning these types of allegations",
+          "body": "The company discloses a risk related to AI/xAI. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-5",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governmentregulatory-risk85wearealsosubjecttotaxlawsregulationsandpoliciesoftheu",
+          "title": "government/regulatory: We are also subject to tax laws, regulations, and policies of the U",
+          "body": "The company discloses a risk related to government/regulatory. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-5",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governmentregulatory-risk125weexpecttheregulatoryenvironmenttogrowmorecomplicatedwhichmayincrease",
+          "title": "government/regulatory: We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers",
+          "body": "The company discloses a risk related to government/regulatory. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-13",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Certain internal and external threat actors, such as nation-states, state-sponsored organizations, organized threat networks and corporate espionage actors, among others have and will continue to sustain malicious activities for extended periods and deploy significant resources to attempt, and in some cases succeed, at causing significant disruptions in, or unauthorized access to, our computer systems or those of third parties that we utilize in our operations. Such incidents have in the past and may in the future also disrupt or degrade our ability to design, produce, launch, or manage our products and services, resulting in operational delays, violations of applicable data privacy and 39 T"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governmentregulatory-risk160assetseizureinthefuturewhetherinbraziloranothercountryandregardless",
+          "title": "government/regulatory: Asset Seizure in the future (whether in Brazil or another country) and, regardless of whether any such action is consistent with local and international law, we may never recover assets seized in any similar action",
+          "body": "The company discloses a risk related to government/regulatory. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-17",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "For example, in August 2024, Starlink received an order from Brazil’s Supreme Court that froze Starlink’s Brazilian financial assets and prevented Starlink from conducting financial transactions in Brazil (the “Brazil Asset Seizure”). The action taken by the Brazilian Supreme Court arose out of purported violations of Brazilian law by X, which at the time was not owned by us and was only affiliated with Mr. Musk. It is possible that we may be subject to actions like the Brazil Asset Seizure in the future (whether in Brazil or another country) and, regardless of whether any such action is consistent with local and international law, we may never recover assets seized in any similar action. Ad"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-financialcash-flow-risk119ifweareunabletorecruitandretainasufficientnumberoftheseemployeesth",
+          "title": "financial/cash flow: If we are unable to recruit and retain a sufficient number of these employees, then our ability to maintain our competitiveness and grow our business could be negatively affected",
+          "body": "The company discloses a risk related to financial/cash flow. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-11",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Any failure by our suppliers and service providers to meet our cost, quality, volume, or delivery requirements, or any shortage or disruption in the supply of chips, telecommunications services or other components required for our AI segment, could result in service disruption or outages, delay critical data center or network infrastructure upgrades or expansions, impair our ability to train our AI models and meet customer demand for our AI segment products and materially adversely affect our business, financial condition, results of operations and future prospects. We also rely on third-party cloud compute providers for a portion of the compute used for the X platform and may from time to t"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-financialcash-flow-risk130oursubstantiallevelofindebtednesscouldmateriallyadverselyaffectourfina",
+          "title": "financial/cash flow: Our substantial level of indebtedness could materially adversely affect our financial condition",
+          "body": "The company discloses a risk related to financial/cash flow. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-14",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-financialcash-flow-risk131asofmarch312026wehadtotalprincipalindebtednessoutstandingof29132mil",
+          "title": "financial/cash flow: As of March 31, 2026, we had total principal indebtedness outstanding of $29,132 million",
+          "body": "The company discloses a risk related to financial/cash flow. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-14",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-competition-risk272mrmuskandotherbusinessesownedbyoraffiliatedwithhimmaynoworinthef",
+          "title": "competition: Mr. Musk and other businesses owned by or affiliated with him may now, or in the future, directly or indirectly, compete with us for investment or business opportunities",
+          "body": "The company discloses a risk related to competition. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-29",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "A loss that is uninsured or which exceeds policy limits may require us to pay substantial amounts, which may harm our financial condition and operating results. Risks Related to Our Corporate Structure, Ownership of our Class A Common Stock and This Offering Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning among other things, business transactions, potential competitive activities or other business opportunities. Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-competition-risk273mrmuskandhisaffiliatesmaydisposeoftheirinterestsinothercompaniesor",
+          "title": "competition: Mr. Musk and his affiliates may dispose of their interests in other companies or other assets in the future, without any obligation to offer us the opportunity to purchase any of those interests or assets",
+          "body": "The company discloses a risk related to competition. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-29",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "A loss that is uninsured or which exceeds policy limits may require us to pay substantial amounts, which may harm our financial condition and operating results. Risks Related to Our Corporate Structure, Ownership of our Class A Common Stock and This Offering Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning among other things, business transactions, potential competitive activities or other business opportunities. Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governancecontrol-risk31additionalrisksanduncertaintiesthatweareunawareoforthatwecurrentlyb",
+          "title": "governance/control: Additional risks and uncertainties that we are unaware of, or that we currently believe are not material, may also become important factors that adversely affect us",
+          "body": "The company discloses a risk related to governance/control. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-1",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governancecontrol-risk70thesefeaturesareintendedtoprovideuserswithgreaterflexibilityandcontro",
+          "title": "governance/control: These features are intended to provide users with greater flexibility and control in how they use our tools",
+          "body": "The company discloses a risk related to governance/control. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-4",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "If we are unable to obtain, retain, and renew the necessary spectrum rights and service licenses on acceptable terms in each of our target markets, or if regulatory bodies significantly delay our authorizations or impose burdensome requirements, our ability to expand and continue our connectivity services would be jeopardized, which would have a material adverse effect on our business, financial condition, results of operations, and future prospects. Our AI products and X platform are subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, cybersecurity, data use, data combination, data protection, content, AI, competition, youth protection, safety, consumer"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-governancecontrol-risk261asapubliccompanywewillhavesignificantrequirementsforenhancedfinancial",
+          "title": "governance/control: As a public company, we will have significant requirements for enhanced financial reporting and internal controls",
+          "body": "The company discloses a risk related to governance/control. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-28",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In our financial results, we recognize revenue and costs for a majority of customer payloads at the launch or deployment of the customer’s payload to its intended orbit. While we plan launches and schedule payloads in advance, the timing of these launches or deployments may vary and can be delayed or otherwise affected by a number of factors outside of our control, including the customer’s delay in delivering their payload for integration onto the launch vehicle, adverse weather, and other operational considerations. As a result, the timing of revenue recognition may shift between reporting periods. For example, if the launch of a customer’s payload was expected to occur near the end of a re"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-dilutionshare-structure-risk306theabilityofinvestorstorealizeareturnontheirinvestmentwilldependlar",
+          "title": "dilution/share structure: The ability of investors to realize a return on their investment will depend largely on the appreciation of the price of our Class A common stock, as we do not anticipate paying dividends in the foreseeable future",
+          "body": "The company discloses a risk related to dilution/share structure. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-31",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Musk will beneficially own shares of Class A common stock and shares of Class B common stock, which represents greater than 50% of the voting power of our common stock with respect to director elections and moreover, holders of our Class B common stock, voting separately as a class, will be entitled to elect 51% of the total number of authorized directors constituting our board (rounded up to the nearest whole number), following the completion of this offering, we will be a controlled company under the listing rules of Nasdaq and Nasdaq Texas. Under the listing rules of Nasdaq and Nasdaq Texas, a company of which more than 50% of the voting power with respect to director elections is held by"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-legallitigation-risk122certainofourhardwareproductsarenewandrelativelyunproven",
+          "title": "legal/litigation: Certain of our hardware products are new and relatively unproven",
+          "body": "The company discloses a risk related to legal/litigation. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-12",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "From time to time, we have been and may in the future become involved in various legal proceedings relating to a variety of matters, including intellectual property, commercial, regulatory, product liability, employment, personal injury, class action, employee or contractor health and safety, environmental, whistleblower, securities and other litigation and claims, and governmental and other regulatory investigations and proceedings, including tax examinations. Additionally, our share price may be volatile and, in the past, companies that have experienced 38 Table of Contents volatility in the market price of their stock have been subject to securities litigation, including class action liti"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-legallitigation-risk205therearelegislativeproposalsandpendinglitigationintheunitedstateseua",
+          "title": "legal/litigation: There are legislative proposals and pending litigation in the United States, EU, and around the world that could diminish or eliminate safe harbor protection for websites and online platforms",
+          "body": "The company discloses a risk related to legal/litigation. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-22",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We cannot predict future changes in the interpretation of patent, intellectual property and other related laws or changes to patent, intellectual property and other related laws that might be enacted into law by U.S. and foreign legislative bodies. We rely on statutory safe harbors, including those set forth in the Digital Millennium Copyright Act and Section 230 of the Communications Decency Act in the United States and the Digital Services Act in the EU, to protect against liability for various activities, including linking, caching, ranking, recommending and hosting. Legislation or court rulings affecting these safe harbors may harm us and may impose significant operational challenges. Th"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-legallitigation-risk318thetbocandourgoverningdocumentsincludecertainprovisionsthatmaylimito",
+          "title": "legal/litigation: The TBOC and our governing documents include certain provisions that may limit our shareholders’ ability to bring certain derivative claims against our officers and directors",
+          "body": "The company discloses a risk related to legal/litigation. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-32",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This concentration of voting power will limit or preclude the ability of holders of our Class A common stock, including purchasers of Class A common stock in this offering, to influence corporate matters and the election of our directors. Upon completion of this offering, Mr. Musk will beneficially own a majority of the outstanding shares of our Class B common stock and a majority of the voting power of the common stock (the Class A common stock and the Class B common stock voting together) and therefore will be able to elect all the members of our board. Mr. Musk, who will serve as our Chief Executive Officer and Chairman of our board under our charter and can only be removed from our board"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-supply-chainmanufacturing-risk110ourdirectchipsuppliersaredependentonaconcentratedgroupofadvancedsemi",
+          "title": "supply chain/manufacturing: Our direct chip suppliers are dependent on a concentrated group of advanced semiconductor fabrication facilities, or “fabs",
+          "body": "The company discloses a risk related to supply chain/manufacturing. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-10",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In particular, certain materials and products that are key inputs in our Space, Connectivity, and AI segments are available from a limited number of suppliers, including sole or limited-source suppliers, and our direct chip suppliers are dependent on a concentrated group of advanced semiconductor fabrication facilities. For additional information regarding supply chain risk relating to our AI processors, please see “Our ability to scale our AI products relies on our terrestrial and orbital AI compute infrastructure, which depends on the availability of power, AI processors, and other critical components, telecommunications services, and any shortages or disruptions thereof would materially a"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-other-risk92althoughweincorporatecertainradiationhardenedcomponentsshieldingandredun",
+          "title": "other: Although we incorporate certain radiation-hardened components, shielding, and redundancy into our systems, these measures may not be sufficient to prevent material adverse impacts in all scenarios",
+          "body": "The company discloses a risk related to other. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-7",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In addition, the costs associated with developing and deploying our products and services and related platforms, infrastructure and strategic initiatives at scale may exceed our current estimates, including due to inflationary pressures, energy prices, unforeseen engineering complexities, the cost of developing or licensing technologies that are not yet commercially available, competitive dynamics, changes in scope, or the need for additional capital expenditures, contingency reserves or working capital. If we are unable to successfully execute our growth strategy on the anticipated timeline or within our expected cost parameters, our business, financial condition and results of operations c"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-other-risk157theseandotheractionsbyforeigngovernmentswhetherthroughmilitaryregulato",
+          "title": "other: These and other actions by foreign governments, whether through military, regulatory or other means, may adversely affect our operations and assets",
+          "body": "The company discloses a risk related to other. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-16",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "In particular, the timeline for these initiatives, and the launch cadence required to achieve them may be difficult or impossible to determine. These efforts require substantial and ongoing investments of financial, technical, and human resources over extended time horizons, including, but not limited to, research and development, testing, infrastructure, regulatory approvals, and mission execution. The technologies, systems, and operational capabilities required for each of these initiatives involve significant technical complexity and are subject to design, engineering, and performance risks, many of which may only become apparent as development and testing progress. Many of these technolo"
+            }
+          ]
+        },
+        {
+          "id": "briefrisk-other-risk271certainrelationshipsandrelatedpersontransactions",
+          "title": "other: Certain Relationships and Related Person Transactions",
+          "body": "The company discloses a risk related to other. In plain English, this means investors should understand that this disclosure could affect the company's business, financial condition, operating results, or offering economics.",
+          "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-29",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "A loss that is uninsured or which exceeds policy limits may require us to pay substantial amounts, which may harm our financial condition and operating results. Risks Related to Our Corporate Structure, Ownership of our Class A Common Stock and This Offering Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning among other things, business transactions, potential competitive activities or other business opportunities. Conflicts of interest could arise in the future between us, on the one hand, and Mr. Musk and entities owned by or affiliated with him, on the other hand, concerning"
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "No full-text representative risk selected for debt/liquidity.",
+        "No full-text representative risk selected for cybersecurity.",
+        "No full-text representative risk selected for macro/geopolitical."
+      ]
+    },
+    {
+      "id": "needs-human-review",
+      "title": "What Needs Human Review",
+      "summary": "This section lists extraction areas that should be checked before any consumer-facing use.",
+      "items": [
+        {
+          "id": "fact-extracted-risk-factor-count",
+          "title": "Extracted risk factor count",
+          "body": "The ingestion run counted extracted risk factor records.",
+          "whyItMatters": "This count is a parser diagnostic and should be reviewed for possible over-splitting or under-splitting.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-extracted-table-count",
+          "title": "Extracted table count",
+          "body": "The ingestion run counted table candidates extracted from the S-1 HTML.",
+          "whyItMatters": "Tables are likely sources for financial and capitalization data, but they are not normalized yet.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        },
+        {
+          "id": "fact-business-summary-candidate",
+          "title": "Business summary candidate",
+          "body": "The prospectus summary appears to contain the company's own summary of its business.",
+          "whyItMatters": "This should be reviewed before turning it into consumer-facing analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section35prospectussummary-1",
+              "sectionId": "section-35-prospectussummary",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This summary highlights information contained elsewhere in this prospectus. This summary is not complete and does not contain all of the information you should consider before investing in our Class A common stock. You should read this entire prospectus carefully before making an investment decision. You should carefully consider, among other things, the sections titled “Risk Factors,” “Management’s Discussion and Analysis of Financial Condition and Results of Operations,” and our consolidated financial statements and the related notes included elsewhere in this prospectus. Some of the statements in this summary constitute forward-looking statements. Please carefully consider “Cautionary Sta"
+            }
+          ]
+        },
+        {
+          "id": "fact-use-of-proceeds",
+          "title": "Use of proceeds",
+          "body": "The Use of Proceeds section is present and should be the source for how IPO proceeds may be used.",
+          "whyItMatters": "This is a key offering detail, especially when terms are preliminary or unspecified.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section36useofproceeds-1",
+              "sectionId": "section-36-useofproceeds",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca"
+            }
+          ]
+        },
+        {
+          "id": "fact-tickerexchange-candidate",
+          "title": "Ticker/exchange candidate",
+          "body": "The parser found language that may refer to a ticker or exchange.",
+          "whyItMatters": "Offering terms can change across amendments, so this candidate needs review.",
+          "confidence": "low",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-share-classes-voting-structure-candidate",
+          "title": "Share classes / voting structure candidate",
+          "body": "The filing appears to describe share classes or voting rights.",
+          "whyItMatters": "Voting structure affects governance and control but requires exact source wording.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-share-voting-or-control-keyword-candidate",
+          "title": "share, voting, or control keyword candidate",
+          "body": "The parser found source text related to share, voting, or control.",
+          "whyItMatters": "Voting and control language can affect governance analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section8preliminaryprospectus-1",
+              "sectionId": "section-8-preliminaryprospectus",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public market exists for our Class A common stock. We expect the initial public offering price to be between $ and $ per share. We have applied to list our Class A common stock on The Nasdaq Stock Market LLC (“Nasdaq”) and Nasdaq Texas, Inc. (“Nasdaq Texas”) under the symbol “SPCX.” Following the completion of this offering, we will have two classes of common stock issued and outstanding: Class A common s"
+            }
+          ]
+        },
+        {
+          "id": "fact-debt-or-liquidity-keyword-candidate",
+          "title": "debt or liquidity keyword candidate",
+          "body": "The parser found source text related to debt or liquidity.",
+          "whyItMatters": "Debt and liquidity language can affect financial-condition analysis.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-section34glossaryofterms-2",
+              "sectionId": "section-34-glossaryofterms",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "This may include posts generated by AI or accounts managed by AI. •“downlink capacity” refers to the maximum rate at which data can be transmitted from a satellite to users over a network or communication link in a given period of time. •“Draco thrusters” refers to thrusters used in Dragon spacecraft for precise orbital maneuvering and adjustments. •“Dragon” refers to our Dragon spacecraft. •“Falcon 1” refers to our two-stage, liquid-fueled small-lift launch vehicle that operated from 2006 to 2009. •“Falcon 9” refers to our orbital-class rocket with reusable boosters, first launched in 2010, which has a payload capacity to LEO of approximately 23 metric tons. •“Falcon Heavy” refers to our pa"
+            }
+          ]
+        },
+        {
+          "id": "review-suspicious-risks",
+          "title": "Suspicious risk extraction summary",
+          "body": "208 risk records were excluded from the main risk theme section because they were classified as fragments, heading-only records, table-of-contents entries, or unknown type.",
+          "whyItMatters": "These records remain auditable, but they should not be treated as clean full-text risk factors until reviewed.",
+          "confidence": "medium",
+          "needsReview": true,
+          "citations": [
+            {
+              "chunkId": "chunk-sectiondocumentpreamble-1",
+              "sectionId": "section-document-preamble",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "As filed with the U.S. Securities and Exchange Commission on May 20, 2026 Registration No. 333- UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, DC 20549 FORM S-1 REGISTRATION STATEMENT"
+            }
+          ]
+        }
+      ],
+      "warnings": [
+        "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
+        "6 duplicate or near-duplicate risk titles detected."
+      ]
+    }
+  ],
+  "diagnostics": {
+    "generatedFactCount": 94,
+    "reviewedFactCount": 0,
+    "generatedRiskCount": 326,
+    "reviewedRiskCount": 0,
+    "fullTextRiskCount": 118,
+    "excludedSuspiciousRiskCount": 208,
+    "warnings": [
+      "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
+      "6 duplicate or near-duplicate risk titles detected."
+    ]
+  }
+}

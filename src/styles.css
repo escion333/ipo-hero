@@ -1,0 +1,464 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Manual override hook: `dark:` utilities apply under an explicit .dark class.
+   The default (no class) follows the OS via prefers-color-scheme below. */
+@custom-variant dark (&:is(.dark *));
+
+/* ----------------------------------------------------------------------------
+   Design tokens — the single source of truth. Nothing in markup is a magic
+   number; every axis has a named scale here. Theme-varying values live as
+   plain custom properties (swapped per theme), then are mapped into Tailwind's
+   utility namespaces via `@theme inline` at the bottom.
+---------------------------------------------------------------------------- */
+:root {
+  /* Radii (one scale; --radius drives the rest) */
+  --radius: 0.5rem;
+
+  /* Color — semantic only (light theme) */
+  --background: hsl(42 33% 98%);
+  --foreground: hsl(222 29% 13%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(222 29% 13%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(222 29% 13%);
+  --primary: hsl(218 68% 34%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(42 25% 94%);
+  --secondary-foreground: hsl(222 29% 13%);
+  --muted: hsl(42 25% 94%);
+  --muted-foreground: hsl(220 10% 42%);
+  --accent: hsl(42 25% 94%);
+  --accent-foreground: hsl(218 68% 34%);
+  --destructive: hsl(0 72% 42%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --good: hsl(146 47% 32%);
+  --good-foreground: hsl(0 0% 100%);
+  --warn: hsl(30 81% 37%);
+  --warn-foreground: hsl(0 0% 100%);
+  --border: hsl(38 18% 82%);
+  --input: hsl(38 18% 82%);
+  --ring: hsl(218 68% 34%);
+
+  /* Data-viz ramp (reserved for charts/tables) */
+  --chart-1: hsl(218 68% 40%);
+  --chart-2: hsl(146 47% 38%);
+  --chart-3: hsl(30 81% 45%);
+  --chart-4: hsl(280 45% 50%);
+  --chart-5: hsl(190 60% 38%);
+
+  /* Elevation */
+  --shadow-panel: 0 1px 2px hsl(222 29% 13% / 0.08);
+  --shadow-overlay: 0 12px 32px hsl(222 29% 13% / 0.18);
+
+  /* Motion — durations + easings, always paired with reduced-motion below */
+  --duration-fast: 120ms;
+  --duration-base: 200ms;
+  --duration-slow: 320ms;
+  --ease-emphasized: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Z-index — named layers so they can't fight each other */
+  --z-sticky: 100;
+  --z-overlay: 200;
+  --z-tooltip: 300;
+}
+
+/* Dark theme — auto (follows OS) unless an explicit .light class opts out. */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --background: hsl(222 27% 9%);
+    --foreground: hsl(40 26% 94%);
+    --card: hsl(222 22% 13%);
+    --card-foreground: hsl(40 26% 94%);
+    --popover: hsl(222 22% 13%);
+    --popover-foreground: hsl(40 26% 94%);
+    --primary: hsl(211 78% 65%);
+    --primary-foreground: hsl(222 27% 9%);
+    --secondary: hsl(222 18% 18%);
+    --secondary-foreground: hsl(40 26% 94%);
+    --muted: hsl(222 18% 18%);
+    --muted-foreground: hsl(220 11% 67%);
+    --accent: hsl(222 18% 18%);
+    --accent-foreground: hsl(211 78% 65%);
+    --destructive: hsl(0 72% 58%);
+    --destructive-foreground: hsl(0 0% 100%);
+    --good: hsl(145 52% 55%);
+    --good-foreground: hsl(222 27% 9%);
+    --warn: hsl(34 86% 62%);
+    --warn-foreground: hsl(222 27% 9%);
+    --border: hsl(222 15% 28%);
+    --input: hsl(222 15% 28%);
+    --ring: hsl(211 78% 65%);
+    --chart-1: hsl(211 78% 65%);
+    --chart-2: hsl(145 52% 55%);
+    --chart-3: hsl(34 86% 62%);
+    --chart-4: hsl(280 55% 70%);
+    --chart-5: hsl(190 65% 55%);
+    --shadow-panel: 0 1px 2px hsl(0 0% 0% / 0.4);
+    --shadow-overlay: 0 12px 32px hsl(0 0% 0% / 0.5);
+  }
+}
+
+/* Manual override — explicit dark, regardless of OS. */
+.dark {
+  --background: hsl(222 27% 9%);
+  --foreground: hsl(40 26% 94%);
+  --card: hsl(222 22% 13%);
+  --card-foreground: hsl(40 26% 94%);
+  --popover: hsl(222 22% 13%);
+  --popover-foreground: hsl(40 26% 94%);
+  --primary: hsl(211 78% 65%);
+  --primary-foreground: hsl(222 27% 9%);
+  --secondary: hsl(222 18% 18%);
+  --secondary-foreground: hsl(40 26% 94%);
+  --muted: hsl(222 18% 18%);
+  --muted-foreground: hsl(220 11% 67%);
+  --accent: hsl(222 18% 18%);
+  --accent-foreground: hsl(211 78% 65%);
+  --destructive: hsl(0 72% 58%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --good: hsl(145 52% 55%);
+  --good-foreground: hsl(222 27% 9%);
+  --warn: hsl(34 86% 62%);
+  --warn-foreground: hsl(222 27% 9%);
+  --border: hsl(222 15% 28%);
+  --input: hsl(222 15% 28%);
+  --ring: hsl(211 78% 65%);
+  --chart-1: hsl(211 78% 65%);
+  --chart-2: hsl(145 52% 55%);
+  --chart-3: hsl(34 86% 62%);
+  --chart-4: hsl(280 55% 70%);
+  --chart-5: hsl(190 65% 55%);
+  --shadow-panel: 0 1px 2px hsl(0 0% 0% / 0.4);
+  --shadow-overlay: 0 12px 32px hsl(0 0% 0% / 0.5);
+}
+
+/* Map tokens into Tailwind's utility namespaces (bg-surface, text-muted-foreground,
+   rounded-md, shadow-panel, etc.). `inline` so utilities resolve the live var. */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-good: var(--good);
+  --color-good-foreground: var(--good-foreground);
+  --color-warn: var(--warn);
+  --color-warn-foreground: var(--warn-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Radii scale derived from --radius */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  /* Elevation */
+  --shadow-panel: var(--shadow-panel);
+  --shadow-overlay: var(--shadow-overlay);
+
+  /* Typography — fixed family + tracking scale (sizes use Tailwind's scale) */
+  --font-sans:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --tracking-eyebrow: 0.08em;
+
+  /* Motion */
+  --ease-emphasized: var(--ease-emphasized);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    color-scheme: light dark;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+
+  :where(button, a, input, select):focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  /* Honor reduced-motion for every animation/transition globally. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* ----------------------------------------------------------------------------
+   Legacy layout classes — kept so the current App renders during the shadcn
+   migration. These reference the tokens above (no raw literals) and are
+   retired as views are rebuilt with shadcn components + utility classes.
+---------------------------------------------------------------------------- */
+.app-shell {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-header,
+.risk-toolbar,
+.search-box,
+.section-title,
+.chunk-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.page-header {
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.25rem;
+  color: var(--primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  font-size: 0.78rem;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.lede,
+.muted-text,
+.chunk-meta,
+.summary-card span,
+.section-button small {
+  color: var(--muted-foreground);
+}
+
+.source-link {
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.summary-card,
+.panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-panel);
+}
+
+.summary-card {
+  padding: 1rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.panel {
+  padding: 1rem;
+}
+
+.warnings-panel {
+  margin-bottom: 1rem;
+}
+
+.workbench-grid {
+  display: grid;
+  grid-template-columns: minmax(260px, 360px) minmax(0, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section-browser,
+.source-viewer {
+  max-height: 720px;
+  overflow: auto;
+}
+
+.section-list,
+.risk-list,
+.brief-stack {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.tab-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tab-button {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  color: var(--color-foreground);
+  padding: 0.65rem 0.9rem;
+  cursor: pointer;
+}
+
+.tab-button.is-active {
+  border-color: var(--color-primary);
+  background: var(--color-surface-muted);
+}
+
+.citation-detail {
+  border-top: 1px solid var(--color-border);
+  padding-top: 0.5rem;
+}
+
+.section-button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--foreground);
+  padding: 0.75rem;
+  display: grid;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+.section-button.is-active {
+  border-color: var(--primary);
+  background: var(--secondary);
+}
+
+.chunk,
+.risk-item {
+  border-top: 1px solid var(--border);
+  padding-top: 1rem;
+}
+
+.chunk p,
+.risk-item p,
+td {
+  line-height: 1.6;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 840px;
+}
+
+th,
+td {
+  border-top: 1px solid var(--border);
+  padding: 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+select,
+input {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--foreground);
+  padding: 0.55rem 0.7rem;
+}
+
+label {
+  display: grid;
+  gap: 0.25rem;
+  color: var(--muted-foreground);
+}
+
+.risk-toolbar {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.empty-state {
+  padding: 1rem;
+  background: var(--secondary);
+  border-radius: var(--radius);
+}
+
+@media (max-width: 820px) {
+  .app-shell {
+    padding: 1rem;
+  }
+
+  .page-header,
+  .workbench-grid,
+  .risk-toolbar {
+    display: grid;
+  }
+
+  .workbench-grid {
+    grid-template-columns: 1fr;
+  }
+}

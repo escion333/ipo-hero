@@ -17,4 +17,6 @@ jobs:
       - run: npm ci
       - run: npm run lint
       - run: npm run typecheck
+      - run: npm run validate:data
+      - run: npm run validate:brief
       - run: npm run build

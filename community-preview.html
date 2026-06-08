@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPO Hero — Community Preview</title>
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "dark" || t === "light")
+          document.documentElement.classList.add(t);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="community-preview-root"></div>
+    <script type="module" src="/src/community-preview.tsx"></script>
+  </body>
+</html>

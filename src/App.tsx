@@ -1,5 +1,6 @@
 import { AlertTriangle, ExternalLink, FileText, Search } from "lucide-react";
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { Badge } from "./components/ui/badge";
 import { ThemeToggle } from "./components/theme/theme-toggle";
 import { filingData } from "./lib/filing-data";
@@ -12,7 +13,7 @@ function App() {
   const [selectedSectionId, setSelectedSectionId] = useState(filingData.sections[0]?.id ?? "");
   const [riskCategory, setRiskCategory] = useState("all");
   const [query, setQuery] = useState("");
-  const [viewMode, setViewMode] = useState<ViewMode>("brief");
+  const [viewMode, setViewMode] = useState<ViewMode>("workbench");
   const state: LoadState = filingData.report.errors.length > 0 ? "error" : filingData.sections.length === 0 ? "empty" : "success";
 
   const riskCategories = useMemo(() => ["all", ...new Set(filingData.risks.map((risk) => risk.category))], []);
@@ -27,11 +28,17 @@ function App() {
     <main className="app-shell">
       <header className="page-header">
         <div>
-          <p className="eyebrow">IPO Hero</p>
+          <p className="eyebrow">IPO Hero · Reviewer / QA</p>
           <h1>SpaceX S-1 analysis workbench</h1>
           <p className="lede">Source-cited ingestion outputs for a single SEC filing. No recommendations, scores, or investment advice.</p>
         </div>
         <div className="flex items-center gap-2">
+          <Link className="source-link" to="/" aria-label="Back to reader brief">
+            ← Reader Brief
+          </Link>
+          <Link className="source-link" to="/forums" aria-label="Open community forums">
+            Forums
+          </Link>
           <a className="source-link" href={filingData.report.filingUrl} target="_blank" rel="noreferrer" aria-label="Open SEC filing source">
             SEC source <ExternalLink size={16} aria-hidden="true" />
           </a>

@@ -2,6 +2,7 @@ import { AlertTriangle, ExternalLink, FileText, Search } from "lucide-react";
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "./components/ui/badge";
+import { SpacexPriceTicker } from "./components/spacex-price-ticker";
 import { ThemeToggle } from "./components/theme/theme-toggle";
 import { filingData } from "./lib/filing-data";
 import { formatNumber, titleCase } from "./lib/format";
@@ -33,6 +34,7 @@ function App() {
           <p className="lede">Source-cited ingestion outputs for a single SEC filing. No recommendations, scores, or investment advice.</p>
         </div>
         <div className="flex items-center gap-2">
+          <SpacexPriceTicker />
           <Link className="source-link" to="/" aria-label="Back to reader brief">
             ← Reader Brief
           </Link>

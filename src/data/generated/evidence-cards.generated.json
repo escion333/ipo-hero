@@ -731,6 +731,159 @@
     "qualityWarnings": []
   },
   {
+    "id": "evidence-risk-spacex-has-incurred-large-recurring-net-losses-and-warns-it-may-continue-to-do-s",
+    "topic": "risk",
+    "title": "SpaceX has incurred large recurring net losses and warns it may continue to do so.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-27"
+    ],
+    "sourceQuote": "We incurred net losses of $(4,937) million and $(4,628) million for the years ended December 31, 2025 and 2023, respectively, and a net loss of $(4,276) million for the three months ended March 31, 2026. We may not achieve or, if achieved, sustain profitability in the future. As of March 31, 2026, we had an accumulated deficit of $41,311 million. While we have experienced significant growth in revenue over the last three years, we cannot predict whether we will maintain this level of growth or when we will achieve profitability again.",
+    "extractedText": "Net losses of $4,937 million (2025), $4,628 million (2023), and $4,276 million (Q1 2026).",
+    "plainEnglish": "The company discloses net losses of $4,937 million for 2025 and $4,628 million for 2023, and a $4,276 million net loss for the three months ended March 31, 2026, and warns that it may continue to incur net losses.",
+    "whyItMatters": "A sustained history of net losses bears on whether and when the business can become profitable.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-the-business-depends-heavily-on-elon-musk-and-the-company-maintains-no-keyperson",
+    "topic": "risk",
+    "title": "The business depends heavily on Elon Musk, and the company maintains no key-person life insurance on him.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-30"
+    ],
+    "sourceQuote": "We do not maintain key- person life insurance on Mr. Musk. Further, although Mr. Musk devotes significant time to our businesses and is highly active in our management, he does not devote his full time and attention to our businesses and devotes time and attention to other significant roles (and may in the future serve in additional roles). For instance, Mr. Musk currently serves as Technoking and Chief Executive Officer of Tesla and is involved in other emerging technology ventures, including Neuralink and The Boring Company. Mr. Musk has also previously served as Senior Advisor to the President of the United States.",
+    "extractedText": "No key-person life insurance is maintained on Mr. Musk.",
+    "plainEnglish": "In its risk factor on dependence on Elon Musk, the company states that it does not maintain key-person life insurance on Mr. Musk, so the loss of his services could harm the business.",
+    "whyItMatters": "Heavy reliance on a single individual is a key-person risk the filing itself flags.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-the-company-is-largely-uninsured-and-may-suffer-material-losses-including-to-its",
+    "topic": "risk",
+    "title": "The company is largely uninsured and may suffer material losses, including to its in-orbit satellites.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-28"
+    ],
+    "sourceQuote": "As a general matter, we do not maintain as much insurance coverage as many other companies do, and in some cases, we do not maintain any at all, including with respect to our in-orbit satellites, which we currently do not insure and do not expect to insure in the future. Additionally, the policies that we do have may include significant deductibles or self-insured retentions, policy limitations and exclusions, and we cannot be certain that our insurance coverage will be sufficient to cover all future losses or claims against us.",
+    "extractedText": "Limited or no insurance coverage in some cases, including in-orbit satellites.",
+    "plainEnglish": "The company states that, as a general matter, it does not maintain as much insurance coverage as many other companies and in some cases none at all, including for certain in-orbit satellites, so an uninsured loss could be material.",
+    "whyItMatters": "Limited insurance means losses other companies would recover may fall directly on the company.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-about-onefifth-of-2025-revenue-depended-on-us-federal-government-agencies-a-conc",
+    "topic": "risk",
+    "title": "About one-fifth of 2025 revenue depended on U.S. federal government agencies, a concentration risk.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-17"
+    ],
+    "sourceQuote": "In 2025, approximately one-fifth of our revenue was attributable to agencies within the U.S. federal government. As a contractor to various U.S. government agencies, we are subject to extensive federal procurement regulations, including the Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS), as well as other rules governing cost accounting, cybersecurity, ethics, and national security. These regulations impose stringent requirements on our operations, business practices, and reporting, and noncompliance could result in civil or criminal penalties, suspension or debarment from government contracting, or loss of existing or future business. These requirements, although customary in U.S.",
+    "extractedText": "Approximately one-fifth of 2025 revenue came from U.S. federal government agencies.",
+    "plainEnglish": "The company states that in 2025 approximately one-fifth of its revenue was attributable to agencies within the U.S. federal government, a concentration that exposes it to changes in government budgets, priorities, and contracting.",
+    "whyItMatters": "Revenue concentration in U.S. government agencies is a dependency the filing flags as a risk.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-as-a-controlled-company-spacex-may-rely-on-exemptions-from-boardindependence-req",
+    "topic": "risk",
+    "title": "As a controlled company, SpaceX may rely on exemptions from board-independence requirements.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-31"
+    ],
+    "sourceQuote": "As a result, we do not expect to have a compensation and nominating committee that is composed entirely of independent directors or that has a committee charter that addresses all Nasdaq and Nasdaq Texas requirements applicable to companies that are not controlled companies. Additionally, we may elect to take advantage of certain other exemptions in the future for as long as we remain a “controlled company.” Accordingly, our Class A shareholders will not have the same protections afforded to shareholders of companies that are subject to all of the corporate governance requirements of 59 Table of Contents Nasdaq and Nasdaq Texas.",
+    "extractedText": "Controlled-company exemptions from certain independent-committee requirements.",
+    "plainEnglish": "Because Mr. Musk and Class B holders will control a majority of voting power, the company expects to be a 'controlled company' and does not expect to have a compensation and nominating committee composed entirely of independent directors.",
+    "whyItMatters": "Controlled-company exemptions reduce the independent-oversight protections that otherwise apply to public companies.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-the-ai-segment-has-incurred-significant-operating-losses-and-may-not-achieve-or-",
+    "topic": "risk",
+    "title": "The AI segment has incurred significant operating losses and may not achieve or sustain profitability.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-27"
+    ],
+    "sourceQuote": "Our AI segment has incurred significant operating losses since inception, and we may not achieve profitability in this segment, or, if achieved, sustain it, and there can be no assurance that the returns on our AI investments will be adequate to justify the capital deployed. Furthermore, the continued improvement of AI model capabilities has historically depended in part on scaling laws, the empirical observation that model performance improves with increased compute, data, and model size, but there is uncertainty as to how long these scaling relationships will continue to hold. As a result of these factors, our AI segment may not achieve the growth or returns we expect. We have a history of net losses and may not achieve profitability in the future.",
+    "extractedText": "AI segment: significant operating losses since inception; profitability uncertain.",
+    "plainEnglish": "The company discloses that its AI segment has incurred significant operating losses since inception, that it may not achieve profitability in the segment or sustain it if achieved, and that the segment requires substantial ongoing investment.",
+    "whyItMatters": "The AI segment is a large, unproven, loss-making bet that consumes capital, which bears on overall profitability.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-launch-and-satellite-operations-depend-on-exportcontrol-and-sanctions-authorizat",
+    "topic": "risk",
+    "title": "Launch and satellite operations depend on export-control and sanctions authorizations that could be revoked.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-24"
+    ],
+    "sourceQuote": "The launch and satellite operations are subject to stringent export control and economic and trade sanctions laws, including the U.S. International Traffic in Arms Regulations (“ITAR”), the Export Administration Regulations, and sanctions administered and enforced by the U.S. Treasury Department’s Office of Foreign Assets Control (“OFAC”). Under U.S. export control laws, we are required to obtain export authorizations from the Departments of Commerce or State to export or share any controlled goods, technology, or software with foreign persons, including foreign person employees, or to foreign destinations. The availability of such authorizations may be impacted by significant changes to the geopolitical landscape. The U.S.",
+    "extractedText": "Operations subject to ITAR export-control and trade-sanctions laws and authorizations.",
+    "plainEnglish": "The company states that its launch and satellite operations are subject to stringent export-control and trade-sanctions laws, including the U.S. International Traffic in Arms Regulations, and that it must obtain and maintain authorizations that could be denied, suspended, or revoked.",
+    "whyItMatters": "Loss or denial of export and sanctions authorizations could halt or limit core operations.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-internal-control-over-financial-reporting-does-not-yet-meet-section-404-standard",
+    "topic": "risk",
+    "title": "Internal control over financial reporting does not yet meet Section 404 standards and may have weaknesses.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-28"
+    ],
+    "sourceQuote": "Because we currently do not have comprehensive documentation of our internal controls and have not yet tested our internal controls in accordance with Section 404, we cannot conclude in accordance with Section 404 that we do not have a material weakness in our internal controls or a combination of significant deficiencies that could result in the conclusion that we have a material weakness in our internal controls. In connection with updating our control processes and the implementation of the necessary procedures and practices related to internal control over financial reporting, we have identified deficiencies and may identify deficiencies in the future that we may not be able to 56 Table of Contents remediate in time to meet the deadline imposed",
+    "extractedText": "Internal controls not yet tested under Section 404; material weakness cannot be ruled out.",
+    "plainEnglish": "The company states that, because it does not yet have comprehensive documentation of its internal controls and has not yet tested them in accordance with Section 404, it cannot currently conclude that no material weakness exists.",
+    "whyItMatters": "Untested internal controls raise the risk of a material weakness and of errors in financial reporting.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-foreigngovernment-actions-could-restrict-operations-or-freeze-assets-as-when-bra",
+    "topic": "risk",
+    "title": "Foreign-government actions could restrict operations or freeze assets, as when Brazil froze Starlink's assets.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-17"
+    ],
+    "sourceQuote": "For example, in August 2024, Starlink received an order from Brazil’s Supreme Court that froze Starlink’s Brazilian financial assets and prevented Starlink from conducting financial transactions in Brazil (the “Brazil Asset Seizure”). The action taken by the Brazilian Supreme Court arose out of purported violations of Brazilian law by X, which at the time was not owned by us and was only affiliated with Mr. Musk. It is possible that we may be subject to actions like the Brazil Asset Seizure in the future (whether in Brazil or another country) and, regardless of whether any such action is consistent with local and international law, we may never recover assets seized in any similar action.",
+    "extractedText": "Example: Brazil's Supreme Court froze Starlink's Brazilian assets in August 2024.",
+    "plainEnglish": "The company cites, as an example, an August 2024 order from Brazil's Supreme Court that froze Starlink's Brazilian financial assets and prevented Starlink from operating there, illustrating that foreign-government action can disrupt or seize its operations and assets.",
+    "whyItMatters": "Cross-border operations expose the company to asset freezes and operating bans by foreign governments.",
+    "confidence": "high",
+    "needsReview": false,
+    "extractionMethod": "gap-audit-risk",
+    "qualityWarnings": []
+  },
+  {
     "id": "evidence-offering-the-filing-is-for-class-a-common-stock-in-an-initial-public-offering",
     "topic": "offering",
     "title": "The filing is for Class A common stock in an initial public offering.",

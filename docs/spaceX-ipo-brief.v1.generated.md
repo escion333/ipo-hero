@@ -978,6 +978,105 @@ Sources:
 Only full-text risk records are used here; fragments, headings, and table-of-contents records are excluded.
 
 
+### SpaceX has incurred large recurring net losses and warns it may continue to do so.
+
+The company discloses net losses of $4,937 million for 2025 and $4,628 million for 2023, and a $4,276 million net loss for the three months ended March 31, 2026, and warns that it may continue to incur net losses.
+
+Why it matters: A sustained history of net losses bears on whether and when the business can become profitable.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-27 / section-40-riskfactors: "We incurred net losses of $(4,937) million and $(4,628) million for the years ended December 31, 2025 and 2023, respectively, and a net loss of $(4,276) million for the three months ended March 31, 2026. We may not achieve or, if achieved, sustain profitability in the future. As of March 31, 2026, we had an accumulated deficit of $41,311 million. While we h..."
+
+### The business depends heavily on Elon Musk, and the company maintains no key-person life insurance on him.
+
+In its risk factor on dependence on Elon Musk, the company states that it does not maintain key-person life insurance on Mr. Musk, so the loss of his services could harm the business.
+
+Why it matters: Heavy reliance on a single individual is a key-person risk the filing itself flags.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-30 / section-40-riskfactors: "We do not maintain key- person life insurance on Mr. Musk. Further, although Mr. Musk devotes significant time to our businesses and is highly active in our management, he does not devote his full time and attention to our businesses and devotes time and attention to other significant roles (and may in the future serve in additional roles). For instance, Mr..."
+
+### The company is largely uninsured and may suffer material losses, including to its in-orbit satellites.
+
+The company states that, as a general matter, it does not maintain as much insurance coverage as many other companies and in some cases none at all, including for certain in-orbit satellites, so an uninsured loss could be material.
+
+Why it matters: Limited insurance means losses other companies would recover may fall directly on the company.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-28 / section-40-riskfactors: "As a general matter, we do not maintain as much insurance coverage as many other companies do, and in some cases, we do not maintain any at all, including with respect to our in-orbit satellites, which we currently do not insure and do not expect to insure in the future. Additionally, the policies that we do have may include significant deductibles or self-..."
+
+### About one-fifth of 2025 revenue depended on U.S. federal government agencies, a concentration risk.
+
+The company states that in 2025 approximately one-fifth of its revenue was attributable to agencies within the U.S. federal government, a concentration that exposes it to changes in government budgets, priorities, and contracting.
+
+Why it matters: Revenue concentration in U.S. government agencies is a dependency the filing flags as a risk.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-17 / section-40-riskfactors: "In 2025, approximately one-fifth of our revenue was attributable to agencies within the U.S. federal government. As a contractor to various U.S. government agencies, we are subject to extensive federal procurement regulations, including the Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS), as well as other r..."
+
+### As a controlled company, SpaceX may rely on exemptions from board-independence requirements.
+
+Because Mr. Musk and Class B holders will control a majority of voting power, the company expects to be a 'controlled company' and does not expect to have a compensation and nominating committee composed entirely of independent directors.
+
+Why it matters: Controlled-company exemptions reduce the independent-oversight protections that otherwise apply to public companies.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-31 / section-40-riskfactors: "As a result, we do not expect to have a compensation and nominating committee that is composed entirely of independent directors or that has a committee charter that addresses all Nasdaq and Nasdaq Texas requirements applicable to companies that are not controlled companies. Additionally, we may elect to take advantage of certain other exemptions in the fut..."
+
+### The AI segment has incurred significant operating losses and may not achieve or sustain profitability.
+
+The company discloses that its AI segment has incurred significant operating losses since inception, that it may not achieve profitability in the segment or sustain it if achieved, and that the segment requires substantial ongoing investment.
+
+Why it matters: The AI segment is a large, unproven, loss-making bet that consumes capital, which bears on overall profitability.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-27 / section-40-riskfactors: "Our AI segment has incurred significant operating losses since inception, and we may not achieve profitability in this segment, or, if achieved, sustain it, and there can be no assurance that the returns on our AI investments will be adequate to justify the capital deployed. Furthermore, the continued improvement of AI model capabilities has historically de..."
+
+### Launch and satellite operations depend on export-control and sanctions authorizations that could be revoked.
+
+The company states that its launch and satellite operations are subject to stringent export-control and trade-sanctions laws, including the U.S. International Traffic in Arms Regulations, and that it must obtain and maintain authorizations that could be denied, suspended, or revoked.
+
+Why it matters: Loss or denial of export and sanctions authorizations could halt or limit core operations.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-24 / section-40-riskfactors: "The launch and satellite operations are subject to stringent export control and economic and trade sanctions laws, including the U.S. International Traffic in Arms Regulations (“ITAR”), the Export Administration Regulations, and sanctions administered and enforced by the U.S. Treasury Department’s Office of Foreign Assets Control (“OFAC”). Under U.S. export..."
+
+### Internal control over financial reporting does not yet meet Section 404 standards and may have weaknesses.
+
+The company states that, because it does not yet have comprehensive documentation of its internal controls and has not yet tested them in accordance with Section 404, it cannot currently conclude that no material weakness exists.
+
+Why it matters: Untested internal controls raise the risk of a material weakness and of errors in financial reporting.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-28 / section-40-riskfactors: "Because we currently do not have comprehensive documentation of our internal controls and have not yet tested our internal controls in accordance with Section 404, we cannot conclude in accordance with Section 404 that we do not have a material weakness in our internal controls or a combination of significant deficiencies that could result in the conclusion..."
+
+### Foreign-government actions could restrict operations or freeze assets, as when Brazil froze Starlink's assets.
+
+The company cites, as an example, an August 2024 order from Brazil's Supreme Court that froze Starlink's Brazilian financial assets and prevented Starlink from operating there, illustrating that foreign-government action can disrupt or seize its operations and assets.
+
+Why it matters: Cross-border operations expose the company to asset freezes and operating bans by foreign governments.
+
+Confidence: high. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-17 / section-40-riskfactors: "For example, in August 2024, Starlink received an order from Brazil’s Supreme Court that froze Starlink’s Brazilian financial assets and prevented Starlink from conducting financial transactions in Brazil (the “Brazil Asset Seizure”). The action taken by the Brazilian Supreme Court arose out of purported violations of Brazilian law by X, which at the time w..."
+
 ### Our satellite connectivity services are subject to extensive regulation in the United States and internationally.
 
 This risk concerns satellite connectivity and spectrum. The filing states: "Our satellite connectivity, including our global satellite-to-mobile connectivity services under Starlink Mobile, depend on access to radio frequency spectrum and authorizations from the FCC in the United States and telecommunications…" It adds: "Obtaining and maintaining communications licenses and approvals from U.S. and foreign regulatory authorities is critical to our connectivity services."
@@ -1282,7 +1381,7 @@ Brief v1 is built from accepted evidence cards only. Parser diagnostics and reje
 
 ### Source notes
 
-91 accepted evidence cards were generated. 3 weak drafts were rejected before Brief v1 was assembled. 208 suspicious risk records were excluded from the main risk themes.
+100 accepted evidence cards were generated. 3 weak drafts were rejected before Brief v1 was assembled. 208 suspicious risk records were excluded from the main risk themes.
 
 Why it matters: These notes explain the extraction boundary for Brief v1 without putting parser diagnostics into the main narrative.
 

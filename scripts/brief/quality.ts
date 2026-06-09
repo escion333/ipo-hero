@@ -92,9 +92,11 @@ export function isCleanRiskTitle(title: string): boolean {
   // Dangling-verb fragment: a noun phrase, a comma, then a bare verb with no subject
   // ("Arbitration Rules to the extent they will apply, are different ...") — unless the title
   // opens with a clausal connector, which makes it a complete sentence.
+  // Note: a bare verb only — NOT "including", which almost always introduces a normal
+  // appositive ("... material losses, including its satellites ...") rather than a fragment.
   if (
     !SUBORDINATOR.test(t) &&
-    /^[A-Z][\w&/-]*(?:\s+[\w&/.,'-]+){0,10}?,\s+(?:have|has|had|are|is|was|were|will|would|may|might|could|should|can|do|does|including)\b/.test(t)
+    /^[A-Z][\w&/-]*(?:\s+[\w&/.,'-]+){0,10}?,\s+(?:have|has|had|are|is|was|were|will|would|may|might|could|should|can|do|does)\b/.test(t)
   )
     return false;
   // Comma-splice: "<clause>, he/it/they could ..." with no subordinating conjunction.

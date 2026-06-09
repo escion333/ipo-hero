@@ -1,0 +1,2 @@
+-- Remote baseline migration already present in the linked Supabase project.
+-- Kept locally so migration history matches the remote project.

@@ -10,6 +10,7 @@ import { SectionAnchor } from "./section-anchor";
 import { SignInPrompt } from "./sign-in-prompt";
 import { UserChip } from "./user-chip";
 import { VoteControl } from "./vote-control";
+import { Button } from "../ui/button";
 
 export type ThreadViewProps = {
   thread: Thread;
@@ -26,6 +27,9 @@ export type ThreadViewProps = {
   onReply?: (parentPostId: string | null, body: string) => void;
   onSignInWithX?: () => void;
   onSignInWithEmail?: (email: string) => void;
+  hasMorePosts?: boolean;
+  loadingMorePosts?: boolean;
+  onLoadMorePosts?: () => void;
 };
 
 export function ThreadView({
@@ -41,6 +45,9 @@ export function ThreadView({
   onReply,
   onSignInWithX,
   onSignInWithEmail,
+  hasMorePosts,
+  loadingMorePosts,
+  onLoadMorePosts,
 }: ThreadViewProps) {
   const tree = useMemo(() => buildPostTree(posts), [posts]);
   const signedIn = Boolean(currentUser);
@@ -138,6 +145,17 @@ export function ThreadView({
           ))}
         </div>
       )}
+      {hasMorePosts ? (
+        <Button
+          type="button"
+          variant="outline"
+          className="self-center"
+          disabled={loadingMorePosts}
+          onClick={onLoadMorePosts}
+        >
+          {loadingMorePosts ? "Loading..." : "Load more replies"}
+        </Button>
+      ) : null}
     </div>
   );
 }

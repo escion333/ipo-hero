@@ -17,7 +17,6 @@ import {
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ThemeToggle } from "./components/theme/theme-toggle";
 import { briefData } from "./lib/brief-data";
 import {
   bodySections,
@@ -181,10 +180,6 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
               <Link className="bx-reviewer-top" to="/reviewer">
                 Reviewer mode
               </Link>
-              <Link className="bx-reviewer-top" to="/forums">
-                Forums
-              </Link>
-              <ThemeToggle />
             </div>
           </div>
           <h1 className="bx-hero-title">{snap.companyName}</h1>

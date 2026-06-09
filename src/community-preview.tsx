@@ -11,7 +11,7 @@ import {
   ThreadList,
   ThreadView,
 } from "./components/community";
-import type { VoteValue } from "./lib/community/types";
+import type { ThreadListItem, VoteValue } from "./lib/community/types";
 import {
   mockCurrentUser,
   mockPosts,
@@ -39,6 +39,14 @@ function Preview() {
   const [votes, setVotes] = useState<Record<string, VoteValue>>({});
 
   const currentUser = signedIn ? mockCurrentUser : null;
+  const threadListItems = useMemo<ThreadListItem[]>(
+    () =>
+      mockThreads.map(({ body, ...thread }) => ({
+        ...thread,
+        bodyPreview: body.slice(0, 280),
+      })),
+    [],
+  );
   const titleById = useMemo(
     () => new Map(mockSections.map((s) => [s.id, s.title])),
     [],
@@ -80,7 +88,7 @@ function Preview() {
           <ForumDisclaimer />
           <Section title="Thread list (sort + section filter)">
             <ThreadList
-              threads={mockThreads}
+              threads={threadListItems}
               sections={mockSections}
               sectionHref={sectionHref}
               myVotes={votes}

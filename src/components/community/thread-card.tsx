@@ -1,6 +1,6 @@
 import { Lock, MessageSquare } from "lucide-react";
 
-import type { Thread, VoteValue } from "../../lib/community/types";
+import type { ThreadListItem, VoteValue } from "../../lib/community/types";
 import { cn } from "../../lib/utils";
 import { compactCount, relativeTime } from "./format";
 import { SectionAnchor } from "./section-anchor";
@@ -8,7 +8,7 @@ import { UserChip } from "./user-chip";
 import { VoteControl } from "./vote-control";
 
 export type ThreadCardProps = {
-  thread: Thread;
+  thread: ThreadListItem;
   /** Human title for thread.sectionId, resolved by the parent against loaded sections. */
   sectionTitle?: string | null;
   /** Builds the reader/workbench link for the thread's section anchor. */
@@ -88,7 +88,7 @@ export function ThreadCard({
         </button>
 
         {compact ? null : (
-          <p className="line-clamp-2 text-sm text-muted-foreground">{thread.body}</p>
+          <p className="line-clamp-2 text-sm text-muted-foreground">{thread.bodyPreview}</p>
         )}
 
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">

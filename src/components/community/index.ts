@@ -7,6 +7,7 @@ export { UserChip, Avatar } from "./user-chip";
 export { SectionAnchor } from "./section-anchor";
 export { ForumDisclaimer } from "./forum-disclaimer";
 export { SignInPrompt } from "./sign-in-prompt";
+export { AccountMenu } from "./account-menu";
 
 export { ThreadCard } from "./thread-card";
 export type { ThreadCardProps } from "./thread-card";

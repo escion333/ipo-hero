@@ -6,9 +6,13 @@ import type {
   NewThreadInput,
   Post,
   Thread,
+  ThreadListItem,
+  ThreadSort,
   VoteValue,
 } from "../../lib/community/types";
 import { cn } from "../../lib/utils";
+import { SpacexPriceTicker } from "../spacex-price-ticker";
+import { AccountMenu } from "./account-menu";
 import { ForumDisclaimer } from "./forum-disclaimer";
 import { NewThreadForm } from "./new-thread-form";
 import { SignInPrompt } from "./sign-in-prompt";
@@ -29,23 +33,37 @@ export type BriefForumShellProps = {
   renderBrief: (api: BriefForumApi) => ReactNode;
 
   // ---- forum data ----
-  threads: Thread[];
+  threads: ThreadListItem[];
+  getThread?: (threadId: string) => Thread | null;
   sections?: { id: string; title: string }[];
   getPosts?: (threadId: string) => Post[];
   sectionHref?: (sectionId: string) => string;
   currentUser?: CommunityUser | null;
+  /** Session is still resolving — gates the sign-in CTAs to avoid a flash of signed-out UI. */
+  authLoading?: boolean;
+  /** Whether community auth is configured. When false, sign-in surfaces are suppressed. */
+  communityEnabled?: boolean;
   /** threadId/postId -> the viewer's vote. */
   myVotes?: Record<string, VoteValue>;
   /** Total discussion count shown on the Forum tab badge. */
   threadCount?: number;
+  threadSort?: ThreadSort;
+  hasMoreThreads?: boolean;
+  loadingMoreThreads?: boolean;
+  hasMorePosts?: Record<string, boolean>;
+  loadingMorePosts?: Record<string, boolean>;
 
   // ---- forum handlers (all optional → renders read-only) ----
   onVoteThread?: (threadId: string, value: VoteValue) => void;
   onVotePost?: (postId: string, value: VoteValue) => void;
   onReply?: (threadId: string, parentPostId: string | null, body: string) => void;
   onCreateThread?: (input: NewThreadInput) => Thread | void | Promise<Thread | void>;
+  onThreadSortChange?: (sort: ThreadSort) => void;
+  onLoadMoreThreads?: () => void;
+  onLoadMorePosts?: (threadId: string) => void;
   onSignInWithX?: () => void;
   onSignInWithEmail?: (email: string) => void;
+  onSignOut?: () => void;
 
   // ---- route-driven mount (lets a router deep-link into the single page) ----
   /** Which tab to open on mount. Map "/" → "brief", "/forums" → "forum". */
@@ -78,18 +96,30 @@ export type BriefForumShellProps = {
 export function BriefForumShell({
   renderBrief,
   threads,
+  getThread,
   sections = [],
   getPosts,
   sectionHref,
   currentUser,
+  authLoading,
+  communityEnabled,
   myVotes,
   threadCount,
+  threadSort,
+  hasMoreThreads,
+  loadingMoreThreads,
+  hasMorePosts,
+  loadingMorePosts,
   onVoteThread,
   onVotePost,
   onReply,
   onCreateThread,
+  onThreadSortChange,
+  onLoadMoreThreads,
+  onLoadMorePosts,
   onSignInWithX,
   onSignInWithEmail,
+  onSignOut,
   initialTab,
   initialThreadId,
   initialFilter,
@@ -148,13 +178,14 @@ export function BriefForumShell({
   };
 
   const activeThread =
-    view.name === "thread" ? threads.find((t) => t.id === view.id) ?? null : null;
+    view.name === "thread" ? getThread?.(view.id) ?? null : null;
 
   return (
     <div className={cn("flex flex-col", className)}>
       {/* ---------- Segmented toggle (sticky global chrome) ---------- */}
       <div className="sticky top-0 z-30 border-b border-border bg-background/85 backdrop-blur">
-        <div className="mx-auto flex w-full max-w-[1180px] items-center justify-center px-4 py-2">
+        <div className="mx-auto grid w-full max-w-[1180px] grid-cols-[1fr_auto_1fr] items-center gap-2 px-4 py-2">
+          <div aria-hidden="true" />
           <div
             role="tablist"
             aria-label="Brief or community"
@@ -174,6 +205,17 @@ export function BriefForumShell({
               badge={threadCount ?? threads.length}
             />
           </div>
+          <div className="flex items-center justify-end gap-3">
+            <SpacexPriceTicker className="hidden sm:inline-flex" />
+            <AccountMenu
+              user={currentUser ?? null}
+              loading={authLoading}
+              enabled={Boolean(communityEnabled) || Boolean(currentUser)}
+              onSignInWithX={onSignInWithX}
+              onSignInWithEmail={onSignInWithEmail}
+              onSignOut={onSignOut}
+            />
+          </div>
         </div>
       </div>
 
@@ -191,13 +233,20 @@ export function BriefForumShell({
           </header>
           <ForumDisclaimer />
 
-          {!signedIn ? (
-            <SignInPrompt
-              title="Sign in to join the community"
-              description="Browsing is open to everyone. Posting, replying, and voting need a quick sign-in."
-              onSignInWithX={onSignInWithX}
-              onSignInWithEmail={onSignInWithEmail}
-            />
+          {!signedIn && !authLoading ? (
+            communityEnabled === false ? (
+              <p className="rounded-lg border border-dashed border-border bg-card/50 p-4 text-sm text-muted-foreground">
+                Community sign-in isn’t configured in this environment. Browsing stays open to
+                everyone.
+              </p>
+            ) : (
+              <SignInPrompt
+                title="Sign in to join the community"
+                description="Browsing is open to everyone. Posting, replying, and voting need a quick sign-in."
+                onSignInWithX={onSignInWithX}
+                onSignInWithEmail={onSignInWithEmail}
+              />
+            )
           ) : null}
 
           {view.name === "list" ? (
@@ -208,13 +257,18 @@ export function BriefForumShell({
               myVotes={myVotes}
               canVote={signedIn}
               filter={filter}
+              sort={threadSort}
               onFilterChange={(nextFilter) => {
                 setFilter(nextFilter);
                 onFilterChange?.(nextFilter);
               }}
+              onSortChange={onThreadSortChange}
               onOpen={openThread}
               onVote={onVoteThread}
               onNewThread={signedIn ? () => setView({ name: "new" }) : undefined}
+              hasMore={hasMoreThreads}
+              loadingMore={loadingMoreThreads}
+              onLoadMore={onLoadMoreThreads}
             />
           ) : null}
 
@@ -234,6 +288,9 @@ export function BriefForumShell({
               onReply={(parentPostId, body) => onReply?.(activeThread.id, parentPostId, body)}
               onSignInWithX={onSignInWithX}
               onSignInWithEmail={onSignInWithEmail}
+              hasMorePosts={hasMorePosts?.[activeThread.id]}
+              loadingMorePosts={loadingMorePosts?.[activeThread.id]}
+              onLoadMorePosts={() => onLoadMorePosts?.(activeThread.id)}
             />
           ) : null}
 

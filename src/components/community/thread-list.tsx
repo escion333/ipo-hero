@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { MessagesSquare, Plus } from "lucide-react";
 
-import type { Thread, VoteValue } from "../../lib/community/types";
+import type { ThreadListItem, ThreadSort, VoteValue } from "../../lib/community/types";
 import { Button } from "../ui/button";
 import { Label } from "../ui/label";
 import {
@@ -13,10 +13,8 @@ import {
 } from "../ui/select";
 import { ThreadCard } from "./thread-card";
 
-type SortKey = "score" | "recent";
-
 export type ThreadListProps = {
-  threads: Thread[];
+  threads: ThreadListItem[];
   /** Loaded filing sections, for the section filter + resolving anchor titles. */
   sections?: { id: string; title: string }[];
   sectionHref?: (sectionId: string) => string;
@@ -31,11 +29,16 @@ export type ThreadListProps = {
    * pair with onFilterChange. Omit for self-managed filtering.
    */
   filter?: string;
+  sort?: ThreadSort;
   onFilterChange?: (filter: string) => void;
+  onSortChange?: (sort: ThreadSort) => void;
   onOpen?: (threadId: string) => void;
   onVote?: (threadId: string, value: VoteValue) => void;
   /** Render a "New thread" affordance when provided. */
   onNewThread?: () => void;
+  hasMore?: boolean;
+  loadingMore?: boolean;
+  onLoadMore?: () => void;
 };
 
 export function ThreadList({
@@ -46,18 +49,29 @@ export function ThreadList({
   canVote = true,
   density = "comfortable",
   filter: filterProp,
+  sort: sortProp,
   onFilterChange,
+  onSortChange,
   onOpen,
   onVote,
   onNewThread,
+  hasMore,
+  loadingMore,
+  onLoadMore,
 }: ThreadListProps) {
-  const [sort, setSort] = useState<SortKey>("score");
+  const [sortState, setSortState] = useState<ThreadSort>("score");
   const [filterState, setFilterState] = useState<string>("all"); // "all" | "general" | sectionId
   const controlled = filterProp !== undefined;
   const filter = controlled ? filterProp : filterState;
+  const sortControlled = sortProp !== undefined;
+  const sort = sortControlled ? sortProp : sortState;
   const setFilter = (next: string) => {
     if (!controlled) setFilterState(next);
     onFilterChange?.(next);
+  };
+  const setSort = (next: ThreadSort) => {
+    if (!sortControlled) setSortState(next);
+    onSortChange?.(next);
   };
 
   const titleById = useMemo(
@@ -84,7 +98,7 @@ export function ThreadList({
         <div className="flex flex-wrap items-center gap-3">
           <div className="flex items-center gap-2">
             <Label htmlFor="thread-sort">Sort</Label>
-            <Select value={sort} onValueChange={(v) => setSort(v as SortKey)}>
+            <Select value={sort} onValueChange={(v) => setSort(v as ThreadSort)}>
               <SelectTrigger id="thread-sort" className="w-36">
                 <SelectValue />
               </SelectTrigger>
@@ -160,6 +174,17 @@ export function ThreadList({
               onVote={onVote}
             />
           ))}
+          {hasMore ? (
+            <Button
+              type="button"
+              variant="outline"
+              className="self-center"
+              disabled={loadingMore}
+              onClick={onLoadMore}
+            >
+              {loadingMore ? "Loading..." : "Load more"}
+            </Button>
+          ) : null}
         </div>
       )}
     </div>

@@ -8,7 +8,7 @@ import "./brief-redesign.css";
 import { ThemeToggle } from "./components/theme/theme-toggle";
 import { BriefForumShell } from "./components/community";
 import type { BriefForumApi } from "./components/community";
-import type { VoteValue } from "./lib/community/types";
+import type { ThreadListItem, VoteValue } from "./lib/community/types";
 import {
   mockCurrentUser,
   mockPosts,
@@ -136,7 +136,19 @@ function Preview() {
   const [votes, setVotes] = useState<Record<string, VoteValue>>({});
 
   const currentUser = signedIn ? mockCurrentUser : null;
+  const threadListItems = useMemo<ThreadListItem[]>(
+    () =>
+      mockThreads.map(({ body, ...thread }) => ({
+        ...thread,
+        bodyPreview: body.slice(0, 280),
+      })),
+    [],
+  );
   const getPosts = useMemo(() => (id: string) => mockPosts[id] ?? [], []);
+  const getThread = useMemo(
+    () => (id: string) => mockThreads.find((thread) => thread.id === id) ?? null,
+    [],
+  );
   const castVote = (id: string, value: VoteValue) =>
     setVotes((prev) => ({ ...prev, [id]: prev[id] === value ? (0 as VoteValue) : value }));
 
@@ -155,9 +167,10 @@ function Preview() {
 
       <BriefForumShell
         renderBrief={(api) => <DemoBrief api={api} />}
-        threads={mockThreads}
+        threads={threadListItems}
         sections={mockSections}
         getPosts={getPosts}
+        getThread={getThread}
         currentUser={currentUser}
         myVotes={votes}
         sectionHref={(id) => `#${id}`}

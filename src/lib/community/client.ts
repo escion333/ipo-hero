@@ -15,8 +15,13 @@ import type {
   CommunityUser,
   NewPostInput,
   NewThreadInput,
+  Page,
   Post,
+  PostCursor,
   Thread,
+  ThreadCursor,
+  ThreadListItem,
+  ThreadSort,
   VoteTarget,
   VoteValue,
 } from "./types";
@@ -31,12 +36,21 @@ export interface CommunityClient {
   signOut(): Promise<void>;
 
   // threads
-  listThreads(opts?: { sectionId?: string | null }): Promise<Thread[]>;
+  listThreads(opts?: {
+    sectionId?: string | null;
+    cursor?: ThreadCursor;
+    limit?: number;
+    sort?: ThreadSort;
+  }): Promise<Page<ThreadListItem, ThreadCursor>>;
   getThread(id: string): Promise<Thread | null>;
   createThread(input: NewThreadInput): Promise<Thread>;
 
   // posts
-  listPosts(threadId: string): Promise<Post[]>;
+  listPosts(opts: {
+    threadId: string;
+    cursor?: PostCursor;
+    limit?: number;
+  }): Promise<Page<Post, PostCursor>>;
   createPost(input: NewPostInput): Promise<Post>;
 
   // voting

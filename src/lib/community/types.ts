@@ -33,6 +33,10 @@ export type Thread = {
   updatedAt: string;
 };
 
+export type ThreadListItem = Omit<Thread, "body"> & {
+  bodyPreview: string;
+};
+
 export type Post = {
   id: string;
   threadId: string;
@@ -45,6 +49,24 @@ export type Post = {
 };
 
 export type VoteValue = -1 | 1;
+
+export type ThreadSort = "score" | "recent";
+
+export type ThreadCursor = {
+  score?: number;
+  createdAt: string;
+  id: string;
+};
+
+export type PostCursor = {
+  createdAt: string;
+  id: string;
+};
+
+export type Page<T, Cursor> = {
+  items: T[];
+  nextCursor: Cursor | null;
+};
 
 export type NewThreadInput = {
   sectionId: FilingSection["id"] | null;

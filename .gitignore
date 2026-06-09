@@ -3,6 +3,7 @@ dist/
 raw/*
 !raw/.gitkeep
 supabase/.temp/
+.claude/
 .env
 .env.local
 .env.*.local

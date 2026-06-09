@@ -1,29 +1,22 @@
 import {
-  AlertTriangle,
   ArrowUpRight,
   Banknote,
-  BookOpen,
   Building2,
-  CircleHelp,
   FileText,
   Landmark,
-  Lock,
   MessagesSquare,
   Quote,
-  Scale,
   ShieldAlert,
-  Users,
   Wallet,
 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { briefData } from "./lib/brief-data";
 import {
-  bodySections,
   deriveKpis,
   heroItems,
-  needsReviewCount,
   prettifySection,
+  readerSections,
+  type ReaderSection,
 } from "./lib/brief-derive";
 import "./brief-redesign.css";
 
@@ -32,38 +25,17 @@ type BriefItem = BriefSection["items"][number];
 type BriefDiscussion = { count: number; onDiscuss: () => void };
 
 type BriefProps = {
-  getSectionDiscussion?: (section: BriefSection) => BriefDiscussion | null;
+  getSectionDiscussion?: (section: ReaderSection) => BriefDiscussion | null;
 };
 
 const SECTION_ICON: Record<string, typeof FileText> = {
-  "What SpaceX Says It Does": Building2,
-  "Offering Mechanics": FileText,
-  "Financial Snapshot": Banknote,
-  "Use of Proceeds": Wallet,
-  "Dilution and Capitalization": Scale,
-  "Control and Governance": Landmark,
-  "Debt and Liquidity": Banknote,
-  "Related-Party / Affiliated Transactions": Users,
-  "Lockup and Future Share Overhang": Lock,
-  "Key Risk Themes": ShieldAlert,
-  "What Is Still Unclear or Needs Review": CircleHelp,
-  "Source Notes": BookOpen,
+  overview: Building2,
+  offering: FileText,
+  financials: Banknote,
+  ownership: Landmark,
+  capital: Wallet,
+  risks: ShieldAlert,
 };
-
-function slug(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
-
-function ConfidenceDot({ level }: { level: BriefItem["confidence"] }) {
-  const color =
-    level === "high" ? "var(--good)" : level === "low" ? "var(--warn)" : "var(--muted-foreground)";
-  return (
-    <span className="bx-conf" title={`${level} confidence`}>
-      <span className="bx-conf-dot" style={{ background: color }} />
-      {level}
-    </span>
-  );
-}
 
 function Citation({ citation }: { citation: BriefItem["citations"][number] }) {
   const [open, setOpen] = useState(false);
@@ -76,8 +48,7 @@ function Citation({ citation }: { citation: BriefItem["citations"][number] }) {
         onClick={() => setOpen((v) => !v)}
       >
         <Quote size={13} aria-hidden="true" />
-        <span>{prettifySection(citation.sectionId || citation.chunkId)}</span>
-        <span className="bx-cite-caret" aria-hidden="true">{open ? "−" : "+"}</span>
+        <span>Source: {prettifySection(citation.sectionId || citation.chunkId)}</span>
       </button>
       {open ? (
         <div className="bx-cite-body">
@@ -91,34 +62,27 @@ function Citation({ citation }: { citation: BriefItem["citations"][number] }) {
   );
 }
 
-function EvidenceCard({ item }: { item: BriefItem }) {
-  const [showSource, setShowSource] = useState(false);
+function BriefEntry({ item }: { item: BriefItem }) {
+  const [open, setOpen] = useState(false);
+  const lead = item.whyItMatters || item.body;
+  const hasFilingText = Boolean(item.whyItMatters && item.body);
   return (
-    <article className="bx-card">
-      <div className="bx-card-head">
-        <ConfidenceDot level={item.confidence} />
-        {item.needsReview ? (
-          <span className="bx-flag">
-            <AlertTriangle size={12} aria-hidden="true" /> needs review
-          </span>
-        ) : null}
-      </div>
-      <h3 className="bx-card-title">{item.title}</h3>
-      {item.whyItMatters ? (
-        <div className="bx-takeaway">
-          <span className="bx-takeaway-label">Why it matters</span>
-          <p>{item.whyItMatters}</p>
-        </div>
+    <article className="bx-item">
+      <h3 className="bx-item-title">{item.title}</h3>
+      {lead ? <p className="bx-item-lead">{lead}</p> : null}
+      {hasFilingText ? (
+        <>
+          <button
+            className="bx-disclosure"
+            type="button"
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? "Hide filing text" : "From the filing"}
+          </button>
+          {open ? <p className="bx-item-body">{item.body}</p> : null}
+        </>
       ) : null}
-      <button
-        className="bx-disclosure"
-        type="button"
-        aria-expanded={showSource}
-        onClick={() => setShowSource((v) => !v)}
-      >
-        {showSource ? "Hide" : "What the filing says"}
-      </button>
-      {showSource ? <p className="bx-card-body">{item.body}</p> : null}
       {item.citations.length > 0 ? (
         <div className="bx-cites">
           {item.citations.map((c) => (
@@ -140,15 +104,16 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
   };
   const kpis = deriveKpis();
   const hero = heroItems();
-  const sections = bodySections();
-  const reviewCount = needsReviewCount();
-  const [active, setActive] = useState<string>("notice");
+  const sections = readerSections();
+  const [active, setActive] = useState<string>("takeaways");
 
   useEffect(() => {
-    const ids = ["notice", ...sections.map((s) => slug(s.title))];
+    const ids = ["takeaways", ...sections.map((s) => s.id)];
     const obs = new IntersectionObserver(
       (entries) => {
-        const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
         if (visible[0]) setActive(visible[0].target.id);
       },
       { rootMargin: "-20% 0px -70% 0px", threshold: 0 },
@@ -161,12 +126,8 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
   }, [sections]);
 
   const navItems = [
-    { id: "notice", label: hero?.section.title ?? "10 Things to Notice", review: 0 },
-    ...sections.map((s) => ({
-      id: slug(s.title),
-      label: s.title,
-      review: s.items.filter((i) => i.needsReview).length,
-    })),
+    { id: "takeaways", label: "Key takeaways" },
+    ...sections.map((s) => ({ id: s.id, label: s.title })),
   ];
 
   return (
@@ -174,28 +135,18 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
       {/* ---------- Hero ---------- */}
       <header className="bx-hero">
         <div className="bx-hero-inner">
-          <div className="bx-topbar">
-            <p className="bx-eyebrow">IPO Hero · S-1 Brief</p>
-            <div className="bx-topbar-actions">
-              <Link className="bx-reviewer-top" to="/reviewer">
-                Reviewer mode
-              </Link>
-            </div>
-          </div>
           <h1 className="bx-hero-title">{snap.companyName}</h1>
           <p className="bx-hero-sub">
-            A plain-English, source-cited read of the SpaceX Form S-1 — every claim links back to the
-            filing. No ratings, no recommendations.
+            A plain-English read of the SpaceX Form {snap.formType}. Every point links back to the
+            filing.
           </p>
-          <div className="bx-pills">
-            <span className="bx-pill">Form {snap.formType}</span>
-            <span className="bx-pill">Filed {snap.filingDate}</span>
-            <span className="bx-pill bx-pill-muted">Class A common stock</span>
-            <span className="bx-pill bx-pill-warn">Offering price: not yet set</span>
-            <span className="bx-pill bx-pill-warn">No public market yet</span>
+          <div className="bx-meta">
+            <span className="bx-chip">Form {snap.formType}</span>
+            <span className="bx-chip">Filed {snap.filingDate}</span>
+            <span className="bx-chip">Not yet priced</span>
           </div>
           <a className="bx-source" href={snap.sourceFilingUrl} target="_blank" rel="noreferrer">
-            <FileText size={15} aria-hidden="true" /> Read the original filing on SEC.gov
+            <FileText size={15} aria-hidden="true" /> View the filing on SEC.gov
             <ArrowUpRight size={14} aria-hidden="true" />
           </a>
         </div>
@@ -205,15 +156,12 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
       {kpis.length > 0 ? (
         <section className="bx-kpis" aria-label="Headline financials">
           {kpis.map((k) => (
-            <div className="bx-kpi" key={k.label} style={{ ["--kpi-accent" as string]: k.accent }}>
+            <div className="bx-kpi" key={k.label}>
               <span className="bx-kpi-label">{k.label}</span>
               <span className="bx-kpi-value">{k.value}</span>
               <span className="bx-kpi-period">{k.period}</span>
             </div>
           ))}
-          <p className="bx-kpi-note">
-            High-confidence figures from MD&A &amp; notes. Quarterly, not annual — early-stage scale.
-          </p>
         </section>
       ) : null}
 
@@ -228,24 +176,20 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
               aria-current={active === n.id ? "true" : undefined}
               className={active === n.id ? "bx-toc-link is-active" : "bx-toc-link"}
             >
-              <span>{n.label}</span>
-              {n.review > 0 ? <span className="bx-toc-badge">{n.review}</span> : null}
+              {n.label}
             </a>
           ))}
-          {reviewCount > 0 ? (
-            <p className="bx-toc-foot">
-              <AlertTriangle size={12} aria-hidden="true" /> {reviewCount} items flagged for human review
-            </p>
-          ) : null}
         </nav>
 
         <main className="bx-main">
-          {/* ---------- Hero feed: 10 Things ---------- */}
+          {/* ---------- Key takeaways ---------- */}
           {hero ? (
-            <section id="notice" className="bx-notice">
+            <section id="takeaways" className="bx-notice">
               <div className="bx-notice-head">
-                <h2 className="bx-notice-title">{hero.section.title}</h2>
-                <p className="bx-notice-sub">{hero.section.summary}</p>
+                <h2 className="bx-notice-title">Key takeaways</h2>
+                <p className="bx-notice-sub">
+                  The points most worth knowing — each links straight to the filing.
+                </p>
               </div>
               <ol className="bx-notice-list">
                 {hero.items.map((item, i) => (
@@ -266,18 +210,17 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
             </section>
           ) : null}
 
-          {/* ---------- Remaining sections ---------- */}
-          {sections.map((section, idx) => {
-            const Icon = SECTION_ICON[section.title] ?? FileText;
-            const accent = `var(--chart-${(idx % 5) + 1})`;
+          {/* ---------- Reader sections ---------- */}
+          {sections.map((section) => {
+            const Icon = SECTION_ICON[section.id] ?? FileText;
             const discussion = getSectionDiscussion?.(section);
             return (
-              <section id={slug(section.title)} className="bx-section" key={section.id}>
+              <section id={section.id} className="bx-section" key={section.id}>
                 <div className="bx-section-head">
-                  <span className="bx-section-icon" style={{ color: accent }}>
+                  <span className="bx-section-icon">
                     <Icon size={18} aria-hidden="true" />
                   </span>
-                  <div>
+                  <div className="bx-section-heading">
                     <h2 className="bx-section-title">{section.title}</h2>
                     {section.summary ? <p className="bx-section-sub">{section.summary}</p> : null}
                   </div>
@@ -291,19 +234,9 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
                     </button>
                   ) : null}
                 </div>
-                {section.warnings.length > 0 ? (
-                  <div className="bx-warnbox">
-                    <AlertTriangle size={14} aria-hidden="true" />
-                    <ul>
-                      {section.warnings.map((w) => (
-                        <li key={w}>{w}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : null}
-                <div className="bx-grid">
+                <div className="bx-items">
                   {section.items.map((item) => (
-                    <EvidenceCard key={item.id} item={item} />
+                    <BriefEntry key={item.id} item={item} />
                   ))}
                 </div>
               </section>
@@ -312,9 +245,6 @@ function App({ getSectionDiscussion }: BriefProps = {}) {
 
           <footer className="bx-footer">
             <p className="bx-disclaimer">{brief.disclaimer}</p>
-            <Link className="bx-reviewer-link" to="/reviewer">
-              Switch to Reviewer / QA workbench →
-            </Link>
           </footer>
         </main>
       </div>

@@ -1,8 +1,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "@fontsource-variable/ibm-plex-sans";
 
-/* Manual override hook: `dark:` utilities apply under an explicit .dark class.
-   The default (no class) follows the OS via prefers-color-scheme below. */
+/* Dark-first, X-style theming. The default (no class) is dark — matching X's
+   "lights out" look. A light theme is available via OS prefers-color-scheme:
+   light (when not explicitly forced dark) or an explicit .light class. The
+   .dark class forces dark regardless of OS. `dark:` utilities apply under an
+   explicit .dark class. */
 @custom-variant dark (&:is(.dark *));
 
 /* ----------------------------------------------------------------------------
@@ -12,44 +16,44 @@
    utility namespaces via `@theme inline` at the bottom.
 ---------------------------------------------------------------------------- */
 :root {
-  /* Radii (one scale; --radius drives the rest) */
-  --radius: 0.5rem;
+  /* Radii (one scale; --radius drives the rest). X uses generous corners. */
+  --radius: 0.75rem;
 
-  /* Color — semantic only (light theme) */
-  --background: hsl(42 33% 98%);
-  --foreground: hsl(222 29% 13%);
-  --card: hsl(0 0% 100%);
-  --card-foreground: hsl(222 29% 13%);
-  --popover: hsl(0 0% 100%);
-  --popover-foreground: hsl(222 29% 13%);
-  --primary: hsl(218 68% 34%);
+  /* Color — semantic only (X dark "lights out", the default theme) */
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(206 9% 91%);
+  --card: hsl(220 13% 10%);
+  --card-foreground: hsl(206 9% 91%);
+  --popover: hsl(220 13% 8%);
+  --popover-foreground: hsl(206 9% 91%);
+  --primary: hsl(203 89% 53%);
   --primary-foreground: hsl(0 0% 100%);
-  --secondary: hsl(42 25% 94%);
-  --secondary-foreground: hsl(222 29% 13%);
-  --muted: hsl(42 25% 94%);
-  --muted-foreground: hsl(220 10% 42%);
-  --accent: hsl(42 25% 94%);
-  --accent-foreground: hsl(218 68% 34%);
-  --destructive: hsl(0 72% 42%);
+  --secondary: hsl(214 11% 14%);
+  --secondary-foreground: hsl(206 9% 91%);
+  --muted: hsl(214 11% 14%);
+  --muted-foreground: hsl(211 6% 46%);
+  --accent: hsl(214 11% 16%);
+  --accent-foreground: hsl(203 89% 60%);
+  --destructive: hsl(356 90% 54%);
   --destructive-foreground: hsl(0 0% 100%);
-  --good: hsl(146 47% 32%);
+  --good: hsl(160 100% 37%);
   --good-foreground: hsl(0 0% 100%);
-  --warn: hsl(30 81% 37%);
-  --warn-foreground: hsl(0 0% 100%);
-  --border: hsl(38 18% 82%);
-  --input: hsl(38 18% 82%);
-  --ring: hsl(218 68% 34%);
+  --warn: hsl(40 92% 56%);
+  --warn-foreground: hsl(220 13% 10%);
+  --border: hsl(207 7% 20%);
+  --input: hsl(207 7% 20%);
+  --ring: hsl(203 89% 53%);
 
   /* Data-viz ramp (reserved for charts/tables) */
-  --chart-1: hsl(218 68% 40%);
-  --chart-2: hsl(146 47% 38%);
-  --chart-3: hsl(30 81% 45%);
-  --chart-4: hsl(280 45% 50%);
-  --chart-5: hsl(190 60% 38%);
+  --chart-1: hsl(203 89% 60%);
+  --chart-2: hsl(160 84% 50%);
+  --chart-3: hsl(40 92% 60%);
+  --chart-4: hsl(280 70% 68%);
+  --chart-5: hsl(190 80% 55%);
 
-  /* Elevation */
-  --shadow-panel: 0 1px 2px hsl(222 29% 13% / 0.08);
-  --shadow-overlay: 0 12px 32px hsl(222 29% 13% / 0.18);
+  /* Elevation — X leans on hairline borders, not shadow. */
+  --shadow-panel: none;
+  --shadow-overlay: 0 0 0 1px hsl(207 7% 20%), 0 8px 28px hsl(0 0% 0% / 0.6);
 
   /* Motion — durations + easings, always paired with reduced-motion below */
   --duration-fast: 120ms;
@@ -63,74 +67,110 @@
   --z-tooltip: 300;
 }
 
-/* Dark theme — auto (follows OS) unless an explicit .light class opts out. */
-@media (prefers-color-scheme: dark) {
-  :root:not(.light) {
-    --background: hsl(222 27% 9%);
-    --foreground: hsl(40 26% 94%);
-    --card: hsl(222 22% 13%);
-    --card-foreground: hsl(40 26% 94%);
-    --popover: hsl(222 22% 13%);
-    --popover-foreground: hsl(40 26% 94%);
-    --primary: hsl(211 78% 65%);
-    --primary-foreground: hsl(222 27% 9%);
-    --secondary: hsl(222 18% 18%);
-    --secondary-foreground: hsl(40 26% 94%);
-    --muted: hsl(222 18% 18%);
-    --muted-foreground: hsl(220 11% 67%);
-    --accent: hsl(222 18% 18%);
-    --accent-foreground: hsl(211 78% 65%);
-    --destructive: hsl(0 72% 58%);
+/* X light theme — opt-in. Applies when the OS prefers light (and dark isn't
+   forced) or via an explicit .light class. Shared values are defined once and
+   reused by both selectors below. */
+@media (prefers-color-scheme: light) {
+  :root:not(.dark) {
+    --background: hsl(0 0% 100%);
+    --foreground: hsl(206 25% 8%);
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(206 25% 8%);
+    --popover: hsl(0 0% 100%);
+    --popover-foreground: hsl(206 25% 8%);
+    --primary: hsl(203 89% 53%);
+    --primary-foreground: hsl(0 0% 100%);
+    --secondary: hsl(200 18% 95%);
+    --secondary-foreground: hsl(206 25% 8%);
+    --muted: hsl(200 18% 95%);
+    --muted-foreground: hsl(204 15% 38%);
+    --accent: hsl(200 18% 95%);
+    --accent-foreground: hsl(203 89% 45%);
+    --destructive: hsl(356 78% 48%);
     --destructive-foreground: hsl(0 0% 100%);
-    --good: hsl(145 52% 55%);
-    --good-foreground: hsl(222 27% 9%);
-    --warn: hsl(34 86% 62%);
-    --warn-foreground: hsl(222 27% 9%);
-    --border: hsl(222 15% 28%);
-    --input: hsl(222 15% 28%);
-    --ring: hsl(211 78% 65%);
-    --chart-1: hsl(211 78% 65%);
-    --chart-2: hsl(145 52% 55%);
-    --chart-3: hsl(34 86% 62%);
-    --chart-4: hsl(280 55% 70%);
-    --chart-5: hsl(190 65% 55%);
-    --shadow-panel: 0 1px 2px hsl(0 0% 0% / 0.4);
-    --shadow-overlay: 0 12px 32px hsl(0 0% 0% / 0.5);
+    --good: hsl(160 84% 30%);
+    --good-foreground: hsl(0 0% 100%);
+    --warn: hsl(35 92% 40%);
+    --warn-foreground: hsl(0 0% 100%);
+    --border: hsl(200 17% 84%);
+    --input: hsl(200 17% 84%);
+    --ring: hsl(203 89% 53%);
+    --chart-1: hsl(203 89% 45%);
+    --chart-2: hsl(160 84% 32%);
+    --chart-3: hsl(35 92% 42%);
+    --chart-4: hsl(280 60% 50%);
+    --chart-5: hsl(190 75% 38%);
+    --shadow-panel: 0 1px 3px hsl(206 25% 8% / 0.04);
+    --shadow-overlay: 0 8px 28px hsl(206 25% 8% / 0.16);
   }
 }
 
-/* Manual override — explicit dark, regardless of OS. */
-.dark {
-  --background: hsl(222 27% 9%);
-  --foreground: hsl(40 26% 94%);
-  --card: hsl(222 22% 13%);
-  --card-foreground: hsl(40 26% 94%);
-  --popover: hsl(222 22% 13%);
-  --popover-foreground: hsl(40 26% 94%);
-  --primary: hsl(211 78% 65%);
-  --primary-foreground: hsl(222 27% 9%);
-  --secondary: hsl(222 18% 18%);
-  --secondary-foreground: hsl(40 26% 94%);
-  --muted: hsl(222 18% 18%);
-  --muted-foreground: hsl(220 11% 67%);
-  --accent: hsl(222 18% 18%);
-  --accent-foreground: hsl(211 78% 65%);
-  --destructive: hsl(0 72% 58%);
+/* Manual override — explicit light, regardless of OS. */
+.light {
+  --background: hsl(0 0% 100%);
+  --foreground: hsl(206 25% 8%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(206 25% 8%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(206 25% 8%);
+  --primary: hsl(203 89% 53%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(200 18% 95%);
+  --secondary-foreground: hsl(206 25% 8%);
+  --muted: hsl(200 18% 95%);
+  --muted-foreground: hsl(204 15% 38%);
+  --accent: hsl(200 18% 95%);
+  --accent-foreground: hsl(203 89% 45%);
+  --destructive: hsl(356 78% 48%);
   --destructive-foreground: hsl(0 0% 100%);
-  --good: hsl(145 52% 55%);
-  --good-foreground: hsl(222 27% 9%);
-  --warn: hsl(34 86% 62%);
-  --warn-foreground: hsl(222 27% 9%);
-  --border: hsl(222 15% 28%);
-  --input: hsl(222 15% 28%);
-  --ring: hsl(211 78% 65%);
-  --chart-1: hsl(211 78% 65%);
-  --chart-2: hsl(145 52% 55%);
-  --chart-3: hsl(34 86% 62%);
-  --chart-4: hsl(280 55% 70%);
-  --chart-5: hsl(190 65% 55%);
-  --shadow-panel: 0 1px 2px hsl(0 0% 0% / 0.4);
-  --shadow-overlay: 0 12px 32px hsl(0 0% 0% / 0.5);
+  --good: hsl(160 84% 30%);
+  --good-foreground: hsl(0 0% 100%);
+  --warn: hsl(35 92% 40%);
+  --warn-foreground: hsl(0 0% 100%);
+  --border: hsl(200 17% 84%);
+  --input: hsl(200 17% 84%);
+  --ring: hsl(203 89% 53%);
+  --chart-1: hsl(203 89% 45%);
+  --chart-2: hsl(160 84% 32%);
+  --chart-3: hsl(35 92% 42%);
+  --chart-4: hsl(280 60% 50%);
+  --chart-5: hsl(190 75% 38%);
+  --shadow-panel: 0 1px 3px hsl(206 25% 8% / 0.04);
+  --shadow-overlay: 0 8px 28px hsl(206 25% 8% / 0.16);
+}
+
+/* Manual override — explicit dark, regardless of OS (mirrors :root default). */
+.dark {
+  --background: hsl(0 0% 0%);
+  --foreground: hsl(206 9% 91%);
+  --card: hsl(220 13% 10%);
+  --card-foreground: hsl(206 9% 91%);
+  --popover: hsl(220 13% 8%);
+  --popover-foreground: hsl(206 9% 91%);
+  --primary: hsl(203 89% 53%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(214 11% 14%);
+  --secondary-foreground: hsl(206 9% 91%);
+  --muted: hsl(214 11% 14%);
+  --muted-foreground: hsl(211 6% 46%);
+  --accent: hsl(214 11% 16%);
+  --accent-foreground: hsl(203 89% 60%);
+  --destructive: hsl(356 90% 54%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --good: hsl(160 100% 37%);
+  --good-foreground: hsl(0 0% 100%);
+  --warn: hsl(40 92% 56%);
+  --warn-foreground: hsl(220 13% 10%);
+  --border: hsl(207 7% 20%);
+  --input: hsl(207 7% 20%);
+  --ring: hsl(203 89% 53%);
+  --chart-1: hsl(203 89% 60%);
+  --chart-2: hsl(160 84% 50%);
+  --chart-3: hsl(40 92% 60%);
+  --chart-4: hsl(280 70% 68%);
+  --chart-5: hsl(190 80% 55%);
+  --shadow-panel: none;
+  --shadow-overlay: 0 0 0 1px hsl(207 7% 20%), 0 8px 28px hsl(0 0% 0% / 0.6);
 }
 
 /* Map tokens into Tailwind's utility namespaces (bg-surface, text-muted-foreground,
@@ -177,7 +217,7 @@
 
   /* Typography — fixed family + tracking scale (sizes use Tailwind's scale) */
   --font-sans:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    "IBM Plex Sans Variable", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --tracking-eyebrow: 0.08em;
 
   /* Motion */

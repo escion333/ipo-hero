@@ -28,7 +28,7 @@ Sources:
 
 ### Q1 2026 revenue grew by $627 million, or 15.4%, year over year.
 
-Revenue for the three months ended March 31, 2026 increased by $627 million, or 15.4%, year over year, which the company attributes mainly to higher Connectivity (Starlink) revenue and higher launch revenue.
+Revenue for the three months ended March 31, 2026 increased by $627 million, or 15.4%, year over year, which the company attributes mainly to higher Starlink revenue and higher launch revenue.
 
 Why it matters: Existing cards state the Q1 2026 revenue level but not the growth rate versus the prior-year quarter or the segment drivers behind it, which describe the rate and mix of top-line change.
 
@@ -156,7 +156,7 @@ Sources:
 
 As of March 31, 2026, SpaceX reported approximately 10.3 million Starlink subscribers, about 105% more than the roughly 5.0 million subscribers a year earlier.
 
-Why it matters: Subscriber count and growth rate are central scale metrics for the Connectivity business and are not captured by the existing business cards.
+Why it matters: Subscriber count and growth rate are central scale metrics for the Starlink business and are not captured by the existing business cards.
 
 Confidence: high. Needs review: no.
 
@@ -174,11 +174,11 @@ Confidence: medium. Needs review: no.
 Sources:
 - chunk-section48business-25 / section-48-business: "Our fleet of 24 flight-proven, reusable rockets and our growing share of total mass delivered to orbit has increased every year since 2021. Reusability completely changes the economics of space access. Qualified for 40 launches, our reusable rockets can fly multiple times with only minimal refurbishment between missions, sharply lowering the cost per launch..."
 
-### Connectivity (Starlink) generated $11,387 million of revenue and $4,423 million of operating income in 2025
+### Starlink generated $11,387 million of revenue and $4,423 million of operating income in 2025
 
-For full-year 2025, SpaceX's Connectivity segment, primarily driven by Starlink, generated $11,387 million of revenue, $4,423 million of income from operations, and $7,168 million of Segment Adjusted EBITDA, which the filing presents as year-over-year growth of 49.8%, 120.4%, and 86.2% respectively.
+For full-year 2025, SpaceX's Starlink business generated $11,387 million of revenue, $4,423 million of income from operations, and $7,168 million of Segment Adjusted EBITDA, which the filing presents as year-over-year growth of 49.8%, 120.4%, and 86.2% respectively.
 
-Why it matters: It shows the Connectivity (Starlink) segment is the company's profit driver, a material part of the segment picture not covered by existing cards.
+Why it matters: It shows Starlink is the company's profit driver, a material part of the segment picture not covered by existing cards.
 
 Confidence: high. Needs review: no.
 
@@ -200,7 +200,7 @@ Sources:
 
 SpaceX states that since 2023, no Starlink enterprise customer contributing more than $750,000 of annual revenue has voluntarily discontinued service, despite customers being able to cancel at any time.
 
-Why it matters: Enterprise customer retention is a stated indicator of revenue durability in the Connectivity business and is not covered by existing cards.
+Why it matters: Enterprise customer retention is a stated indicator of revenue durability in the Starlink business and is not covered by existing cards.
 
 Confidence: medium. Needs review: no.
 
@@ -351,7 +351,7 @@ Sources:
 
 ### Q1 2026 revenue grew by $627 million, or 15.4%, year over year.
 
-Revenue for the three months ended March 31, 2026 increased by $627 million, or 15.4%, year over year, which the company attributes mainly to higher Connectivity (Starlink) revenue and higher launch revenue.
+Revenue for the three months ended March 31, 2026 increased by $627 million, or 15.4%, year over year, which the company attributes mainly to higher Starlink revenue and higher launch revenue.
 
 Why it matters: Existing cards state the Q1 2026 revenue level but not the growth rate versus the prior-year quarter or the segment drivers behind it, which describe the rate and mix of top-line change.
 
@@ -382,9 +382,9 @@ Confidence: high. Needs review: no.
 Sources:
 - chunk-section47operations-22 / section-47-operations: "2024 Change (in millions) 2025 2024 $ Change % Change Revenue $18,674 $14,015 $4,659 33.2% Costs and expenses Cost of revenue 9,451 7,996 1,455 18.2% Research and development 8,643 3,464 5,179 149.5% Selling, general, and administrative 2,644 1,813 831 45.8% Restructuring charges 487 213 274 128.6% Impairment 38 63 (25) (39.7)% Total costs and expenses 21,2..."
 
-### Connectivity revenue grew on 104.7% subscriber growth offset by a 22.9% ARPU decline.
+### Starlink revenue grew on 104.7% subscriber growth offset by a 22.9% ARPU decline.
 
-Connectivity consumer revenue rose $656 million, driven by 104.7% growth in Starlink Subscribers, partially offset by a 22.9% decline in Starlink Subscriber ARPU (average revenue per user) that the company attributes to international expansion and lower-priced plans.
+Starlink consumer revenue rose $656 million, driven by 104.7% growth in Starlink Subscribers, partially offset by a 22.9% decline in Starlink Subscriber ARPU (average revenue per user) that the company attributes to international expansion and lower-priced plans.
 
 Why it matters: Subscriber growth paired with a falling per-subscriber price is a key operating trend for the largest revenue segment, describing both the volume and unit-economics direction of Starlink.
 
@@ -1081,7 +1081,7 @@ Sources:
 
 This risk concerns satellite connectivity and spectrum. The filing states: "Our satellite connectivity, including our global satellite-to-mobile connectivity services under Starlink Mobile, depend on access to radio frequency spectrum and authorizations from the FCC in the United States and telecommunications…" It adds: "Obtaining and maintaining communications licenses and approvals from U.S. and foreign regulatory authorities is critical to our connectivity services."
 
-Why it matters: Tied to satellite connectivity and spectrum, this is one of the risks the company says could materially affect its business. It bears on the connectivity business the filing presents as a growth driver.
+Why it matters: Tied to satellite connectivity and spectrum, this is one of the risks the company says could materially affect its business. It bears on the Starlink business the filing presents as a growth driver.
 
 Confidence: medium. Needs review: no.
 
@@ -1147,7 +1147,7 @@ Sources:
 
 This risk concerns satellite connectivity and spectrum. The filing states: "Acquisitions, divestitures, or other strategic transactions may present unforeseen liabilities or disruptions to our operations, which could adversely impact our business, financial condition, results of operations, and future prospects." It adds: "Integrating acquired businesses, partnerships, or joint ventures may present significant challenges, including aligning operations, systems, and cultures, which could result in inefficiencies,…"
 
-Why it matters: Tied to satellite connectivity and spectrum, this is one of the risks the company says could materially affect its business. It bears on the connectivity business the filing presents as a growth driver.
+Why it matters: Tied to satellite connectivity and spectrum, this is one of the risks the company says could materially affect its business. It bears on the Starlink business the filing presents as a growth driver.
 
 Confidence: medium. Needs review: no.
 

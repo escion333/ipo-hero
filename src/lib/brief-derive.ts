@@ -1,6 +1,6 @@
-// Derivations for the redesigned Brief reader. Pure functions over the existing
-// generated brief data — no new data sources, nothing invented. Everything here
-// is traceable back to a high-confidence evidence card.
+// Derivations for the Brief reader. Pure functions over the generated brief
+// data — no new data sources, nothing invented. Every claim shown traces back
+// to the filing via its citations.
 import { briefData } from "./brief-data";
 
 type BriefSection = (typeof briefData.sections)[number];
@@ -75,16 +75,90 @@ export function prettifySection(sectionId: string): string {
 export function heroItems(): { section: BriefSection; items: BriefItem[] } | null {
   const section = briefData.sections.find((s) => /10 things/i.test(s.title));
   if (!section) return null;
-  return { section, items: section.items };
+  return { section, items: section.items.map(cleanItem) };
 }
 
-export function bodySections(): BriefSection[] {
-  return briefData.sections.filter((s) => !/10 things/i.test(s.title));
+export type ReaderSection = {
+  id: string;
+  title: string;
+  summary: string;
+  items: BriefItem[];
+};
+
+// Reader-facing information architecture: the generated brief has 12 granular
+// sections (plus two internal QA sections); the reader collapses them into six
+// plain-language groups. Generated section titles are matched exactly and merged
+// in order. QA sections ("…Needs Review", "Source Notes") are intentionally
+// omitted from the public reader — they live only in the reviewer workbench.
+const READER_GROUPS: { id: string; title: string; summary: string; sources: string[] }[] = [
+  {
+    id: "overview",
+    title: "Overview",
+    summary: "What the company tells the market it does, in its own words.",
+    sources: ["What SpaceX Says It Does"],
+  },
+  {
+    id: "offering",
+    title: "The Offering",
+    summary: "How the share sale is structured — and what hasn't been set yet.",
+    sources: ["Offering Mechanics"],
+  },
+  {
+    id: "financials",
+    title: "Financials",
+    summary: "The headline numbers from the filing's statements and notes.",
+    sources: ["Financial Snapshot"],
+  },
+  {
+    id: "ownership",
+    title: "Ownership & Control",
+    summary: "Who holds the shares, who controls the votes, and how that shifts after the IPO.",
+    sources: [
+      "Dilution and Capitalization",
+      "Control and Governance",
+      "Lockup and Future Share Overhang",
+      "Related-Party / Affiliated Transactions",
+    ],
+  },
+  {
+    id: "capital",
+    title: "Capital & Liquidity",
+    summary: "Where the money raised is meant to go, and how the company is funded today.",
+    sources: ["Use of Proceeds", "Debt and Liquidity"],
+  },
+  {
+    id: "risks",
+    title: "Key Risks",
+    summary: "The risks SpaceX itself flags as most material to the business.",
+    sources: ["Key Risk Themes"],
+  },
+];
+
+// The generated brief sometimes refers to its own extraction units as "cards"
+// (a pipeline term). Scrub that vocabulary at read time so the reader never sees
+// internal jargon — meaning is preserved. The durable fix lives in the brief
+// generator (scripts/brief/generate-brief.ts); this guards the reader meanwhile.
+function sanitizeProse<T extends string | undefined>(text: T): T {
+  if (!text) return text;
+  const scrubbed = text
+    .replace(/\bexisting (?:financial |business |segment-framing |governance |)cards\b/gi, "the figures already shown")
+    .replace(/\bevidence cards?\b/gi, "figures")
+    .replace(/\b(?:financial |business |governance )?cards\b/gi, "figures");
+  // Re-capitalize the sentence start in case a replacement landed there.
+  return (scrubbed.charAt(0).toUpperCase() + scrubbed.slice(1)) as T;
 }
 
-export function needsReviewCount(): number {
-  return briefData.sections.reduce(
-    (sum, s) => sum + s.items.filter((i) => i.needsReview).length,
-    0,
-  );
+function cleanItem(item: BriefItem): BriefItem {
+  return { ...item, whyItMatters: sanitizeProse(item.whyItMatters), body: sanitizeProse(item.body) };
+}
+
+export function readerSections(): ReaderSection[] {
+  const byTitle = new Map(briefData.sections.map((s) => [s.title, s]));
+  const out: ReaderSection[] = [];
+  for (const group of READER_GROUPS) {
+    const items = group.sources.flatMap((title) => byTitle.get(title)?.items ?? []).map(cleanItem);
+    if (items.length === 0) continue;
+    out.push({ id: group.id, title: group.title, summary: group.summary, items });
+  }
+  return out;
 }

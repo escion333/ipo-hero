@@ -11,13 +11,13 @@ import type {
   VoteValue,
 } from "../../lib/community/types";
 import { cn } from "../../lib/utils";
-import { SpacexPriceTicker } from "../spacex-price-ticker";
+import { SpacexPrice } from "../spacex-price";
+import { Button } from "../ui/button";
 import { AccountMenu } from "./account-menu";
-import { ForumDisclaimer } from "./forum-disclaimer";
 import { NewThreadForm } from "./new-thread-form";
-import { SignInPrompt } from "./sign-in-prompt";
 import { ThreadList } from "./thread-list";
 import { ThreadView } from "./thread-view";
+import { XLogo } from "./x-logo";
 
 /** API handed to the Brief so section "Discuss" links can drive the forum. */
 export type BriefForumApi = {
@@ -184,12 +184,16 @@ export function BriefForumShell({
     <div className={cn("flex flex-col", className)}>
       {/* ---------- Segmented toggle (sticky global chrome) ---------- */}
       <div className="sticky top-0 z-30 border-b border-border bg-background/85 backdrop-blur">
-        <div className="mx-auto grid w-full max-w-[1180px] grid-cols-[1fr_auto_1fr] items-center gap-2 px-4 py-2">
-          <div aria-hidden="true" />
+        <div className="mx-auto grid min-h-14 w-full max-w-[1180px] grid-cols-[1fr_auto_1fr] items-center gap-2 px-4">
+          <div className="flex items-center">
+            <span className="text-[0.95rem] font-bold tracking-tight">
+              IPO<span className="text-primary"> Hero</span>
+            </span>
+          </div>
           <div
             role="tablist"
-            aria-label="Brief or community"
-            className="inline-flex items-center gap-1 rounded-full border border-border bg-secondary/60 p-1"
+            aria-label="Brief or discussion"
+            className="inline-flex items-stretch self-stretch"
           >
             <SegButton
               active={tab === "brief"}
@@ -201,12 +205,12 @@ export function BriefForumShell({
               active={tab === "forum"}
               onClick={() => setTab("forum")}
               icon={<MessagesSquare className="size-4" aria-hidden="true" />}
-              label="Community"
+              label="Discussion"
               badge={threadCount ?? threads.length}
             />
           </div>
           <div className="flex items-center justify-end gap-3">
-            <SpacexPriceTicker className="hidden sm:inline-flex" />
+            <SpacexPrice className="hidden sm:inline-flex" />
             <AccountMenu
               user={currentUser ?? null}
               loading={authLoading}
@@ -224,29 +228,27 @@ export function BriefForumShell({
 
       {/* ---------- Forum ---------- */}
       {tab === "forum" ? (
-        <div className="mx-auto flex w-full max-w-[1180px] flex-col gap-4 px-4 py-6 sm:px-6">
-          <header className="flex flex-col gap-1">
-            <h1 className="text-2xl font-bold tracking-tight">Community discussion</h1>
-            <p className="text-sm text-muted-foreground">
-              Reader debate on the SpaceX S-1. Browsing is open to everyone.
-            </p>
+        <div className="mx-auto flex w-full max-w-[860px] flex-col gap-5 px-4 py-8 sm:px-6">
+          <header>
+            <h1 className="text-2xl font-semibold tracking-tight">Discussion</h1>
           </header>
-          <ForumDisclaimer />
 
-          {!signedIn && !authLoading ? (
+          {!signedIn && !authLoading && view.name === "list" ? (
             communityEnabled === false ? (
-              <p className="rounded-lg border border-dashed border-border bg-card/50 p-4 text-sm text-muted-foreground">
-                Community sign-in isn’t configured in this environment. Browsing stays open to
+              <p className="rounded-xl border border-dashed border-border px-4 py-3 text-sm text-muted-foreground">
+                Community sign-in isn&rsquo;t configured in this environment. Reading stays open to
                 everyone.
               </p>
-            ) : (
-              <SignInPrompt
-                title="Sign in to join the community"
-                description="Browsing is open to everyone. Posting, replying, and voting need a quick sign-in."
-                onSignInWithX={onSignInWithX}
-                onSignInWithEmail={onSignInWithEmail}
-              />
-            )
+            ) : onSignInWithX ? (
+              <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-border px-4 py-2.5">
+                <span className="text-sm text-muted-foreground">
+                  Sign in to post, reply, and vote.
+                </span>
+                <Button type="button" size="sm" onClick={onSignInWithX}>
+                  <XLogo className="size-3.5" /> Sign in with X
+                </Button>
+              </div>
+            ) : null
           ) : null}
 
           {view.name === "list" ? (
@@ -332,23 +334,22 @@ function SegButton({
       aria-selected={active}
       onClick={onClick}
       className={cn(
-        "inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-sm font-semibold transition-colors",
-        active
-          ? "bg-background text-foreground shadow-panel"
-          : "text-muted-foreground hover:text-foreground",
+        "relative inline-flex items-center justify-center gap-2 px-5 py-3 text-sm font-semibold transition-colors hover:bg-foreground/[0.04]",
+        active ? "text-foreground" : "text-muted-foreground hover:text-foreground",
       )}
     >
       {icon}
       {label}
       {typeof badge === "number" ? (
-        <span
-          className={cn(
-            "rounded-full px-1.5 text-xs tabular-nums",
-            active ? "bg-secondary text-muted-foreground" : "bg-transparent",
-          )}
-        >
+        <span className="rounded-full bg-secondary px-1.5 text-xs tabular-nums text-muted-foreground">
           {badge}
         </span>
+      ) : null}
+      {active ? (
+        <span
+          aria-hidden="true"
+          className="absolute bottom-0 left-1/2 h-1 w-14 -translate-x-1/2 rounded-full bg-primary"
+        />
       ) : null}
     </button>
   );

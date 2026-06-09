@@ -149,12 +149,15 @@ export function ThreadList({
       ) : null}
 
       {visible.length === 0 ? (
-        <div className="flex flex-col items-center gap-2 rounded-lg border border-dashed border-border bg-card/50 py-12 text-center">
+        <div className="flex flex-col items-center gap-3 rounded-xl border border-dashed border-border py-14 text-center">
           <MessagesSquare className="size-6 text-muted-foreground" aria-hidden="true" />
-          <p className="text-sm text-muted-foreground">No discussions here yet.</p>
+          <div className="flex flex-col gap-1">
+            <p className="text-sm font-medium">No discussions yet</p>
+            <p className="text-sm text-muted-foreground">Be the first to share your read of the filing.</p>
+          </div>
           {onNewThread ? (
-            <Button type="button" variant="outline" size="sm" onClick={onNewThread}>
-              Start the first thread
+            <Button type="button" size="sm" onClick={onNewThread}>
+              Start a discussion
             </Button>
           ) : null}
         </div>

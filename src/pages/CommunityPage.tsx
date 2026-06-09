@@ -15,16 +15,14 @@ import type {
   VoteValue,
 } from "../lib/community/types";
 import { briefData } from "../lib/brief-data";
-import { prettifySection } from "../lib/brief-derive";
-
-type BriefSection = (typeof briefData.sections)[number];
+import { prettifySection, type ReaderSection } from "../lib/brief-derive";
 
 type CommunityPageProps = {
   initialTab?: "brief" | "forum";
   initialThreadId?: string;
 };
 
-function mostCitedFilingSection(section: BriefSection): string | null {
+function mostCitedFilingSection(section: ReaderSection): string | null {
   const counts = new Map<string, number>();
   for (const item of section.items) {
     for (const citation of item.citations) {
@@ -203,7 +201,7 @@ export function CommunityPage({ initialTab = "brief", initialThreadId }: Communi
   );
 
   const discussionForSection = useCallback(
-    (api: BriefForumApi) => (section: BriefSection) => {
+    (api: BriefForumApi) => (section: ReaderSection) => {
       const filingSectionId = mostCitedFilingSection(section);
       if (!filingSectionId) return null;
       return {

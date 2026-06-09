@@ -46,7 +46,7 @@ export function ThreadCard({
   return (
     <article
       className={cn(
-        "flex rounded-lg border border-border bg-card text-card-foreground shadow-panel transition-colors hover:border-ring/60",
+        "flex rounded-xl border border-border bg-card text-card-foreground transition-colors hover:bg-foreground/[0.02]",
         compact ? "gap-2 p-3" : "gap-3 p-4",
         className,
       )}

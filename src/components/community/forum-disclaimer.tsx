@@ -8,19 +8,15 @@ import { cn } from "../../lib/utils";
  */
 export function ForumDisclaimer({ className }: { className?: string }) {
   return (
-    <div
+    <p
       role="note"
       className={cn(
-        "flex items-start gap-2 rounded-lg border border-border bg-secondary/60 px-3 py-2 text-xs text-muted-foreground",
+        "flex items-center gap-1.5 text-xs text-muted-foreground",
         className,
       )}
     >
-      <Info className="mt-0.5 size-3.5 shrink-0" aria-hidden="true" />
-      <p>
-        <span className="font-semibold text-foreground">Forum posts are user opinion</span>, not IPO
-        Hero analysis. IPO Hero stays the neutral, source-cited substrate — discussion and any
-        investment views here belong to their authors.
-      </p>
-    </div>
+      <Info className="size-3.5 shrink-0" aria-hidden="true" />
+      Opinions here are readers&rsquo; own, not IPO Hero&rsquo;s analysis.
+    </p>
   );
 }

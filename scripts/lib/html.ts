@@ -43,8 +43,27 @@ function levelForHeading(text: string): number {
   return 2;
 }
 
+// Flatten a node to text. cheerio's .text() concatenates adjacent table cells with no
+// separator ("$4,694$4,067", "2026December"), destroying column boundaries. When the node
+// contains a table, clone it and inject a space after every cell and row so the flattened
+// text keeps cell boundaries. The original DOM (and stored html fragments) is untouched.
 function nodeText($: cheerio.CheerioAPI, node: Element): string {
-  return normalizeWhitespace($(node).text());
+  const $node = $(node);
+  if ($node.is("table") || $node.find("table").length > 0) {
+    const $clone = $node.clone();
+    $clone.find("td, th").append(" ");
+    $clone.find("tr").append(" ");
+    return normalizeWhitespace($clone.text());
+  }
+  return normalizeWhitespace($node.text());
+}
+
+// Same cell/row separation for standalone table extraction.
+function tableText($: cheerio.CheerioAPI, node: Element): string {
+  const $clone = $(node).clone();
+  $clone.find("td, th").append(" ");
+  $clone.find("tr").append(" ");
+  return normalizeWhitespace($clone.text());
 }
 
 export function parseS1Sections(html: string, documentId: string, sourceUrl: string): FilingSection[] {
@@ -151,7 +170,7 @@ export function extractTables(html: string): Array<{ order: number; text: string
     .toArray()
     .map((node, order) => ({
       order,
-      text: normalizeWhitespace($(node).text()),
+      text: tableText($, node),
       html: $.html(node),
     }))
     .filter((table) => table.text.length > 0);

@@ -7,7 +7,7 @@ export const REVIEWED_DIR = path.join("src", "data", "reviewed");
 
 export const PARSER_VERSIONS = {
   parser: "2026-06-04.3",
-  sectionExtractor: "section-heuristic-v2",
+  sectionExtractor: "section-heuristic-v3",
   chunker: "section-aware-v2",
   riskExtractor: "risk-splitter-v3",
   factExtractor: "deterministic-facts-v3",

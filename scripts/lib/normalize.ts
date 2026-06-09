@@ -19,6 +19,15 @@ export function estimateTokens(value: string): number {
   return Math.max(1, Math.ceil(normalizeWhitespace(value).length / 4));
 }
 
+// True when `quote` is a contiguous excerpt of `source` on an alphanumeric basis.
+// We compare on letters+digits only so that display-time whitespace/punctuation reflow
+// (collapsing dotted table leaders, spacing glued table cells) does not break the
+// "this quote really is in the filing" guarantee — the alphanumeric stream is unchanged.
+export function isSourceExcerpt(source: string, quote: string): boolean {
+  const signature = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  return signature(source).includes(signature(quote));
+}
+
 export function excerpt(value: string, maxLength = 500): string {
   const clean = normalizeWhitespace(value);
   return clean.length <= maxLength ? clean : `${clean.slice(0, maxLength - 1).trim()}...`;

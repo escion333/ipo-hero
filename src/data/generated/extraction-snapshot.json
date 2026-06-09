@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-04T20:17:16.924Z",
+  "generatedAt": "2026-06-08T20:47:48.011Z",
   "counts": {
     "documents": 102,
     "sections": 72,
-    "chunks": 320,
+    "chunks": 322,
     "risks": 326,
-    "facts": 94,
+    "facts": 95,
     "tables": 151
   },
   "coverage": {

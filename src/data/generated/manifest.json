@@ -1,7 +1,7 @@
 {
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
   "accessionNumber": "0001628280-26-036936",
-  "generatedAt": "2026-06-04T20:17:17.127Z",
+  "generatedAt": "2026-06-08T20:47:48.245Z",
   "sourceFileHashes": {
     "index": "2ec3c2de9423368736e68adfca890487381ed2122b31e772c87b870b1d59ecf2",
     "mainS1": "15d825479ca2749bdb9874b81fa8cac4af5292595c5d8162c912c344e9e5c533"
@@ -20,29 +20,29 @@
   },
   "versions": {
     "parser": "2026-06-04.3",
-    "sectionExtractor": "section-heuristic-v2",
+    "sectionExtractor": "section-heuristic-v3",
     "chunker": "section-aware-v2",
     "riskExtractor": "risk-splitter-v3",
     "factExtractor": "deterministic-facts-v3"
   },
   "parserVersion": "2026-06-04.3",
-  "sectionExtractorVersion": "section-heuristic-v2",
+  "sectionExtractorVersion": "section-heuristic-v3",
   "chunkerVersion": "section-aware-v2",
   "riskExtractorVersion": "risk-splitter-v3",
   "factExtractorVersion": "deterministic-facts-v3",
   "counts": {
     "documents": 102,
     "sections": 72,
-    "chunks": 320,
+    "chunks": 322,
     "risks": 326,
-    "facts": 94,
+    "facts": 95,
     "tables": 151
   },
   "warningsSummary": {
     "count": 2,
     "items": [
       "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
-      "6 duplicate or near-duplicate risk titles detected."
+      "8 duplicate or near-duplicate risk titles detected."
     ]
   },
   "errorsSummary": {
@@ -57,59 +57,59 @@
     },
     {
       "path": "src/data/generated/sections.json",
-      "sha256": "d7a63ca101efddfe58c99b4d50e9153591225a44bfb803fb86f6f08524911f08",
-      "sizeBytes": 17186750
+      "sha256": "18987090f029158302ab11fbbd8d83461ea806319d51a499895c89ce1370b203",
+      "sizeBytes": 17192718
     },
     {
       "path": "src/data/generated/chunks.json",
-      "sha256": "512f19b500e9e1a54a4653ce2f5bb1602f001112540d559149dead1730317e65",
-      "sizeBytes": 1797100
+      "sha256": "5279bdfe850c6120ff3ab6a6d7c55d5f5bb3500d5a84fa3e9721ce15cde19e74",
+      "sizeBytes": 1804345
     },
     {
       "path": "src/data/generated/facts.generated.json",
-      "sha256": "e95ffc38df020412ed02e540e006f74871e22d5b99d21e017163324d8c185bd3",
-      "sizeBytes": 130994
+      "sha256": "ef9ab38d1e1a387a8ca050a0bf8a1caa93df88fd776d271a1533070077419e32",
+      "sizeBytes": 132642
     },
     {
       "path": "src/data/generated/risks.generated.json",
-      "sha256": "02e1d4e2dfc4ba03c620dba7693ead38759b23b847b378ea93c0e5502614fb2d",
-      "sizeBytes": 759415
+      "sha256": "ec30baac10bf170224d1e33665baa66845f06c6f1df7f55f9c35dc396d6c58c1",
+      "sizeBytes": 759669
     },
     {
       "path": "src/data/generated/facts.json",
-      "sha256": "e95ffc38df020412ed02e540e006f74871e22d5b99d21e017163324d8c185bd3",
-      "sizeBytes": 130994
+      "sha256": "ef9ab38d1e1a387a8ca050a0bf8a1caa93df88fd776d271a1533070077419e32",
+      "sizeBytes": 132642
     },
     {
       "path": "src/data/generated/risks.json",
-      "sha256": "02e1d4e2dfc4ba03c620dba7693ead38759b23b847b378ea93c0e5502614fb2d",
-      "sizeBytes": 759415
+      "sha256": "ec30baac10bf170224d1e33665baa66845f06c6f1df7f55f9c35dc396d6c58c1",
+      "sizeBytes": 759669
     },
     {
       "path": "src/data/generated/tables.json",
-      "sha256": "ed4facdbf7ad4b4dbce59df5de27260c7273f9ebd6ee39fc4bf1a5cc23a11247",
-      "sizeBytes": 5900760
+      "sha256": "ea15e58f1cbe2f30f9b0eeccf2aac7729d6a6ba2a2355a639288dbadf215bed0",
+      "sizeBytes": 5906728
     },
     {
       "path": "src/data/generated/risk-audit.json",
-      "sha256": "94a68b7bfc64a8ec5cbdb27c2b69ab9e619a3a340858c20a293a30eca366a14f",
-      "sizeBytes": 142021
+      "sha256": "c4334f9779fe2e75a4c5197106c38212775ce29e6ca29c321b3f474b890b1fb7",
+      "sizeBytes": 142946
     },
     {
       "path": "src/data/generated/extraction-report.json",
-      "sha256": "55cabb8880f3e78aa1842e742d83f7c5acf6bdb611addac06f87df20b512924d",
+      "sha256": "c62a1800543e8a6905bc2b167a3866d8e85a33dc7d8c33e537567536828ee95f",
       "sizeBytes": 6516
     },
     {
       "path": "src/data/generated/extraction-snapshot.json",
-      "sha256": "dfcf951f5556c39d38bf11d9d6c58e27f499986de72165bfd74575c5ea23fdbb",
+      "sha256": "3ee1c47c44efda7e27bdd70c387567e5c91eb75670cb7324b0bb4b486d2d015a",
       "sizeBytes": 561
     },
     {
       "path": "src/data/generated/diagnostics.json",
-      "sha256": "f84e5052e5682b03e97c5db5e55afd2c873d7468a4b5ae8dfc866cdfa0ff166b",
-      "sizeBytes": 360797
+      "sha256": "ca977d7838353e4c071cae502a86aaf513c9570bc66df87a4b3f6359a5dae0a2",
+      "sizeBytes": 361937
     }
   ],
-  "generatedDataHash": "74e513f823564041c61c40e4af0d58d605bb5f00882f2f672b7f51d1732f049c"
+  "generatedDataHash": "b446f27a53a7a1e13419596244939f1a875abeb07ce3b1b4eca614247f45473c"
 }

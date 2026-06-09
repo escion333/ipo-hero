@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-04T20:17:17.091Z",
+  "generatedAt": "2026-06-08T20:47:48.209Z",
   "totalRiskCount": 326,
   "countByCategory": {
     "dilution/share structure": 12,
@@ -326,13 +326,6 @@
       "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
     },
     {
-      "id": "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
-      "title": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) ",
-      "length": 167,
-      "type": "toc_entry",
-      "warning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
-    },
-    {
       "id": "risk-246-if-we-are-unable-to-successfully-execute-our-ai-strategy-our-business-financial-",
       "title": "If we are unable to successfully execute our AI strategy, our business, financial condition, results of operations and prospects could be materially adversely affected",
       "length": 168,
@@ -380,9 +373,23 @@
       "length": 175,
       "type": "heading_only",
       "warning": "Looks like a heading with little supporting body text."
+    },
+    {
+      "id": "risk-136-advertisers-generally-do-not-have-longterm-commitments-to-the-x-platform-and-may",
+      "title": "Advertisers generally do not have long-term commitments to the X platform and may reduce or discontinue their advertising spending for a variety of reasons outside our control",
+      "length": 176,
+      "type": "heading_only",
+      "warning": "Looks like a heading with little supporting body text."
     }
   ],
   "duplicateOrNearDuplicateTitles": [
+    {
+      "title": "weighted average shares used in computing net income loss per share of common stock 1 basi",
+      "ids": [
+        "risk-10-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
+        "risk-11-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st"
+      ]
+    },
     {
       "title": "weighted average shares used in computing net loss per share of common stock basic and dil",
       "ids": [
@@ -406,6 +413,13 @@
         "risk-23-adjusted-ebitda-in-millions-2",
         "risk-24-adjusted-ebitda-in-millions-2",
         "risk-25-adjusted-ebitda-in-millions-2"
+      ]
+    },
+    {
+      "title": "arpu dollars per month 1 66 86 81 91 99 segment income from operations in millions",
+      "ids": [
+        "risk-20-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
+        "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio"
       ]
     },
     {
@@ -444,7 +458,7 @@
     "risk-6-a-common-stock-in-this-offering-by-our-directors-officers-or-existing-shareholde",
     "risk-7-the-following-table-sets-forth-the-summary-historical-consolidated-financial-and",
     "risk-8-ai-which-was-acquired-by-spacex-effective-february-2-2026-and-x-holdings-which-w",
-    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-20-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-25-adjusted-ebitda-in-millions-2",
     "risk-26-analysis-of-financial-condition-and-results-of-operationkey-business-metrics-for",
@@ -582,7 +596,7 @@
     "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
     "risk-18-adjusted-ebitda-in-millions-2",
     "risk-19-adjusted-ebitda-in-millions-2",
-    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-20-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-21-adjusted-ebitda-in-millions-2",
     "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-23-adjusted-ebitda-in-millions-2",
@@ -614,7 +628,7 @@
     "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
     "risk-18-adjusted-ebitda-in-millions-2",
     "risk-19-adjusted-ebitda-in-millions-2",
-    "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
+    "risk-20-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-21-adjusted-ebitda-in-millions-2",
     "risk-22-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
     "risk-23-adjusted-ebitda-in-millions-2",
@@ -1170,7 +1184,7 @@
       "id": "risk-9-analysis-of-financial-condition-and-results-of-operations-and-our-consolidated-f",
       "title": "Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and related notes thereto included elsewhere in this prospectus",
       "category": "financial/cash flow",
-      "originalText": "Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and related notes thereto included elsewhere in this prospectus. The summary historical consolidated financial data included in this section is not intended to replace the consolidated financial statements and is qualified in its entirety by our consolidated financial statements and related notes included elsewhere in this prospectus. Statements of Operations Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions, except per share data)(unaudited)Revenue .............................................$4,694$4,067$18,674$14,015$10,387Total costs and expenses ...........6,6374,04021,26313,54913,892Income (loss) from operations ...........(1,943)27(2,589)466(3,505)Net income (loss) ..............................$(4,276)$(528)$(4,937)$791$(4,628)Net income (loss) per share of common stock attributable to common shareholders (1)Basic ..............................................$(1.27)$(0.18)$(1.69)$0.01$(1.68)Diluted ...........................................$(1.27)$(0.18)$(1.69)$0.00$(1.68)",
+      "originalText": "Analysis of Financial Condition and Results of Operations” and our consolidated financial statements and related notes thereto included elsewhere in this prospectus. The summary historical consolidated financial data included in this section is not intended to replace the consolidated financial statements and is qualified in its entirety by our consolidated financial statements and related notes included elsewhere in this prospectus. Statements of Operations Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions, except per share data) (unaudited) Revenue ............................................. $4,694 $4,067 $18,674 $14,015 $10,387 Total costs and expenses ........... 6,637 4,040 21,263 13,549 13,892 Income (loss) from operations ........... (1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68)",
       "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1180,7 +1194,7 @@
         "chunk-section39riskfactors-2"
       ],
       "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
-      "characterLength": 1138,
+      "characterLength": 1183,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1188,9 +1202,9 @@
     },
     {
       "id": "risk-10-weighted-average-shares-used-in-computing-net-income-loss-per-share-of-common-st",
-      "title": "Weighted average shares used in computing net income (loss) per share of common stock (1)Basic ",
+      "title": "Weighted average shares used in computing net income (loss) per share of common stock (1) Basic ",
       "category": "financial/cash flow",
-      "originalText": "Weighted average shares used in computing net income (loss) per share of common stock (1)Basic . .............................................3,8842,8752,9262,8482,759Diluted ...........................................3,8842,8752,9269,9562,759 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions, except per share data) (unaudited) Revenue ............................................. $4,694 $4,067 $18,674 $14,015 $10,387 Total costs and expenses ........... 6,637 4,040 21,263 13,549 13,892 Income (loss) from operations ...........",
+      "originalText": "Weighted average shares used in computing net income (loss) per share of common stock (1) Basic . ............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions, except per share data) (unaudited) Revenue ............................................. $4,694 $4,067 $18,674 $14,015 $10,387 Total costs and expenses ........... 6,637 4,040 21,263 13,549 13,892 Income (loss) from operations ...........",
       "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1200,7 +1214,7 @@
         "chunk-section39riskfactors-2"
       ],
       "sourceQuote": "The summary historical consolidated financial data as of March 31, 2026 and for the three months ended March 31, 2026 and 2025 (except for pro forma basic and diluted net loss per share of common stock attributable to common shareholders and weighted average shares used in computing pro forma basic and diluted net loss per share of common stock attributable to common shareholders) has been derived from our unaudited consolidated financial statements included elsewhere in this prospectus. The summary historical consolidated financial data as of December 31, 2025 and 2024 and for the years ended December 31, 2025, 2024, and 2023 (except for pro forma basic and diluted net loss per share of com",
-      "characterLength": 574,
+      "characterLength": 586,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1230,7 +1244,7 @@
       "id": "risk-12-the-following-table-sets-forth-the-computation-of-unaudited-pro-forma-basic-and-",
       "title": "The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of common stock attributable to common shareholders for the period presented",
       "category": "financial/cash flow",
-      "originalText": "The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of common stock attributable to common shareholders for the period presented: (in millions, except per share data)Three Months EndedMarch 31, 2026Year Ended December 31, 2025Numerator:Net loss attributable to common shareholders, basic and diluted .........................$(4,947)$(4,937)Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................565—Pro Forma net loss attributable to common shareholders, basic and diluted ........$(4,382)$(4,937)Denominator:",
+      "originalText": "The following table sets forth the computation of unaudited pro forma basic and diluted net loss per share of common stock attributable to common shareholders for the period presented: (in millions, except per share data) Three Months EndedMarch 31, 2026 Year Ended December 31, 2025 Numerator: Net loss attributable to common shareholders, basic and diluted ......................... $(4,947) $(4,937) Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................ 565 — Pro Forma net loss attributable to common shareholders, basic and diluted ........ $(4,382) $(4,937) Denominator:",
       "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "company_specific",
@@ -1240,7 +1254,7 @@
         "chunk-section39riskfactors-3"
       ],
       "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
-      "characterLength": 678,
+      "characterLength": 691,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1250,7 +1264,7 @@
       "id": "risk-13-weighted-average-shares-used-in-computing-net-loss-per-share-of-common-stock-bas",
       "title": "Weighted average shares used in computing net loss per share of common stock, basic and diluted ",
       "category": "financial/cash flow",
-      "originalText": "Weighted average shares used in computing net loss per share of common stock, basic and diluted . ....................................................................................3,8842,926Pro forma adjustment to reflect the Preferred Conversion as if the conversion occurred on January 1, 2025, basic and diluted ................................................6,7236,723",
+      "originalText": "Weighted average shares used in computing net loss per share of common stock, basic and diluted . .................................................................................... 3,884 2,926 Pro forma adjustment to reflect the Preferred Conversion as if the conversion occurred on January 1, 2025, basic and diluted ................................................ 6,723 6,723",
       "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1260,7 +1274,7 @@
         "chunk-section39riskfactors-3"
       ],
       "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
-      "characterLength": 375,
+      "characterLength": 380,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1270,7 +1284,7 @@
       "id": "risk-14-weighted-average-shares-used-in-computing-pro-forma-net-loss-per-share-of-common",
       "title": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted ",
       "category": "financial/cash flow",
-      "originalText": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted . .....................................................................10,6079,649Pro forma net loss per share of common stock attributable to common shareholders, basic and diluted (2) ..........................................................................$(0.41)$(0.51) (in millions, except per share data) Three Months Ended March 31, 2026 Year Ended December 31, 2025 Numerator: Net loss attributable to common shareholders, basic and diluted ......................... $(4,947) $(4,937) Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................ 565 — Pro Forma net loss attributable to common shareholders, basic and diluted ........ $(4,382) $(4,937) Denominator:",
+      "originalText": "Weighted average shares used in computing pro forma net loss per share of common stock, basic and diluted . ..................................................................... 10,607 9,649 Pro forma net loss per share of common stock attributable to common shareholders, basic and diluted (2) .......................................................................... $(0.41) $(0.51) (in millions, except per share data) Three Months Ended March 31, 2026 Year Ended December 31, 2025 Numerator: Net loss attributable to common shareholders, basic and diluted ......................... $(4,947) $(4,937) Pro forma adjustment to reverse the deemed dividend on SpaceX Redeemable Convertible Preferred Stock, basic and diluted ................................................ 565 — Pro Forma net loss attributable to common shareholders, basic and diluted ........ $(4,382) $(4,937) Denominator:",
       "plainEnglish": "The filing flags this as a financial/cash flow risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "company_specific",
@@ -1280,7 +1294,7 @@
         "chunk-section39riskfactors-3"
       ],
       "sourceQuote": "(1,943) 27 (2,589) 466 (3,505) Net income (loss) .............................. $(4,276) $(528) $(4,937) $791 $(4,628) Net income (loss) per share of common stock attributable to common shareholders (1) Basic .............................................. $(1.27) $(0.18) $(1.69) $0.01 $(1.68) Diluted ........................................... $(1.27) $(0.18) $(1.69) $0.00 $(1.68) Weighted average shares used in computing net income (loss) per share of common stock (1) Basic .............................................. 3,884 2,875 2,926 2,848 2,759 Diluted ........................................... 3,884 2,875 2,926 9,956 2,759 __________________ (1)Please refer to Note 14, Earnings per S",
-      "characterLength": 888,
+      "characterLength": 893,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1330,7 +1344,7 @@
       "id": "risk-17-the-following-table-presents-our-capital-expenditures-by-segment",
       "title": "The following table presents our capital expenditures by segment",
       "category": "launch/space operations",
-      "originalText": "The following table presents our capital expenditures by segment: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Space ..................................................$1,052$759$3,832$2,032$1,497Connectivity .......................................1,3328144,1783,4982,455AI ........................................................7,7232,56712,7275,633463Total Capital Expenditures .................$10,107$4,140$20,737$11,163$4,415 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Space .................................................. $1,052 $759 $3,832 $2,032 $1,497 Connectivity ....................................... 1,332 814 4,178 3,498 2,455 AI ........................................................ 7,723 2,567 12,727 5,633 463 Total Capital Expenditures ................. $10,107 $4,140 $20,737 $11,163 $4,415 23 Table of Contents Balance Sheet Data: March 31,December 31, 202620252024(in millions)(unaudited)Cash and cash equivalents ..............................................................$15,852$24,747$11,385Total current assets .........................................................................29,73230,95216,108Property, plant, and equipment, net ................................................53,87942,60221,147Total assets ....................................................................................102,09492,07957,062Debt and finance leases, current ....................................................1,538928372Total current liabilities ...................................................................24,43621,40011,791Total liabilities ................................................................................60,51250,75431,258Redeemable convertible preferred stock ........................................7,04938,75220,941Total shareholders’ equity .............................................................34,5332,5734,863 March 31, December 31, 2026 2025 2024 (in millions) (unaudited) Cash and cash equivalents .............................................................. $15,852 $24,747 $11,385 Total current assets ......................................................................... 29,732 30,952 16,108 Property, plant, and equipment, net ................................................ 53,879 42,602 21,147 Total assets .................................................................................... 102,094 92,079 57,062 Debt and finance leases, current .................................................... 1,538 928 372 Total current liabilities ................................................................... 24,436 21,400 11,791 Total liabilities ................................................................................ 60,512 50,754 31,258 Redeemable convertible preferred stock ........................................ 7,049 38,752 20,941 Total shareholders’ equity ............................................................. 34,533 2,573 4,863 Segment Operating and Financial Data (unaudited) Space: Three Months Ended March 31,Year Ended December 31,20262025202520242023Mass to Orbit (in metric tons) (1) ........5564502,2131,6991,210Launches (number) (1) .........................403817013898Segment income (loss) from operations (in millions) ...................$(662)$(70)$(657)$21$(1)Segment",
+      "originalText": "The following table presents our capital expenditures by segment: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Space .................................................. $1,052 $759 $3,832 $2,032 $1,497 Connectivity ....................................... 1,332 814 4,178 3,498 2,455 AI ........................................................ 7,723 2,567 12,727 5,633 463 Total Capital Expenditures ................. $10,107 $4,140 $20,737 $11,163 $4,415 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Space .................................................. $1,052 $759 $3,832 $2,032 $1,497 Connectivity ....................................... 1,332 814 4,178 3,498 2,455 AI ........................................................ 7,723 2,567 12,727 5,633 463 Total Capital Expenditures ................. $10,107 $4,140 $20,737 $11,163 $4,415 23 Table of Contents Balance Sheet Data: March 31, December 31, 2026 2025 2024 (in millions) (unaudited) Cash and cash equivalents .............................................................. $15,852 $24,747 $11,385 Total current assets ......................................................................... 29,732 30,952 16,108 Property, plant, and equipment, net ................................................ 53,879 42,602 21,147 Total assets .................................................................................... 102,094 92,079 57,062 Debt and finance leases, current .................................................... 1,538 928 372 Total current liabilities ................................................................... 24,436 21,400 11,791 Total liabilities ................................................................................ 60,512 50,754 31,258 Redeemable convertible preferred stock ........................................ 7,049 38,752 20,941 Total shareholders’ equity ............................................................. 34,533 2,573 4,863 March 31, December 31, 2026 2025 2024 (in millions) (unaudited) Cash and cash equivalents .............................................................. $15,852 $24,747 $11,385 Total current assets ......................................................................... 29,732 30,952 16,108 Property, plant, and equipment, net ................................................ 53,879 42,602 21,147 Total assets .................................................................................... 102,094 92,079 57,062 Debt and finance leases, current .................................................... 1,538 928 372 Total current liabilities ................................................................... 24,436 21,400 11,791 Total liabilities ................................................................................ 60,512 50,754 31,258 Redeemable convertible preferred stock ........................................ 7,049 38,752 20,941 Total shareholders’ equity ............................................................. 34,533 2,573 4,863 Segment Operating and Financial Data (unaudited) Space: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 Mass to Orbit (in metric tons) (1) ........ 556 450 2,213 1,699 1,210 Launches (number) (1) ......................... 40 38 170 138 98 Segment income (loss) from operations (in millions) ................... $(662) $(70) $(657) $21 $(1) Segment",
       "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1339,8 +1353,8 @@
       "sourceChunkIds": [
         "chunk-section39riskfactors-4"
       ],
-      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
-      "characterLength": 3404,
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
+      "characterLength": 3502,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1350,7 +1364,7 @@
       "id": "risk-18-adjusted-ebitda-in-millions-2",
       "title": "Adjusted EBITDA (in millions) (2) ",
       "category": "launch/space operations",
-      "originalText": "Adjusted EBITDA (in millions) (2) . .....................................$(351)$224$653$1,154$997 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 Mass to Orbit (in metric tons) (1) ........ 556 450 2,213 1,699 1,210 Launches (number) (1) ......................... 40 38 170 138 98 Segment income (loss) from operations (in millions) ................... $(662) $(70) $(657) $21 $(1) Segment",
+      "originalText": "Adjusted EBITDA (in millions) (2) . ..................................... $(351) $224 $653 $1,154 $997 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 Mass to Orbit (in metric tons) (1) ........ 556 450 2,213 1,699 1,210 Launches (number) (1) ......................... 40 38 170 138 98 Segment income (loss) from operations (in millions) ................... $(662) $(70) $(657) $21 $(1) Segment",
       "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1359,8 +1373,8 @@
       "sourceChunkIds": [
         "chunk-section39riskfactors-4"
       ],
-      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
-      "characterLength": 419,
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
+      "characterLength": 424,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
@@ -1370,27 +1384,27 @@
       "id": "risk-19-adjusted-ebitda-in-millions-2",
       "title": "Adjusted EBITDA (in millions) (2) ",
       "category": "Starlink/connectivity",
-      "originalText": "Adjusted EBITDA (in millions) (2) . ..................................... $(351) $224 $653 $1,154 $997 Connectivity: Three Months Ended March 31,Year Ended December 31,20262025202520242023Starlink Subscribers (in millions) (1) ...10.35.08.94.42.3Starlink",
+      "originalText": "Adjusted EBITDA (in millions) (2) . ..................................... $(351) $224 $653 $1,154 $997 Connectivity: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 Starlink Subscribers (in millions) (1) ... 10.3 5.0 8.9 4.4 2.3 Starlink",
       "plainEnglish": "The filing flags this as a Starlink/connectivity risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
-      "specificity": "generic",
+      "specificity": "company_specific",
       "confidence": "low",
       "sourceSectionId": "section-39-riskfactors",
       "sourceChunkIds": [
         "chunk-section39riskfactors-4"
       ],
-      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
-      "characterLength": 254,
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
+      "characterLength": 267,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,
       "extractionWarning": "Extracted from \"Risk factors .............................................................\" rather than the main Risk Factors section."
     },
     {
-      "id": "risk-20-arpu-dollars-per-month-1-6686819199segment-income-from-operations-in-millions",
-      "title": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) ",
+      "id": "risk-20-arpu-dollars-per-month-1-66-86-81-91-99-segment-income-from-operations-in-millio",
+      "title": "ARPU (dollars per month) (1) $66 $86 $81 $91 $99 Segment income from operations (in millions) ",
       "category": "other",
-      "originalText": "ARPU (dollars per month) (1) $66$86$81$91$99Segment income from operations (in millions) . .........................................$1,188$1,033$4,423$2,006$469Segment",
+      "originalText": "ARPU (dollars per month) (1) $66 $86 $81 $91 $99 Segment income from operations (in millions) . ......................................... $1,188 $1,033 $4,423 $2,006 $469 Segment",
       "plainEnglish": "The filing flags this as a other risk. Review the source text for exact wording before relying on a summary.",
       "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
       "specificity": "generic",
@@ -1399,8 +1413,8 @@
       "sourceChunkIds": [
         "chunk-section39riskfactors-4"
       ],
-      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
-      "characterLength": 167,
+      "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
+      "characterLength": 178,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "toc_entry",
       "needsReview": true,

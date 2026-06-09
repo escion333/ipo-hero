@@ -339,56 +339,56 @@
     "id": "fact-relatedparty-keyword-candidate",
     "category": "related_party",
     "label": "related-party keyword candidate",
-    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
     "plainEnglish": "The parser found source text related to related-party.",
     "investorRelevance": "Related-party language can identify potential governance or conflict disclosures.",
     "confidence": "medium",
     "sourceChunkIds": [
-      "chunk-section36useofproceeds-1"
+      "chunk-section9tableofcontents-1"
     ],
-    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
     "needsReview": true
   },
   {
     "id": "fact-proceeds-keyword-candidate",
     "category": "proceeds",
     "label": "proceeds keyword candidate",
-    "valueText": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition,...",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
     "plainEnglish": "The parser found source text related to proceeds.",
     "investorRelevance": "Proceeds language is the source for how offering funds may be used.",
     "confidence": "medium",
     "sourceChunkIds": [
-      "chunk-section35prospectussummary-13"
+      "chunk-section9tableofcontents-1"
     ],
-    "sourceQuote": "Class A shareholders and Class B shareholders will vote together as a single class on all matters to be voted on by shareholders under our charter, except the holders of our Class B common stock will have the right to elect a majority of our board and have certain other voting rights as a class. Each share of Class B common stock will be convertible at any time at the option of the holder into one share of our Class A common stock. In addition, each share of Class B common stock will convert automatically into one share of Class A common stock upon a Transfer (as defined in the charter) of that share of Class B common stock, whether or not for value, except for Permitted Transfers (as define",
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
     "needsReview": true
   },
   {
     "id": "fact-dilution-keyword-candidate",
     "category": "dilution",
     "label": "dilution keyword candidate",
-    "valueText": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve...",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
     "plainEnglish": "The parser found source text related to dilution.",
     "investorRelevance": "Dilution language helps explain ownership economics for new shares.",
     "confidence": "medium",
     "sourceChunkIds": [
-      "chunk-section40riskfactors-14"
+      "chunk-section9tableofcontents-1"
     ],
-    "sourceQuote": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve restrictive covenants relating to our capital-raising activities and other financial and operational matters, which could limit our 40 Table of Contents operational flexibility and make it more difficult for us to obtain additional capital and to pur",
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
     "needsReview": true
   },
   {
     "id": "fact-lockup-or-shares-eligible-for-future-sale-keyword-candidate",
     "category": "lockup",
     "label": "lockup or shares eligible for future sale keyword candidate",
-    "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
     "plainEnglish": "The parser found source text related to lockup or shares eligible for future sale.",
     "investorRelevance": "Lockup and future-sale language can affect post-offering share supply.",
     "confidence": "medium",
     "sourceChunkIds": [
-      "chunk-section36useofproceeds-1"
+      "chunk-section9tableofcontents-1"
     ],
-    "sourceQuote": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Please refer to “Underwriting.” We intend to use the net proceeds from this offering to fund our growth strategy, including the expansion of our AI compute infrastructure, enhancements to our launch infrastructure and launch vehicles, increases in the sca",
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
     "needsReview": true
   },
   {
@@ -409,14 +409,14 @@
     "id": "fact-class-structure-candidate-2",
     "category": "governance",
     "label": "class structure candidate 2",
-    "valueText": "PageGLOSSARY OF TERMS .................................................................................................................................ivPROSPECTUS SUMMARY ............................................................................................................................1RISK FACTORS ..............................................................................................................................................",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
     "plainEnglish": "The parser found candidate source text for class structure.",
     "investorRelevance": "Class structure affects voting rights and ownership economics.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section9tableofcontents-1"
     ],
-    "sourceQuote": "PageGLOSSARY OF TERMS .................................................................................................................................ivPROSPECTUS SUMMARY ............................................................................................................................1RISK FACTORS ..............................................................................................................................................26CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ...........................64USE OF PROCEEDS .......................................................................................................................................66DIVIDE",
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
     "needsReview": true
   },
   {
@@ -549,6 +549,20 @@
     "id": "fact-beneficial-ownership-candidate-1",
     "category": "governance",
     "label": "beneficial ownership candidate 1",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
+    "plainEnglish": "The parser found candidate source text for beneficial ownership.",
+    "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section9tableofcontents-1"
+    ],
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
+    "needsReview": true
+  },
+  {
+    "id": "fact-beneficial-ownership-candidate-2",
+    "category": "governance",
+    "label": "beneficial ownership candidate 2",
     "valueText": "243 SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT .................... 247",
     "plainEnglish": "The parser found candidate source text for beneficial ownership.",
     "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
@@ -560,9 +574,9 @@
     "needsReview": true
   },
   {
-    "id": "fact-beneficial-ownership-candidate-2",
+    "id": "fact-beneficial-ownership-candidate-3",
     "category": "governance",
-    "label": "beneficial ownership candidate 2",
+    "label": "beneficial ownership candidate 3",
     "valueText": "We expect to receive approximately $ of net proceeds from this offering (or $ if the underwriters exercise their option to purchase additional shares of Class A common stock in full), based upon the assumed initial public offering price of $ per share (which is the midpoint of the price range set forth on the cover page of this prospectus), after deducting underwriting discounts and commissions and estimated offering expenses payable by us. Plea...",
     "plainEnglish": "The parser found candidate source text for beneficial ownership.",
     "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
@@ -574,23 +588,23 @@
     "needsReview": true
   },
   {
-    "id": "fact-beneficial-ownership-candidate-3",
-    "category": "governance",
-    "label": "beneficial ownership candidate 3",
-    "valueText": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restricti...",
-    "plainEnglish": "The parser found candidate source text for beneficial ownership.",
-    "investorRelevance": "Beneficial ownership language supports ownership-concentration review.",
-    "confidence": "medium",
-    "sourceChunkIds": [
-      "chunk-section37dividendpolicy-1"
-    ],
-    "sourceQuote": "We do not anticipate declaring or paying any cash dividends to holders of our common stock in the foreseeable future. We currently intend to retain future earnings, if any, to finance the growth of our business. Our future dividend policy is within the discretion of our board and will depend upon then-existing conditions, including our results of operations, financial condition, capital requirements, investment opportunities, statutory restrictions on our ability to pay dividends, restrictions in our existing and any future debt agreements and other factors our board may deem relevant. Covenants under our Credit Agreements also restrict our ability to pay dividends, and we may enter into cre",
-    "needsReview": true
-  },
-  {
     "id": "fact-dilution-table-candidate-1",
     "category": "dilution",
     "label": "dilution table candidate 1",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
+    "plainEnglish": "The parser found candidate source text for dilution table.",
+    "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section9tableofcontents-1"
+    ],
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
+    "needsReview": true
+  },
+  {
+    "id": "fact-dilution-table-candidate-2",
+    "category": "dilution",
+    "label": "dilution table candidate 2",
     "valueText": "If we raise additional capital through further issuances of equity or convertible debt securities, our shareholders could suffer significant dilution and any new equity securities we issue could have rights, preferences, and privileges superior to those of holders of our Class A common stock. The agreements governing our indebtedness contain various restrictive covenants and any additional debt financing secured by us in the future could involve...",
     "plainEnglish": "The parser found candidate source text for dilution table.",
     "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
@@ -602,9 +616,9 @@
     "needsReview": true
   },
   {
-    "id": "fact-dilution-table-candidate-2",
+    "id": "fact-dilution-table-candidate-3",
     "category": "dilution",
-    "label": "dilution table candidate 2",
+    "label": "dilution table candidate 3",
     "valueText": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering;...",
     "plainEnglish": "The parser found candidate source text for dilution table.",
     "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
@@ -613,20 +627,6 @@
       "chunk-section44capitalization-1"
     ],
     "sourceQuote": "The following table sets forth our cash and cash equivalents and capitalization as of March 31, 2026: •on an actual basis; •on a pro forma basis, giving effect to (i) the Preferred Conversion as if such conversion had occurred on March 31, 2026, (ii) the Class C Reclassification as if such reclassification had occurred on March 31, 2026, and (iii) the effectiveness of our charter, which will become effective upon the completion of this offering; and •on a pro forma as adjusted basis, giving effect to (i) the pro forma adjustments set forth above, (ii) the sale of shares of our Class A common stock in this offering at an assumed initial offering price of $ per share, which is the midpoint of ",
-    "needsReview": true
-  },
-  {
-    "id": "fact-dilution-table-candidate-3",
-    "category": "dilution",
-    "label": "dilution table candidate 3",
-    "valueText": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,96...",
-    "plainEnglish": "The parser found candidate source text for dilution table.",
-    "investorRelevance": "Dilution table candidates need review before presenting exact figures.",
-    "confidence": "medium",
-    "sourceChunkIds": [
-      "chunk-section44capitalization-2"
-    ],
-    "sourceQuote": "(21) (21) Total long-term debt ............................................................ $29,111 $29,111 Redeemable convertible preferred stock: Redeemable convertible preferred stock, par value $0.001; 189,155,861 shares issued and 134,451,267 shares outstanding, actual; no shares authorized, issued or outstanding, pro forma and pro forma as adjusted ............... $7,049 $— Shareholders’ equity: Class A common stock, par value $0.001; 2,964,501,353 shares issued and 2,882,444,444 shares outstanding, actual; 36,132,150,000 shares authorized, 6,824,581,339 shares issued and outstanding, pro forma; 36,132,150,000 shares authorized, shares issued and outstanding, pro forma as adjusted ....",
     "needsReview": true
   },
   {
@@ -787,6 +787,20 @@
     "id": "fact-shares-eligible-for-future-sale-candidate-1",
     "category": "lockup",
     "label": "shares eligible for future sale candidate 1",
+    "valueText": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .........................................................................................................................................",
+    "plainEnglish": "The parser found candidate source text for shares eligible for future sale.",
+    "investorRelevance": "Future-sale language is relevant to market overhang review.",
+    "confidence": "medium",
+    "sourceChunkIds": [
+      "chunk-section9tableofcontents-1"
+    ],
+    "sourceQuote": "Page GLOSSARY OF TERMS ................................................................................................................................. iv PROSPECTUS SUMMARY ............................................................................................................................ 1 RISK FACTORS .............................................................................................................................................. 26 CAUTIONARY STATEMENT REGARDING FORWARD-LOOKING STATEMENTS ........................... 64 USE OF PROCEEDS ......................................................................................................................................",
+    "needsReview": true
+  },
+  {
+    "id": "fact-shares-eligible-for-future-sale-candidate-2",
+    "category": "lockup",
+    "label": "shares eligible for future sale candidate 2",
     "valueText": "Musk, whether due to death, disability, or otherwise, or his inability or unwillingness to continue in his current roles, could significantly disrupt our management structure, adversely affect our ability to execute our strategic plans, and negatively impact our reputation and relationships with customers, partners, and other stakeholders. Our intense, mission-driven, engineering-first culture has been a key driver of our growth and execution, a...",
     "plainEnglish": "The parser found candidate source text for shares eligible for future sale.",
     "investorRelevance": "Future-sale language is relevant to market overhang review.",
@@ -1081,14 +1095,14 @@
     "id": "fact-balance-sheet-table-candidate-1",
     "category": "financial",
     "label": "balance sheet table candidate 1",
-    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11...",
     "plainEnglish": "The parser found candidate source text for balance sheet table.",
     "investorRelevance": "Balance sheet table candidates should be reviewed before extracting exact figures.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section39riskfactors-4"
     ],
-    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
     "needsReview": true
   },
   {
@@ -1123,42 +1137,42 @@
     "id": "fact-cash-flow-table-candidate-1",
     "category": "financial",
     "label": "cash flow table candidate 1",
-    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11...",
     "plainEnglish": "The parser found candidate source text for cash flow table.",
     "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section39riskfactors-4"
     ],
-    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
     "needsReview": true
   },
   {
     "id": "fact-cash-flow-table-candidate-2",
     "category": "financial",
     "label": "cash flow table candidate 2",
-    "valueText": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31,Year Ended December 31,(in millions)20262025202520242023Net cash provided by (used in)Operating activities ........................$1,047$727$6,785$5,776$4,520Investing activities .........................$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Financing activities ........................$7,125$354$26,350$11,830$422 Thre...",
+    "valueText": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31, Year Ended December 31, (in millions) 2026 2025 2025 2024 2023 Net cash provided by (used in) Operating activities ........................ $1,047 $727 $6,785 $5,776 $4,520 Investing activities ......................... $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Financing activities ........................ $7,125 $354...",
     "plainEnglish": "The parser found candidate source text for cash flow table.",
     "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section47operations-34"
     ],
-    "sourceQuote": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31,Year Ended December 31,(in millions)20262025202520242023Net cash provided by (used in)Operating activities ........................$1,047$727$6,785$5,776$4,520Investing activities .........................$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Financing activities ........................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, (in millions) 2026 2025 2025 2024 2023 Net cash provided by (used in) Operating activities ........................ $1,047 $727 $6,785 $5,776 $4,520 Investing activities ......................... $(16,7",
+    "sourceQuote": "Summary of Cash flows The following table summarizes our cash flows for the periods indicated: Three Months Ended March 31, Year Ended December 31, (in millions) 2026 2025 2025 2024 2023 Net cash provided by (used in) Operating activities ........................ $1,047 $727 $6,785 $5,776 $4,520 Investing activities ......................... $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Financing activities ........................ $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, (in millions) 2026 2025 2025 2024 2023 Net cash provided by (used in) Operating activities ........................ $1,047 $727 $6,785 $5,776 $4,520 Investing activities ......",
     "needsReview": true
   },
   {
     "id": "fact-cash-flow-table-candidate-3",
     "category": "financial",
     "label": "cash flow table candidate 3",
-    "valueText": "PageSpace Exploration Technologies Corp. Audited Consolidated Financial StatementsReport of Independent Registered Public Accounting Firm ...................................................................F-2Consolidated Balance Sheets as of December 31, 2025 and 2024 ..........................................................F-4Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ......F-5Consolidated State...",
+    "valueText": "Page Space Exploration Technologies Corp. Audited Consolidated Financial Statements Report of Independent Registered Public Accounting Firm ................................................................... F-2 Consolidated Balance Sheets as of December 31, 2025 and 2024 .......................................................... F-4 Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ...... F-5 Consolidat...",
     "plainEnglish": "The parser found candidate source text for cash flow table.",
     "investorRelevance": "Cash-flow table candidates should be reviewed before extracting exact figures.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section74indextofinancialstatements-1"
     ],
-    "sourceQuote": "PageSpace Exploration Technologies Corp. Audited Consolidated Financial StatementsReport of Independent Registered Public Accounting Firm ...................................................................F-2Consolidated Balance Sheets as of December 31, 2025 and 2024 ..........................................................F-4Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ......F-5Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 31, 2025, 2024, and 2023 .....................................................................................................................................F-6Consolidated Statements ",
+    "sourceQuote": "Page Space Exploration Technologies Corp. Audited Consolidated Financial Statements Report of Independent Registered Public Accounting Firm ................................................................... F-2 Consolidated Balance Sheets as of December 31, 2025 and 2024 .......................................................... F-4 Consolidated Statements of Operations for the Years Ended December 31, 2025, 2024, and 2023 ...... F-5 Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 31, 2025, 2024, and 2023 ..................................................................................................................................... F-6 Consolidated S",
     "needsReview": true
   },
   {
@@ -1221,14 +1235,14 @@
     "id": "fact-cash-and-cash-equivalents-candidate-1",
     "category": "financial",
     "label": "cash and cash equivalents candidate 1",
-    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months End...",
+    "valueText": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11...",
     "plainEnglish": "The parser found candidate source text for cash and cash equivalents.",
     "investorRelevance": "Cash and cash equivalents mentions are financial candidates, not final extracted metrics.",
     "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section39riskfactors-4"
     ],
-    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31,Year Ended December 31,20262025202520242023(in millions)(unaudited)Net cash provided by operating activities ..........................................$1,047$727$6,785$5,776$4,520Net cash used in investing activities ..$(16,724)$(4,170)$(19,575)$(10,796)$(4,867)Net cash provided by financing activities ..........................................$7,125$354$26,350$11,830$422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16",
+    "sourceQuote": "Statement of Cash Flows Data: Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in investing activities .. $(16,724) $(4,170) $(19,575) $(10,796) $(4,867) Net cash provided by financing activities .......................................... $7,125 $354 $26,350 $11,830 $422 Three Months Ended March 31, Year Ended December 31, 2026 2025 2025 2024 2023 (in millions) (unaudited) Net cash provided by operating activities .......................................... $1,047 $727 $6,785 $5,776 $4,520 Net cash used in in",
     "needsReview": true
   },
   {
@@ -1246,7 +1260,7 @@
     "needsReview": true
   },
   {
-    "id": "fact-dilution-section-presence-89",
+    "id": "fact-dilution-section-presence-90",
     "category": "dilution",
     "label": "Dilution section presence",
     "valueText": "Present",

@@ -1,7 +1,8 @@
 import path from "node:path";
 import { GENERATED_DIR, readJsonFile } from "../lib/artifacts";
 import { evidenceCardSchema, retailInvestorBriefSchema, type EvidenceCard, type FilingChunk, type RetailInvestorBrief } from "../lib/schema";
-import { normalizeTitle, normalizeWhitespace } from "../lib/normalize";
+import { isSourceExcerpt } from "../lib/normalize";
+import { ADVICE_PATTERN, isAllowedSectionForTopic, isCleanRiskTitle } from "./quality";
 
 type BriefValidationResult = {
   errors: string[];
@@ -26,24 +27,29 @@ const requiredSections = [
   "unclear-needs-review",
   "source-notes",
 ];
-const advicePattern = /\b(buy|sell|hold|should invest|attractive valuation|undervalued|overvalued|guaranteed|safe investment|recommendation|price target)\b/i;
 const forbiddenBriefTerms = /candidate|parser found|section presence|extracted count/i;
-const weakSectionPattern = /document preamble|table of contents|glossary of terms|index to financial statements|under the securities act/i;
+// A dollar amount written in a card's prose ("$4.694 billion", "$1,500 million", "$399 million").
+const DOLLAR_IN_PROSE = /\$\s?\d[\d,]*(?:\.\d+)?\s*(?:million|billion)?/g;
 
+// The validator drives its topic→section rule off the SAME topicAllowedTitles map the
+// generator uses (via isAllowedSectionForTopic), so the two cannot diverge — previously the
+// validator had no rule at all for the business, governance, or dilution topics.
 function topicCitationError(card: EvidenceCard, chunk: FilingChunk): string | undefined {
-  const title = normalizeTitle(chunk.title);
-  if (card.topic !== "offering" && weakSectionPattern.test(title)) return `${card.topic} card ${card.id} cites weak section "${chunk.title}".`;
-  if (card.topic === "debt" && title.includes("glossary")) return `Debt card ${card.id} cites glossary text.`;
-  if (card.topic === "proceeds" && title !== "use of proceeds") return `Proceeds card ${card.id} does not cite Use of Proceeds.`;
-  if (card.topic === "lockup" && !["shares eligible for future sale", "underwriting"].includes(title)) return `Lockup card ${card.id} cites ${chunk.title}.`;
-  if (card.topic === "related_party" && title !== "certain relationships and related person transactions" && !/affiliate|transaction|xai|valor/i.test(card.sourceQuote)) {
-    return `Related-party card ${card.id} lacks a related-party section or clear transaction language.`;
+  if (!isAllowedSectionForTopic(card.topic, chunk.title)) {
+    return `${card.topic} card ${card.id} cites disallowed section "${chunk.title}".`;
   }
-  if (card.topic === "financial" && /table of contents|index to financial statements/.test(title)) return `Financial card ${card.id} cites TOC-like text.`;
-  if (card.topic === "risk" && (title !== "risk factors" || /Investing in our Class A common stock involves a high degree of risk/i.test(card.sourceQuote))) {
-    return `Risk card ${card.id} cites a generic risk preamble or non-risk section.`;
+  if (card.topic === "risk" && /Investing in our Class A common stock involves a high degree of risk/i.test(card.sourceQuote)) {
+    return `Risk card ${card.id} cites a generic risk preamble rather than a specific risk.`;
   }
   return undefined;
+}
+
+// "Actual financial value" defined structurally: a financial/debt/dilution card whose quoted
+// source text contains a currency or number token. This replaces trusting an author-typed
+// extractionMethod prefix.
+function isActualFinancialValue(card: EvidenceCard): boolean {
+  if (!["financial", "debt", "dilution"].includes(card.topic)) return false;
+  return /\$\s?\d|\(\s?\d|\d[\d,]*(?:\.\d+)?\s*(?:million|billion|%)/.test(card.sourceQuote);
 }
 
 export async function validateBrief(): Promise<BriefValidationResult> {
@@ -83,11 +89,23 @@ export async function validateBrief(): Promise<BriefValidationResult> {
         errors.push(`Evidence card ${card.id} cites missing chunk ${chunkId}.`);
         continue;
       }
-      if (!normalizeWhitespace(chunk.text).includes(normalizeWhitespace(card.sourceQuote))) errors.push(`Evidence card ${card.id} quote is not found in chunk ${chunkId}.`);
+      if (!isSourceExcerpt(chunk.text, card.sourceQuote)) errors.push(`Evidence card ${card.id} quote is not found in chunk ${chunkId}.`);
       const topicError = topicCitationError(card, chunk);
       if (topicError) errors.push(topicError);
+      // Cross-check figures: every dollar amount asserted in any card's own prose must have its
+      // digits present in the quoted source text, so a card cannot narrate a number that isn't
+      // backed by its citation. Comparison is digits-only, which collapses harmless formatting
+      // differences ("$4.694 billion" vs the table's "$4,694" million).
+      {
+        const quoteDigits = card.sourceQuote.replace(/\D/g, "");
+        const proseFigures = new Set((`${card.title} ${card.plainEnglish}`.match(DOLLAR_IN_PROSE) ?? []).map((m) => m.replace(/\D/g, "")).filter((d) => d.length >= 2));
+        for (const figure of proseFigures) {
+          if (!quoteDigits.includes(figure)) warnings.push(`Card ${card.id} asserts dollar figure (digits ${figure}) not backed by its source quote.`);
+        }
+      }
     }
     if (forbiddenBriefTerms.test(`${card.title} ${card.plainEnglish}`)) errors.push(`Evidence card ${card.id} contains parser/candidate language.`);
+    if (ADVICE_PATTERN.test(`${card.title} ${card.plainEnglish} ${card.whyItMatters}`)) errors.push(`Evidence card ${card.id} contains prohibited advice-like language.`);
   }
 
   const allItems = brief.sections.flatMap((section) => section.items);
@@ -100,14 +118,14 @@ export async function validateBrief(): Promise<BriefValidationResult> {
     if (metaOnly && section.id !== "source-notes") errors.push(`Brief section ${section.id} contains only meta items.`);
     for (const item of section.items) {
       if (!item.citations.length) errors.push(`Brief item ${item.id} has no citations.`);
-      if (advicePattern.test(`${item.title} ${item.body} ${item.whyItMatters ?? ""}`)) errors.push(`Brief item ${item.id} contains prohibited advice-like language.`);
+      if (ADVICE_PATTERN.test(`${item.title} ${item.body} ${item.whyItMatters ?? ""}`)) errors.push(`Brief item ${item.id} contains prohibited advice-like language.`);
       for (const citation of item.citations) {
         const chunk = chunksById.get(citation.chunkId);
         if (!chunk) {
           errors.push(`Brief item ${item.id} cites missing chunk ${citation.chunkId}.`);
           continue;
         }
-        if (!normalizeWhitespace(chunk.text).includes(normalizeWhitespace(citation.quote))) errors.push(`Brief item ${item.id} citation quote is not found in ${citation.chunkId}.`);
+        if (!isSourceExcerpt(chunk.text, citation.quote)) errors.push(`Brief item ${item.id} citation quote is not found in ${citation.chunkId}.`);
       }
       const cardId = item.id.replace(/^(notice|evidence|review|source-notes)-/, "");
       if (cardId && evidenceById.has(cardId) && evidenceById.get(cardId)?.qualityWarnings.length) errors.push(`Brief item ${item.id} uses a rejected evidence card.`);
@@ -117,13 +135,17 @@ export async function validateBrief(): Promise<BriefValidationResult> {
   const riskItems = brief.sections.find((section) => section.id === "key-risk-themes")?.items ?? [];
   const riskBodies = new Set<string>();
   for (const item of riskItems) {
-    if (item.title.length < 40 || /risk factor$|additional risks/i.test(item.title)) errors.push(`Risk item title looks weak or fragmentary: ${item.title}`);
+    if (!isCleanRiskTitle(item.title) || /risk factor$|additional risks/i.test(item.title)) errors.push(`Risk item title looks weak or fragmentary: ${item.title}`);
     if (riskBodies.has(item.body)) errors.push(`Risk explanation is duplicated: ${item.title}`);
     riskBodies.add(item.body);
   }
 
-  const actualFinancialValueCount = brief.diagnostics.actualFinancialValueCount ?? 0;
+  // Count actual financial values structurally rather than trusting the generator's diagnostic.
+  const actualFinancialValueCount = evidenceCards.filter(isActualFinancialValue).length;
   if (actualFinancialValueCount < 3) errors.push(`Only ${actualFinancialValueCount} actual financial values were extracted.`);
+  if ((brief.diagnostics.actualFinancialValueCount ?? 0) !== actualFinancialValueCount) {
+    warnings.push(`Diagnostic actualFinancialValueCount (${brief.diagnostics.actualFinancialValueCount}) disagrees with structural count (${actualFinancialValueCount}).`);
+  }
   if (brief.diagnostics.rejectedWeakCandidateCount !== rejectedRaw.length) warnings.push("Rejected weak candidate count does not match rejected artifact length.");
   if ((brief.diagnostics.riskThemesSelected ?? 0) < 5) warnings.push(`Only ${brief.diagnostics.riskThemesSelected ?? 0} risk themes were selected.`);
   return { errors, warnings };

@@ -1698,5 +1698,22 @@
     "needsReview": false,
     "extractionMethod": "risk-full-text-dilution/share structure",
     "qualityWarnings": []
+  },
+  {
+    "id": "evidence-risk-we-expect-the-regulatory-environment-to-grow-more-complicated-which-may-increase",
+    "topic": "risk",
+    "title": "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers.",
+    "sourceSectionId": "section-40-riskfactors",
+    "sourceChunkIds": [
+      "chunk-section40riskfactors-13"
+    ],
+    "sourceQuote": "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers. Moreover, some third parties we utilize in our operations may receive or store information provided by us or by our customers. If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or disclosed to unauthorized recipients, which could result in financial losses, legal liabilities, reputational harm, and additional compliance obligations.",
+    "extractedText": "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers. Moreover, some third parties we utilize in our operations may receive or store information provided by us or by our customers. If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or disclosed to unauthorized recipients, which could result in financial losses, legal liabilities, reputational harm, and additional compliance obligations. We do not control the privacy and cybersecurity measures put in place by such third parties, and any contractual protections with such third parties, such as obligations to indemnify us, if any, may be ineffective or...",
+    "plainEnglish": "This is one of the filing's stated risk factors. The filing states: \"If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or…\" It adds: \"The development and maintenance of the technologies and infrastructure necessary to support our current and future operations will require significant capital expenditures, and if we are unable to…\"",
+    "whyItMatters": "This is one of the risks the company says could materially affect its business. It bears on the licenses and government relationships the operations depend on.",
+    "confidence": "medium",
+    "needsReview": false,
+    "extractionMethod": "risk-full-text-government/regulatory",
+    "qualityWarnings": []
   }
 ]

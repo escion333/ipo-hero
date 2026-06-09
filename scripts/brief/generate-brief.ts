@@ -1445,7 +1445,11 @@ function addRiskEvidenceCards(risks: RiskFactor[], chunks: FilingChunk[], accept
         confidence,
         needsReview,
         extractionMethod: `risk-full-text-${theme}`,
-        requiredTerms: titleSentence.split(/\s+/).filter((word: string) => word.length > 5).slice(0, 2),
+        requiredTerms: titleSentence
+          .split(/\s+/)
+          .map((word: string) => word.replace(/^[^\w$]+|[^\w%]+$/g, ""))
+          .filter((word: string) => word.length > 5)
+          .slice(0, 2),
         allowedTitles: ["RISK FACTORS"],
       },
       chunks,

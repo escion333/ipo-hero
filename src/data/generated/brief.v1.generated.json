@@ -1,7 +1,7 @@
 {
   "id": "spacex-ipo-filing-brief-v1",
   "title": "SpaceX IPO Filing Brief v1",
-  "generatedAt": "2026-06-09T17:23:46.316Z",
+  "generatedAt": "2026-06-09T17:26:50.835Z",
   "filing": {
     "companyName": "Space Exploration Technologies Corp.",
     "formType": "S-1",
@@ -1862,6 +1862,22 @@
               "quote": "The ability of investors to realize a return on their investment will depend largely on the appreciation of the price of our Class A common stock, as we do not anticipate paying dividends in the foreseeable future. We have never declared or paid any cash dividends on our common stock, and we currently intend to retain all available funds and any future earnings to support the growth and operation of our business, including investment in new technologies and commercial opportunities. As a result, investors seeking cash returns from their investment will not receive any dividend income, and the only way to realize a return may be through an increase in the market price of our Class A common stock, which may not occur."
             }
           ]
+        },
+        {
+          "id": "evidence-evidenceriskweexpecttheregulatoryenvironmenttogrowmorecomplicatedwhichmayincreas",
+          "title": "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers.",
+          "body": "This is one of the filing's stated risk factors. The filing states: \"If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or…\" It adds: \"The development and maintenance of the technologies and infrastructure necessary to support our current and future operations will require significant capital expenditures, and if we are unable to…\"",
+          "whyItMatters": "This is one of the risks the company says could materially affect its business. It bears on the licenses and government relationships the operations depend on.",
+          "confidence": "medium",
+          "needsReview": false,
+          "citations": [
+            {
+              "chunkId": "chunk-section40riskfactors-13",
+              "sectionId": "section-40-riskfactors",
+              "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+              "quote": "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers. Moreover, some third parties we utilize in our operations may receive or store information provided by us or by our customers. If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or disclosed to unauthorized recipients, which could result in financial losses, legal liabilities, reputational harm, and additional compliance obligations."
+            }
+          ]
         }
       ],
       "warnings": []
@@ -2002,8 +2018,7 @@
       ],
       "warnings": [
         "Rejected weak candidate \"Debt keyword candidate from glossary\": Weak citation section: GLOSSARY OF TERMS.; Source section \"GLOSSARY OF TERMS\" is not allowed for debt.; Parser diagnostic or candidate language is not allowed in evidence cards.",
-        "Rejected weak candidate \"Financial table candidate from table of contents\": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards.",
-        "Rejected weak candidate \"We are also subject to tax laws, regulations, and policies of the U. S. federal, state, and local governments and of comparable taxing authorities in foreign jurisdictions where…\": Source quote does not contain required term \"regulations,\"."
+        "Rejected weak candidate \"Financial table candidate from table of contents\": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards."
       ]
     },
     {
@@ -2014,7 +2029,7 @@
         {
           "id": "sourcenotes-sourcenotessummary",
           "title": "Source notes",
-          "body": "100 accepted evidence cards were generated. 3 weak drafts were rejected before Brief v1 was assembled. 208 suspicious risk records were excluded from the main risk themes.",
+          "body": "101 accepted evidence cards were generated. 2 weak drafts were rejected before Brief v1 was assembled. 219 suspicious risk records were excluded from the main risk themes.",
           "whyItMatters": "These notes explain the extraction boundary for Brief v1 without putting parser diagnostics into the main narrative.",
           "confidence": "high",
           "needsReview": false,
@@ -2030,8 +2045,7 @@
       ],
       "warnings": [
         "Rejected \"Debt keyword candidate from glossary\": Weak citation section: GLOSSARY OF TERMS.; Source section \"GLOSSARY OF TERMS\" is not allowed for debt.; Parser diagnostic or candidate language is not allowed in evidence cards.",
-        "Rejected \"Financial table candidate from table of contents\": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards.",
-        "Rejected \"We are also subject to tax laws, regulations, and policies of the U. S. federal, state, and local governments and of comparable taxing authorities in foreign jurisdictions where…\": Source quote does not contain required term \"regulations,\"."
+        "Rejected \"Financial table candidate from table of contents\": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards."
       ]
     }
   ],
@@ -2040,16 +2054,16 @@
     "reviewedFactCount": 0,
     "generatedRiskCount": 326,
     "reviewedRiskCount": 0,
-    "fullTextRiskCount": 118,
-    "excludedSuspiciousRiskCount": 208,
-    "evidenceCardCount": 100,
+    "fullTextRiskCount": 107,
+    "excludedSuspiciousRiskCount": 219,
+    "evidenceCardCount": 101,
     "highConfidenceEvidenceCardCount": 61,
-    "rejectedWeakCandidateCount": 3,
+    "rejectedWeakCandidateCount": 2,
     "actualFinancialValueCount": 24,
     "riskThemesSelected": 13,
     "warnings": [
-      "3 weak candidate cards were rejected before Brief v1 generation.",
-      "208 suspicious risk records were excluded."
+      "2 weak candidate cards were rejected before Brief v1 generation.",
+      "219 suspicious risk records were excluded."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
   "accessionNumber": "0001628280-26-036936",
-  "generatedAt": "2026-06-08T20:47:48.245Z",
+  "generatedAt": "2026-06-09T17:26:41.511Z",
   "sourceFileHashes": {
     "index": "2ec3c2de9423368736e68adfca890487381ed2122b31e772c87b870b1d59ecf2",
     "mainS1": "15d825479ca2749bdb9874b81fa8cac4af5292595c5d8162c912c344e9e5c533"
@@ -22,14 +22,14 @@
     "parser": "2026-06-04.3",
     "sectionExtractor": "section-heuristic-v3",
     "chunker": "section-aware-v2",
-    "riskExtractor": "risk-splitter-v3",
-    "factExtractor": "deterministic-facts-v3"
+    "riskExtractor": "risk-splitter-v4",
+    "factExtractor": "deterministic-facts-v4"
   },
   "parserVersion": "2026-06-04.3",
   "sectionExtractorVersion": "section-heuristic-v3",
   "chunkerVersion": "section-aware-v2",
-  "riskExtractorVersion": "risk-splitter-v3",
-  "factExtractorVersion": "deterministic-facts-v3",
+  "riskExtractorVersion": "risk-splitter-v4",
+  "factExtractorVersion": "deterministic-facts-v4",
   "counts": {
     "documents": 102,
     "sections": 72,
@@ -41,7 +41,7 @@
   "warningsSummary": {
     "count": 2,
     "items": [
-      "326 risk records were extracted, including 118 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
+      "326 risk records were extracted, including 107 full-text risks; inspect risk-audit.json for fragments and TOC entries.",
       "8 duplicate or near-duplicate risk titles detected."
     ]
   },
@@ -67,23 +67,23 @@
     },
     {
       "path": "src/data/generated/facts.generated.json",
-      "sha256": "ef9ab38d1e1a387a8ca050a0bf8a1caa93df88fd776d271a1533070077419e32",
-      "sizeBytes": 132642
+      "sha256": "954bfefb9a462868b463279334761df7ef9eb6b4ad06a1610623a38a8c30322c",
+      "sizeBytes": 132348
     },
     {
       "path": "src/data/generated/risks.generated.json",
-      "sha256": "ec30baac10bf170224d1e33665baa66845f06c6f1df7f55f9c35dc396d6c58c1",
-      "sizeBytes": 759669
+      "sha256": "9cce828240c9111e7a34215d77868a98ea9df90f298a651ad0c7a364becb3c24",
+      "sizeBytes": 760604
     },
     {
       "path": "src/data/generated/facts.json",
-      "sha256": "ef9ab38d1e1a387a8ca050a0bf8a1caa93df88fd776d271a1533070077419e32",
-      "sizeBytes": 132642
+      "sha256": "954bfefb9a462868b463279334761df7ef9eb6b4ad06a1610623a38a8c30322c",
+      "sizeBytes": 132348
     },
     {
       "path": "src/data/generated/risks.json",
-      "sha256": "ec30baac10bf170224d1e33665baa66845f06c6f1df7f55f9c35dc396d6c58c1",
-      "sizeBytes": 759669
+      "sha256": "9cce828240c9111e7a34215d77868a98ea9df90f298a651ad0c7a364becb3c24",
+      "sizeBytes": 760604
     },
     {
       "path": "src/data/generated/tables.json",
@@ -92,24 +92,24 @@
     },
     {
       "path": "src/data/generated/risk-audit.json",
-      "sha256": "c4334f9779fe2e75a4c5197106c38212775ce29e6ca29c321b3f474b890b1fb7",
-      "sizeBytes": 142946
+      "sha256": "36d4e139b30e2376baf63d2af54eb154b4f34a6be809f0bcf368500a3b288691",
+      "sizeBytes": 143859
     },
     {
       "path": "src/data/generated/extraction-report.json",
-      "sha256": "c62a1800543e8a6905bc2b167a3866d8e85a33dc7d8c33e537567536828ee95f",
+      "sha256": "50b9c04bbca3292dcdf90e9fb2b6c91cff828f791d6a27cb504780107e1d2048",
       "sizeBytes": 6516
     },
     {
       "path": "src/data/generated/extraction-snapshot.json",
-      "sha256": "3ee1c47c44efda7e27bdd70c387567e5c91eb75670cb7324b0bb4b486d2d015a",
+      "sha256": "4daadcacd0c8af00a6b8d0aae775fd7f0b1df2387bdcedf3f91adfb041afcaa1",
       "sizeBytes": 561
     },
     {
       "path": "src/data/generated/diagnostics.json",
-      "sha256": "ca977d7838353e4c071cae502a86aaf513c9570bc66df87a4b3f6359a5dae0a2",
-      "sizeBytes": 361937
+      "sha256": "da32a0252acccc2733ff74e9b7b7a833677754008136e3afb0a7216f77bff796",
+      "sizeBytes": 371140
     }
   ],
-  "generatedDataHash": "b446f27a53a7a1e13419596244939f1a875abeb07ce3b1b4eca614247f45473c"
+  "generatedDataHash": "6770103b0a0a2066c4f4348c5d251e18d1380481ca6b64b90fd7ab01a71fd656"
 }

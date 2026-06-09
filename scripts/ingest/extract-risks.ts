@@ -62,6 +62,17 @@ function splitRiskText(text: string): RiskCandidate[] {
     .filter((item) => item.body.length > 120);
 }
 
+// A captured title is fragmentary when it begins as a relative clause / mid-word stub or
+// ends on an abbreviation (so the sentence splitter cut mid-factor). Such records must not be
+// classified full_text, because full_text is asserted as medium-confidence / no-review.
+function titleLooksFragmentary(title: string): boolean {
+  const t = title.trim();
+  if (/^.{1,40},\s*(which|that)\b/i.test(t)) return true; // leading relative clause
+  if (/^[A-Z]{2,},/.test(t)) return true; // orphaned all-caps stub
+  if (/\b(U|U\.S|Inc|Corp|Mr|Mrs|Ms|Dr|No|Co|vs|e\.g|i\.e)$/.test(t)) return true; // ends on an abbreviation
+  return false;
+}
+
 function classifyRisk(candidate: RiskCandidate, chunk: FilingChunk): RiskFactor["riskExtractionType"] {
   const isMainRiskFactorsSection = chunk.title.trim() === "RISK FACTORS";
   const normalizedTitle = normalizeTitle(candidate.title);
@@ -69,6 +80,7 @@ function classifyRisk(candidate: RiskCandidate, chunk: FilingChunk): RiskFactor[
   if (/^risk factors?$|^\d+$/i.test(normalizedTitle)) return "toc_entry";
   if (candidate.body.length < 180) return "heading_only";
   if (candidate.body.length < 500 || candidate.body.length < candidate.title.length + 160) return "fragment";
+  if (titleLooksFragmentary(candidate.title)) return "fragment";
   return "full_text";
 }
 

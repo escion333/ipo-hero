@@ -1275,13 +1275,23 @@ Confidence: medium. Needs review: no.
 Sources:
 - chunk-section40riskfactors-31 / section-40-riskfactors: "The ability of investors to realize a return on their investment will depend largely on the appreciation of the price of our Class A common stock, as we do not anticipate paying dividends in the foreseeable future. We have never declared or paid any cash dividends on our common stock, and we currently intend to retain all available funds and any future earn..."
 
+### We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers.
+
+This is one of the filing's stated risk factors. The filing states: "If these third parties fail to adopt or adhere to adequate data privacy and security practices, or their systems or networks are breached in the manner described above, our data or our customers’ data may be improperly accessed, used, or…" It adds: "The development and maintenance of the technologies and infrastructure necessary to support our current and future operations will require significant capital expenditures, and if we are unable to…"
+
+Why it matters: This is one of the risks the company says could materially affect its business. It bears on the licenses and government relationships the operations depend on.
+
+Confidence: medium. Needs review: no.
+
+Sources:
+- chunk-section40riskfactors-13 / section-40-riskfactors: "We expect the regulatory environment to grow more complicated, which may increase our operational and compliance expenditures, as well as those of our suppliers. Moreover, some third parties we utilize in our operations may receive or store information provided by us or by our customers. If these third parties fail to adopt or adhere to adequate data privac..."
+
 ## What Is Still Unclear or Needs Review
 
 The current S-1 is preliminary, and some useful topics still require human review. These items cross-reference the full disclosure shown above rather than repeat it.
 
 - Warning: Rejected weak candidate "Debt keyword candidate from glossary": Weak citation section: GLOSSARY OF TERMS.; Source section "GLOSSARY OF TERMS" is not allowed for debt.; Parser diagnostic or candidate language is not allowed in evidence cards.
 - Warning: Rejected weak candidate "Financial table candidate from table of contents": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section "INDEX TO FINANCIAL STATEMENTS" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards.
-- Warning: Rejected weak candidate "We are also subject to tax laws, regulations, and policies of the U. S. federal, state, and local governments and of comparable taxing authorities in foreign jurisdictions where…": Source quote does not contain required term "regulations,".
 
 ### Net proceeds and assumed IPO price are blank in the preliminary filing.
 
@@ -1377,11 +1387,10 @@ Brief v1 is built from accepted evidence cards only. Parser diagnostics and reje
 
 - Warning: Rejected "Debt keyword candidate from glossary": Weak citation section: GLOSSARY OF TERMS.; Source section "GLOSSARY OF TERMS" is not allowed for debt.; Parser diagnostic or candidate language is not allowed in evidence cards.
 - Warning: Rejected "Financial table candidate from table of contents": Weak citation section: INDEX TO FINANCIAL STATEMENTS.; Source section "INDEX TO FINANCIAL STATEMENTS" is not allowed for financial.; Parser diagnostic or candidate language is not allowed in evidence cards.
-- Warning: Rejected "We are also subject to tax laws, regulations, and policies of the U. S. federal, state, and local governments and of comparable taxing authorities in foreign jurisdictions where…": Source quote does not contain required term "regulations,".
 
 ### Source notes
 
-100 accepted evidence cards were generated. 3 weak drafts were rejected before Brief v1 was assembled. 208 suspicious risk records were excluded from the main risk themes.
+101 accepted evidence cards were generated. 2 weak drafts were rejected before Brief v1 was assembled. 219 suspicious risk records were excluded from the main risk themes.
 
 Why it matters: These notes explain the extraction boundary for Brief v1 without putting parser diagnostics into the main narrative.
 

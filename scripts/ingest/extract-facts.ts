@@ -175,7 +175,9 @@ export function extractFacts({ documents, sections, chunks, riskFactorCount, tab
 
   const tickerChunk = findChunk(chunks, (chunk) => /nasdaq|nyse|ticker|symbol/i.test(chunk.text));
   if (tickerChunk) {
-    const match = tickerChunk.text.match(/(?:ticker|symbol|under the symbol)\s+["']?([A-Z]{1,6})["']?/i);
+    // Allow straight OR typographic (curly) quotes, and let the symbol follow the quote
+    // directly — the filing writes it as under the symbol “SPCX.” with a curly quote.
+    const match = tickerChunk.text.match(/(?:ticker|symbol|under the symbol)\s*["'“”‘’]?\s*([A-Z]{2,6})/i);
     facts.push(makeFact("Ticker/exchange candidate", "offering", match?.[1] ?? excerpt(tickerChunk.text, 300), "The parser found language that may refer to a ticker or exchange.", "Offering terms can change across amendments, so this candidate needs review.", tickerChunk, match ? "medium" : "low", true));
   }
 

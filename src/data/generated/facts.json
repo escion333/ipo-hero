@@ -283,10 +283,10 @@
     "id": "fact-tickerexchange-candidate",
     "category": "offering",
     "label": "Ticker/exchange candidate",
-    "valueText": "Shares Space Exploration Technologies Corp. Class A Common Stock This is the initial public offering of shares of Class A common stock, par value $0.001 per share, of Space Exploration Technologies Corp., a Texas corporation. We are offering shares of our Class A common stock. Currently, no public...",
+    "valueText": "SPCX",
     "plainEnglish": "The parser found language that may refer to a ticker or exchange.",
     "investorRelevance": "Offering terms can change across amendments, so this candidate needs review.",
-    "confidence": "low",
+    "confidence": "medium",
     "sourceChunkIds": [
       "chunk-section8preliminaryprospectus-1"
     ],

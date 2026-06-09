@@ -24,16 +24,5 @@
       "Source section \"INDEX TO FINANCIAL STATEMENTS\" is not allowed for financial.",
       "Parser diagnostic or candidate language is not allowed in evidence cards."
     ]
-  },
-  {
-    "id": "evidence-risk-we-are-also-subject-to-tax-laws-regulations-and-policies-of-the-u-s-federal-stat",
-    "topic": "risk",
-    "title": "We are also subject to tax laws, regulations, and policies of the U. S. federal, state, and local governments and of comparable taxing authorities in foreign jurisdictions where…",
-    "sourceChunkIds": [
-      "chunk-section40riskfactors-5"
-    ],
-    "reasons": [
-      "Source quote does not contain required term \"regulations,\"."
-    ]
   }
 ]

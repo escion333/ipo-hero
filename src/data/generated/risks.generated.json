@@ -645,7 +645,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "mixed",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-1"
@@ -653,8 +653,9 @@
     "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
     "characterLength": 542,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-34-the-commercial-deployment-of-starship-particularly-at-scale-is-subject-to-substa",
@@ -760,7 +761,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "company_specific",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-2"
@@ -768,8 +769,9 @@
     "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
     "characterLength": 721,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-40-aa-and-other-agencies",
@@ -1037,7 +1039,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "mixed",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-3"
@@ -1045,8 +1047,9 @@
     "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
     "characterLength": 765,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-54-our-satellite-connectivity-services-are-subject-to-extensive-regulation-in-the-u",
@@ -1666,7 +1669,7 @@
     "plainEnglish": "The filing flags this as a government/regulatory risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "generic",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-5"
@@ -1674,8 +1677,9 @@
     "sourceQuote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement",
     "characterLength": 1003,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-86-risk-factor",
@@ -2696,7 +2700,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "mixed",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-15"
@@ -2704,8 +2708,9 @@
     "sourceQuote": "In addition, our Starlink Mobile offering operates in a highly competitive and evolving market, and may be affected by the pace of technological development, spectrum 41 Table of Contents availability, and the success of our partnerships with mobile carriers. In addition, the X platform faces intense competition from social media, messaging and media companies and traditional media outlets, such as television, radio and print, for advertising budgets. Advertisers generally do not have long-term commitments to the X platform and may reduce or discontinue their advertising spending for a variety of reasons outside our control. We are expending resources to improve the X platform and improve it",
     "characterLength": 690,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-139-the-estimates-of-future-market-opportunity-and-forecasts-of-market-growth-and-ou",
@@ -3364,7 +3369,7 @@
     "plainEnglish": "The filing flags this as a government/regulatory risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "generic",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-18"
@@ -3372,8 +3377,9 @@
     "sourceQuote": "Any failure by us to comply with any of the foregoing could result in our debarment from government contracts, limitations on our ability to enter into contracts with the U.S. government, civil or criminal penalties, fines, investigations, more onerous compliance requirements, or loss of export privileges. We derive significant revenue from U.S. government contracts that are subject to competitive bidding, funding approvals and other government budgetary processes, which factors could adversely affect our business, financial condition, results of operations, and future prospects. We derive significant revenue from U.S. government contracts that were awarded through a competitive bidding proc",
     "characterLength": 1021,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-173-our-business-with-governmental-entities-is-subject-to-changes-in-policies-priori",
@@ -3442,7 +3448,7 @@
     "plainEnglish": "The filing flags this as a government/regulatory risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "generic",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-18"
@@ -3450,8 +3456,9 @@
     "sourceQuote": "Any failure by us to comply with any of the foregoing could result in our debarment from government contracts, limitations on our ability to enter into contracts with the U.S. government, civil or criminal penalties, fines, investigations, more onerous compliance requirements, or loss of export privileges. We derive significant revenue from U.S. government contracts that are subject to competitive bidding, funding approvals and other government budgetary processes, which factors could adversely affect our business, financial condition, results of operations, and future prospects. We derive significant revenue from U.S. government contracts that were awarded through a competitive bidding proc",
     "characterLength": 1448,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-177-additionally-absorbing-excess-costs-may-limit-our-ability-to-allocate-resources-",
@@ -3658,7 +3665,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "generic",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-19"
@@ -3666,8 +3673,9 @@
     "sourceQuote": "Our ability to expand our Starlink consumer and enterprise connectivity services depends on our ability to increase market awareness and acceptance of connectivity through Starlink, and any failure to do so could materially and adversely affect our business, financial condition, results of operations and future prospects. Our ability to expand our Starlink consumer and enterprise connectivity services depends on our ability to increase market awareness and acceptance of connectivity through Starlink. There can be no assurance that our efforts to increase awareness will be successful. In particular, such efforts may not be successful if we are unable to offer Starlink services at competitive ",
     "characterLength": 1295,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-188-although-we-devote-significant-resources-to-develop-test-and-maintain-our-ai-tec",
@@ -3913,7 +3921,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "mixed",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-21"
@@ -3921,8 +3929,9 @@
     "sourceQuote": "Our implementation of AI technologies, including through our AI segment’s systems, could result in legal liability, regulatory action, operational disruption, brand, reputational or competitive harm, or other adverse impacts. Environmental laws, regulations, litigation, liabilities and proceedings may adversely affect our operations, including our launch operations, manufacturing activities, fuel storage and handling operations, launch facilities and ground infrastructure, and data center operations and expansion plans. Our operations, including our launch operations, manufacturing activities, fuel storage and handling operations, launch facilities and ground infrastructure, and data center ",
     "characterLength": 1189,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-201-our-success-and-ability-to-compete-also-depends-in-part-on-our-ability-to-operat",
@@ -4302,7 +4311,7 @@
     "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "company_specific",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-24"
@@ -4310,8 +4319,9 @@
     "sourceQuote": "The development, manufacturing, and operation of launch vehicles and satellites are complex and capital-intensive activities that are subject to numerous risks. Our launch vehicles, satellites, and related systems have in the past experienced and may in the future experience delays, damage or destruction during design and manufacturing, including delays in fabrication, assembly, inspection, testing, and component qualification. These issues may arise from engineering challenges, supplier performance problems, quality control shortcomings, unexpected design modifications, or disruptions in our manufacturing facilities. Any of these factors may delay development or production schedules, increa",
     "characterLength": 507,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-221-the-launch-and-satellite-operations-are-subject-to-stringent-export-control-and-",
@@ -6079,7 +6089,7 @@
     "plainEnglish": "The filing flags this as a governance/control risk. Review the source text for exact wording before relying on a summary.",
     "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
     "specificity": "generic",
-    "confidence": "medium",
+    "confidence": "low",
     "sourceSectionId": "section-40-riskfactors",
     "sourceChunkIds": [
       "chunk-section40riskfactors-31"
@@ -6087,8 +6097,9 @@
     "sourceQuote": "Musk will beneficially own shares of Class A common stock and shares of Class B common stock, which represents greater than 50% of the voting power of our common stock with respect to director elections and moreover, holders of our Class B common stock, voting separately as a class, will be entitled to elect 51% of the total number of authorized directors constituting our board (rounded up to the nearest whole number), following the completion of this offering, we will be a controlled company under the listing rules of Nasdaq and Nasdaq Texas. Under the listing rules of Nasdaq and Nasdaq Texas, a company of which more than 50% of the voting power with respect to director elections is held by",
     "characterLength": 523,
     "extractionMethod": "sentence-heading-regex",
-    "riskExtractionType": "full_text",
-    "needsReview": false
+    "riskExtractionType": "fragment",
+    "needsReview": true,
+    "extractionWarning": "Risk source text is short or appears to start/end mid-factor."
   },
   {
     "id": "risk-311-a-common-stock-will-vote-together-with-our-class-b-common-stock-on-any-matter-su",

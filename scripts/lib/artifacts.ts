@@ -9,8 +9,8 @@ export const PARSER_VERSIONS = {
   parser: "2026-06-04.3",
   sectionExtractor: "section-heuristic-v3",
   chunker: "section-aware-v2",
-  riskExtractor: "risk-splitter-v3",
-  factExtractor: "deterministic-facts-v3",
+  riskExtractor: "risk-splitter-v4",
+  factExtractor: "deterministic-facts-v4",
 };
 
 export type HashEntry = {

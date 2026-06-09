@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T20:47:48.209Z",
+  "generatedAt": "2026-06-09T17:26:41.487Z",
   "totalRiskCount": 326,
   "countByCategory": {
     "dilution/share structure": 12,
@@ -21,9 +21,9 @@
   },
   "countByExtractionType": {
     "toc_entry": 30,
-    "fragment": 129,
+    "fragment": 140,
     "heading_only": 49,
-    "full_text": 118
+    "full_text": 107
   },
   "countBelowLengthThresholds": {
     "under150": 28,
@@ -677,25 +677,6 @@
       "needsReview": false
     },
     {
-      "id": "risk-33-ai-compute-which-could-materially-adversely-affect-our-business-financial-condit",
-      "title": "AI compute, which could materially adversely affect our business, financial condition, results of operations, and future prospects",
-      "category": "launch/space operations",
-      "originalText": "AI compute, which could materially adversely affect our business, financial condition, results of operations, and future prospects. If we are unable to successfully complete the development, testing, and deployment of Starship at scale in accordance with our anticipated schedule, or at all, or if we are unable to achieve sufficient launch cadence, reusability, and capability, our ability to execute our growth strategy (such as the deployment of our next-generation V3 satellites, V2 satellite-to-mobile connectivity, and providing orbital",
-      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
-      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
-      "specificity": "mixed",
-      "confidence": "medium",
-      "sourceSectionId": "section-40-riskfactors",
-      "sourceChunkIds": [
-        "chunk-section40riskfactors-1"
-      ],
-      "sourceQuote": "Investing in our Class A common stock involves a high degree of risk. You should carefully consider the risks and uncertainties described below, together with all of the other information contained in this prospectus, including our consolidated financial statements and the related notes thereto, before making a decision to invest in our Class A common stock. The disclosures in this section reflect our beliefs and opinions as to factors that could materially and adversely affect us in the future. We may not be able to accurately predict, control, or mitigate these risks. References to past events are provided by way of example only and are not intended to be a complete listing or a representa",
-      "characterLength": 542,
-      "extractionMethod": "sentence-heading-regex",
-      "riskExtractionType": "full_text",
-      "needsReview": false
-    },
-    {
       "id": "risk-34-the-commercial-deployment-of-starship-particularly-at-scale-is-subject-to-substa",
       "title": "The commercial deployment of Starship, particularly at scale, is subject to substantial risks and uncertainties inherent in the development of new and complex technologies and systems",
       "category": "launch/space operations",
@@ -772,25 +753,6 @@
       "needsReview": false
     },
     {
-      "id": "risk-39-aa-to-support-a-high-launch-cadence-while-addressing-public-safety-and-environme",
-      "title": "AA, to support a high launch cadence while addressing public safety and environmental considerations",
-      "category": "launch/space operations",
-      "originalText": "AA, to support a high launch cadence while addressing public safety and environmental considerations. We face a number of material challenges and uncertainties in achieving these milestones, such as achieving reliable high-cadence return-to-launch-site operations for the full vehicle stack, developing durable reusable heat shields capable of withstanding repeated high-velocity reentries, ensuring rapid refurbishment and high-rate reusability of engines and other vehicle components, managing public and regulatory tolerance for anomalies during the transition to frequent operational flights, securing sufficient power for both manufacturing and launch operations, and obtaining timely regulatory approvals from the F",
-      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
-      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
-      "specificity": "company_specific",
-      "confidence": "medium",
-      "sourceSectionId": "section-40-riskfactors",
-      "sourceChunkIds": [
-        "chunk-section40riskfactors-2"
-      ],
-      "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
-      "characterLength": 721,
-      "extractionMethod": "sentence-heading-regex",
-      "riskExtractionType": "full_text",
-      "needsReview": false
-    },
-    {
       "id": "risk-48-our-plans-to-deploy-largescale-orbital-infrastructure-including-orbital-ai-compu",
       "title": "Our plans to deploy large-scale orbital infrastructure, including orbital AI compute systems, will require the operation of very large satellite constellations, potentially numbering up to one million satellites",
       "category": "Starlink/connectivity",
@@ -824,25 +786,6 @@
       ],
       "sourceQuote": "Our current operational rockets, including Falcon 9 and Falcon Heavy, are not capable of deploying V3 satellites and V2 Mobile satellites. In addition, our ability to pursue new initiatives and capture emerging business opportunities—particularly those requiring high launch cadence, large payload capacity, or advanced in-space capabilities, such as lunar operations and interplanetary missions—depends on the timely and successful deployment of Starship and achieving our targeted launch cadence. Achieving our targeted launch cadence will require significant progress on several key milestones and the continued investment of significant capital resources. These include: securing additional land ",
       "characterLength": 652,
-      "extractionMethod": "sentence-heading-regex",
-      "riskExtractionType": "full_text",
-      "needsReview": false
-    },
-    {
-      "id": "risk-53-aas-resources-may-become-strained-which-could-lead-to-longer-application-process",
-      "title": "AA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses",
-      "category": "launch/space operations",
-      "originalText": "AA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure to obtain an approval for a key launch, could materially adversely affect our business, financial condition, results of operations, and future prospects. Any delays or difficulties in obtaining, maintaining or renewing required communications licenses and spectrum authorizations for our satellite connectivity services, including international and FCC satellite spectrum licenses, could materially delay or disrupt our operations, harm our business, or limit our ability to execute our business strategy.",
-      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
-      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
-      "specificity": "mixed",
-      "confidence": "medium",
-      "sourceSectionId": "section-40-riskfactors",
-      "sourceChunkIds": [
-        "chunk-section40riskfactors-3"
-      ],
-      "sourceQuote": "The FAA or other authorities could introduce new or more stringent requirements for launch licensing – for instance, heightened safety standards, environmental mitigation measures, or other operational restrictions – that could require us to invest in new technologies, adjust our procedures, or otherwise incur additional compliance burdens. Moreover, as the frequency of our launches and industry activity overall continues to grow, the FAA’s resources may become strained, which could lead to longer application processing times and other difficulties obtaining FAA licenses. Any significant delay in receiving required FAA licenses, the imposition of onerous new licensing conditions, or failure ",
-      "characterLength": 765,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "full_text",
       "needsReview": false
@@ -1014,6 +957,63 @@
       ],
       "sourceQuote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement",
       "characterLength": 673,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-81-authorities-around-the-world-have-adopted-or-are-considering-adopting-a-number-o",
+      "title": "Authorities around the world have adopted or are considering adopting a number of legislative and regulatory proposals concerning data protection and privacy",
+      "category": "AI/xAI",
+      "originalText": "Authorities around the world have adopted or are considering adopting a number of legislative and regulatory proposals concerning data protection and privacy. Additionally, the increasing adoption of AI technologies, which often rely on the collection of large amounts of data and use of such data to train, fine-tune or otherwise develop AI models, has led data protection authorities around the world to consider and adopt new and evolving interpretations of data protection laws, imposing specific obligations with respect to the processing of personal data, including required notices, consents and opt-outs. Adverse legal rulings, legislation or regulations related to such data privacy matters may result in fines and orders requiring that we change our practices, which could have an adverse effect on how we provide services, and could harm our business, financial condition, results of operations and future prospects.",
+      "plainEnglish": "The filing flags this as a AI/xAI risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "generic",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-5"
+      ],
+      "sourceQuote": "In addition, various regulatory authorities and agencies around the world are actively investigating and making inquiries relating to social media or the use of AI concerning a variety of matters, including investigations and inquiries relating to harmful or illegal content, recommendations, advertising, and consumer protection and notification, which have resulted in, and may in the future result in additional or further investigations and proceedings being brought against us. Certain features that enable more user-directed or less constrained outputs may increase the risk of regulatory scrutiny. For example, we are subject to investigations and inquiries from regulators and law enforcement",
+      "characterLength": 927,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-88-we-have-experienced-and-will-likely-continue-to-experience-launch-delays-and-fai",
+      "title": "We have experienced, and will likely continue to experience, launch delays and failures that could have a material adverse effect on our business, financial condition, results of operations, and future prospects",
+      "category": "launch/space operations",
+      "originalText": "We have experienced, and will likely continue to experience, launch delays and failures that could have a material adverse effect on our business, financial condition, results of operations, and future prospects. Launch vehicle underperformance, propulsion anomalies, structural failures, software errors, or other malfunctions could result in launch delays or partial or total mission failures, including the loss of satellites or payloads. The occurrence of mission failures or other significant operational disruptions could also expose us to litigation as well as increased scrutiny from regulatory authorities, lead to the imposition of additional compliance requirements, and adversely affect our brand and reputation, and our ability to obtain future licenses, permits, or government contracts.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "mixed",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-7"
+      ],
+      "sourceQuote": "In addition, the costs associated with developing and deploying our products and services and related platforms, infrastructure and strategic initiatives at scale may exceed our current estimates, including due to inflationary pressures, energy prices, unforeseen engineering complexities, the cost of developing or licensing technologies that are not yet commercially available, competitive dynamics, changes in scope, or the need for additional capital expenditures, contingency reserves or working capital. If we are unable to successfully execute our growth strategy on the anticipated timeline or within our expected cost parameters, our business, financial condition and results of operations c",
+      "characterLength": 801,
+      "extractionMethod": "sentence-heading-regex",
+      "riskExtractionType": "full_text",
+      "needsReview": false
+    },
+    {
+      "id": "risk-89-we-do-not-typically-obtain-insurance-coverage-for-our-satellites-payloads-or-lau",
+      "title": "We do not typically obtain insurance coverage for our satellites, payloads, or launch vehicles, and as a result we bear the full financial cost of any such losses",
+      "category": "launch/space operations",
+      "originalText": "We do not typically obtain insurance coverage for our satellites, payloads, or launch vehicles, and as a result we bear the full financial cost of any such losses. Repeated anomalies or high visibility mission failures could also negatively affect our brand, reputation, ability to win new business, and our customers’ ability to procure launch and in-orbit insurance at competitive rates (to the extent we decide to pursue it). Such repeated anomalies or mission failures could also result in, regulators delaying, conditioning or denying approvals, waivers or licenses required for future launches or reentries, which could reduce our launch cadence and delay the deployment of our satellites and other services. In the past, certain of our launch vehicles have experienced partial or total mission failures, including anomalies that resulted in the loss of payloads and damage to launch vehicles. In certain circumstances, such mission failures could result in, debris from our launch vehicles causing significant damage to persons or property on the ground as well as environmental damage.",
+      "plainEnglish": "The filing flags this as a launch/space operations risk. Review the source text for exact wording before relying on a summary.",
+      "whyItMatters": "Risk factors describe uncertainties the company says could affect its business, financial condition, operating results, or offering economics.",
+      "specificity": "company_specific",
+      "confidence": "medium",
+      "sourceSectionId": "section-40-riskfactors",
+      "sourceChunkIds": [
+        "chunk-section40riskfactors-7"
+      ],
+      "sourceQuote": "In addition, the costs associated with developing and deploying our products and services and related platforms, infrastructure and strategic initiatives at scale may exceed our current estimates, including due to inflationary pressures, energy prices, unforeseen engineering complexities, the cost of developing or licensing technologies that are not yet commercially available, competitive dynamics, changes in scope, or the need for additional capital expenditures, contingency reserves or working capital. If we are unable to successfully execute our growth strategy on the anticipated timeline or within our expected cost parameters, our business, financial condition and results of operations c",
+      "characterLength": 1093,
       "extractionMethod": "sentence-heading-regex",
       "riskExtractionType": "full_text",
       "needsReview": false

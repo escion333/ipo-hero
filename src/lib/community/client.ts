@@ -44,6 +44,8 @@ export interface CommunityClient {
   }): Promise<Page<ThreadListItem, ThreadCursor>>;
   getThread(id: string): Promise<Thread | null>;
   createThread(input: NewThreadInput): Promise<Thread>;
+  /** Moderator-only soft-delete. Hides the thread from public reads. */
+  deleteThread(id: string): Promise<void>;
 
   // posts
   listPosts(opts: {
@@ -52,6 +54,8 @@ export interface CommunityClient {
     limit?: number;
   }): Promise<Page<Post, PostCursor>>;
   createPost(input: NewPostInput): Promise<Post>;
+  /** Moderator-only soft-delete. Hides the post from public reads. */
+  deletePost(id: string): Promise<void>;
 
   // voting
   vote(target: VoteTarget, value: VoteValue): Promise<void>;
@@ -77,8 +81,10 @@ export const unconfiguredCommunityClient: CommunityClient = {
   listThreads: notConfigured,
   getThread: notConfigured,
   createThread: notConfigured,
+  deleteThread: notConfigured,
   listPosts: notConfigured,
   createPost: notConfigured,
+  deletePost: notConfigured,
   vote: notConfigured,
 };
 

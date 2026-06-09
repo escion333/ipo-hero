@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CornerDownRight } from "lucide-react";
+import { CornerDownRight, Trash2 } from "lucide-react";
 
 import type { CommunityUser, Post, VoteValue } from "../../lib/community/types";
 import { cn } from "../../lib/utils";
@@ -20,6 +20,8 @@ export type PostItemProps = {
   threadLocked?: boolean;
   onVote?: (postId: string, value: VoteValue) => void;
   onReply?: (parentPostId: string, body: string) => void;
+  /** Moderator soft-delete. Rendered only when the viewer is a moderator. */
+  onDelete?: (postId: string) => void;
 };
 
 const MAX_INDENT = 4;
@@ -32,10 +34,12 @@ export function PostItem({
   threadLocked = false,
   onVote,
   onReply,
+  onDelete,
 }: PostItemProps) {
   const { post, replies } = node;
   const [replying, setReplying] = useState(false);
   const canWrite = Boolean(currentUser) && !threadLocked;
+  const canModerate = currentUser?.role === "moderator";
   const indented = depth > 0;
 
   return (
@@ -59,15 +63,26 @@ export function PostItem({
             <span>{relativeTime(post.createdAt)}</span>
           </div>
           <p className="whitespace-pre-wrap text-sm text-foreground">{post.body}</p>
-          {canWrite && onReply ? (
-            <div>
-              <button
-                type="button"
-                onClick={() => setReplying((v) => !v)}
-                className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground transition-colors hover:text-primary"
-              >
-                <CornerDownRight className="size-3" aria-hidden="true" /> Reply
-              </button>
+          {(canWrite && onReply) || (canModerate && onDelete) ? (
+            <div className="flex items-center gap-3">
+              {canWrite && onReply ? (
+                <button
+                  type="button"
+                  onClick={() => setReplying((v) => !v)}
+                  className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground transition-colors hover:text-primary"
+                >
+                  <CornerDownRight className="size-3" aria-hidden="true" /> Reply
+                </button>
+              ) : null}
+              {canModerate && onDelete ? (
+                <button
+                  type="button"
+                  onClick={() => onDelete(post.id)}
+                  className="inline-flex items-center gap-1 text-xs font-medium text-muted-foreground transition-colors hover:text-destructive"
+                >
+                  <Trash2 className="size-3" aria-hidden="true" /> Delete
+                </button>
+              ) : null}
             </div>
           ) : null}
           {replying && onReply ? (
@@ -97,6 +112,7 @@ export function PostItem({
               threadLocked={threadLocked}
               onVote={onVote}
               onReply={onReply}
+              onDelete={onDelete}
             />
           ))}
         </div>

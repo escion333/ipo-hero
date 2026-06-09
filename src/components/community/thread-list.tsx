@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { MessagesSquare, Plus } from "lucide-react";
 
 import type { ThreadListItem, ThreadSort, VoteValue } from "../../lib/community/types";
+import { THEMES, resolveTheme, themeLabel } from "../../lib/community/themes";
 import { Button } from "../ui/button";
 import { Label } from "../ui/label";
 import {
@@ -15,18 +16,15 @@ import { ThreadCard } from "./thread-card";
 
 export type ThreadListProps = {
   threads: ThreadListItem[];
-  /** Loaded filing sections, for the section filter + resolving anchor titles. */
-  sections?: { id: string; title: string }[];
-  sectionHref?: (sectionId: string) => string;
   /** Map of threadId -> the viewer's vote, for highlighting cast votes. */
   myVotes?: Record<string, VoteValue>;
   canVote?: boolean;
   /** Card density forwarded to each ThreadCard. */
   density?: "comfortable" | "compact";
   /**
-   * Controlled section filter: "all" | "general" | a sectionId. When provided the
-   * list is controlled (e.g. driven by a "Discuss this section" click in the Brief);
-   * pair with onFilterChange. Omit for self-managed filtering.
+   * Controlled theme filter: "all" | "general" | a ThemeKey. When provided the list
+   * is controlled (e.g. driven by a "Discuss this section" click in the Brief); pair
+   * with onFilterChange. Omit for self-managed filtering.
    */
   filter?: string;
   sort?: ThreadSort;
@@ -34,6 +32,9 @@ export type ThreadListProps = {
   onSortChange?: (sort: ThreadSort) => void;
   onOpen?: (threadId: string) => void;
   onVote?: (threadId: string, value: VoteValue) => void;
+  /** Moderator soft-delete of a thread. Rendered only when canModerate is true. */
+  onDelete?: (threadId: string) => void;
+  canModerate?: boolean;
   /** Render a "New thread" affordance when provided. */
   onNewThread?: () => void;
   hasMore?: boolean;
@@ -43,8 +44,6 @@ export type ThreadListProps = {
 
 export function ThreadList({
   threads,
-  sections = [],
-  sectionHref,
   myVotes,
   canVote = true,
   density = "comfortable",
@@ -54,13 +53,15 @@ export function ThreadList({
   onSortChange,
   onOpen,
   onVote,
+  onDelete,
+  canModerate = false,
   onNewThread,
   hasMore,
   loadingMore,
   onLoadMore,
 }: ThreadListProps) {
   const [sortState, setSortState] = useState<ThreadSort>("score");
-  const [filterState, setFilterState] = useState<string>("all"); // "all" | "general" | sectionId
+  const [filterState, setFilterState] = useState<string>("all"); // "all" | "general" | ThemeKey
   const controlled = filterProp !== undefined;
   const filter = controlled ? filterProp : filterState;
   const sortControlled = sortProp !== undefined;
@@ -74,18 +75,21 @@ export function ThreadList({
     onSortChange?.(next);
   };
 
-  const titleById = useMemo(
-    () => new Map(sections.map((s) => [s.id, s.title])),
-    [sections],
-  );
   const activeSectionTitle =
-    filter === "all" || filter === "general" ? null : titleById.get(filter) ?? null;
+    filter === "all" || filter === "general" ? null : themeLabel(filter);
+
+  // Only surface themes that actually have threads (plus the active one, so a
+  // deep-linked-but-empty theme still shows its label rather than going blank).
+  const themeOptions = useMemo(() => {
+    const populated = new Set(threads.map((t) => resolveTheme(t.sectionId)));
+    return THEMES.filter((t) => populated.has(t.key) || t.key === filter);
+  }, [threads, filter]);
 
   const visible = useMemo(() => {
     const filtered = threads.filter((t) => {
       if (filter === "all") return true;
-      if (filter === "general") return t.sectionId === null;
-      return t.sectionId === filter;
+      if (filter === "general") return resolveTheme(t.sectionId) === null;
+      return resolveTheme(t.sectionId) === filter;
     });
     return [...filtered].sort((a, b) =>
       sort === "score" ? b.score - a.score : b.createdAt.localeCompare(a.createdAt),
@@ -109,7 +113,7 @@ export function ThreadList({
             </Select>
           </div>
           <div className="flex items-center gap-2">
-            <Label htmlFor="thread-filter">Section</Label>
+            <Label htmlFor="thread-filter">Topic</Label>
             <Select value={filter} onValueChange={setFilter}>
               <SelectTrigger id="thread-filter" className="w-56">
                 <SelectValue />
@@ -117,9 +121,9 @@ export function ThreadList({
               <SelectContent>
                 <SelectItem value="all">All discussions</SelectItem>
                 <SelectItem value="general">General</SelectItem>
-                {sections.map((s) => (
-                  <SelectItem key={s.id} value={s.id}>
-                    {s.title}
+                {themeOptions.map((t) => (
+                  <SelectItem key={t.key} value={t.key}>
+                    {t.label}
                   </SelectItem>
                 ))}
               </SelectContent>
@@ -167,14 +171,15 @@ export function ThreadList({
             <ThreadCard
               key={thread.id}
               thread={thread}
-              sectionTitle={thread.sectionId ? titleById.get(thread.sectionId) : null}
-              sectionHref={sectionHref}
+              sectionTitle={themeLabel(thread.sectionId)}
               myVote={myVotes?.[thread.id] ?? null}
               canVote={canVote}
               density={density}
               hideSectionAnchor={Boolean(activeSectionTitle)}
               onOpen={onOpen}
               onVote={onVote}
+              onDelete={onDelete}
+              canModerate={canModerate}
             />
           ))}
           {hasMore ? (

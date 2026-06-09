@@ -1,4 +1,4 @@
-import { Lock, MessageSquare } from "lucide-react";
+import { Lock, MessageSquare, Trash2 } from "lucide-react";
 
 import type { ThreadListItem, VoteValue } from "../../lib/community/types";
 import { cn } from "../../lib/utils";
@@ -20,6 +20,9 @@ export type ThreadCardProps = {
   /** Cast a vote. Omit (or pass canVote=false) to render votes read-only. */
   onVote?: (threadId: string, value: VoteValue) => void;
   canVote?: boolean;
+  /** Moderator soft-delete. Rendered only when canModerate is true. */
+  onDelete?: (threadId: string) => void;
+  canModerate?: boolean;
   /**
    * "comfortable" (default) shows the body excerpt and roomier padding.
    * "compact" drops the excerpt for dense lists, rails, and section panels.
@@ -38,6 +41,8 @@ export function ThreadCard({
   onOpen,
   onVote,
   canVote = true,
+  onDelete,
+  canModerate = false,
   density = "comfortable",
   hideSectionAnchor = false,
   className,
@@ -100,6 +105,18 @@ export function ThreadCard({
             <MessageSquare className="size-3" aria-hidden="true" />
             {compactCount(thread.replyCount)} {thread.replyCount === 1 ? "reply" : "replies"}
           </span>
+          {canModerate && onDelete ? (
+            <>
+              <span aria-hidden="true">·</span>
+              <button
+                type="button"
+                onClick={() => onDelete(thread.id)}
+                className="inline-flex items-center gap-1 font-medium transition-colors hover:text-destructive"
+              >
+                <Trash2 className="size-3" aria-hidden="true" /> Delete
+              </button>
+            </>
+          ) : null}
         </div>
       </div>
     </article>

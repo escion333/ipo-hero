@@ -42,7 +42,18 @@ export function UserChip({ user, showHandle = true, className }: UserChipProps) 
     <span className={cn("inline-flex items-center gap-1.5 text-sm", className)}>
       <Avatar user={user} />
       <span className="font-medium text-foreground">{user.displayName}</span>
-      {showHandle ? <span className="text-muted-foreground">@{user.handle}</span> : null}
+      {showHandle ? (
+        <a
+          href={`https://x.com/${user.handle}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted-foreground hover:text-foreground hover:underline"
+          // Stop the click from bubbling to an enclosing clickable row (e.g. a thread card).
+          onClick={(event) => event.stopPropagation()}
+        >
+          @{user.handle}
+        </a>
+      ) : null}
       {user.role === "moderator" ? (
         <Badge tone="accent" className="gap-1 px-1.5 py-0 text-[10px]">
           <ShieldCheck className="size-3" aria-hidden="true" /> mod

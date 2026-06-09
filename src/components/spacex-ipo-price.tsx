@@ -8,9 +8,8 @@ const usd = new Intl.NumberFormat("en-US", {
 });
 
 /**
- * Official SpaceX (SPCX) IPO offering price, fixed per the S-1 filing:
- * $135.00/share, ~555.6M Class A shares, listing on Nasdaq as SPCX.
- * Static disclosed figure — not a quote, valuation, or recommendation.
+ * SpaceX (SPCX) IPO offering price, fixed at $135.00/share, listing on Nasdaq as
+ * SPCX. Static disclosed figure — not a quote, valuation, or recommendation.
  */
 const IPO_PRICE_USD = 135;
 
@@ -22,7 +21,7 @@ export function SpacexIpoPrice({ className }: { className?: string }) {
         className,
       )}
       role="status"
-      title="SPCX official IPO offering price · fixed $135.00/share per S-1 filing · disclosed figure, not investment advice"
+      title="SPCX IPO offering price · fixed $135.00/share · disclosed figure, not investment advice"
       aria-label={`SPCX IPO offering price ${usd.format(IPO_PRICE_USD)}`}
     >
       <span className="font-semibold tracking-tight text-muted-foreground">SPCX</span>

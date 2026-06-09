@@ -11,7 +11,7 @@ const corsHeaders = {
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
 
-type Action = "thread" | "post" | "vote" | "report";
+type Action = "thread" | "post" | "vote" | "report" | "moderate";
 
 type Limit = {
   scope: "user" | "ip";
@@ -38,6 +38,12 @@ const limits: Record<Action, Limit[]> = {
   report: [
     { scope: "user", windowSeconds: 3_600, limit: 10 },
     { scope: "ip", windowSeconds: 3_600, limit: 30 },
+  ],
+  // Moderator-only soft-deletes. Generous ceilings (a mod sweeping spam may delete
+  // many in a row) but still bounded to blunt a compromised-account rampage.
+  moderate: [
+    { scope: "user", windowSeconds: 60, limit: 60 },
+    { scope: "user", windowSeconds: 86_400, limit: 1_000 },
   ],
 };
 
@@ -78,6 +84,7 @@ function writeAction(payload: { action?: string }): Action {
   if (payload.action === "createPost") return "post";
   if (payload.action === "vote") return "vote";
   if (payload.action === "report") return "report";
+  if (payload.action === "deleteThread" || payload.action === "deletePost") return "moderate";
   throw new HttpError(400, "Unknown community write action.");
 }
 
@@ -133,6 +140,22 @@ Deno.serve(async (req) => {
 
     const payload = await req.json();
     const action = writeAction(payload);
+
+    // Moderation actions are mod-only. RLS + the table guard triggers already
+    // enforce this at the DB, but an explicit check here returns a clean 403
+    // (rather than a generic RLS write failure) and keeps the contract obvious.
+    if (action === "moderate") {
+      const { data: profile, error: roleError } = await serviceClient
+        .from("profiles")
+        .select("role")
+        .eq("id", user.id)
+        .maybeSingle();
+      if (roleError) throw new HttpError(500, roleError.message);
+      if (!profile || profile.role !== "moderator") {
+        throw new HttpError(403, "Moderator access required.");
+      }
+    }
+
     await enforceRateLimits({
       serviceClient,
       action,
@@ -194,6 +217,29 @@ Deno.serve(async (req) => {
         .single();
       if (error) throw new HttpError(400, error.message);
       return json(data);
+    }
+
+    // Soft-delete: flip is_deleted so the row drops out of public reads but stays
+    // recoverable. The write goes through userClient so the table guard trigger
+    // still applies; the moderator gate above is the authorization.
+    if (payload.action === "deleteThread") {
+      if (!payload.id) throw new HttpError(400, "Thread id is required.");
+      const { error } = await userClient
+        .from("threads")
+        .update({ is_deleted: true })
+        .eq("id", payload.id);
+      if (error) throw new HttpError(400, error.message);
+      return json({ ok: true });
+    }
+
+    if (payload.action === "deletePost") {
+      if (!payload.id) throw new HttpError(400, "Post id is required.");
+      const { error } = await userClient
+        .from("posts")
+        .update({ is_deleted: true })
+        .eq("id", payload.id);
+      if (error) throw new HttpError(400, error.message);
+      return json({ ok: true });
     }
 
     throw new HttpError(400, "Unknown community write action.");

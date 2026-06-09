@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import type { NewThreadInput } from "../../lib/community/types";
+import { THEMES } from "../../lib/community/themes";
 import { cn } from "../../lib/utils";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
@@ -16,9 +17,7 @@ import {
 const GENERAL = "__general__";
 
 export type NewThreadFormProps = {
-  /** Loaded filing sections — the section choices (plus "General"). */
-  sections?: { id: string; title: string }[];
-  /** Pre-scope to a section (e.g. opened from a section in the reader). */
+  /** Pre-scope to a theme (e.g. opened from a "Discuss this section" link). */
   defaultSectionId?: string | null;
   onSubmit?: (input: NewThreadInput) => void;
   onCancel?: () => void;
@@ -26,12 +25,10 @@ export type NewThreadFormProps = {
 };
 
 /**
- * Create-thread form. `sectionId` is validated against the passed `sections` —
- * the UI can only ever submit a valid id or null (general), matching the plan's
- * client-side section validation requirement.
+ * Create-thread form. `sectionId` is one of the fixed discussion themes or null
+ * (general), so the UI can only ever submit a valid scope.
  */
 export function NewThreadForm({
-  sections = [],
   defaultSectionId = null,
   onSubmit,
   onCancel,
@@ -73,15 +70,15 @@ export function NewThreadForm({
           </SelectTrigger>
           <SelectContent>
             <SelectItem value={GENERAL}>General discussion</SelectItem>
-            {sections.map((s) => (
-              <SelectItem key={s.id} value={s.id}>
-                {s.title}
+            {THEMES.map((t) => (
+              <SelectItem key={t.key} value={t.key}>
+                {t.label}
               </SelectItem>
             ))}
           </SelectContent>
         </Select>
         <p className="text-xs text-muted-foreground">
-          Anchoring to a section keeps debate close to the filing text.
+          Picking a topic keeps debate easy to find for others reading the same area.
         </p>
       </div>
 

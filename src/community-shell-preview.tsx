@@ -12,12 +12,11 @@ import type { ThreadListItem, VoteValue } from "./lib/community/types";
 import {
   mockCurrentUser,
   mockPosts,
-  mockSections,
   mockThreads,
 } from "./components/community/mock-community";
 
-// Discussion counts per filing section, derived from the mock threads — this is the
-// data the real Brief would read to render "Discuss (N)" next to each section.
+// Discussion counts per theme, derived from the mock threads — this is the data the
+// real Brief would read to render "Discuss (N)" next to each section.
 const COUNT_BY_SECTION = mockThreads.reduce<Record<string, number>>((acc, t) => {
   if (t.sectionId) acc[t.sectionId] = (acc[t.sectionId] ?? 0) + 1;
   return acc;
@@ -29,7 +28,7 @@ const COUNT_BY_SECTION = mockThreads.reduce<Record<string, number>>((acc, t) => 
 // The real wiring is a small additive prop on the Brief once that file settles.
 const DEMO_SECTIONS = [
   {
-    id: "sec-summary",
+    id: "governance",
     title: "Control and Governance",
     summary: "Founder voting control and the dual-class structure after the offering.",
     items: [
@@ -38,7 +37,7 @@ const DEMO_SECTIONS = [
     ],
   },
   {
-    id: "sec-proceeds",
+    id: "offering",
     title: "Use of Proceeds",
     summary: "What the company says it will do with the money raised.",
     items: [
@@ -47,7 +46,7 @@ const DEMO_SECTIONS = [
     ],
   },
   {
-    id: "sec-risk",
+    id: "risks",
     title: "Key Risk Themes",
     summary: "Selected, source-cited risk disclosures.",
     items: [
@@ -168,12 +167,10 @@ function Preview() {
       <BriefForumShell
         renderBrief={(api) => <DemoBrief api={api} />}
         threads={threadListItems}
-        sections={mockSections}
         getPosts={getPosts}
         getThread={getThread}
         currentUser={currentUser}
         myVotes={votes}
-        sectionHref={(id) => `#${id}`}
         onVoteThread={castVote}
         onVotePost={castVote}
         onReply={(threadId, parentPostId, body) =>

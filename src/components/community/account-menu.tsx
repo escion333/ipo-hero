@@ -17,7 +17,6 @@ type AccountMenuProps = {
   /** Community auth is configured. When false, only the theme control is shown. */
   enabled?: boolean;
   onSignInWithX?: () => void;
-  onSignInWithEmail?: (email: string) => void;
   onSignOut?: () => void;
   className?: string;
 };
@@ -45,7 +44,6 @@ export function AccountMenu({
   loading = false,
   enabled = true,
   onSignInWithX,
-  onSignInWithEmail,
   onSignOut,
   className,
 }: AccountMenuProps) {
@@ -154,7 +152,6 @@ export function AccountMenu({
                 title="Sign in to IPO Hero"
                 description="Browsing is open to everyone. Posting, replying, and voting need a quick sign-in."
                 onSignInWithX={onSignInWithX}
-                onSignInWithEmail={onSignInWithEmail}
                 className="border-0 bg-transparent p-0 shadow-none"
               />
               <div className="h-px bg-border" />

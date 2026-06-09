@@ -61,8 +61,49 @@ export function categoryAccent(category?: string): string {
   return (category && CATEGORY_ACCENT[category]) || "var(--muted-foreground)";
 }
 
+// Proper titles for this filing's sections. The ingested ids slugify the heading
+// to lowercase with no separators (e.g. "useofproceeds"), which can't be re-split
+// by regex — so for the single, fixed S-1 we map the known slugs to real titles.
+// Keyed by the lowercase, separator-free slug (see `sectionSlug`).
+const SECTION_TITLES: Record<string, string> = {
+  business: "Business",
+  capitalization: "Capitalization",
+  certainrelationshipsandrelatedpersontransactions:
+    "Certain Relationships and Related Person Transactions",
+  descriptionofcapitalstock: "Description of Capital Stock",
+  dilution: "Dilution",
+  dividendpolicy: "Dividend Policy",
+  management: "Management",
+  notestotheconsolidatedfinancialstatements: "Notes to the Consolidated Financial Statements",
+  operations: "Operations",
+  preliminaryprospectus: "Preliminary Prospectus",
+  prospectussummary: "Prospectus Summary",
+  riskfactors: "Risk Factors",
+  securityownershipofcertainbeneficialownersandmanagement:
+    "Security Ownership of Certain Beneficial Owners and Management",
+  shareseligibleforfuturesale: "Shares Eligible for Future Sale",
+  tboc: "TBOC",
+  underwriting: "Underwriting",
+  useofproceeds: "Use of Proceeds",
+};
+
+// Reduce a section id ("section-40-riskfactors") or chunk id
+// ("chunk-section40riskfactors-2") to its bare, separator-free slug ("riskfactors").
+function sectionSlug(id: string): string {
+  return id
+    .replace(/^section-\d+-?/i, "")
+    .replace(/^chunk-section\d+/i, "")
+    .replace(/-\d+$/, "")
+    .replace(/[-_]/g, "")
+    .toLowerCase();
+}
+
 // Turn a chunk/section id like "section-8-preliminaryprospectus" into a human label.
 export function prettifySection(sectionId: string): string {
+  const known = SECTION_TITLES[sectionSlug(sectionId)];
+  if (known) return known;
+
+  // Fallback for any id outside the known set: best-effort de-slugging.
   const raw = sectionId.replace(/^section-\d+-?/i, "").replace(/^chunk-section\d+/i, "");
   const cleaned = raw.replace(/[-_]/g, " ").replace(/([a-z])([A-Z])/g, "$1 $2").trim();
   if (!cleaned) return "Filing source";

@@ -10,6 +10,7 @@ import type {
   ThreadSort,
   VoteValue,
 } from "../../lib/community/types";
+import { themeLabel } from "../../lib/community/themes";
 import { cn } from "../../lib/utils";
 import { SpacexPrice } from "../spacex-price";
 import { Button } from "../ui/button";
@@ -35,9 +36,7 @@ export type BriefForumShellProps = {
   // ---- forum data ----
   threads: ThreadListItem[];
   getThread?: (threadId: string) => Thread | null;
-  sections?: { id: string; title: string }[];
   getPosts?: (threadId: string) => Post[];
-  sectionHref?: (sectionId: string) => string;
   currentUser?: CommunityUser | null;
   /** Session is still resolving — gates the sign-in CTAs to avoid a flash of signed-out UI. */
   authLoading?: boolean;
@@ -58,11 +57,18 @@ export type BriefForumShellProps = {
   onVotePost?: (postId: string, value: VoteValue) => void;
   onReply?: (threadId: string, parentPostId: string | null, body: string) => void;
   onCreateThread?: (input: NewThreadInput) => Thread | void | Promise<Thread | void>;
+  /**
+   * Moderator soft-delete of a thread. Return `false` to signal the delete was
+   * aborted (e.g. the mod dismissed the confirm) so the open thread stays put;
+   * any other result returns the viewer to the list.
+   */
+  onDeleteThread?: (threadId: string) => void | boolean | Promise<void | boolean>;
+  /** Moderator soft-delete of a post. */
+  onDeletePost?: (postId: string) => void;
   onThreadSortChange?: (sort: ThreadSort) => void;
   onLoadMoreThreads?: () => void;
   onLoadMorePosts?: (threadId: string) => void;
   onSignInWithX?: () => void;
-  onSignInWithEmail?: (email: string) => void;
   onSignOut?: () => void;
 
   // ---- route-driven mount (lets a router deep-link into the single page) ----
@@ -70,11 +76,11 @@ export type BriefForumShellProps = {
   initialTab?: "brief" | "forum";
   /** Open straight to a thread (e.g. "/forums/thread/:id"); implies the forum tab. */
   initialThreadId?: string;
-  /** Pre-apply a section filter ("all" | "general" | sectionId). */
+  /** Pre-apply a topic filter ("all" | "general" | ThemeKey). */
   initialFilter?: string;
   /** Fires when the active tab changes, so the router can sync the URL if desired. */
   onTabChange?: (tab: "brief" | "forum") => void;
-  /** Fires when the forum section filter changes. */
+  /** Fires when the forum topic filter changes. */
   onFilterChange?: (filter: string) => void;
   /** Fires when the user opens a thread from the list or creates a new thread. */
   onThreadOpen?: (threadId: string) => void;
@@ -97,9 +103,7 @@ export function BriefForumShell({
   renderBrief,
   threads,
   getThread,
-  sections = [],
   getPosts,
-  sectionHref,
   currentUser,
   authLoading,
   communityEnabled,
@@ -114,11 +118,12 @@ export function BriefForumShell({
   onVotePost,
   onReply,
   onCreateThread,
+  onDeleteThread,
+  onDeletePost,
   onThreadSortChange,
   onLoadMoreThreads,
   onLoadMorePosts,
   onSignInWithX,
-  onSignInWithEmail,
   onSignOut,
   initialTab,
   initialThreadId,
@@ -157,7 +162,6 @@ export function BriefForumShell({
   };
 
   const signedIn = Boolean(currentUser);
-  const titleById = new Map(sections.map((s) => [s.id, s.title]));
 
   const openDiscussion = (sectionId: string | null) => {
     const nextFilter = sectionId ?? "general";
@@ -175,6 +179,15 @@ export function BriefForumShell({
   const backToList = () => {
     setView({ name: "list" });
     onThreadBack?.();
+  };
+
+  const canModerate = currentUser?.role === "moderator";
+
+  // From the thread detail view: delete, then fall back to the list unless the
+  // handler reports the delete was aborted (returned false).
+  const deleteOpenThread = async (threadId: string) => {
+    const result = await onDeleteThread?.(threadId);
+    if (result !== false) backToList();
   };
 
   const activeThread =
@@ -216,7 +229,6 @@ export function BriefForumShell({
               loading={authLoading}
               enabled={Boolean(communityEnabled) || Boolean(currentUser)}
               onSignInWithX={onSignInWithX}
-              onSignInWithEmail={onSignInWithEmail}
               onSignOut={onSignOut}
             />
           </div>
@@ -229,10 +241,6 @@ export function BriefForumShell({
       {/* ---------- Forum ---------- */}
       {tab === "forum" ? (
         <div className="mx-auto flex w-full max-w-[860px] flex-col gap-5 px-4 py-8 sm:px-6">
-          <header>
-            <h1 className="text-2xl font-semibold tracking-tight">Discussion</h1>
-          </header>
-
           {!signedIn && !authLoading && view.name === "list" ? (
             communityEnabled === false ? (
               <p className="rounded-xl border border-dashed border-border px-4 py-3 text-sm text-muted-foreground">
@@ -245,7 +253,7 @@ export function BriefForumShell({
                   Sign in to post, reply, and vote.
                 </span>
                 <Button type="button" size="sm" onClick={onSignInWithX}>
-                  <XLogo className="size-3.5" /> Sign in with X
+                  <XLogo className="size-3.5" /> Sign in
                 </Button>
               </div>
             ) : null
@@ -254,8 +262,6 @@ export function BriefForumShell({
           {view.name === "list" ? (
             <ThreadList
               threads={threads}
-              sections={sections}
-              sectionHref={sectionHref}
               myVotes={myVotes}
               canVote={signedIn}
               filter={filter}
@@ -267,6 +273,8 @@ export function BriefForumShell({
               onSortChange={onThreadSortChange}
               onOpen={openThread}
               onVote={onVoteThread}
+              onDelete={canModerate ? onDeleteThread : undefined}
+              canModerate={canModerate}
               onNewThread={signedIn ? () => setView({ name: "new" }) : undefined}
               hasMore={hasMoreThreads}
               loadingMore={loadingMoreThreads}
@@ -278,18 +286,18 @@ export function BriefForumShell({
             <ThreadView
               thread={activeThread}
               posts={getPosts?.(activeThread.id) ?? []}
-              sectionTitle={
-                activeThread.sectionId ? titleById.get(activeThread.sectionId) : null
-              }
-              sectionHref={sectionHref}
+              sectionTitle={themeLabel(activeThread.sectionId)}
               currentUser={currentUser}
               myVotes={myVotes}
               onBack={backToList}
               onVoteThread={(value) => onVoteThread?.(activeThread.id, value)}
               onVotePost={onVotePost}
               onReply={(parentPostId, body) => onReply?.(activeThread.id, parentPostId, body)}
+              onDeleteThread={
+                canModerate && onDeleteThread ? () => void deleteOpenThread(activeThread.id) : undefined
+              }
+              onDeletePost={canModerate ? onDeletePost : undefined}
               onSignInWithX={onSignInWithX}
-              onSignInWithEmail={onSignInWithEmail}
               hasMorePosts={hasMorePosts?.[activeThread.id]}
               loadingMorePosts={loadingMorePosts?.[activeThread.id]}
               onLoadMorePosts={() => onLoadMorePosts?.(activeThread.id)}
@@ -298,7 +306,6 @@ export function BriefForumShell({
 
           {view.name === "new" ? (
             <NewThreadForm
-              sections={sections}
               defaultSectionId={filter === "all" || filter === "general" ? null : filter}
               onSubmit={async (input) => {
                 const created = await onCreateThread?.(input);

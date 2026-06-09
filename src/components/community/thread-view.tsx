@@ -1,8 +1,7 @@
 import { useMemo } from "react";
-import { ArrowLeft, Lock, MessageSquare } from "lucide-react";
+import { ArrowLeft, Lock, MessageSquare, Trash2 } from "lucide-react";
 
 import type { CommunityUser, Post, Thread, VoteValue } from "../../lib/community/types";
-import { ForumDisclaimer } from "./forum-disclaimer";
 import { compactCount, relativeTime } from "./format";
 import { buildPostTree, PostItem } from "./post-item";
 import { ReplyForm } from "./reply-form";
@@ -25,8 +24,11 @@ export type ThreadViewProps = {
   onVotePost?: (postId: string, value: VoteValue) => void;
   /** parentPostId is null for a top-level reply to the thread. */
   onReply?: (parentPostId: string | null, body: string) => void;
+  /** Moderator soft-delete of the whole thread. Rendered only for moderators. */
+  onDeleteThread?: () => void;
+  /** Moderator soft-delete of a single post. Rendered only for moderators. */
+  onDeletePost?: (postId: string) => void;
   onSignInWithX?: () => void;
-  onSignInWithEmail?: (email: string) => void;
   hasMorePosts?: boolean;
   loadingMorePosts?: boolean;
   onLoadMorePosts?: () => void;
@@ -43,8 +45,9 @@ export function ThreadView({
   onVoteThread,
   onVotePost,
   onReply,
+  onDeleteThread,
+  onDeletePost,
   onSignInWithX,
-  onSignInWithEmail,
   hasMorePosts,
   loadingMorePosts,
   onLoadMorePosts,
@@ -52,6 +55,7 @@ export function ThreadView({
   const tree = useMemo(() => buildPostTree(posts), [posts]);
   const signedIn = Boolean(currentUser);
   const canWrite = signedIn && !thread.isLocked;
+  const canModerate = currentUser?.role === "moderator";
 
   return (
     <div className="flex flex-col gap-4">
@@ -64,8 +68,6 @@ export function ThreadView({
           <ArrowLeft className="size-4" aria-hidden="true" /> All discussions
         </button>
       ) : null}
-
-      <ForumDisclaimer />
 
       {/* ---------- Thread header ---------- */}
       <article className="flex gap-3 rounded-lg border border-border bg-card p-4 text-card-foreground shadow-panel">
@@ -88,12 +90,27 @@ export function ThreadView({
               </span>
             ) : null}
           </div>
-          <h1 className="text-lg font-semibold leading-snug">{thread.title}</h1>
+          {/* text-lg! — beat the unlayered legacy `h1 { font-size: clamp(...) }` in
+              styles.css; this forum view isn't scoped under `.bx`, so without
+              !important the bare element rule wins and the title balloons. */}
+          <h1 className="text-lg! font-semibold leading-snug">{thread.title}</h1>
           <p className="whitespace-pre-wrap text-sm text-foreground">{thread.body}</p>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
             <UserChip user={thread.author} />
             <span aria-hidden="true">·</span>
             <span>{relativeTime(thread.createdAt)}</span>
+            {canModerate && onDeleteThread ? (
+              <>
+                <span aria-hidden="true">·</span>
+                <button
+                  type="button"
+                  onClick={onDeleteThread}
+                  className="inline-flex items-center gap-1 font-medium text-muted-foreground transition-colors hover:text-destructive"
+                >
+                  <Trash2 className="size-3" aria-hidden="true" /> Delete thread
+                </button>
+              </>
+            ) : null}
           </div>
         </div>
       </article>
@@ -115,7 +132,6 @@ export function ThreadView({
           title="Sign in to reply"
           description="Reading is open to all. Replying and voting need a quick sign-in."
           onSignInWithX={onSignInWithX}
-          onSignInWithEmail={onSignInWithEmail}
         />
       )}
 
@@ -140,6 +156,7 @@ export function ThreadView({
                 threadLocked={thread.isLocked}
                 onVote={onVotePost}
                 onReply={onReply ? (parentId, body) => onReply(parentId, body) : undefined}
+                onDelete={onDeletePost}
               />
             </div>
           ))}

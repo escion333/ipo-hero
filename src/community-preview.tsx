@@ -12,10 +12,10 @@ import {
   ThreadView,
 } from "./components/community";
 import type { ThreadListItem, VoteValue } from "./lib/community/types";
+import { themeLabel } from "./lib/community/themes";
 import {
   mockCurrentUser,
   mockPosts,
-  mockSections,
   mockThreads,
 } from "./components/community/mock-community";
 
@@ -47,17 +47,11 @@ function Preview() {
       })),
     [],
   );
-  const titleById = useMemo(
-    () => new Map(mockSections.map((s) => [s.id, s.title])),
-    [],
-  );
-
   // Toggle-style optimistic vote stub — the preview's stand-in for the client.
   const castVote = (id: string, value: VoteValue) =>
     setVotes((prev) => ({ ...prev, [id]: prev[id] === value ? (0 as VoteValue) : value }));
 
   const openThread = (id: string) => setRoute({ name: "thread", id });
-  const sectionHref = (id: string) => `#section-${id}`;
 
   const activeThread =
     route.name === "thread" ? mockThreads.find((t) => t.id === route.id) ?? null : null;
@@ -86,11 +80,9 @@ function Preview() {
       {route.name === "list" ? (
         <>
           <ForumDisclaimer />
-          <Section title="Thread list (sort + section filter)">
+          <Section title="Thread list (sort + topic filter)">
             <ThreadList
               threads={threadListItems}
-              sections={mockSections}
-              sectionHref={sectionHref}
               myVotes={votes}
               canVote={signedIn}
               onOpen={openThread}
@@ -111,8 +103,7 @@ function Preview() {
         <ThreadView
           thread={activeThread}
           posts={mockPosts[activeThread.id] ?? []}
-          sectionTitle={activeThread.sectionId ? titleById.get(activeThread.sectionId) : null}
-          sectionHref={sectionHref}
+          sectionTitle={themeLabel(activeThread.sectionId)}
           currentUser={currentUser}
           myVotes={votes}
           onBack={() => setRoute({ name: "list" })}
@@ -125,7 +116,6 @@ function Preview() {
       {route.name === "new" ? (
         <Section title="New thread">
           <NewThreadForm
-            sections={mockSections}
             onSubmit={(input) => {
               console.log("createThread", input);
               setRoute({ name: "list" });

@@ -292,7 +292,9 @@ async function invokeCommunityWrite<T>(
   body:
     | { action: "createThread"; input: NewThreadInput }
     | { action: "createPost"; input: NewPostInput }
-    | { action: "vote"; target: VoteTarget; value: VoteValue },
+    | { action: "vote"; target: VoteTarget; value: VoteValue }
+    | { action: "deleteThread"; id: string }
+    | { action: "deletePost"; id: string },
 ): Promise<T> {
   const { data, error } = await sb().functions.invoke<T>("community-write", { body });
   if (error) throw error;
@@ -420,6 +422,10 @@ export const supabaseCommunityClient: CommunityClient = {
     return rowToThread(data);
   },
 
+  async deleteThread(id: string) {
+    await invokeCommunityWrite<void>({ action: "deleteThread", id });
+  },
+
   async listPosts({ threadId, cursor, limit }) {
     const pageSize = pageLimit(limit, DEFAULT_POST_LIMIT);
     let query = sb()
@@ -446,6 +452,10 @@ export const supabaseCommunityClient: CommunityClient = {
   async createPost(input: NewPostInput) {
     const data = await invokeCommunityWrite<PostRow>({ action: "createPost", input });
     return rowToPost(data);
+  },
+
+  async deletePost(id: string) {
+    await invokeCommunityWrite<void>({ action: "deletePost", id });
   },
 
   async vote(target: VoteTarget, value: VoteValue) {

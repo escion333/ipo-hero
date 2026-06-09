@@ -51,7 +51,7 @@ export const mockThreads: Thread[] = [
   {
     id: "t-control",
     filingAccession: ACCESSION,
-    sectionId: "sec-summary",
+    sectionId: "governance",
     title: "Dual-class structure: how much should the founder's voting control discount the multiple?",
     body: "The summary says the founder keeps majority voting power post-IPO via high-vote Class B. Curious how people are thinking about a governance discount here vs. other founder-controlled listings.",
     author: mockUsers.kepler,
@@ -64,7 +64,7 @@ export const mockThreads: Thread[] = [
   {
     id: "t-proceeds",
     filingAccession: ACCESSION,
-    sectionId: "sec-proceeds",
+    sectionId: "offering",
     title: "\"General corporate purposes\" use-of-proceeds — vague or normal for this stage?",
     body: "No specific allocation between Starship and Starlink. Is the lack of a breakdown a red flag or just standard boilerplate for a company this size?",
     author: mockUsers.rhea,
@@ -77,7 +77,7 @@ export const mockThreads: Thread[] = [
   {
     id: "t-launch-risk",
     filingAccession: ACCESSION,
-    sectionId: "sec-risk",
+    sectionId: "risks",
     title: "Launch-reliability risk is doing a lot of work in this filing",
     body: "The launch-failure language reads as genuinely company-specific, not boilerplate. Reliability ties to both revenue and the manifest. How are you weighting it?",
     author: mockUsers.nova,
@@ -138,10 +138,3 @@ export const mockPosts: Record<string, Post[]> = {
   ],
 };
 
-/** Section id -> human title, for rendering thread anchors in the preview. */
-export const mockSections: { id: string; title: string }[] = [
-  { id: "sec-summary", title: "Prospectus Summary" },
-  { id: "sec-risk", title: "Risk Factors" },
-  { id: "sec-proceeds", title: "Use of Proceeds" },
-  { id: "sec-mdna", title: "Management's Discussion and Analysis" },
-];
